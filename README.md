@@ -13,14 +13,28 @@ Polskojęzyczny news portal (AI, krypto, tech, biznes, nauka) w stylu **terminal
 
 ## Funkcje
 
-- Terminalowy widok listy (dense rows) + siatka kart, przełączanie
-- **Rozwijane newsy** — klik wiersz → pełny opis (`full`)
+- **Dwa motywy — jasny i ciemny** (przełącznik w topbarze, zapis w `localStorage`,
+  domyślnie wg `prefers-color-scheme`, ustawiany przed pierwszym malowaniem — zero migotania)
+- **Historia dnia** (lead + 3 newsy poboczne), pasek statystyk, tablica sygnałów live
+- Terminalowy widok listy (dense rows z miniaturami) + siatka kart 16:9, przełączanie
+- **Rozwijane newsy** — klik wiersz → czytnik: pełny opis (`full`), źródło, czas czytania
 - **❓ Burza pytań** — 3 pytania do myślenia przy każdym newsie
-- **💬 Anonimowe komentarze** — bez logowania (KV, anty-XSS, rate-limit)
-- 🔥 Hot filter, **live ticker**, **karuzela gorących**, 10 kategorii
-- Wyszukiwarka live (250ms debounce), widok Lista/Siatka
-- Mobile: dolny pasek nawigacji (grid), safe-area
-- 10 kategorii: AI, Krypto, Tech, Świat, Polska, Biznes, Nauka, Gaming, Kosmos, Zdrowie
+- **💬 Anonimowe komentarze** — bez logowania (KV, anty-XSS, rate-limit);
+  liczniki ładowane leniwie przez `IntersectionObserver`
+- **Auto-okładki** — newsy bez zdjęcia dostają generowaną, abstrakcyjną grafikę SVG
+  w kolorze kategorii (deterministycznie z `id`, zero liter i logotypów, zero requestów)
+- 🔥 Hot filter, **live ticker** (klik → skok do newsa), **karuzela gorących** z własną nawigacją
+- Wyszukiwarka live (240 ms debounce, skrót `/`, `Esc` czyści), widok Lista/Siatka (zapamiętywany)
+- Pasek postępu czytania, przycisk „do góry", `prefers-reduced-motion`
+- Mobile: dolny pasek nawigacji, safe-area, poziomy scroll newsów pobocznych
+- 10 kategorii z własnym kolorem i ikoną: AI, Krypto, Tech, Świat, Polska, Biznes, Nauka, Gaming, Kosmos, Zdrowie
+
+## System designu
+
+Wszystko jest oparte na tokenach CSS (`:root` + `[data-theme="dark"]`): płótno, linie,
+typografia, akcenty, cienie, promienie. Zmiana palety = zmiana kilku zmiennych.
+Ikony to lokalny sprite `icons.svg` (styl Lucide, stroke 1.75, `viewBox 24`) —
+jeden request, kolor dziedziczony przez `currentColor`.
 
 ## Struktura
 
