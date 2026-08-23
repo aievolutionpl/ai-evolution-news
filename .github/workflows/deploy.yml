@@ -1,0 +1,37 @@
+name: Deploy AI Evolution News
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy to Cloudflare Pages
+    # For PRs, Cloudflare creates a preview deployment (non-publishing)
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install wrangler
+        run: npm i -g wrangler
+
+      - name: Deploy to Cloudflare Pages (production on main, preview on PR)
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy . --project-name ai-evolution-news --commit-dirty=true
+          workingDirectory: .
+          # Deploy root = repo root. wrangler.toml already sets build output dir.
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
