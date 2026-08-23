@@ -1,0 +1,23 @@
+# Cloudflare / wrangler
+.wrangler/
+.wrangler/**
+node_modules/
+
+# Local data (seeds, backups)
+data/*.json
+!data/README.md
+
+# Deploy artifacts
+.dev.vars
+.env
+.env.*
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

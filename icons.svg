@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+<title>AI Evolution News icon sprite</title>
+<pdesc>Inline SVG icons — zero external CDN, one HTTP request.</desc>
+<!-- ikony używane w terminalnym UI -->
+<symbol id="luc-search" viewBox="0 0 24 24"><path d="M21 21l-4.34-4.34M5 11a6 6 0 1112 0 6 6 0 01-12 0z"/></symbol>
+<symbol id="luc-refresh" viewBox="0 0 24 24"><path d="M3 12a9 9 0 019-9 9 9 0 019 9 9 9 0 01-9 9 9 9 0 01-9-9z"/><path d="M12 3v2m0 14v2M3.6 3.6L5 5m14 14l1.4 1.4M3.6 20.4l1.4-1.4M20.4 3.6l-1.4 1.4"/></symbol>
+<symbol id="luc-zap" viewBox="0 0 24 24"><path d="M13 2L3 14h8v8l10-10h-6z"/></symbol>
+<symbol id="luc-flame" viewBox="0 0 24 24"><path d="M8 15.296C6.7 14.5 5.75 13.28 5.16 11.81 4.5 10.15 4.5 8.22 5.26 6.62c.76-1.62 2.18-2.82 3.92-3.47A6.3 6.3 0 0113 2.2c1.2.77 2.25 1.88 2.93 3.22A5.5 5.5 0 0119 7.8c0 1.2-.36 2.31-1 3.25A6.003 6.003 0 0118 13.7c0 1.88-.73 3.63-2 4.9-1.36 1.27-3.1 2.1-5 2.4-1.8.26-3.6-.26-5-1.5z"/></symbol>
+<symbol id="luc-message" viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></symbol>
+<symbol id="luc-share" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.06-8.64A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 001.33 4.42 12.88 12.88 0 004.42 1.33A2 2 0 0122 16.92z"/></symbol>
+<symbol id="luc-filter" viewBox="0 0 24 24"><path d="M3 6h18M7 12h10M11 18h2"/></symbol>
+<symbol id="luc-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13"/></symbol>
+<symbol id="luc-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></symbol>
+<symbol id="luc-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10A15.3 15.3 0 018 12 15.3 15.3 0 0112 2z"/><path d="M2.5 12h21M12 2c-1.8 4.5-2.5 7.5-2.5 10s.7 5.5 2.5 10 2.5-4.5 2.5-10S14.5 6.5 12 2z"/></symbol>
+<symbol id="luc-btc" viewBox="0 0 24 24"><path d="M12 1v22M8 4.5h6.5a3.5 3.5 0 01-.5 6.85 3.5 3.5 0 01.5 6.85H8M8 4.5V3m6.5 10a3.5 3.5 0 00-.5-6.85"/></symbol>
+<symbol id="luc-code" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M7 9l5 3-5 3z"/></symbol>
+<symbol id="luc-chip" viewBox="0 0 24 24"><path d="M12 2a2 2 0 012 2v2.5a2 2 0 01-2 2H8a2 2 0 01-2-2V4a2 2 0 012-2z"/><path d="M6 14a6 6 0 0112 0v6a2 2 0 01-2 2H8a2 2 0 01-2-2z"/></symbol>
+<symbol id="luc-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M12 14v8M8 14l4 5 4-5M9 8h6M9 12l3 3 3-3"/></symbol>
+<symbol id="luc-brain" viewBox="0 0 24 24"><path d="M9.5 2A3.5 3.5 0 0113 5.5V8a1 1 0 01-1 1H8a1 1 0 01-1-1V5.5A3.5 3.5 0 019.5 2zM9.5 18A3.5 3.5 0 0113 21.5V8H9.5v10zM9.5 8V5.5"/></symbol>
+<symbol id="luc-chevron-down" viewBox="0 0 24 24"><path d="M12 5v14M19 12l-7 7-7-7"/></symbol>
+<symbol id="luc-chevron-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+<symbol id="luc-send" viewBox="0 0 24 24"><path d="M22 2L11 13l-7-7-4 4 11 11z"/></symbol>
+<symbol id="luc-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+<symbol id="luc-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="luc-globe-2" viewBox="0 0 24 24"><path d="M12 22c5.523 0 10-4.477 10-10S18.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 2c-1.86 0-3.531.5-5.012 1.385A10 10 0 0012 7c2.087-1.043 4-.903 4.975-.272A8.032 8.032 0 0012 2z"/><path d="M2 12c0 1.86.5 3.531 1.385 5.012A10 10 0 0017 12c0-1.015-.316-1.99-.848-2.85-.37.742-1.037 1.723-1.943 2.628a.75.75 0 00-.504.494c-.5.15-.934.298-1.285.398a.75.75 0 00-.226 1.316 10.72 10.72 0 01-4.462-2.074A8.053 8.053 0 012 12z"/></symbol>
+<symbol id="luc-microchip" viewBox="0 0 24 24"><path d="M12 2a2 2 0 012 2v2.5a2 2 0 01-2 2H8a2 2 0 01-2-2V4a2 2 0 012-2z"/><path d="M6 14a6 6 0 0112 0v6a2 2 0 01-2 2H8a2 2 0 01-2-2z"/></symbol>
+<symbol id="luc-heart" viewBox="0 0 24 24"><path d="M12 21.367l-1.948-.574C5.698 19.665 2 15.812 2 11.757 2 8.37 4.686 6 8.521 6c1.74 0 3.31.957 4.157 2.435A5.692 5.692 0 0118 11.042a5.692 5.692 0 012.322-2.61A5.29 5.29 0 0122 6c0 2.5-3 5.5-8.438 8.879-.07.047-.14.09-.21.127-.08.033-.153.065-.214.084l-.158.028-.143.018-.274-.171c-.165-.11-.77-.585-1.819-1.603-1.047-1.017-2.24-2.11-3.583-3.295C7.5 9.016 6.5 7.92 5.918 6.878A8.29 8.29 0 015.5 8.5c0 1.433.86 2.632 2.04 3.477.679.473 1.392.815 2.153 1.05A3.997 3.997 0 0014 16h1a4 4 0 00 4-4 4 4 0 00-4-4h-1.76a3.74 3.74 0 00-.24-2.06z"/></symbol>
+<symbol id="luc-bookmark" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></symbol>
+<symbol id="luc-flag" viewBox="0 0 24 24"><path d="M4 22h18V4H7.34c-.7 0-1.37.33-1.82.83C4.5 5.83 2 7.06 2 9.05V19a2 2 0 002 2z"/></symbol>
+<symbol id="luc-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></symbol>
+<symbol id="luc-trending-up" viewBox="0 0 24 24"><path d="M3 17l9-9 4 4 8-8v10H3z"/></symbol>
+<symbol id="luc-bar-chart-3" viewBox="0 0 24 24"><path d="M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V9l-7-7zM13 2v7h7-7zM8 15.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm12-6a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/></symbol>
+<symbol id="luc-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 00-3-3.87M9 21v-2a4 4 0 013-3.87M12 14a4 4 0 100-8 4 4 0 000 8z"/></symbol>
+<symbol id="luc-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="12" y1="8" x2="12.01" y2="8"/></symbol>
+<symbol id="luc-bug" viewBox="0 0 24 24"><path d="M14.7 15.3a4 4 0 11-5.4-5.4 4 4 0 015.4 5.4z"/><path d="M15 13.5a3 3 0 11-4.24-2.76M16.41 7.59L17 7h4a1 1 0 010 2h-3.59l-.81 5.37a1 1 0 01-1.93-.52V7.5a1 1 0 00-1-1H8a1 1 0 000 2h1.59l.81 5.37a1 1 0 01-1.93.52 1 1 0 01-1.93-.52V8.5a1 1 0 00-1-1H4a1 1 0 110-2h2a3 3 0 00-.74-1.5l-1-1a1 1 0 001.5 1.5L7.41 7.59A3 3 0 0110 7v.5z"/></symbol>
+<symbol id="luc-download" viewBox="0 0 24 24"><path d="M22 17a2 2 0 01-2 2H6a3 3 0 01-3-2.67L4 16l1-7h14l1 7v1z"/><path d="M12 12l-4 4h3v6h2v-6h3l-4-4z"/>M12 19.5V2</symbol>
+<symbol id="luc-upload" viewBox="0 0 24 24"><path d="M4 17v2a2 2 0 002 2h14a2 2 0 002-2v-2M7 9l5-5 5 5M12 4v15"/></symbol>
+<symbol id="luc-trash" viewBox="0 0 24 24"><path d="M3 6h18M9 2h6a1 1 0 011 1v1H8V3a1 1 0 011-1h2zM6 6V3a2 2 0 012-2h8a2 2 0 012 2v3m-2 0V3h-6v3M5 6h14v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6h11z"/></symbol>
+<symbol id="luc-edit" viewBox="0 0 24 24"><path d="M2 15.5V8a2 2 0 012-2h14a2 2 0 012 2v2.5m-3 7.5h-2m1-3l-6-6v-2H8v2l6 6h2z"/></symbol>
+<symbol id="luc-external-link" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h6v3m6-3l5-5-5-5v3z"/></symbol>
+<symbol id="luc-bell" viewBox="0 0 24 24"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></symbol>
+<symbol id="luc-terminal" viewBox="0 0 24 24"><path d="M12 19h9M12 5v5H5m0 9l5-5 5 5z"/></symbol>
+<symbol id="luc-command" viewBox="0 0 24 24"><path d="M12 2l2 4 4 2-4 2-2 4-2-4-4-2 4-2z"/><path d="M7 17h10v2a2 2 0 01-2 2H9a2 2 0 01-2-2v-2z"/></symbol>
+<symbol id="luc-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5L12 2 4 5v7c0 6 8 11 8 11z"/></symbol>
+<symbol id="luc-flag" viewBox="0 0 24 24"><path d="M4 22h18V4H7.34c-.7 0-1.37.33-1.82.83C4.5 5.83 2 7.06 2 9.05V19a2 2 0 002 2z"/></symbol>
+</svg>

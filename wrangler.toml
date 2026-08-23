@@ -1,0 +1,7 @@
+name = "ai-evolution-news"
+compatibility_date = "2026-08-01"
+pages_build_output_dir = "."
+
+[[kv_namespaces]]
+binding = "NEWS_DB"
+id = "4b4276af1b77483ca79677d7630e0556"
