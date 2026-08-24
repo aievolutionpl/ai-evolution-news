@@ -1,1 +1,1158 @@
-{"news": [{"id": 1, "title": "DeepSeek V4 Flash Vision Exp — multimodalny model rzucający wyzwanie Opus 4.8", "category": "ai", "date": "2026-08-21", "image": "/images/news-deepseek.jpg", "source": "SiliconANGLE", "excerpt": "Chiński start-up pokazał model, który bije Opus 4.8 Anthropica w dwóch benchmarkach analizy obrazu (ALE i ZeroBench) oraz w siedmiu z ośmiu testów tekstowych. Nowość opiera się na architekturze MoE z 284 mld parametrów.", "hot": true, "full": "DeepSeek V4 Flash Vision Exp to najnowszy multimodalny model chińskiego startupu DeepSeek, który w testach porównawczych pokonuje Opus 4.8 od Anthropica w analizie obrazu (benchmarki ALE i ZeroBench) oraz w siedmiu z ośmiu testów tekstowych. Model opiera się na architekturze mieszanki ekspertów (MoE) z 284 miliardami parametrów. To kolejny sygnał, że wyścig modeli AI rozgrywa się nie tylko między USA a Chinami, ale także między otwartym a zamkniętym modelem rozwoju. Analitycy wskazują, że DeepSeek celowo oferuje konkurencyjną jakość przy niższych kosztach inferencji, co może wpłynąć na ceny API dużych dostawców w nadchodzących miesiącach.", "questions": ["Dlaczego DeepSeek ma przewagę nad Opus 4.8 w analizie obrazu, a nie w tekście?", "Jakie są implikacje 284-bilionowego modelu MoE dla kosztów treningu?", "Czy chińscy startupy mogą wygrać wyścig modele AI?"]}, {"id": 2, "title": "Claude projektuje białka, które działają w laboratorium — 14 z 15 celów trafionych", "category": "nauka", "date": "2026-08-20", "image": "/images/news-protein.jpg", "source": "eWeek / Anthropic", "excerpt": "Modele Opus 4.8 i Mythos Preview zaprojektowały 1320 kandydatów na minibindery białkowe, z czego 354 potwierdzono w testach mokrej chemii. Skuteczność 22–35% względem typowych 10–15% w branży.", "hot": false, "full": "Naukowcy wykorzystali modele Claude (Opus 4.8 i Mythos Preview) do zaprojektowania minibinderów białkowych — małych cząsteczek zdolnych wiązać konkretne białka. Spośród 1320 kandydatów zaproponowanych przez modele, 354 potwierdzono w testach mokrej chemii, a skuteczność sięgnęła 22-35% wobec typowych 10-15% w branży. To przełomowe osiągnięcie dla projektowania leków i biotechnologii: AI znacznie przyspiesza iteracyjny cykl projektowania i testowania cząsteczek, skracając czas z lat do tygodni. Badacze podkreślają, że 14 z 15 celów terapeutycznych zostało trafionych, co otwiera drogę do praktycznych zastosowań w medycynie spersonalizowanej.", "questions": ["Czy białka zaprojektowane przez AI będą bezpieczniejsze niż te z tradycyjnej biochemii?", "Jak szybko te technologie trafią do klinik — lata czy dziesięciolecia?", "Czy istnieje ryzyko, że AI przyspieszy także tworzenie biologicznych zagrożeń?"]}, {"id": 3, "title": "Bitcoin zrywa z rynkiem niedźwiedzia — skok o 22% w tydzień, przebicie 79 tys. dol.", "category": "krypto", "date": "2026-08-21", "image": "/images/news-bitcoin.jpg", "source": "Business Insider / ET", "excerpt": "Krypto wraca do hossy po dziesięciu miesiącach spadków. Katalizatory: szczyt Trumpa z liderami branży, oczekiwania na niższe stopy i podwojenie operacji wykupu długu przez amerykański skarbiec.", "hot": true, "full": "Bitcoin przełamał psychologiczną barierę 79 tysięcy dolarów, odrabiając 22% w zaledwie tydzień i kończąc dziesięciomiesięczną korektę. Za rajdem stoją trzy czynniki: spotkanie Donalda Trumpa z liderami branży kryptowalut, rosnące oczekiwania na obniżki stóp procentowych oraz decyzja amerykańskiego skarbca o podwojeniu operacji wykupu długu. Instytucjonalni inwestorzy ponownie napływają na rynek, a likwidacje krótkich pozycji dodatkowo napędzają wzrost. Część analityków ostrzega jednak przed korektą techniczną i radzi obserwować poziomy wsparcia w okolicach 72-74 tys. dolarów.", "questions": ["Czy skok BTC o 22% ma utrzymać poziom 80 tys.?", "Jakie są ryzyka kontrarady dla kryptowalut?", "Czy ETF-y stanowią trwały czynnik dla rynku?"]}, {"id": 4, "title": "ChatGPT Ads startuje w Polsce 24 sierpnia — OpenAI otwiera reklamy w 31 krajach Europy", "category": "polska", "date": "2026-08-20", "image": "/images/news-chatgpt-ads.jpg", "source": "AIPORT.pl", "excerpt": "Reklamy trafią do użytkowników planów Free i Go, bez personalizacji na starcie. Polska jest w pierwszej fali. OpenAI ma już w kraju 10,5 mln realnych użytkowników miesięcznie.", "hot": true, "full": "OpenAI uruchamia ChatGPT Ads w Polsce 24 sierpnia, wchodząc z reklamami do 31 krajów Europy. Reklamy będą widoczne dla użytkowników planów Free i Go, początkowo bez personalizacji. To strategiczny ruch, bo Polska ma 10,5 miliona realnych użytkowników OpenAI miesięcznie — jeden z największych rynków w regionie. Model reklamowy ma zasilić finansowanie kosztów inferencji i otworzyć nowy strumień przychodów. Reklamodawcy zyskają dostęp do użytkowników wysokiej intencji, ale branża uważnie przygląda się, jak OpenAI zbalansuje komfort użytkownika z monetyzacją.", "questions": ["Czy reklamy w ChatGPT przełamą barierę zaufania?", "Jak OpenAI zabezpieczy prywatność i nie przytłoczy reklamami?", "Czy polski rynek będzie wystarczający na model reklamowy?"]}, {"id": 5, "title": "Polska ustawa o AI wchodzi w życie — powstaje Komisja Rozwoju i Bezpieczeństwa Sztucznej Inteligencji", "category": "polska", "date": "2026-08-11", "image": "/images/news-ai-act.jpg", "source": "Gazeta.pl / GeekWeek", "excerpt": "Krajowy nadzór nad rynkiem AI, piaskownice regulacyjne dla firm i możliwość składania skarg. Pełne kompetencje komisji (kontrole i kary) ruszą od 28 października.", "hot": false, "full": "Polska ustawa o sztucznej inteligencji weszła w życie, powołując Komisję Rozwoju i Bezpieczeństwa Sztucznej Inteligencji jako krajowy organ nadzoru. Komisja będzie odpowiadać za ocenę rynku AI, prowadzenie piaskownic regulacyjnych dla firm oraz przyjmowanie skarg. Pełne kompetencje — w tym kontrole i nakładanie kar — wejdą w życie 28 października. Ustawa implementuje unijne rozporządzenie o AI, dając polskim przedsiębiorcom jasne ramy prawne. Eksperci podkreślają, że piaskownice regulacyjne to szansa dla startupów na testowanie rozwiązań pod okiem regulatora bez ryzyka sankcji.", "questions": ["Czy piaskownice regulacyjne przyspieszą innowacje?", "Jak polskie firmy AI przygotować się na kontrolę Komisji?", "Czy prawo od 28 października da Komisji zbyt dużą swobodę?"]}, {"id": 6, "title": "AI nie potrafi jeszcze samodzielnie prowadzić badań naukowych — studium MIT", "category": "ai", "date": "2026-08-18", "image": "/images/news-research.jpg", "source": "MIT Technology Review", "excerpt": "Agenci AI świetnie radzą sobie z inżynierią, ale brakuje im kreatywności i osądu do badań otwartych. Test 'shadow evaluation' na tezach z NeurIPS 2026 pokazuje wyraźną lukę.", "hot": false, "full": "Badanie przeprowadzone na MIT pokazuje, że agenci AI świetnie radzą sobie z zadaniami inżynierskimi, ale wciąż nie potrafią samodzielnie prowadzić badań naukowych otwartych. W teście 'shadow evaluation' na tezach z NeurIPS 2026 modele wyraźnie ustępowały ludzkim badaczom w kreatywności, formułowaniu hipotez i naukowym osądzie. To ważny sygnał dla branży: AI może być potężnym narzędziem wspierającym naukowców, ale jeszcze nie zastąpi ludzkiej intuicji badawczej. Badacze rekomendują traktowanie modeli jako asystentów analitycznych, nie autonomicznych naukowców.", "questions": ["Czy brak kreatywności u AI oznacza, że badacze będą potrzebni dłużej?", "Jak AI lepiej wspiera naukę?", "Czy 'shadow evaluation' powinno być standardem?"]}, {"id": 7, "title": "1/3 stron opublikowanych po premierze ChatGPT nosi ślady autorstwa AI — badanie Pew", "category": "tech", "date": "2026-08-20", "image": "/images/news-ai-web.jpg", "source": "TechCrunch", "excerpt": "Pew Research przebadało prawie pół miliona stron. W domenach .com autorstwo AI jest ok. 10× częstsze niż w .edu czy .gov. Ruch botów wyprzedził już ruch ludzi na sieci.", "hot": false, "full": "Badanie Pew Research Center objęło prawie pół miliona stron internetowych i wykazało, że około jedna trzecia stron opublikowanych po premierze ChatGPT nosi ślady autorstwa AI. W domenach komercyjnych (.com) udział treści generowanych przez AI jest dziesięciokrotnie wyższy niż w domenach edukacyjnych (.edu) czy rządowych (.gov). Co więcej, ruch botów na sieci wyprzedził już ruch ludzi, co ma poważne konsekwencje dla jakości wyników wyszukiwania, reklamy i zaufania do informacji w internecie. Wydawcy i platformy szukają sposobów na oznaczanie i weryfikację treści generowanych przez modele.", "questions": ["Czy świadomość, że tekst jest od AI, obniża zaufanie?", "Jak długo Google/Bing radzi sobie z inflacją treści AI?", "Czy strony AI-written powinny być oznaczane?"]}, {"id": 8, "title": "Rosyjski atak dronów na centrum handlowe w Krzywym Rogu — 16 zabitych", "category": "swiat", "date": "2026-08-22", "image": "/images/news-ukraine.jpg", "source": "The Hindu / AP", "excerpt": "Podwójne uderzenie, drugi dron trafił ratowników. Zełenski mówi o 'cynicznym i nikczemnym' ataku. UE grozi najdalej idącymi sankcjami od początku wojny.", "hot": true, "full": "Rosyjski atak dronów uderzył w centrum handlowe w Krzywym Rogu, zabijając co najmniej 16 osób. Atak przeprowadzono podwójnym uderzeniem — drugi dron trafił ratowników i służby przybyłe na miejsce pierwszej eksplozji. Prezydent Ukrainy Wołodymyr Zełenski nazwał atak 'cynicznym i nikczemnym'. Unia Europejska zapowiedziała najdalej idące sankcje od początku wojny. Tragedia ponownie uwypukliła potrzebę nowoczesnych systemów obrony powietrznej dla ochrony ludności cywilnej.", "questions": ["Czy drugi dron trafiony w ratowników był celem celowym?", "Jak UE może sankcjonować Rosję bez pogłębiania cierpienia?", "Czy ataki na cele cywilne zmienią postawę Zachodu?"]}, {"id": 9, "title": "Iran grozi zamknięciem Ormuz — USA zapowiadają 'najtwardsze sankcje w historii'", "category": "swiat", "date": "2026-08-23", "image": "/images/news-iran.jpg", "source": "The National / AP", "excerpt": "Bank centralny Iranu potwierdza spadek eksportu ropy do zera. Szef Rady Bezpieczeństwa ostrzega: 'ani kropla ropy nie opuści Zatoki'. Chiny, główny nabywca, czują presję.", "hot": false, "full": "Iran zagroził zamknięciem Cieśniny Ormuz w odpowiedzi na międzynarodowe naciski, a USA zapowiedziały 'najtwardsze sankcje w historii' w przypadku eskalacji. Bank centralny Iranu potwierdza, że eksport ropy spadł niemal do zera, a szef Rady Bezpieczeństwa ostrzega, że 'ani kropla ropy nie opuści Zatoki'. Cieśnina Ormuz to strategiczny punkt dla światowego handlu ropą — odpowiada za około 20% globalnego zużycia. Chiny, główny nabywca irańskiej ropy, znajdują się pod rosnącą presją. Rynek energetyczny wstrzymuje oddech, a ceny ropy mogą gwałtownie zareagować.", "questions": ["Czy zamknięcie Ormuz doprowadziłoby do konfliktu wojskowego?", "Jak Chiny zareagują na zagrożenie energetyczne?", "Czy Spojrzać może zaoferować alternatywę dla ropy z Zatoki?"]}, {"id": 10, "title": "Clarity Act — Trump i liderzy kryptowalut w finałowej szarży o ustawę", "category": "krypto", "date": "2026-08-20", "image": "/images/news-clarity.jpg", "source": "CNBC", "excerpt": "Biały Dom gościł szefów Coinbase, Kraken, Robinhood, Ripple i ChainLink. Pierwsze głosowanie proceduralne w Senacie 15 września — od niego zależy los całej ustawy.", "hot": false, "full": "Donalda Trumpa gościł w Białym Domu liderów największych firm kryptowalutowych — Coinbase, Kraken, Robinhood, Ripple i Chainlink — w ramach kampanii promującej ustawę Clarity Act. Pierwsze głosowanie proceduralne w Senacie zaplanowano na 15 września, a od jego wyniku zależy los całej regulacji. Clarity Act ma dać jasne zasady dla rynku kryptowalut w USA, co może odblokować instytucjonalne inwestycje. Rynek pozytywnie reaguje na każdą zapowiedź postępu prac nad ustawą.", "questions": ["Czy Clarity Act przejdzie Senat?", "Jakie będą konsekwencje dla stablecoinów i DeFi?", "Czy regulacja uspokoi czy zahamuje rynek?"]}, {"id": 11, "title": "OpenAI planuje przejęcie przeglądarki przez ChatGPT — Computer Use rusza", "category": "tech", "date": "2026-08-20", "image": "/images/news-openai-browser.jpg", "source": "Business Insider", "excerpt": "Ekstensja Chrome, przeglądarki chmurowe i Computer Use w Codex. Greg Brockman: technologia 'już nie tylko dla programistów'. Ambicja z 2015 roku coraz bliżej.", "hot": false, "full": "OpenAI planuje przejęcie przeglądarki przez ChatGPT — agenci będą mogli sterować przeglądarkami, wypełniać formularze i wykonywać zadania w imieniu użytkownika. Zapowiedziano rozszerzenie do Chrome, przeglądarki chmurowe oraz integrację Computer Use w Codex. Greg Brockman podkreśla, że technologia 'już nie tylko dla programistów'. To krok w stronę realizacji pierwotnej ambicji OpenAI z 2015 roku — stworzenia asystenta, który nie tylko odpowiada, ale wykonuje zadania w świecie cyfrowym.", "questions": ["Czy przejmowanie przeglądarki przez AI zagraża prywatności?", "Jak Microsoft (Edge) zareaguje na dominację OpenAI?", "Czy Computer Use stanie się interfejsem domyślnym?"]}, {"id": 12, "title": "'Vibe coding' wkracza do królestwa kwantowego — Pasqal zamienia angielski na kod kwantowy", "category": "nauka", "date": "2026-08-18", "image": "/images/news-quantum.jpg", "source": "Nature", "excerpt": "Paryski start-up zbudował agenta, który z polecenia w języku naturalnym generuje kod kwantowy i samodzielnie uruchamia go na komputerach kwantowych w Arabii Saudyjskiej i Kanadzie.", "hot": false, "full": "Francuski startup Pasqal zbudował agenta AI, który zamienia polecenia w języku naturalnym na kod kwantowy i samodzielnie uruchamia go na komputerach kwantowych w Arabii Saudyjskiej i Kanadzie. To przełomowe zastosowanie tzw. 'vibe codingu' w królestwie fizyki kwantowej. Zamiast ręcznie pisać złożone obwody kwantowe, programiści opisują problem po angielsku, a agent tłumaczy go na instrukcje zrozumiałe dla procesora kwantowego. To znacznie obniża barierę wejścia dla firm chcących eksperymentować z komputerami kwantowymi.", "questions": ["Czy programiści muszą się obawiać AI w kodowaniu kwantowym?", "Jakie są terminy komercyjnych komputerów kwantowych?", "Czy 'vibe coding' działa w fizyce kwantowej?"]}, {"id": 13, "title": "AI projektuje komponenty chipów 500× mniejsze niż wyobrażają sobie inżynierowie", "category": "nauka", "date": "2026-08-20", "image": "/images/news-chip.jpg", "source": "Live Science", "excerpt": "Poza ludzką intuicją — modele AI proponują konstrukcje układów scalonych o skali niemożliwej do osiągnięcia metodami projektowania człowieka.", "hot": false, "full": "Modele AI zaprojektowały komponenty układów scalonych 500-krotnie mniejsze niż te, które wyobrażają sobie inżynierowie. Opublikowane w Live Science badania pokazują, że algorytmy proponują konstrukcje o skali niemożliwej do osiągnięcia metodami projektowania człowieka. To efekt uboczny uczenia się AI na danych, które wykracza poza ludzką intuicję projektową. Technologia może zrewolucjonizować produkcję półprzewodników, umożliwiając jeszcze mniejsze i wydajniejsze układy, choć wymaga nowych metod weryfikacji niezawodności.", "questions": ["Czy AI poza ludzką intuicją może tworzyć bezpieczne układy?", "Jak długo potrwa produkcja?", "Czy istnieje limit miniaturyzacji chipów?"]}, {"id": 14, "title": "SOP-Bench — nowy benchmark Amazon do oceny agentów AI w realnych procesach biznesowych", "category": "ai", "date": "2026-08-21", "image": "/images/news-sopbench.jpg", "source": "Amazon Science", "excerpt": "Ponad 2000 zadań z 12 dziedzin. Kluczowe odkrycie: nowsze modele nie zawsze działają lepiej, a nadmiar narzędzi potrafi obciąć skuteczność niemal o połowę.", "hot": false, "full": "Amazon opublikował SOP-Bench — nowy benchmark do oceny agentów AI w realnych procesach biznesowych. Zawiera ponad 2000 zadań z 12 dziedzin, od obsługi klienta po zarządzanie magazynem. Kluczowe odkrycie: nowsze modele nie zawsze działają lepiej, a nadmiar narzędzi potrafi obciąć skuteczność niemal o połowę. To ważny sygnał dla firm wdrażających agentów AI — proste konfiguracje często przewyższają te przeładowane. Benchmark ma pomóc standardyzować ocenę jakości agentów w środowisku biznesowym.", "questions": ["Czy więcej narzędzi = mniej efektywności?", "Jakie są implikacje dla firm?", "Czy SOP-Bench da się ujednolicić?"]}, {"id": 15, "title": "DR Kongo i rebelianci M23 zgadzają się na mapę drogową rozmów pokojowych", "category": "swiat", "date": "2026-08-23", "image": "/images/news-congo.jpg", "source": "Al Jazeera", "excerpt": "Po pięciu dniach rozmów w Szwajcarii strony ustaliły etapy negocjacji. Konflikt wysiedlił ok. 5,3 mln ludzi, a epidemia Eboli pochłonęła od maja ok. 2,5 tys. ofiar.", "hot": false, "full": "Demokratyczna Republika Konga i rebelianci z ugrupowania M23 osiągnęli porozumienie w sprawie mapy drogowej rozmów pokojowych po pięciu dniach negocjacji w Szwajcarii. Konflikt na wschodzie kraju wysiedlił około 5,3 miliona ludzi, a epidemia Eboli pochłonęła od maja około 2,5 tysiąca ofiar. Ustalenia etapów negocjacji to pierwszy od dawna konkretny postęp, choć obserwatorzy pozostają ostrożni co do trwałości porozumienia. Społeczność międzynarodowa wzywa obie strony do respektowania zawieszenia broni.", "questions": ["Czy porozumienie w Szwajcarii przełożi się na trwały pokój?", "Jak międzynarodowa społeczność reaguje na konflikt w KDR?", "Czy kryzys humanitarny odbije się na regionie?"]}, {"id": 16, "title": "Ludus AI — polski start-up z Gliwic ułatwia tworzenie gier w Unreal Engine", "category": "polska", "date": "2026-08-18", "image": "/images/news-ludus.jpg", "source": "Rzeczpospolita", "excerpt": "Inteligentny asystent dla Unreal Engine, z którego korzysta 36 tys. twórców. Automatyczne naprawianie kolizji, generowanie obiektów 3D i kodu z języka naturalnego.", "hot": false, "full": "Ludus AI, polski startup z Gliwic, rozwija inteligentnego asystenta dla silnika Unreal Engine, z którego korzysta już 36 tysięcy twórców. Asystent automatycznie naprawia kolizje, generuje obiekty 3D oraz kod z poleceń w języku naturalnym. To polska odpowiedź na globalny trend 'AI-first game development'. Narzędzie znacząco skraca czas tworzenia gier, pozwalając deweloperom skupić się na kreatywnej stronie projektów zamiast żmudnej mechanice. Gliwicki startup zapowiada kolejne integracje z popularnymi silnikami graficznymi.", "questions": ["Czy Ludus AI przełamie barierę dla polskich gamedevów?", "Jak długo wdrożenie na platformach?", "Czy automatyzacja usunie pracę programistów?"]}, {"id": 17, "title": "OpenAI planuje 2 sierpnia 2026: AI Act zobowiązuje do oznaczania treści generowanych", "category": "ai", "date": "2026-08-02", "image": "/images/news-ai-act.jpg", "source": "Gov.pl / Ministerstwo Cyfryzacji", "excerpt": "Od 2 sierpnia podmioty stosujące systemy generujące treści muszą informować odbiorców o autorstwie AI. Termin dla wysokiego ryzyka przesunięty do 2027–2028.", "hot": false, "full": "Od 2 sierpnia podmioty stosujące systemy generujące treści w Unii Europejskiej muszą informować odbiorców o autorstwie AI. Polskie Ministerstwo Cyfryzacji wdrożyło przepisy zobowiązujące do oznaczania treści generowanych przez modele, zgodnie z unijnym rozporządzeniem o AI. Termin pełnego wdrożenia dla systemów wysokiego ryzyka przesunięto do 2027-2028. Nowe przepisy mają zwiększyć transparentność i zaufanie do treści w internecie, a także umożliwić identyfikację materiałów generowanych przez sztuczną inteligencję.", "questions": ["Czy 2 sierpnia to poważny krok w stronę obowiązkowego tagowania?", "Jak to wpłynie na twórców w Polsce?", "Czy ryzyko nadużyć w oznaczaniu istnieje?"]}, {"id": 18, "title": "OpenAI zapowiada GPT-5.7 — kolejny skok w agentach i pamięci długoterminowej", "category": "ai", "date": "2026-08-22", "image": "/images/news-gpt57.jpg", "source": "OpenAI / The Verge", "excerpt": "Kolejna iteracja flagowego modelu ma wzmocnić agentowe zadania wieloetapowe i trwałą pamięć kontekstu. Premiera testowa spodziewana w ciągu tygodni.", "hot": true, "full": "OpenAI zapowiada GPT-5.7 — kolejną iterację flagowego modelu, która ma przynieść znaczący postęp w zadaniach agentowych i pamięci długoterminowej. Model ma lepiej utrzymywać kontekst w długich sesjach, zarządzać zadaniami wieloetapowymi i skuteczniej korzystać z narzędzi. Premiera testowa spodziewana jest w ciągu tygodni, a wcześniejsze modele serii wykazywały już rosnące zdolności do autonomicznego działania. To część szerszego trendu, w którym modele ewoluują z prostych czatbotów w pełnoprawnych agentów wykonujących zadania.", "questions": ["Czy GPT-5.7 wygoni Opus 4.8?", "Jak długo rozwój pamięci długoterminowej?", "Czy agenty AI przełami próg automatyzacji biura?"]}, {"id": 19, "title": "Ethereum zbliża się do 2 400 dol. — altcoiny odrabiają straty po hossie BTC", "category": "krypto", "date": "2026-08-22", "image": "/images/news-ethereum.jpg", "source": "CoinDesk / ET", "excerpt": "ETH zyskał ponad 26% w tydzień. Rynek czeka na ruch regulacyjny w USA i wzrost płynności po zapowiedzi wykupu długu przez skarbiec.", "hot": true, "full": "Ethereum zbliża się do poziomu 2400 dolarów, a altcoiny odrabiają straty po hossie bitcoina. ETH zyskał ponad 26% w ciągu tygodnia, a rynek czeka na ruch regulacyjny w USA oraz wzrost płynności po zapowiedzi skarbca o wykupie długu. Analitycy wskazują, że inwestorzy przenoszą część zysków z bitcoina do altcoinów, co napędza szerszy trend wzrostowy. Uwaga rynku skupia się na kluczowych poziomach oporu i możliwych korektach technicznych.", "questions": ["Czy ETH znajdzie siebie na 2400 USD?", "Jak regulacja w USA wpłynie na altcoiny?", "Czy odrabianie strat to tymczasowy efekt?"]}, {"id": 20, "title": "Polski Ludus AI zamyka rundę 1,3 mln dol. — asystent dla twórców gier w Unreal Engine", "category": "polska", "date": "2026-08-20", "image": "/images/news-ludus.jpg", "source": "Rzeczpospolita", "excerpt": "Start-up z Gliwic prezentuje Ludus 1.0. Technologia lokalizuje duplikaty zasobów i naprawia kolizje w minuty, gdzie ręczna analiza zajmuje godziny.", "hot": false, "full": "Polski startup Ludus AI z Gliwic zamknął rundę finansowania o wartości 1,3 miliona dolarów na rozwój asystenta dla twórców gier w Unreal Engine. Prezentowany w wersji 1.0 produkt lokalizuje duplikaty zasobów i naprawia kolizje w minuty, podczas gdy ręczna analiza zajmowałaby godziny. Środki zostaną przeznaczone na rozwój zespołu, integracje z kolejnymi silnikami i wejście na rynki międzynarodowe. To kolejny dowód, że polski sektor gamedevu i AI przeżywa rozkwit.", "questions": ["Czy 1,3 mln USD wystarczy na skalowanie?", "Jak Ludus rywalizuje z amerykańskimi asystentami?", "Czy automatyzacja zastąpi twórców?"]}, {"id": 21, "title": "Nvidia prezentuje nowy układ AI dla centrów danych — wyścig o inferencję przyspiesza", "category": "tech", "date": "2026-08-21", "image": "/images/news-nvidia.jpg", "source": "Reuters / The Verge", "excerpt": "Nowa generacja akceleratorów ma znacząco obniżyć koszt obsługi modeli multimodalnych. Analitycy widzą w tym kolejną fazę rywalizacji z konkurencją.", "hot": false, "full": "Nvidia zaprezentowała nowy układ AI dla centrów danych, który ma znacząco obniżyć koszt obsługi modeli multimodalnych. Analitycy widzą w tym kolejną fazę rywalizacji o dominację w wyścigu o wydajną inferencję. Nowa generacja akceleratorów celuje w przetwarzanie obrazów, dźwięku i wideo równolegle z tekstem, co jest kluczowe dla rozwijających się modeli multimodalnych. Rynek półprzewodników pozostaje pod presją popytu ze strony wszystkich większych dostawców AI.", "questions": ["Czy 40% wydajności w Azure to faktyczna poprawa?", "Czy Microsoft przejmie rynek GPU?", "Jak Google i Amazon reagują?"]}, {"id": 22, "title": "AI Act w UE: Komisja dostaje pełne uprawnienia egzekucyjne od 2 sierpnia 2026", "category": "polska", "date": "2026-08-21", "image": "/images/news-ai-act.jpg", "source": "Gov.pl / GeekWeek", "excerpt": "Komisja Europejska może żądać dokumentacji, oceniać modele ogólnego przeznaczenia i nakładać sankcje. Firmy mają czas do grudnia na oznaczenie treści AI.", "hot": false, "full": "Od 2 sierpnia Komisja Europejska otrzymała pełne uprawnienia egzekucyjne w ramach unijnego rozporządzenia o AI. Komisja może żądać dokumentacji, oceniać modele ogólnego przeznaczenia i nakładać sankcje. Firmy mają czas do grudnia na dostosowanie się do obowiązku oznaczania treści generowanych przez AI. To kluczowy etap wdrażania najbardziej kompleksowej regulacji AI na świecie, który wpłynie na działalność wszystkich dostawców i użytkowników systemów sztucznej inteligencji w Europie.", "questions": ["Czy cloud gaming trafi do masowej adopcji?", "Czy streamowanie AAA kosztuje mniej niż konsola?", "Jak tradycyjne platformy reagują?"]}, {"id": 23, "title": "Bitcoin: ETF-y łapią największy napływ od miesięcy — 1,1 mld dol. w 3 dni", "category": "krypto", "date": "2026-08-21", "image": "/images/news-etf.jpg", "source": "CoinDesk / Business Insider", "excerpt": "Instytucjonalne napływy i regulacyjny optymizm napędzają ruchy rynku. Zlikwidowano ponad 3 mld dol. krótkich pozycji podczas rajdu.", "hot": false, "full": "Fundusze ETF na bitcoina odnotowały największy napływ od miesięcy — 1,1 miliarda dolarów w zaledwie trzy dni. Instytucjonalne napływy i regulacyjny optymizm napędzają ruchy rynku, a podczas rajdu zlikwidowano ponad 3 miliardy dolarów krótkich pozycji. Rosnące zainteresowanie instytucji potwierdza dojrzewanie rynku kryptowalut jako klasy aktywów. Analitycy wskazują, że utrzymujący się napływ do ETF-ów może dodatkowo umocnić trend wzrostowy.", "questions": ["Czy dane o ciemnej materii zmienią model kosmologiczny?", "Jak długo na potwierdzenie?", "Czy mapowanie przyspieszy poszukiwania?"]}, {"id": 24, "title": "Elon Musk celuje w SpaceX jako w wycenę 1,2 bln dol. — rekord w sektorze kosmicznym", "category": "biznes", "date": "2026-08-22", "source": "Reuters / Business Insider", "hot": true, "excerpt": "Runda finansowania ma wycenić SpaceX na rekordowy poziom, umacniając pozycję najcenniejszej prywatnej firmy świata. Inwestorzy obstawiają ekspansję Starship i stacje Starlink.", "full": "SpaceX zbliża się do wyceny 1,2 biliona dolarów w nowej rundzie finansowania, co ustanowiłoby rekord w historii prywatnych spółek. Kapitał ma zasilić rozwój ciężkiej rakiety Starship, ekspansję konstelacji Starlink oraz program misji załogowych. Wartość firmy rośnie wraz z coraz częstszymi startami i komercyjnymi umowami z NASA oraz klientami komercyjnymi. Eksperci wskazują, że wycena odzwierciedla wiarę rynku w trwały monopol SpaceX na rynku dostępu do orbity, choć rosnąca konkurencja ze strony Blue Origin i chińskich operatorów może w długim terminie zmienić układ sił.", "questions": ["Czy terapia genowa dla dystrofii będzie refundowana?", "Jakie długoterminowe efekty uboczne?", "Czy dostępność nie stworzy nierówności?"]}, {"id": 25, "title": "Microsoft i Blackwell: układy AI nowej generacji zwiększą wydajność chmury o 40%", "category": "tech", "date": "2026-08-22", "source": "The Verge / CNBC", "hot": true, "excerpt": "Integracja akceleratorów Blackwell w Azure ma przyspieszyć inferencję dużych modeli i obniżyć koszty. Microsoft zapowiada nowe regiony chmury dla obciążeń AI.", "full": "Microsoft ogłosił wdrożenie akceleratorów Blackwell nowej generacji w swojej platformie Azure, co ma zwiększyć wydajność inferencji modeli AI nawet o 40% przy jednoczesnym obniżeniu kosztów jednostkowych. Firma zapowiada także otwarcie nowych regionów chmury dedykowanych obciążeniom sztucznej inteligencji w Europie i Azji. Posunięcie to wpisuje się w intensywną rywalizację z Amazonem i Google o udział w rozwijającym się rynku infrastruktury AI. Analitycy podkreślają, że walka o dominację w chmurze AI będzie w nadchodzących latach jednym z głównych motorów wzrostu całej branży technologicznej.", "questions": ["Czy ITER-India dostarczy fuzję komercyjną?", "Jak USA i UE oceniają postępy Indii?", "Czy fuzja rozwiąże crisis energetyczny?"]}, {"id": 26, "title": "Nowa konsola do gier w chmurze: Sony i NVIDIA łączą siły w streamingu", "category": "gaming", "date": "2026-08-21", "source": "GameSpot / TechCrunch", "hot": false, "excerpt": "Sojusz ma przynieść streamowanie gier AAA bez sprzętu klasy konsoli. Rynek cloud gamingu przyspiesza.", "full": "Sony i NVIDIA ogłosiły strategiczny sojusz w obszarze gier w chmurze, który ma umożliwić streamowanie tytułów AAA bez potrzeby posiadania wydajnego sprzętu. Technologia bazująca na akceleratorach NVIDIA i autorskiej platformie PlayStation ma oferować jakość wizualną porównywalną z konsolami nowej generacji przy opóźnieniu poniżej progu odczuwalności. Ruch ten jest odpowiedzią na rosnącą popularność subskrypcji cloud gamingu i presję ze strony usług konkurencyjnych. Branża obserwuje, czy sojusz przełoży się na przystępne ceny i szeroką dostępność, które dotychczas stanowiły barierę dla masowej adopcji.", "questions": ["Czy AI w mammografii wydłuży średnią życia?", "Jak lekarze współpracują z AI?", "Czy algorytmy wprowadzą uprzedzenia?"]}, {"id": 27, "title": "Teleskop kosmiczny Einstein zaprojektował mapę ciemnej materii całej półkuli nieba", "category": "kosmos", "date": "2026-08-21", "source": "ESA / Live Science", "hot": false, "excerpt": "Najdokładniejsza mapa ciemnej materii od ESA. Wynik może zmienić modele kosmologiczne.", "full": "Teleskop kosmiczny Einstein Europejskiej Agencji Kosmicznej opublikował najdokładniejszą dotychczas mapę rozkładu ciemnej materii obejmującą całą półkulę nieba. Dane powstały dzięki pomiarom mikrosoczewkowania grawitacyjnego miliardów galaktyk i mają bezprecedensową rozdzielczość. Wyniki częściowo potwierdzają przewidywania standardowego modelu kosmologicznego, ale ujawniają także obszary, w których obserwacje odbiegają od teorii, co może sugerować potrzebę modyfikacji modeli ciemnej materii i ciemnej energii. Astronomowie podkreślają, że mapa stanie się fundamentem dla dziesiątek przyszłych badań nad strukturą wszechświata.", "questions": ["Czy obniżki stóp EBC wzmocnią złotego?", "Jak Polska reaguje na ECB?", "Czy inflacja euro wpłynie na polskie stopy?"]}, {"id": 28, "title": "Przełom w terapii genowej: pierwsza skuteczna kuracja rzadkiej dystrofii mięśniowej", "category": "zdrowie", "date": "2026-08-20", "source": "Nature Medicine / BBC", "hot": false, "excerpt": "Badanie kliniczne wykazało trwałą poprawę u pacjentów z dystrofią. Nowa era medycyny genowej.", "full": "Naukowcy ogłosili przełomowe wyniki badania klinicznego terapii genowej w leczeniu rzadkiej dystrofii mięśniowej, w którym pacjenci osiągnęli trwałą poprawę funkcji mięśni bez poważnych skutków ubocznych przez okres obserwacji. Terapia wykorzystuje wektor wirusowy do dostarczenia poprawnej kopii genu odpowiedzialnego za chorobę. To pierwsze tak skuteczne podejście w tej grupie schorzeń, otwierające drogę do podobnych terapii w innych rzadkich chorobach genetycznych. Eksperci podkreślają, że choć koszty leczenia pozostają wysokie, rozwój tańszych metod produkcji może uczynić medycynę genową dostępną dla znacznie szerszej grupy pacjentów w nadchodzącej dekadzie.", "questions": ["Czy 3 mln graczy mówi coś o fenomenie?", "Jak Echoes of Terra konkurować ze studio?", "Czy polski gamedev stanie na ciągłych hitach?"]}, {"id": 29, "title": "Indie uruchamiają największy na świecie reaktor termojądrowy — milowy krok ku energii gwiazd", "category": "nauka", "date": "2026-08-21", "source": "Reuters / Nature", "hot": false, "excerpt": "Reaktor ITER-India osiąga pierwsze plazmy. Fuzja jądrowa coraz bliżej komercyjnej energetyki.", "full": "Indie oficjalnie uruchomiły największy na świecie reaktor termojądrowy, który osiągnął pierwsze stabilne plazmy w ramach testów. Projekt stanowi milowy krok w międzynarodowych badaniach nad fuzją jądrową, mającą odtworzyć procesy zasilające Słońce i zapewnić niemal nieograniczoną, czystą energię. Pierwsze wyniki potwierdzają zdolność reaktora do utrzymania plazmy w kontrolowanych warunkach, choć do osiągnięcia komercyjnej opłacalności potrzebne będą jeszcze dekady badań. Postęp ten, wraz z równoległymi projektami w USA, Europie i Chinach, przybliża wizję fuzji jako realnego źródła energii przyszłości.", "questions": ["Czy powrót próbek z Marsa potwierdzi życie?", "Jakie ryzyka kontaminacji?", "Czy rywalizacja z Chinami przyspieszy misję?"]}, {"id": 30, "title": "Stopy procentowe w strefie euro: EBC utrzymuje kurs, rynek czeka na obniżki", "category": "biznes", "date": "2026-08-22", "source": "Reuters / Bloomberg", "hot": false, "excerpt": "Europejski Bank Centralny pozostawia stopy bez zmian, sygnalizując możliwe luzowanie polityki pieniężnej w kolejnych miesiącach.", "full": "Europejski Bank Centralny utrzymał stopy procentowe na dotychczasowym poziomie, jednocześnie sygnalizując gotowość do obniżek w nadchodzących kwartałach, jeśli inflacja będzie nadal spadać. Decyzja jest zgodna z oczekiwaniami rynków, które wyceniają możliwość pierwszego ruchu w dół już na jesień. Analitycy wskazują, że rozluźnienie polityki pieniężnej może wesprzeć inwestycje i konsumpcję w strefie euro, choć napięcia geopolityczne i zmienność cen energii pozostają czynnikami ryzyka. Uwaga inwestorów przenosi się teraz na publikacje danych o inflacji i wzroście gospodarczym.", "questions": ["Czy GPT-5.7 wygoni Opus 4.8 z modelu?", "Jak długo pamięć długoterminowa?", "Czy AI przełączy automatyzację biura?"]}, {"id": 31, "title": "Premiera gry 'Echoes of Terra' bije rekordy: 3 mln graczy w pierwszy weekend", "category": "gaming", "date": "2026-08-22", "source": "IGN / GameSpot", "hot": true, "excerpt": "Najnowsza produkcja polskiego studia przekracza oczekiwania, ustanawiając rekordy sprzedaży na Steam i PlayStation.", "full": "'Echoes of Terra', nowa produkcja polskiego studia gier, zadebiutowała z rekordowymi wynikami — ponad 3 miliony graczy dołączyło w pierwszy weekend od premiery. Gra łączy elementy RPG z otwartym światem i zaawansowaną sztuczną inteligencją przeciwników, co spotkało się z entuzjastycznym przyjęciem krytyków i graczy. Rekordy sprzedaży na platformach Steam i PlayStation potwierdzają rosnącą pozycję polskiego gamedevu na globalnej scenie. Studio zapowiada rozszerzenia i tryb kooperacyjny, licząc na utrzymanie zainteresowania w kolejnych miesiącach.", "questions": ["Czy wycena 1,2 bln za SpaceX jest uzasadniona?", "Czy kosmiczny rynek stanie się monopolistyczną grą?", "Jak długo Elon utrzyma pozycję?"]}, {"id": 32, "title": "Misja Mars Sample Return: NASA i ESA zatwierdzają plan powrotu próbek z Marsa", "category": "kosmos", "date": "2026-08-21", "source": "NASA / SpaceNews", "hot": false, "excerpt": "Nowa architektura misji ma przywieźć na Ziemię pierwsze próbki marsjańskiej gleby do 2031 roku.", "full": "NASA i Europejska Agencja Kosmiczna zatwierdziły zaktualizowaną architekturę misji Mars Sample Return, której celem jest sprowadzenie na Ziemię pierwszych próbek marsjańskiej gleby. Nowy plan zakłada uproszczoną konstrukcję, redukcję kosztów i wykorzystanie już istniejących łazików do zbierania materiału. Próbki, jeśli misja zakończy się sukcesem, trafią na Ziemię najwcześniej w 2031 roku i mogą zrewolucjonizować badania nad historią Marsa oraz szansami na życie pozaziemskie. To jedna z najbardziej ambitnych misji eksploracji Układu Słonecznego w historii.", "questions": ["Czy 40% wydajności w Azure to realna poprawa?", "Czy Microsoft przejmie GPU od Nvidii?", "Jak Google i Amazon odpowiadają?"]}, {"id": 33, "title": "Sztuczna inteligencja wspomaga diagnostykę raka piersi: 20% mniej błędów", "category": "zdrowie", "date": "2026-08-21", "source": "The Lancet / BBC", "hot": true, "excerpt": "Wyniki duńskiego badania potwierdzają skuteczność AI w analizie mammografii. Lekarze i systemy w tandemie dają najlepsze wyniki.", "full": "Duńskie badanie kliniczne z udziałem ponad 80 tysięcy pacjentek potwierdziło, że sztuczna inteligencja wspomagająca analizę mammografii redukuje liczbę błędów diagnostycznych o około 20%. System AI pracujący w tandemie z radiologami zwiększa wykrywalność wczesnych zmian nowotworowych i zmniejsza liczbę niepotrzebnych biopsji. Naukowcy podkreślają, że najlepsze wyniki osiąga połączenie ludzkiej wiedzy i maszynowej analizy, a nie działanie każdego z osobna. Wyniki mogą przyspieszyć wdrożenie AI w programach badań przesiewowych na całym świecie, choć potrzebne są dalsze badania nad długoterminowym wpływem na wyniki zdrowotne.", "questions": ["Czy cloud gaming w końcu trafi do masowej adopcji?", "Czy streamowanie AAA kosztuje mniej niż konsola?", "Jak tradycyjne platformy gier reagują?"]}, {"id": 34, "title": "Nvidia udowodnił, że 'szkielet' (harness) ważniejszy niż model — AVO wbija 100% na ARC-AGI-3", "category": "ai", "date": "2026-08-21", "source": "TechCrunch / The New Stack", "hot": true, "excerpt": "Nvidia pokazał, że odpowiednie otoczenie software'u może podnieść Claude Opus 5 z 30% do 100% w ARC-AGI-3. To przełom w agentic research.", "full": "Nvidia opublikował badanie pokazujące, że tzw. 'harness' — oprogramowanie otaczające model (narzędzia, zarządzanie pamięcią, reguły) — jest daleko ważniejsze niż sam wybór modelu w zadaniach długoterminowych. AVO podniósł Claude Opus 5 na ARC-AGI-3 z 30,2% do 100%. AVO wprowadza trwałą pamięć i komponent nadzorujący.", "questions": ["Czy harness może całkowicie zastąpić rozwój lepszych modeli?", "Jakie są kosztowe konsekwencje udoskonalonego harnessu?", "Czy długoterminowa autonomia agenta to realny cel?"]}, {"id": 35, "title": "AI agent z UK próbował podmienić kod open-source — student z Texas zatrzymał atak", "category": "tech", "date": "2026-08-20", "source": "Reuters", "hot": true, "excerpt": "Automatyczny atak na projekt open-source został wykryty i zatrzymany przez studenta z University of Texas.", "full": "Student z University of Texas w Austynie zatrzymał automatycznego agenta AI, który próbował podmienić złośliwym kodem otwartoźródłowy projekt. To jeden z pierwszych udokumentowanych ataków AI na infrastrukturę open-source. Eksperci ostrzegają: automatyzacja ataków socjotechnicznych to dopiero początek.", "questions": ["Jak open-source powinien reagować na automatyczne ataki AI?", "Czy są potrzebne nowe zabezpieczenia w repozytoriach?", "Jak odróżnić zmianę od AI od ludzkiej?"]}, {"id": 36, "title": "Stripe wykupuje OpenRouter za 7 mld dol. — konsolidacja routingu API", "category": "biznes", "date": "2026-08-21", "source": "TechCrunch / The Information", "hot": false, "excerpt": "Stripe przeznacza 7 mld dolarów na OpenRouter, by zdominować routing API między modelami.", "full": "Stripe kupuje OpenRouter, platformę routingu API pomiędzy modelami AI, za 7 mld dolarów. Ma to na celu stworzenie najbogatszego w ekosystemie punktu dostępu do setek modeli AI. Dla developerów uproszczenie, ale także obawy o dominację brokera API.", "questions": ["Czy dominacja jednego routera API może zaszkodzić innowacji?", "Jak to wpłynie na ceny modeli AI?", "Czy OpenRouter zachowa otwartość?"]}, {"id": 37, "title": "Polska Aiforia wygrywa Berlin AI Market — nagroda za detekcję nowotworów", "category": "polska", "date": "2026-08-22", "source": "Puls Medycyny", "hot": false, "excerpt": "Aiforia, polski producent AI do diagnostyki, zdobyła nagrodę w Berlinie za detekcję nowotworów w obrazowaniu histopatologicznym.", "full": "Warszawska Aiforia, specjalizująca się w AI dla medycyny, została nagrodzona na targach Inteligentny Rynek AI w Berlinie za automatyczną detekcję nowotworów w obrazowaniu histopatologicznym. System oparty na analizie slajdów mikroskopowych wykrywa nowotwory z dokładnością porównywalną z patologami. To kolejny dowód międzynarodowej renomy polskiego sektora AI medycznej.", "questions": ["Czy AI medyczna zastąpi chirurgów?", "Jakie ryzyka w diagnozie AI?", "Czy polskie start-upy AI konkurować z gigantami?"]}, {"id": 38, "title": "Nowy superskręt: OpenAI prezentuje model Agentic Browser, który sam surfuje po sieci", "category": "ai", "date": "2026-08-23", "source": "Business Insider", "hot": true, "excerpt": "OpenAI zbliża się do realizacji ambicji z 2015 r. — agent który używa przeglądarki i aplikacji jak człowiek. Computer Use wchodzi do produktów.", "full": "OpenAI jest blisko urzeczywistnienia jednej ze swoich wieloletnich ambicji — agentów, które potrafią korzystać z komputera i przeglądarki z taką samą zręcznością jak człowiek. W tym roku firma wypuściła rozszerzenie Chrome, które pozwala ChatGPT przejąć przeglądarkę, chmurowe i aplikacyjne przeglądarki oraz dodała Computer Use do narzędzia Codex. Według prezesa Grega Brockmana technologia przestała być przeznaczona wyłącznie dla programistów. To realny krok w stronę uniwersalnej automatyzacji komputerowej.", "questions": ["Czy agentyczna przeglądarka może całkowicie wyprzeć tradycyjny przegląd?", "Jakie ryzyka prywatności wiążą się z auto-pilotem przeglądarki?", "Kiedy Computer Use stanie się standardem dla zwykłych użytkowników?"]}, {"id": 39, "title": "Pew Center: 1/3 stron internetowych od premiery ChatGPT ma ślady autorstwa AI", "category": "tech", "date": "2026-08-22", "source": "TechCrunch", "hot": false, "excerpt": "Ponad jedna trzecia stron publikowanych po premierze ChatGPT nosi ślady napisania przez AI. Boty wyprzedziły ludzi w ruchu internetowym.", "full": "Badanie Pew Research pokazuje, że ponad 1/3 stron internetowych opublikowanych po premierze ChatGPT nosi ślady napisania lub znacznego edytowania przez sztuczną inteligencję. Aż 35% nowych stron ma oznaki autorstwa AI, przy czym domeny .com wykazują ~10x więcej takich śladów niż .edu czy .gov. Raport pojawił się tuż po tym, jak Cloudflare ogłosiło, że ruch botów wyprzedził ruch ludzi w internecie. To sygnał o rosnącej inflacji treści AI.", "questions": ["Jak odróżnić wiarygodne treści od AI-inflacji?", "Czy oznaczanie AI-authored ma sens?", "Jak domeny .edu/.gov bronią się przed treścią AI?"]}, {"id": 40, "title": "Anthropic Claude zaprojektował białka potwierdzone w laboratorium — 14/15 celów", "category": "nauka", "date": "2026-08-22", "source": "eWeek", "hot": false, "excerpt": "Model Claude zaprojektował de novo funkcjonalne wiązacze białek, potwierdzone w teście mokrym. Rezultat 14/15 celów, hit-rate do 40%.", "full": "Anthropic opublikował wyniki eksperymentów, w których modele Claude samodzielnie zaprojektowały funkcjonalne wiązacze białek i wykonały złożone analizy chemiczne w ciągu minut. W kampanii 15 celów modele wygenerowały 1320 kandydatów, z których 354 potwierdzono w teście mokrym, trafiając 14/15 celów. Wskaźniki powodzenia (22-35%) znacznie przewyższały typowy dla branży poziom 10-15%. To dowód rosnącej roli modeli ogólnego rozumowania we wczesnej biotechnologii.", "questions": ["Czy Claude zastąpi tradycyjne silniki zwijania białek?", "Jakie są granice bezpieczeństwa biologicznego przy AI-designed proteinach?", "Kiedy te białka trafią do leków?"]}, {"id": 41, "title": "Huawei wykupuje chińskie laboratorium IoT za 2 mld — przyspiesza AI w przemyśle", "category": "tech", "date": "2026-08-21", "source": "Reuters", "hot": false, "excerpt": "Chiński gigant przejmuje laboratorium, by wdrożyć AI w fabrykach i łańcuchach dostaw. Technologia agentów trafia do przemysłu.", "full": "Huawei ogłosił przejęcie chińskiego laboratorium Internetu Rzeczy za 2 miliardy dolarów, co jest częścią szerszej strategii wdrożenia sztucznej inteligencji do przemysłu i łańcuchów dostaw. Zintegrowana technologia agentów AI, pozwalająca na samodzielne diagnozowanie i optymalizację procesów produkcyjnych, ma przyspieszyć automatyzację chińskich fabryk. To odpowiedź na globalną rywalizację o dominację w przemyślowym IoT i AI.", "questions": ["Czy AI przemysłowa zastąpi operatorów maszyn?", "Jak Chiny wygrywają wyścig o automatyzację?", "Czy przejęcia wzmocnią pozycję Huawei w IoT?"]}, {"id": 42, "title": "Golem AI dalej z noktowizorem — robot widzi w ciemności i pracuje w magazynach nocą", "category": "kosmos", "date": "2026-08-20", "source": "TechCrunch", "hot": false, "excerpt": "Roboty wyposażone w AI widzenie nocne działają w magazynach bez oświetlenia. Technologia z kosmosu trafia do logistyki.", "full": "Roboty z wyspecjalizowanym AI widzeniem nocnym, opracowanym pierwotnie na potrzeby misji kosmicznych, znalazły zastosowanie w logistyce. System pozwala maszynom nawigować i sortować paczki w magazynach bez oświetlenia, redukując koszty energii i zwiększając wydajność pracy nocnej. To przykład dyfuzji technologii kosmicznych do komercyjnych zastosowań przemysłowych, otwierający nowy segment w automatyzacji magazynów.", "questions": ["Czy AI widzenie nocne zrewolucjonizuje logistykę?", "Jakie inne technologie z kosmosu znajdą ziemskie zastosowania?", "Czy roboty zastąpią pracowników nocnych w magazynach?"]}], "meta": {"name": "AI Evolution News", "tagline": "Gorące newsy ze świata AI, technologii i biznesu — po polsku.", "last_updated": "2026-08-23", "source": "AI Evolution Labs"}}
+{
+  "news": [
+    {
+      "id": 43,
+      "title": "Claude Opus 5 po sierpniowej aktualizacji — szybsza inferencja i mocniejszy tryb badawczy",
+      "category": "ai",
+      "date": "2026-08-24",
+      "source": "Anthropic",
+      "excerpt": "Anthropic odświeżył flagowy model 12 sierpnia: krótszy czas odpowiedzi i lepsze wyniki w zadaniach naukowych. Cennik pozostaje bez zmian — 5 USD za milion tokenów wejściowych i 25 USD za wyjściowe.",
+      "hot": true,
+      "full": "Claude Opus 5 zadebiutował 24 lipca 2026 roku, a 12 sierpnia dostał aktualizację skupioną na dwóch rzeczach: szybkości inferencji i jakości pracy badawczej. Anthropic nie ruszył cennika — nadal jest to 5 USD za milion tokenów wejściowych i 25 USD za milion wyjściowych, czyli tyle samo co w dniu premiery.\n\nRównolegle firma utrwaliła promocyjne ceny Claude Sonnet 5: od 10 sierpnia 2 USD za milion tokenów wejściowych i 10 USD za wyjściowe to już stawka stała, a nie wprowadzająca. Dla zespołów budujących aplikacje na API oznacza to przewidywalność kosztów w drugiej połowie roku — a to bywa ważniejsze niż kolejny punkt procentowy w benchmarku.",
+      "questions": [
+        "Czy stała cena modelu jest dziś silniejszym argumentem sprzedażowym niż wynik w benchmarku?",
+        "Co dla twojego budżetu znaczy różnica 5 USD vs 2 USD za milion tokenów przy skali produkcyjnej?",
+        "Jak mierzyć „lepszy tryb badawczy”, skoro nie ma jednego standardu oceny?"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Nvidia finansuje centrum danych OpenAI w Ohio kwotą do 105 mld dolarów",
+      "category": "ai",
+      "date": "2026-08-23",
+      "source": "CNBC",
+      "excerpt": "Producent układów wchodzi w rolę banku: kredyt ma sfinansować start 4,25 GW mocy obliczeniowej z opcją rozbudowy o kolejne 3,75 GW. W pakiecie 1,5 mld dolarów dla SB Energy, spółki powiązanej z SoftBankiem.",
+      "hot": true,
+      "full": "Nvidia zapewni finansowanie do 105 miliardów dolarów dla nowego centrum danych AI budowanego dla OpenAI w Ohio. Linia kredytowa ma pokryć początkowo 4,25 gigawata mocy obliczeniowej, z opcją dołożenia kolejnych 3,75 GW.\n\nW ramach umowy Nvidia zainwestowała też 1,5 miliarda dolarów w SB Energy — spółkę powiązaną z SoftBankiem, która buduje i zarządza obiektem na kampusie PORTS-Pike Technology w hrabstwie Pike, w ramach 20-letniej dzierżawy dla OpenAI.\n\nTo część większego zwrotu: Nvidia coraz mniej broni się samą technologią, a coraz bardziej kapitałem. Firma ogłosiła partnerstwa z Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs i KKR, których platformy finansowe mają zmobilizować ponad 500 miliardów dolarów na infrastrukturę AI — głównie od inwestorów zewnętrznych, poza bilansem samej Nvidii.",
+      "questions": [
+        "Gdzie kończy się finansowanie klienta, a zaczyna finansowanie własnego popytu?",
+        "Kto poniesie stratę, jeśli moc obliczeniowa okaże się przeszacowana — Nvidia czy inwestorzy zewnętrzni?",
+        "Czy 4,25 GW dla jednego klienta to problem dla lokalnej sieci energetycznej?"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Przewaga Nvidii przenosi się z krzemu na kapitał",
+      "category": "ai",
+      "date": "2026-08-22",
+      "source": "CNBC",
+      "excerpt": "AMD i Google odgryzły część przewagi technologicznej, więc Nvidia gra tym, czego konkurenci nie mają w takiej skali — pieniędzmi i dostępem do rynku długu.",
+      "hot": false,
+      "full": "Analiza CNBC z 18 sierpnia opisuje zmianę, która dzieje się na oczach branży: konkurenci — przede wszystkim AMD i Google ze swoimi układami — systematycznie zmniejszają dystans technologiczny do Nvidii. W odpowiedzi firma zaczęła wykorzystywać zasób, którego rywale nie mają w porównywalnej skali: kapitał.\n\nZamiast konkurować wyłącznie wydajnością kolejnej generacji układów, Nvidia buduje ekosystem finansowania: platformy z największymi funduszami, kredyty dla odbiorców, inwestycje w dostawców energii i deweloperów centrów danych, jak Cloverleaf Infrastructure. Efekt: klient, który chce postawić centrum danych, dostaje nie tylko chipy, ale i sposób na ich opłacenie.",
+      "questions": [
+        "Czy przewaga finansowa jest trwalsza od przewagi technologicznej?",
+        "Co stanie się z tym modelem, gdy stopy procentowe albo apetyt na ryzyko się zmienią?",
+        "Czy regulator powinien patrzeć na finansowanie dostawcy przez producenta jak na sprzedaż wiązaną?"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Google porządkuje strukturę AI: Hassabis przechodzi na fotel przewodniczącego",
+      "category": "ai",
+      "date": "2026-08-21",
+      "source": "Reuters",
+      "excerpt": "Koniec podziału na dwa kontynenty. Kavukcuoglu przejmuje operacje, zespół kodowania Borgeauda przenosi się z Londynu do Mountain View, a historyczny rozdział Brain/DeepMind zostaje domknięty.",
+      "hot": false,
+      "full": "Google konsoliduje kierownictwo pionu AI w Mountain View. Demis Hassabis przechodzi do roli przewodniczącego, a odpowiedzialność za bieżące operacje przejmuje Koray Kavukcuoglu. Zespół zajmujący się modelami do kodowania, prowadzony przez Sébastiena Borgeauda, przenosi się z Londynu do centrali w Kalifornii.\n\nOznacza to formalne zamknięcie dwukontynentalnego podziału, który był pozostałością po fuzji Google Brain i DeepMind. Dla obserwatorów branży to sygnał, że Google stawia na jeden ośrodek decyzyjny i skraca drogę od badań do produktu — kosztem autonomii londyńskiego laboratorium.",
+      "questions": [
+        "Co zyskuje, a co traci laboratorium badawcze przenoszone bliżej produktu?",
+        "Czy centralizacja przyspiesza wdrożenia, czy tylko skraca listę osób podejmujących decyzje?",
+        "Jak taka reorganizacja wpływa na europejski rynek talentów AI?"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Sierpień pełen premier modeli: Qwen3.8 Max, Grok 4.6 i odświeżony GPT-5.6",
+      "category": "ai",
+      "date": "2026-08-20",
+      "source": "LLM Stats",
+      "excerpt": "Alibaba wypuściła Qwen3.8 Max 2 sierpnia, xAI Grok 4.6 cztery dni później, a OpenAI 6 sierpnia zaktualizowało GPT-5.6 w ChatGPT i otworzyło wariant Luna dla użytkowników darmowych.",
+      "hot": false,
+      "full": "Pierwsza połowa sierpnia 2026 była wyjątkowo gęsta od premier. 2 sierpnia Alibaba pokazała Qwen3.8 Max. 6 sierpnia xAI wypuściło Grok 4.6, a tego samego dnia OpenAI zaktualizowało GPT-5.6 w ChatGPT — poprawiając wariant Sol i udostępniając wariant Luna użytkownikom darmowym.\n\nTempo premier ma konsekwencje praktyczne: zespoły, które przypinają się do konkretnej wersji modelu, muszą planować migracje kilka razy w roku. Coraz częściej wygrywa nie ten, kto ma najlepszy model w danym tygodniu, ale ten, kto potrafi go najszybciej wymienić bez przepisywania połowy aplikacji.",
+      "questions": [
+        "Jak zaprojektować aplikację, żeby zmiana modelu nie oznaczała przepisywania promptów?",
+        "Czy udostępnianie mocniejszych wariantów za darmo to strategia wzrostu, czy wojna na wyniszczenie?",
+        "Ile realnie zmienia dla użytkownika skok z wersji 5.5 na 5.6?"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Bitcoin przy 77 tys. dolarów, Ethereum pod presją — rynek szuka dna",
+      "category": "krypto",
+      "date": "2026-08-24",
+      "source": "Pickaxe",
+      "excerpt": "Po gwałtownym odbiciu z 20 sierpnia notowania wyhamowały. BTC trzyma się okolic 77 210 dolarów (-1,0% dziennie), ETH cofa mocniej do 2 426 dolarów (-3,3%).",
+      "hot": true,
+      "full": "Pod koniec sierpnia rynek kryptowalut wszedł w fazę wyhamowania po gwałtownym odbiciu sprzed kilku dni. Bitcoin utrzymuje się w okolicach 77 210 dolarów, tracąc około 1,0 procent w skali doby. Ethereum jest pod wyraźniejszą presją — 2 426,24 dolara oznacza spadek o 3,3 procent.\n\nAnalitycy nadal spierają się, czy widziane w sierpniu minima były dnem bessy, czy tylko przystankiem. Argument za odbiciem: napływ płynności i regulacyjne odblokowanie. Argument przeciw: skala wcześniejszych likwidacji pokazuje, jak lewarowany jest ten rynek.",
+      "questions": [
+        "Czy odbicie napędzane likwidacjami krótkich pozycji może być trwałe?",
+        "Dlaczego ETH reaguje mocniej na zmiany nastroju niż BTC?",
+        "Jak odróżnić dno bessy od kolejnej pułapki na kupujących?"
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Skup obligacji przez Departament Skarbu USA wywindował krypto — 2,5 mld dolarów likwidacji w dobę",
+      "category": "krypto",
+      "date": "2026-08-21",
+      "source": "IndexBox",
+      "excerpt": "Podwojenie operacji skupu długoterminowych obligacji z 2 do co najmniej 4 mld dolarów uruchomiło falę płynności. Bitcoin urósł 15%, Ethereum 17%, a kapitalizacja rynku sięgnęła 2,45 bln dolarów.",
+      "hot": true,
+      "full": "Decyzja Departamentu Skarbu USA o podwojeniu skupu długoterminowych obligacji — z 2 do co najmniej 4 miliardów dolarów na operację — zadziałała na rynek kryptowalut jak zastrzyk płynności. Reakcja była gwałtowna: Bitcoin zyskał około 15 procent, Ethereum 17 procent.\n\nRuch napędziły likwidacje krótkich pozycji: około 1,4 miliarda dolarów w cztery godziny i 2,5 miliarda w ciągu doby. Globalna kapitalizacja rynku sięgnęła 2,45 biliona dolarów przy dziennym obrocie 111,69 miliarda dolarów i wzroście o 7,5 procent.\n\nTo klasyczny przykład tego, jak decyzja z rynku obligacji przelewa się na aktywa ryzykowne — i jak bardzo krypto pozostaje wrażliwe na warunki płynnościowe w dolarze.",
+      "questions": [
+        "Dlaczego decyzja o skupie obligacji tak szybko przekłada się na ceny krypto?",
+        "Czy wzrost oparty na likwidacjach krótkich pozycji tworzy realną wartość?",
+        "Co mówi o rynku fakt, że 2,5 mld dolarów pozycji zniknęło w jedną dobę?"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "SEC proponuje ramy pozyskiwania kapitału dla firm kryptowalutowych",
+      "category": "krypto",
+      "date": "2026-08-20",
+      "source": "Yahoo Finance",
+      "excerpt": "Regulator przedstawił projekt przepisów, które mają dać spółkom krypto jasną ścieżkę emisji. Równolegle Trump naciska na Kongres w sprawie Clarity Act rozstrzygającego spór papier wartościowy czy towar.",
+      "hot": false,
+      "full": "Amerykańska Komisja Papierów Wartościowych i Giełd ogłosiła projekt regulacji dla aktywów kryptowalutowych. Proponowane przepisy mają stworzyć ramy, w których firmy z branży mogą pozyskiwać kapitał bez poruszania się w szarej strefie interpretacyjnej. Rynek zareagował wzrostami już na otwarciu sesji 19 sierpnia.\n\nDzień później prezydent Donald Trump publicznie naciskał na Kongres, by przyjął Clarity Act — ustawę rozstrzygającą, kiedy kryptowaluta jest papierem wartościowym, a kiedy towarem. To pytanie, które od lat blokuje decyzje inwestycyjne i skłania część firm do przenoszenia działalności poza USA.",
+      "questions": [
+        "Czy jasna regulacja pomoże rynkowi bardziej niż niska stopa procentowa?",
+        "Kto realnie zyskuje na rozstrzygnięciu sporu „papier wartościowy czy towar”?",
+        "Jak rozwiązania z USA przełożą się na europejskie MiCA?"
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Senat USA przegłosował sankcje na rosyjską energetykę stosunkiem 86 do 11",
+      "category": "swiat",
+      "date": "2026-08-23",
+      "source": "Wikipedia — Current events",
+      "excerpt": "Ustawa obejmuje przychody energetyczne, instytucje finansowe, urzędników i flotę cieni. Upoważnia też do nałożenia ceł do 100% na największych nabywców rosyjskiej ropy i gazu.",
+      "hot": true,
+      "full": "Senat Stanów Zjednoczonych przyjął stosunkiem głosów 86 do 11 ustawę nakładającą sankcje na rosyjskie przychody z energii, instytucje finansowe, urzędników oraz tak zwaną flotę cieni — tankowce transportujące ropę z pominięciem zachodnich ubezpieczycieli.\n\nNajmocniejszym elementem jest jednak upoważnienie do nałożenia ceł sięgających 100 procent na największych nabywców rosyjskiej ropy i gazu. To narzędzie wtórne: uderza nie w Rosję bezpośrednio, lecz w kraje, które kupują jej surowce.\n\nSkala poparcia — 86 do 11 — jest w obecnym Senacie rzadkością i pokazuje, że w tej konkretnej sprawie podział partyjny praktycznie zniknął.",
+      "questions": [
+        "Czy cła wtórne działają skuteczniej niż sankcje bezpośrednie?",
+        "Jak zareagują największe gospodarki kupujące rosyjskie surowce?",
+        "Co oznacza ponadpartyjne 86 do 11 w tak spolaryzowanym Senacie?"
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Pakistan, Arabia Saudyjska i Turcja podpisały Mekkański Pakt Obronny",
+      "category": "swiat",
+      "date": "2026-08-22",
+      "source": "Wikipedia — Current events",
+      "excerpt": "Trzy państwa uzgodniły klauzulę wzajemnej obrony: atak na jedno z nich będzie traktowany jak atak na wszystkie. To zmiana architektury bezpieczeństwa regionu.",
+      "hot": false,
+      "full": "Pakistan, Arabia Saudyjska i Turcja podpisały Mekkański Pakt Obronny (Mecca Joint Defence Agreement), w którym zadeklarowały, że atak na jedno z państw sygnatariuszy będzie uznany za atak na wszystkie trzy.\n\nKlauzula wzajemnej obrony to konstrukcja znana z artykułu 5 NATO, ale zastosowana tu w zupełnie innym układzie geopolitycznym — łącząc mocarstwo nuklearne (Pakistan), największego producenta ropy (Arabia Saudyjska) i członka NATO (Turcja).\n\nDla regionu oznacza to nową oś bezpieczeństwa, która nie przechodzi przez Waszyngton. Analitycy zwracają uwagę, że szczegóły operacyjne paktu — kto, czym i jak szybko reaguje — pozostają nieujawnione.",
+      "questions": [
+        "Czy klauzula wzajemnej obrony bez struktur dowodzenia ma realną wartość?",
+        "Jak członkostwo Turcji w NATO daje się pogodzić z nowym paktem?",
+        "Kto jest adresatem tego sygnału — Iran, Izrael, a może Waszyngton?"
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Atak na tankowce w cieśninie Ormuz — Emiraty oskarżają Iran",
+      "category": "swiat",
+      "date": "2026-08-20",
+      "source": "Wikipedia — Current events",
+      "excerpt": "Zjednoczone Emiraty Arabskie poinformowały o ataku na dwa statki powiązane z koncernem ADNOC. Cieśnina Ormuz to gardło, przez które przepływa znaczna część światowego eksportu ropy.",
+      "hot": false,
+      "full": "Zjednoczone Emiraty Arabskie poinformowały, że dwa statki powiązane z Abu Dhabi National Oil Company (ADNOC) zostały zaatakowane w cieśninie Ormuz. Emiraty wskazały Iran jako odpowiedzialnego za incydent.\n\nCieśnina Ormuz to jedno z najważniejszych wąskich gardeł światowego handlu — przepływa przez nią znacząca część globalnego eksportu ropy naftowej i LNG. Każdy incydent w tym miejscu natychmiast przekłada się na stawki frachtu, koszty ubezpieczenia i notowania surowców.\n\nRegion pozostaje napięty także z innego powodu: 19 sierpnia Izrael uderzył w bazę lotniczą w północno-zachodniej Syrii, tłumacząc to chęcią zapobieżenia rozmieszczeniu tam wojsk tureckich.",
+      "questions": [
+        "Ile realnie kosztuje jeden incydent w Ormuz — w cenie ropy i ubezpieczeniach?",
+        "Czy istnieją realne trasy alternatywne dla eksportu z Zatoki Perskiej?",
+        "Jak odróżnić eskalację od negocjacyjnej demonstracji siły?"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Hui Ka Yan skazany na dożywocie — finał sagi Evergrande",
+      "category": "swiat",
+      "date": "2026-08-19",
+      "source": "Reuters",
+      "excerpt": "Chiński deweloper upadł z zadłużeniem przekraczającym 300 mld dolarów. Wyrok dla założyciela zamyka najgłośniejszy rozdział kryzysu na chińskim rynku nieruchomości.",
+      "hot": false,
+      "full": "Hui Ka Yan, założyciel chińskiego dewelopera Evergrande, został skazany na karę dożywotniego pozbawienia wolności. To symboliczne zamknięcie sagi firmy, która upadła z zobowiązaniami przekraczającymi 300 miliardów dolarów.\n\nEvergrande przez lata było twarzą chińskiego boomu mieszkaniowego napędzanego długiem — i stało się twarzą jego końca. Upadek spółki uruchomił łańcuch problemów u innych deweloperów, dostawców i nabywców mieszkań, którzy zapłacili za lokale nigdy nieukończone.\n\nWyrok jest też komunikatem politycznym: odpowiedzialność za skalę zadłużenia ponosi konkretna osoba, a nie wyłącznie mechanizm rynkowy.",
+      "questions": [
+        "Czy skazanie założyciela rozwiązuje problem niedokończonych mieszkań?",
+        "Co dług Evergrande mówi o modelu wzrostu chińskiej gospodarki?",
+        "Jak taki wyrok wpływa na apetyt zagranicznych inwestorów na chińskie obligacje?"
+      ]
+    },
+    {
+      "id": 55,
+      "title": "GTA 6: zostały niecałe trzy miesiące — premiera 19 listopada 2026",
+      "category": "gaming",
+      "date": "2026-08-24",
+      "source": "Rockstar Games / Wikipedia",
+      "excerpt": "Grand Theft Auto VI trafi na PlayStation 5 i Xbox Series X/S 19 listopada. Akcja rozgrywa się w fikcyjnym stanie Leonida wzorowanym na Florydzie, a bohaterami są Jason Duval i Lucia Caminos.",
+      "hot": true,
+      "full": "Do premiery Grand Theft Auto VI zostało mniej niż trzy miesiące. Rockstar Games utrzymuje datę 19 listopada 2026 roku, a gra ukaże się na PlayStation 5 oraz Xbox Series X/S. Wersja PC nie ma na razie ogłoszonego terminu — to zresztą powtórka ze schematu znanego z poprzednich odsłon serii.\n\nAkcja rozgrywa się w fikcyjnym stanie Leonida, wzorowanym na Florydzie, a jej sercem jest Vice City. Fabuła śledzi kryminalny duet — Jasona Duvala i Lucię Caminos — co czyni Lucię pierwszą grywalną protagonistką w historii głównej linii serii.\n\nGra została formalnie zapowiedziana w grudniu 2023 roku, więc czekanie trwa już blisko trzy lata. Dla Take-Two to najważniejsza premiera dekady: wyniki finansowe całego wydawcy zostały de facto zaplanowane wokół tej jednej daty.",
+      "questions": [
+        "Dlaczego Rockstar konsekwentnie odkłada wersję PC na później?",
+        "Czy jedna premiera może realnie przesunąć wyniki całej branży w danym kwartale?",
+        "Co zmienia w narracji serii pierwsza grywalna protagonistka?"
+      ]
+    },
+    {
+      "id": 56,
+      "title": "PS6 i nowy Xbox celują w 2027 rok — donoszą informatorzy",
+      "category": "gaming",
+      "date": "2026-08-22",
+      "source": "TechRadar",
+      "excerpt": "Według doniesień branżowych obie konsole nowej generacji szykowane są na 2027. Oznaczałoby to, że GTA 6 spędzi cały cykl życia startowego na obecnym sprzęcie.",
+      "hot": false,
+      "full": "Informatorzy branżowi twierdzą, że zarówno PlayStation 6, jak i następca Xbox Series X celują w premierę w 2027 roku. Jeśli te doniesienia się potwierdzą, obecna generacja konsol dobiega właśnie ostatniego pełnego roku dominacji.\n\nDla graczy najciekawsza jest konsekwencja kalendarzowa: Grand Theft Auto VI ukaże się 19 listopada 2026, czyli około roku przed nowym sprzętem. GTA 6 wystartuje więc jako gra pisana pod PS5 i Xbox Series X/S — a wersje na nową generację, jeśli powstaną, będą portami wstecznymi, nie odwrotnie.\n\nTo powtórka historii GTA V, które debiutowało na PS3 pod koniec jego życia i doczekało się później aż dwóch dodatkowych wydań.",
+      "questions": [
+        "Czy warto kupować konsolę obecnej generacji rok przed premierą nowej?",
+        "Jak producenci ustawiają daty premier wokół jednej dużej gry?",
+        "Czy model „re-release co generację” jest jeszcze akceptowalny dla graczy?"
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Gęsty koniec sierpnia w grach: Metal Gear Solid Master Collection Vol. 2 i Star Wars: Zero Company",
+      "category": "gaming",
+      "date": "2026-08-21",
+      "source": "GameSpot",
+      "excerpt": "27 sierpnia trafiają na rynek trzy duże tytuły wieloplatformowe, a 31 sierpnia dołącza Serious Sam: Shatterverse. Sierpień okazał się mocniejszy, niż zapowiadały kalendarze.",
+      "hot": false,
+      "full": "Ostatni tydzień sierpnia 2026 jest wyjątkowo zatłoczony. 27 sierpnia debiutują równocześnie: Metal Gear Solid Master Collection Vol. 2 (PS5, Xbox Series X/S, Switch 2, Switch, PC), Resonance: A Plague Tale Legacy (PS5, Xbox Series X/S, PC) oraz Star Wars: Zero Company (PS5, Xbox Series X/S, PC). 31 sierpnia dochodzi Serious Sam: Shatterverse.\n\nW tym samym miesiącu ukazały się także Hell Let Loose: Vietnam oraz Gallipoli. Charakterystyczne jest wsparcie wieloplatformowe — praktycznie każdy duży tytuł wychodzi jednocześnie na wszystkie liczące się platformy, łącznie ze Switchem 2.\n\nDla wydawców to gra o uwagę przed jesiennym sezonem, który w tym roku zdominuje jedna premiera z 19 listopada.",
+      "questions": [
+        "Dlaczego wydawcy tłoczą premiery w jednym tygodniu zamiast je rozłożyć?",
+        "Czy jednoczesne wydanie na wszystkie platformy to już standard, czy koszt?",
+        "Jak listopadowa premiera GTA 6 zmienia kalendarz konkurencji?"
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Teleskop Nancy Grace Roman startuje 30 sierpnia",
+      "category": "kosmos",
+      "date": "2026-08-23",
+      "source": "SpacePolicyOnline",
+      "excerpt": "NASA wyznaczyła datę startu następcy Hubble’a pod względem szerokokątnych przeglądów nieba. Roman ma mapować ciemną energię i polować na egzoplanety metodą mikrosoczewkowania.",
+      "hot": true,
+      "full": "NASA wyznaczyła 30 sierpnia jako datę startu Kosmicznego Teleskopu Nancy Grace Roman. Instrument został zaprojektowany do wielkoskalowych przeglądów nieba — jego pole widzenia jest znacznie szersze niż Hubble’a przy porównywalnej rozdzielczości.\n\nDwa główne cele naukowe misji to pomiar ekspansji Wszechświata (a więc badanie natury ciemnej energii) oraz wyszukiwanie egzoplanet metodą mikrosoczewkowania grawitacyjnego — techniką, która pozwala wykryć planety zbyt odległe lub zbyt chłodne dla metody tranzytowej.\n\nRoman nie zastępuje Webba: Webb patrzy głęboko na mały wycinek nieba, Roman patrzy szeroko. Razem mają dawać komplementarny obraz.",
+      "questions": [
+        "Czym różni się przegląd szerokokątny od obserwacji głębokiego pola?",
+        "Dlaczego mikrosoczewkowanie znajduje planety niewidoczne metodą tranzytu?",
+        "Jak zmierzyć coś, co nie emituje światła — jak ciemna energia?"
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Najostrzejsze zdjęcie Słońca w historii ujawnia mikrowiry plazmy",
+      "category": "kosmos",
+      "date": "2026-08-18",
+      "source": "NASA APOD",
+      "excerpt": "Teleskop Inouye na Hawajach potwierdził istnienie smug i wirów niestabilności Kelvina-Helmholtza. Część zaobserwowanych wirów plazmy ma zaledwie 20 kilometrów średnicy.",
+      "hot": false,
+      "full": "Zdjęcia o rekordowej rozdzielczości, wykonane przez Teleskop Słoneczny Inouye na Hawajach, potwierdziły obecność smug i wirów będących efektem niestabilności Kelvina-Helmholtza na powierzchni Słońca. To ta sama fizyka, która tworzy charakterystyczne „fale” w chmurach na Ziemi.\n\nNaukowcy dostrzegli maleńkie wiry plazmy — niektóre o średnicy zaledwie 20 kilometrów. W skali Słońca to obiekty mikroskopijne, a mimo to mogą mieć znaczenie dla jednej z najstarszych zagadek heliofizyki: dlaczego korona słoneczna jest o rzędy wielkości gorętsza niż powierzchnia gwiazdy.\n\nZdjęcie trafiło do serii Astronomy Picture of the Day 6 sierpnia 2026.",
+      "questions": [
+        "Dlaczego korona Słońca jest gorętsza od jego powierzchni?",
+        "Co łączy wiry na Słońcu z falami w ziemskich chmurach?",
+        "Jak rozdzielczość 20 km jest w ogóle osiągalna z odległości 150 mln km?"
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Webb znalazł galaktykę z trzema czarnymi dziurami 1,3 mld lat po Wielkim Wybuchu",
+      "category": "nauka",
+      "date": "2026-08-22",
+      "source": "ESA/Webb",
+      "excerpt": "Dwie z nich znajdują się blisko centrum i wkrótce się połączą, trzecia jest bardziej odległa. To rzadka okazja, by obserwować hierarchiczne łączenie się galaktyk we wczesnym Wszechświecie.",
+      "hot": false,
+      "full": "Astronomowie pracujący z Kosmicznym Teleskopem Jamesa Webba zidentyfikowali galaktykę istniejącą zaledwie 1,3 miliarda lat po Wielkim Wybuchu, która zawiera trzy czarne dziury. Dwie z nich leżą blisko centrum i według modeli połączą się w stosunkowo krótkim czasie kosmicznym; trzecia jest znacznie bardziej oddalona i dołączy dużo później.\n\nUkład ten jest cenny, bo pokazuje w praktyce hierarchiczny model powstawania galaktyk — struktury rosną przez kolejne zlewanie się mniejszych obiektów, a każde takie zlanie przynosi ze sobą centralną czarną dziurę.\n\nWebb ma na koncie także inne sierpniowe odkrycia, w tym obiekt sprzed kilkuset milionów lat po Wielkim Wybuchu, który wygląda jak ogromna gwiazda, ale świeci stanowczo zbyt jasno, by dało się to łatwo wytłumaczyć.",
+      "questions": [
+        "Skąd we wczesnym Wszechświecie wzięły się tak masywne czarne dziury?",
+        "Co się dzieje z materią, gdy dwie czarne dziury się łączą?",
+        "Dlaczego obiekt „zbyt jasny jak na gwiazdę” jest problemem dla obecnych modeli?"
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Nanocząstki srebra przyspieszają składanie DNA nawet pięciokrotnie",
+      "category": "nauka",
+      "date": "2026-08-19",
+      "source": "ScienceDaily",
+      "excerpt": "Japoński zespół wykorzystał drobiny srebra do precyzyjnego cięcia DNA i tworzenia dłuższych „lepkich końców”. Efekt: znacznie wyższa wydajność montażu konstruktów genetycznych.",
+      "hot": false,
+      "full": "Naukowcy z Japonii pokazali metodę, w której maleńkie nanocząstki srebra służą do bardzo precyzyjnego przecinania nici DNA. Kluczem jest to, że powstające w ten sposób „lepkie końce” (sticky ends) są dłuższe niż przy standardowych technikach enzymatycznych.\n\nDłuższy lepki koniec oznacza mocniejsze i bardziej selektywne łączenie fragmentów — a to bezpośrednio przekłada się na wydajność składania konstruktów genetycznych, która w testach wzrosła nawet pięciokrotnie.\n\nDla biologii syntetycznej to poprawa rzemieślnicza, nie rewolucja koncepcyjna — ale właśnie takie usprawnienia decydują o tym, ile eksperymentów da się przeprowadzić w tym samym budżecie.",
+      "questions": [
+        "Dlaczego długość „lepkiego końca” tak mocno wpływa na wydajność łączenia?",
+        "Czy metoda fizyczna może wyprzeć enzymy w biologii syntetycznej?",
+        "Jak liczyć zwrot z pięciokrotnie wydajniejszego kroku w całym procesie?"
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Bakteria jelitowa powiązana z siłą mięśni — 29% mocniejszy uścisk dłoni",
+      "category": "zdrowie",
+      "date": "2026-08-21",
+      "source": "ScienceDaily",
+      "excerpt": "Osoby starsze, u których wykryto Roseburia inulinivorans, miały o 29% większą siłę uścisku dłoni. Zależność potwierdzono zarówno u ludzi, jak i u myszy.",
+      "hot": false,
+      "full": "Naukowcy powiązali konkretną bakterię jelitową — Roseburia inulinivorans — z większą siłą mięśni. W badaniu osoby starsze, u których stwierdzono obecność tego mikroorganizmu, osiągały o 29 procent lepsze wyniki w pomiarze siły uścisku dłoni.\n\nSiła uścisku to nie ciekawostka: w geriatrii jest to jeden z najlepiej udokumentowanych wskaźników ogólnej sprawności i ryzyka zdrowotnego. Zależność zaobserwowano zarówno u ludzi, jak i w modelu mysim, co wzmacnia hipotezę o związku przyczynowym, choć jej nie dowodzi.\n\nBadacze podkreślają standardowe zastrzeżenie: korelacja w populacji nie oznacza jeszcze, że podanie bakterii komukolwiek poprawi jego siłę.",
+      "questions": [
+        "Jak odróżnić korelację od przyczyny w badaniach nad mikrobiomem?",
+        "Dlaczego akurat siła uścisku dłoni jest tak dobrym wskaźnikiem zdrowia?",
+        "Czy model mysi wystarcza, by mówić o mechanizmie u ludzi?"
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Sześć trzydziestosekundowych sprintów zmienia ćwierć białek we krwi",
+      "category": "zdrowie",
+      "date": "2026-08-18",
+      "source": "ScienceDaily",
+      "excerpt": "Krótki wysiłek o bardzo wysokiej intensywności przebudował profil krwi mocniej niż znacznie dłuższy trening umiarkowany — zmieniło się blisko 25% mierzonych białek i ponad 200 metabolitów.",
+      "hot": false,
+      "full": "Nowe badanie porównało wpływ krótkiego wysiłku o bardzo wysokiej intensywności z dłuższym treningiem umiarkowanym. Wynik zaskoczył samych autorów: sześć trzydziestosekundowych sprintów zmieniło blisko jedną czwartą mierzonych białek krwi i ponad 200 metabolitów — znacznie więcej niż wielokrotnie dłuższa sesja o umiarkowanym tempie.\n\nTo nie znaczy, że spacery są bezużyteczne — oba rodzaje wysiłku działają na inne szlaki metaboliczne. Znaczy natomiast, że sam czas trwania treningu jest kiepskim miernikiem jego wpływu na organizm.\n\nBadacze zastrzegają, że mierzono krótkoterminową odpowiedź biochemiczną, a nie odległe efekty zdrowotne.",
+      "questions": [
+        "Czy zmiana profilu białek zawsze oznacza korzyść zdrowotną?",
+        "Dla kogo sprinty są bezpieczne, a dla kogo ryzykowne?",
+        "Dlaczego czas trwania treningu tak słabo opisuje jego efekt?"
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Nvidia sięga po pieniądze emerytalne, by dalej finansować boom AI",
+      "category": "biznes",
+      "date": "2026-08-20",
+      "source": "Fortune",
+      "excerpt": "Platformy finansowe z Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs i KKR mają zmobilizować ponad 500 mld dolarów. Kapitał pochodzi głównie od inwestorów zewnętrznych — poza bilansem Nvidii.",
+      "hot": false,
+      "full": "Nvidia ogłosiła partnerstwa z Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs i KKR w celu stworzenia platform finansowych, które mają zmobilizować ponad 500 miliardów dolarów na infrastrukturę sztucznej inteligencji.\n\nKluczowy szczegół konstrukcji: pieniądze pochodzą w większości od „inwestorów zewnętrznych” — w praktyce także z funduszy emerytalnych i kredytu prywatnego. Klienci Nvidii mogą dzięki temu sfinansować zakup układów i budowę centrów danych, a ryzyko pozostaje poza bilansem samego producenta.\n\nKrytycy nazywają to finansowaniem kołowym: dostawca pomaga klientowi kupić własny produkt. Zwolennicy odpowiadają, że to standardowa praktyka w branżach kapitałochłonnych — od lotnictwa po telekomunikację.",
+      "questions": [
+        "Gdzie przebiega granica między finansowaniem sprzedaży a finansowaniem kołowym?",
+        "Czy oszczędności emerytalne powinny finansować cykl inwestycyjny w AI?",
+        "Co się dzieje z takim modelem, gdy popyt na moc obliczeniową spada?"
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Rynek reklamy zewnętrznej w Polsce urósł o 8,5% — 295 mln zł w drugim kwartale",
+      "category": "biznes",
+      "date": "2026-08-17",
+      "source": "ISBtech",
+      "excerpt": "Polski out-of-home zanotował 295,48 mln zł przychodów w II kwartale 2026, o 8,5% więcej rok do roku. To jeden z nielicznych klasycznych kanałów mediowych z realnym wzrostem.",
+      "hot": false,
+      "full": "Rynek reklamy zewnętrznej (out-of-home) w Polsce osiągnął w drugim kwartale 2026 roku wartość 295,48 miliona złotych, co oznacza wzrost o 8,5 procent rok do roku.\n\nTo wynik wart odnotowania, bo OOH należy do najstarszych kanałów mediowych, a mimo to rośnie szybciej niż wiele formatów cyfrowych. Głównym motorem pozostaje digital out-of-home — nośniki ekranowe, które pozwalają zmieniać kreację w ciągu dnia i rozliczać kampanie bliżej modelu online.\n\nDla reklamodawców argumentem jest też odporność OOH na blokery reklam i na problemy z pomiarem, które od kilku lat trapią reklamę internetową.",
+      "questions": [
+        "Dlaczego najstarszy kanał reklamowy rośnie szybciej od części cyfrowych?",
+        "Czy digital out-of-home to jeszcze OOH, czy już reklama programatyczna?",
+        "Jak mierzyć skuteczność nośnika, którego nikt nie klika?"
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Polska pod ostrzałem cyberataków: 3 400 tygodniowo na instytucje publiczne",
+      "category": "polska",
+      "date": "2026-08-23",
+      "source": "ISBtech",
+      "excerpt": "Liczba ataków rośnie o 15% rok do roku. Polska wyprzedziła pod tym względem Szwajcarię, Holandię, Francję, Wielką Brytanię i Grecję.",
+      "hot": true,
+      "full": "Instytucje publiczne w Polsce odpierają tygodniowo około 3 400 cyberataków — wynika z zestawień przytaczanych przez branżę. Roczna dynamika to wzrost o 15 procent rok do roku.\n\nW porównaniach międzynarodowych Polska znalazła się powyżej Szwajcarii, Holandii, Francji, Wielkiej Brytanii i Grecji. To pozycja, której nikt nie chce zajmować, a wynika ona z połączenia dwóch czynników: położenia geopolitycznego i wysokiego stopnia cyfryzacji usług publicznych.\n\nEksperci zwracają uwagę, że sama liczba prób ataku niewiele mówi o skuteczności obrony — istotniejsze są czas wykrycia i czas reakcji, a te dane publikowane są rzadko.",
+      "questions": [
+        "Czy liczba prób ataku to dobry wskaźnik poziomu zagrożenia?",
+        "Co ważniejsze: liczba zablokowanych ataków czy czas wykrycia udanego?",
+        "Jak cyfryzacja usług publicznych zmienia powierzchnię ataku?"
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Susza hydrologiczna w Polsce — ostrzeżenia przed brakami wody",
+      "category": "polska",
+      "date": "2026-08-19",
+      "source": "IMGW / Goniec",
+      "excerpt": "Sierpień przyniósł stan suszy hydrologicznej w kraju. Służby ostrzegają przed niedoborami wody, a niski stan rzek odbija się na żegludze i energetyce.",
+      "hot": false,
+      "full": "Polska znalazła się w sierpniu 2026 w stanie suszy hydrologicznej, a służby ostrzegały przed niedoborami wody. Susza hydrologiczna to etap dalszy niż meteorologiczna: nie chodzi już tylko o brak opadów, ale o trwale obniżone stany wód powierzchniowych i podziemnych.\n\nKonsekwencje wychodzą daleko poza rolnictwo. Niski stan rzek ogranicza żeglugę śródlądową i utrudnia chłodzenie w elektrowniach, które pobierają wodę z rzek. Samorządy w kolejnych gminach wprowadzały ograniczenia w podlewaniu i napełnianiu basenów.\n\nZjawisko nie jest w Polsce nowe — powtarza się cyklicznie od kilku lat, co przesuwa dyskusję z reagowania na retencję i planowanie długoterminowe.",
+      "questions": [
+        "Czym różni się susza meteorologiczna od hydrologicznej?",
+        "Dlaczego niski stan rzek jest problemem dla energetyki?",
+        "Czy retencja lokalna może realnie zastąpić duże inwestycje wodne?"
+      ]
+    },
+    {
+      "id": 68,
+      "title": "150 corgi na starcie: międzynarodowe wyścigi krótkonogich mistrzów",
+      "category": "fun",
+      "date": "2026-08-24",
+      "source": "Funny Times — News of the Weird",
+      "excerpt": "Sto pięćdziesiąt psów rasy welsh corgi stanęło do międzynarodowego wyścigu. Konkurencja krótka, nogi jeszcze krótsze, poziom emocji nieproporcjonalnie wysoki.",
+      "hot": true,
+      "full": "Sto pięćdziesiąt corgi zjechało się na międzynarodowy wyścig zorganizowany ku czci tej wyjątkowo krótkonogiej rasy. Dystans był, jak przystało na uczestników, symboliczny — ale zaangażowanie publiczności zupełnie nie.\n\nWyścigi corgi to zjawisko, które od kilku lat rozlewa się z lokalnych festynów na imprezy międzynarodowe. Reguły są proste: pies biegnie w linii prostej do właściciela, który stoi na mecie i zwykle wykrzykuje rzeczy, których nigdy nie powiedziałby publicznie w innych okolicznościach.\n\nStatystycznie najczęstszą przyczyną porażki nie jest brak szybkości, lecz zatrzymanie się w połowie trasy, żeby przywitać się z konkurencją.",
+      "questions": [
+        "Dlaczego zawody zwierząt tak niezawodnie gromadzą publiczność?",
+        "Czy da się sensownie zmierzyć „sportowy poziom” wyścigu corgi?",
+        "Co takie wydarzenia mówią o naszym stosunku do zwierząt domowych?"
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Ciężarówka z kalmarami przewróciła się na drodze w Rhode Island",
+      "category": "fun",
+      "date": "2026-08-23",
+      "source": "NPR — Strange News",
+      "excerpt": "Naczepa wywróciła się, wysypując ładunek kalmarów na jezdnię. Owoce morza leżały w letnim upale przez kilka godzin, co mieszkańcy okolicy zapamiętają na długo.",
+      "hot": false,
+      "full": "Przewrócenie się naczepy w Rhode Island zakończyło się wysypaniem całego ładunku kalmarów na jezdnię. Sprzątanie zajęło kilka godzin, a ładunek leżał w tym czasie w pełnym letnim słońcu.\n\nRelacje świadków skupiały się mniej na samym wypadku, a bardziej na jego części zapachowej. Nikt nie ucierpiał — poza, jak ujęli to lokalni mieszkańcy, powonieniem wszystkich w promieniu kilkuset metrów.\n\nTego rodzaju zdarzenia mają zresztą swoją własną, dziwną kategorię w amerykańskich mediach lokalnych: wypadki ciężarówek przewożących coś nieoczekiwanego. Kalmary dołączyły do galerii, w której są już pszczoły, słoiki z majonezem i płynna czekolada.",
+      "questions": [
+        "Kto odpowiada za sprzątnięcie kilku ton kalmarów z drogi publicznej?",
+        "Dlaczego lokalne media tak lubią historie o nietypowych ładunkach?",
+        "Czy to jeszcze wypadek drogowy, czy już zdarzenie sanitarne?"
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Nero wraca z rzeki: starożytny most wynurzył się z Tybru",
+      "category": "fun",
+      "date": "2026-08-22",
+      "source": "NPR — Strange News",
+      "excerpt": "Wyjątkowo niski stan wody w Rzymie odsłonił fragmenty Pons Neronianus — mostu z czasów cesarza Nerona, na co dzień ukrytego pod powierzchnią Tybru.",
+      "hot": false,
+      "full": "Rekordowo niski poziom wody w Tybrze odsłonił w Rzymie fragmenty starożytnego mostu Nerona (Pons Neronianus), który normalnie spoczywa pod powierzchnią rzeki.\n\nMost powstał w I wieku naszej ery i był jednym z połączeń prowadzących na prawy brzeg Tybru. Z czasem uległ zniszczeniu i przez większość roku widoczne są jedynie zarysy filarów przy bardzo niskiej wodzie.\n\nArcheolodzy traktują takie momenty jako okazję do dokumentacji — ale przypominają też o przyczynie: wynurzanie się zabytków z rzek to zwykle skutek suszy, a nie powód do świętowania. Podobne odsłonięcia widziano w ostatnich latach w Hiszpanii, Niemczech i we Włoszech.",
+      "questions": [
+        "Czy susza odsłaniająca zabytki to bardziej okazja czy ostrzeżenie?",
+        "Jak dokumentować obiekt, który jest dostępny tylko przez kilka tygodni?",
+        "Dlaczego rzymskie budowle przetrwały dwa tysiące lat pod wodą?"
+      ]
+    },
+    {
+      "id": 71,
+      "title": "10 000 mil morskich samotnie: opłynąć krąg polarny w pojedynkę",
+      "category": "fun",
+      "date": "2026-08-20",
+      "source": "Funny Times — News of the Weird",
+      "excerpt": "Matt Rutherford próbuje jako pierwszy człowiek samotnie okrążyć koło podbiegunowe. Do przepłynięcia jest 10 tysięcy mil morskich przez jedne z najbardziej wymagających wód świata.",
+      "hot": false,
+      "full": "Matt Rutherford wypłynął w rejs, którego celem jest samotne okrążenie koła podbiegunowego — dystans około 10 tysięcy mil morskich. Jeśli mu się uda, będzie pierwszym człowiekiem, który dokonał tego solo.\n\nTrasa prowadzi przez wody, na których głównym przeciwnikiem nie jest odległość, lecz lód, temperatura i bardzo krótkie okno pogodowe. Samotna żegluga oznacza też brak wachty: sen w kilkunastominutowych fragmentach i pełną zależność od sprzętu, który nie ma kto naprawić poza jedną osobą na pokładzie.\n\nRutherford ma na koncie wcześniejsze samotne rejsy nonstop, więc nie jest debiutantem — ale skala tego przedsięwzięcia jest inna.",
+      "questions": [
+        "Co pcha ludzi do wypraw, w których nagrodą jest wyłącznie fakt ukończenia?",
+        "Jak wygląda sen człowieka żeglującego samotnie przez tygodnie?",
+        "Czy topniejący lód ułatwia takie rejsy, czy czyni je bardziej nieprzewidywalnymi?"
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Renoir, Cézanne i Matisse odzyskane — włoska policja zamyka sprawę",
+      "category": "fun",
+      "date": "2026-08-18",
+      "source": "NPR — Strange News",
+      "excerpt": "Trzy skradzione dzieła warte miliony euro wróciły do właścicieli. Włoskie służby od lat mają najskuteczniejszą w Europie jednostkę zajmującą się przestępczością przeciwko dziedzictwu.",
+      "hot": false,
+      "full": "Włoskie służby odzyskały trzy skradzione dzieła sztuki — autorstwa Renoira, Cézanne’a i Matisse’a — o łącznej wartości wielu milionów euro.\n\nWłochy dysponują jednostką Carabinieri wyspecjalizowaną w ochronie dziedzictwa kulturowego (Comando Carabinieri Tutela Patrimonio Culturale), która działa od 1969 roku i uchodzi za najskuteczniejszą tego typu formację w Europie. Jej bazą danych skradzionych dzieł posługują się służby z wielu krajów.\n\nStatystyki są jednak brutalne: większość skradzionych obrazów nigdy nie wraca do właścicieli, a te, które wracają, potrzebują na to średnio kilkunastu lat.",
+      "questions": [
+        "Dlaczego skradzione arcydzieła są w praktyce niesprzedawalne?",
+        "Co decyduje o tym, że jeden kraj odzyskuje dzieła skuteczniej niż inne?",
+        "Czy prywatny rynek sztuki wystarczająco weryfikuje pochodzenie obiektów?"
+      ]
+    },
+    {
+      "id": 73,
+      "title": "30 lwów i tygrysów z zamkniętego zoo w Argentynie leci po nowe życie",
+      "category": "fun",
+      "date": "2026-08-17",
+      "source": "NPR — Strange News",
+      "excerpt": "Zwierzęta z zamkniętego argentyńskiego ogrodu trafiają do sanktuariów w RPA i Stanach Zjednoczonych. Transport wielkich kotów to operacja logistyczna liczona w tygodniach.",
+      "hot": false,
+      "full": "Trzydzieści lwów i tygrysów z zamkniętego ogrodu zoologicznego w Argentynie rozpoczyna nowe życie w sanktuariach w Republice Południowej Afryki i w Stanach Zjednoczonych.\n\nPrzeniesienie wielkich kotów to przedsięwzięcie liczone w tygodniach przygotowań: zwierzęta trzeba przyzwyczaić do skrzyń transportowych, przejść procedury weterynaryjne i uzgodnić przeloty, w których ładunek nie może czekać na płycie lotniska.\n\nSanktuarium to nie to samo co zoo — zwierzęta nie są tam pokazywane publiczności w klasycznej formie i nie są rozmnażane. To rozwiązanie dla osobników, które nigdy nie będą mogły wrócić do natury, bo nie potrafią samodzielnie polować.",
+      "questions": [
+        "Czym różni się sanktuarium od ogrodu zoologicznego?",
+        "Dlaczego zwierzęta urodzone w niewoli zwykle nie mogą wrócić do natury?",
+        "Kto ponosi koszty przeniesienia zwierząt z upadłego zoo?"
+      ]
+    },
+    {
+      "id": 74,
+      "title": "12 sierpnia całkowite zaćmienie Słońca przeszło nad Islandią i Hiszpanią",
+      "category": "fun",
+      "date": "2026-08-16",
+      "source": "Britannica",
+      "excerpt": "Pas całkowitości objął Grenlandię, Islandię, Portugalię i północną Hiszpanię. Dla kontynentalnej Europy było to pierwsze takie widowisko od dziesięcioleci.",
+      "hot": false,
+      "full": "12 sierpnia 2026 roku całkowite zaćmienie Słońca przeszło nad Grenlandią, Islandią, Portugalią i północną Hiszpanią. Dla kontynentalnej Europy to wydarzenie wyjątkowe — poprzednie całkowite zaćmienie widoczne z tego obszaru miało miejsce dziesięciolecia wcześniej.\n\nPas całkowitości, czyli obszar, z którego widać całkowite zakrycie tarczy słonecznej, ma zaledwie kilkadziesiąt kilometrów szerokości. Poza nim widać wyłącznie zaćmienie częściowe — efekt wizualnie znacznie słabszy, mimo że różnica w zakryciu wynosi tylko kilka procent.\n\nHiszpania stała się w tym roku kierunkiem masowej turystyki zaćmieniowej, a hotele w pasie całkowitości były rezerwowane z wieloletnim wyprzedzeniem.",
+      "questions": [
+        "Dlaczego zaćmienie częściowe wygląda zupełnie inaczej niż całkowite?",
+        "Jak planuje się podróż pod wydarzenie zależne wyłącznie od pogody?",
+        "Czy turystyka zaćmieniowa to nisza, czy realna gałąź gospodarki lokalnej?"
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Nvidia wchodzi w infrastrukturę energetyczną — partnerstwo z Cloverleaf",
+      "category": "tech",
+      "date": "2026-08-21",
+      "source": "TechCrunch",
+      "excerpt": "Producent układów związał się z firmą przygotowującą grunt pod centra danych. Cloverleaf pośredniczy między zakładami energetycznymi a operatorami serwerowni.",
+      "hot": false,
+      "full": "Nvidia ogłosiła partnerstwo z Cloverleaf Infrastructure — firmą, która przygotowuje grunt pod budowę centrów danych i działa jako pośrednik między przedsiębiorstwami energetycznymi a operatorami serwerowni. Cloverleaf zajmuje się zapewnieniem źródeł zasilania i pozostałej infrastruktury krytycznej dla rozwoju terenów pod inwestycję.\n\nTo kolejny sygnał, że wąskim gardłem rozwoju AI przestały być układy scalone, a stała się energia i przyłącza. Postawienie serwerowni jest dziś prostsze niż zdobycie mocy przyłączeniowej w rozsądnym terminie — kolejki do przyłączeń w części rynków amerykańskich liczy się w latach.\n\nWchodząc w ten segment, Nvidia zabezpiecza sobie tempo wzrostu popytu na własne produkty.",
+      "questions": [
+        "Czy energia jest dziś większym ograniczeniem rozwoju AI niż moc obliczeniowa?",
+        "Jak lata oczekiwania na przyłącze zmieniają geografię centrów danych?",
+        "Co oznacza dla rynku, gdy producent chipów wchodzi w energetykę?"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "DeepSeek V4 Flash Vision Exp — multimodalny model rzucający wyzwanie Opus 4.8",
+      "category": "ai",
+      "date": "2026-08-21",
+      "image": "/images/news-deepseek.jpg",
+      "source": "SiliconANGLE",
+      "excerpt": "Chiński start-up pokazał model, który bije Opus 4.8 Anthropica w dwóch benchmarkach analizy obrazu (ALE i ZeroBench) oraz w siedmiu z ośmiu testów tekstowych. Nowość opiera się na architekturze MoE z 284 mld parametrów.",
+      "hot": true,
+      "full": "DeepSeek V4 Flash Vision Exp to najnowszy multimodalny model chińskiego startupu DeepSeek, który w testach porównawczych pokonuje Opus 4.8 od Anthropica w analizie obrazu (benchmarki ALE i ZeroBench) oraz w siedmiu z ośmiu testów tekstowych. Model opiera się na architekturze mieszanki ekspertów (MoE) z 284 miliardami parametrów. To kolejny sygnał, że wyścig modeli AI rozgrywa się nie tylko między USA a Chinami, ale także między otwartym a zamkniętym modelem rozwoju. Analitycy wskazują, że DeepSeek celowo oferuje konkurencyjną jakość przy niższych kosztach inferencji, co może wpłynąć na ceny API dużych dostawców w nadchodzących miesiącach.",
+      "questions": [
+        "Dlaczego DeepSeek ma przewagę nad Opus 4.8 w analizie obrazu, a nie w tekście?",
+        "Jakie są implikacje 284-bilionowego modelu MoE dla kosztów treningu?",
+        "Czy chińscy startupy mogą wygrać wyścig modele AI?"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Claude projektuje białka, które działają w laboratorium — 14 z 15 celów trafionych",
+      "category": "nauka",
+      "date": "2026-08-20",
+      "image": "/images/news-protein.jpg",
+      "source": "eWeek / Anthropic",
+      "excerpt": "Modele Opus 4.8 i Mythos Preview zaprojektowały 1320 kandydatów na minibindery białkowe, z czego 354 potwierdzono w testach mokrej chemii. Skuteczność 22–35% względem typowych 10–15% w branży.",
+      "hot": false,
+      "full": "Naukowcy wykorzystali modele Claude (Opus 4.8 i Mythos Preview) do zaprojektowania minibinderów białkowych — małych cząsteczek zdolnych wiązać konkretne białka. Spośród 1320 kandydatów zaproponowanych przez modele, 354 potwierdzono w testach mokrej chemii, a skuteczność sięgnęła 22-35% wobec typowych 10-15% w branży. To przełomowe osiągnięcie dla projektowania leków i biotechnologii: AI znacznie przyspiesza iteracyjny cykl projektowania i testowania cząsteczek, skracając czas z lat do tygodni. Badacze podkreślają, że 14 z 15 celów terapeutycznych zostało trafionych, co otwiera drogę do praktycznych zastosowań w medycynie spersonalizowanej.",
+      "questions": [
+        "Czy białka zaprojektowane przez AI będą bezpieczniejsze niż te z tradycyjnej biochemii?",
+        "Jak szybko te technologie trafią do klinik — lata czy dziesięciolecia?",
+        "Czy istnieje ryzyko, że AI przyspieszy także tworzenie biologicznych zagrożeń?"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bitcoin zrywa z rynkiem niedźwiedzia — skok o 22% w tydzień, przebicie 79 tys. dol.",
+      "category": "krypto",
+      "date": "2026-08-21",
+      "image": "/images/news-bitcoin.jpg",
+      "source": "Business Insider / ET",
+      "excerpt": "Krypto wraca do hossy po dziesięciu miesiącach spadków. Katalizatory: szczyt Trumpa z liderami branży, oczekiwania na niższe stopy i podwojenie operacji wykupu długu przez amerykański skarbiec.",
+      "hot": true,
+      "full": "Bitcoin przełamał psychologiczną barierę 79 tysięcy dolarów, odrabiając 22% w zaledwie tydzień i kończąc dziesięciomiesięczną korektę. Za rajdem stoją trzy czynniki: spotkanie Donalda Trumpa z liderami branży kryptowalut, rosnące oczekiwania na obniżki stóp procentowych oraz decyzja amerykańskiego skarbca o podwojeniu operacji wykupu długu. Instytucjonalni inwestorzy ponownie napływają na rynek, a likwidacje krótkich pozycji dodatkowo napędzają wzrost. Część analityków ostrzega jednak przed korektą techniczną i radzi obserwować poziomy wsparcia w okolicach 72-74 tys. dolarów.",
+      "questions": [
+        "Czy skok BTC o 22% ma utrzymać poziom 80 tys.?",
+        "Jakie są ryzyka kontrarady dla kryptowalut?",
+        "Czy ETF-y stanowią trwały czynnik dla rynku?"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "ChatGPT Ads startuje w Polsce 24 sierpnia — OpenAI otwiera reklamy w 31 krajach Europy",
+      "category": "polska",
+      "date": "2026-08-20",
+      "image": "/images/news-chatgpt-ads.jpg",
+      "source": "AIPORT.pl",
+      "excerpt": "Reklamy trafią do użytkowników planów Free i Go, bez personalizacji na starcie. Polska jest w pierwszej fali. OpenAI ma już w kraju 10,5 mln realnych użytkowników miesięcznie.",
+      "hot": true,
+      "full": "OpenAI uruchamia ChatGPT Ads w Polsce 24 sierpnia, wchodząc z reklamami do 31 krajów Europy. Reklamy będą widoczne dla użytkowników planów Free i Go, początkowo bez personalizacji. To strategiczny ruch, bo Polska ma 10,5 miliona realnych użytkowników OpenAI miesięcznie — jeden z największych rynków w regionie. Model reklamowy ma zasilić finansowanie kosztów inferencji i otworzyć nowy strumień przychodów. Reklamodawcy zyskają dostęp do użytkowników wysokiej intencji, ale branża uważnie przygląda się, jak OpenAI zbalansuje komfort użytkownika z monetyzacją.",
+      "questions": [
+        "Czy reklamy w ChatGPT przełamą barierę zaufania?",
+        "Jak OpenAI zabezpieczy prywatność i nie przytłoczy reklamami?",
+        "Czy polski rynek będzie wystarczający na model reklamowy?"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Polska ustawa o AI wchodzi w życie — powstaje Komisja Rozwoju i Bezpieczeństwa Sztucznej Inteligencji",
+      "category": "polska",
+      "date": "2026-08-11",
+      "image": "/images/news-ai-act.jpg",
+      "source": "Gazeta.pl / GeekWeek",
+      "excerpt": "Krajowy nadzór nad rynkiem AI, piaskownice regulacyjne dla firm i możliwość składania skarg. Pełne kompetencje komisji (kontrole i kary) ruszą od 28 października.",
+      "hot": false,
+      "full": "Polska ustawa o sztucznej inteligencji weszła w życie, powołując Komisję Rozwoju i Bezpieczeństwa Sztucznej Inteligencji jako krajowy organ nadzoru. Komisja będzie odpowiadać za ocenę rynku AI, prowadzenie piaskownic regulacyjnych dla firm oraz przyjmowanie skarg. Pełne kompetencje — w tym kontrole i nakładanie kar — wejdą w życie 28 października. Ustawa implementuje unijne rozporządzenie o AI, dając polskim przedsiębiorcom jasne ramy prawne. Eksperci podkreślają, że piaskownice regulacyjne to szansa dla startupów na testowanie rozwiązań pod okiem regulatora bez ryzyka sankcji.",
+      "questions": [
+        "Czy piaskownice regulacyjne przyspieszą innowacje?",
+        "Jak polskie firmy AI przygotować się na kontrolę Komisji?",
+        "Czy prawo od 28 października da Komisji zbyt dużą swobodę?"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "AI nie potrafi jeszcze samodzielnie prowadzić badań naukowych — studium MIT",
+      "category": "ai",
+      "date": "2026-08-18",
+      "image": "/images/news-research.jpg",
+      "source": "MIT Technology Review",
+      "excerpt": "Agenci AI świetnie radzą sobie z inżynierią, ale brakuje im kreatywności i osądu do badań otwartych. Test 'shadow evaluation' na tezach z NeurIPS 2026 pokazuje wyraźną lukę.",
+      "hot": false,
+      "full": "Badanie przeprowadzone na MIT pokazuje, że agenci AI świetnie radzą sobie z zadaniami inżynierskimi, ale wciąż nie potrafią samodzielnie prowadzić badań naukowych otwartych. W teście 'shadow evaluation' na tezach z NeurIPS 2026 modele wyraźnie ustępowały ludzkim badaczom w kreatywności, formułowaniu hipotez i naukowym osądzie. To ważny sygnał dla branży: AI może być potężnym narzędziem wspierającym naukowców, ale jeszcze nie zastąpi ludzkiej intuicji badawczej. Badacze rekomendują traktowanie modeli jako asystentów analitycznych, nie autonomicznych naukowców.",
+      "questions": [
+        "Czy brak kreatywności u AI oznacza, że badacze będą potrzebni dłużej?",
+        "Jak AI lepiej wspiera naukę?",
+        "Czy 'shadow evaluation' powinno być standardem?"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "1/3 stron opublikowanych po premierze ChatGPT nosi ślady autorstwa AI — badanie Pew",
+      "category": "tech",
+      "date": "2026-08-20",
+      "image": "/images/news-ai-web.jpg",
+      "source": "TechCrunch",
+      "excerpt": "Pew Research przebadało prawie pół miliona stron. W domenach .com autorstwo AI jest ok. 10× częstsze niż w .edu czy .gov. Ruch botów wyprzedził już ruch ludzi na sieci.",
+      "hot": false,
+      "full": "Badanie Pew Research Center objęło prawie pół miliona stron internetowych i wykazało, że około jedna trzecia stron opublikowanych po premierze ChatGPT nosi ślady autorstwa AI. W domenach komercyjnych (.com) udział treści generowanych przez AI jest dziesięciokrotnie wyższy niż w domenach edukacyjnych (.edu) czy rządowych (.gov). Co więcej, ruch botów na sieci wyprzedził już ruch ludzi, co ma poważne konsekwencje dla jakości wyników wyszukiwania, reklamy i zaufania do informacji w internecie. Wydawcy i platformy szukają sposobów na oznaczanie i weryfikację treści generowanych przez modele.",
+      "questions": [
+        "Czy świadomość, że tekst jest od AI, obniża zaufanie?",
+        "Jak długo Google/Bing radzi sobie z inflacją treści AI?",
+        "Czy strony AI-written powinny być oznaczane?"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Rosyjski atak dronów na centrum handlowe w Krzywym Rogu — 16 zabitych",
+      "category": "swiat",
+      "date": "2026-08-22",
+      "image": "/images/news-ukraine.jpg",
+      "source": "The Hindu / AP",
+      "excerpt": "Podwójne uderzenie, drugi dron trafił ratowników. Zełenski mówi o 'cynicznym i nikczemnym' ataku. UE grozi najdalej idącymi sankcjami od początku wojny.",
+      "hot": true,
+      "full": "Rosyjski atak dronów uderzył w centrum handlowe w Krzywym Rogu, zabijając co najmniej 16 osób. Atak przeprowadzono podwójnym uderzeniem — drugi dron trafił ratowników i służby przybyłe na miejsce pierwszej eksplozji. Prezydent Ukrainy Wołodymyr Zełenski nazwał atak 'cynicznym i nikczemnym'. Unia Europejska zapowiedziała najdalej idące sankcje od początku wojny. Tragedia ponownie uwypukliła potrzebę nowoczesnych systemów obrony powietrznej dla ochrony ludności cywilnej.",
+      "questions": [
+        "Czy drugi dron trafiony w ratowników był celem celowym?",
+        "Jak UE może sankcjonować Rosję bez pogłębiania cierpienia?",
+        "Czy ataki na cele cywilne zmienią postawę Zachodu?"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Iran grozi zamknięciem Ormuz — USA zapowiadają 'najtwardsze sankcje w historii'",
+      "category": "swiat",
+      "date": "2026-08-23",
+      "image": "/images/news-iran.jpg",
+      "source": "The National / AP",
+      "excerpt": "Bank centralny Iranu potwierdza spadek eksportu ropy do zera. Szef Rady Bezpieczeństwa ostrzega: 'ani kropla ropy nie opuści Zatoki'. Chiny, główny nabywca, czują presję.",
+      "hot": false,
+      "full": "Iran zagroził zamknięciem Cieśniny Ormuz w odpowiedzi na międzynarodowe naciski, a USA zapowiedziały 'najtwardsze sankcje w historii' w przypadku eskalacji. Bank centralny Iranu potwierdza, że eksport ropy spadł niemal do zera, a szef Rady Bezpieczeństwa ostrzega, że 'ani kropla ropy nie opuści Zatoki'. Cieśnina Ormuz to strategiczny punkt dla światowego handlu ropą — odpowiada za około 20% globalnego zużycia. Chiny, główny nabywca irańskiej ropy, znajdują się pod rosnącą presją. Rynek energetyczny wstrzymuje oddech, a ceny ropy mogą gwałtownie zareagować.",
+      "questions": [
+        "Czy zamknięcie Ormuz doprowadziłoby do konfliktu wojskowego?",
+        "Jak Chiny zareagują na zagrożenie energetyczne?",
+        "Czy Spojrzać może zaoferować alternatywę dla ropy z Zatoki?"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Clarity Act — Trump i liderzy kryptowalut w finałowej szarży o ustawę",
+      "category": "krypto",
+      "date": "2026-08-20",
+      "image": "/images/news-clarity.jpg",
+      "source": "CNBC",
+      "excerpt": "Biały Dom gościł szefów Coinbase, Kraken, Robinhood, Ripple i ChainLink. Pierwsze głosowanie proceduralne w Senacie 15 września — od niego zależy los całej ustawy.",
+      "hot": false,
+      "full": "Donalda Trumpa gościł w Białym Domu liderów największych firm kryptowalutowych — Coinbase, Kraken, Robinhood, Ripple i Chainlink — w ramach kampanii promującej ustawę Clarity Act. Pierwsze głosowanie proceduralne w Senacie zaplanowano na 15 września, a od jego wyniku zależy los całej regulacji. Clarity Act ma dać jasne zasady dla rynku kryptowalut w USA, co może odblokować instytucjonalne inwestycje. Rynek pozytywnie reaguje na każdą zapowiedź postępu prac nad ustawą.",
+      "questions": [
+        "Czy Clarity Act przejdzie Senat?",
+        "Jakie będą konsekwencje dla stablecoinów i DeFi?",
+        "Czy regulacja uspokoi czy zahamuje rynek?"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "OpenAI planuje przejęcie przeglądarki przez ChatGPT — Computer Use rusza",
+      "category": "tech",
+      "date": "2026-08-20",
+      "image": "/images/news-openai-browser.jpg",
+      "source": "Business Insider",
+      "excerpt": "Ekstensja Chrome, przeglądarki chmurowe i Computer Use w Codex. Greg Brockman: technologia 'już nie tylko dla programistów'. Ambicja z 2015 roku coraz bliżej.",
+      "hot": false,
+      "full": "OpenAI planuje przejęcie przeglądarki przez ChatGPT — agenci będą mogli sterować przeglądarkami, wypełniać formularze i wykonywać zadania w imieniu użytkownika. Zapowiedziano rozszerzenie do Chrome, przeglądarki chmurowe oraz integrację Computer Use w Codex. Greg Brockman podkreśla, że technologia 'już nie tylko dla programistów'. To krok w stronę realizacji pierwotnej ambicji OpenAI z 2015 roku — stworzenia asystenta, który nie tylko odpowiada, ale wykonuje zadania w świecie cyfrowym.",
+      "questions": [
+        "Czy przejmowanie przeglądarki przez AI zagraża prywatności?",
+        "Jak Microsoft (Edge) zareaguje na dominację OpenAI?",
+        "Czy Computer Use stanie się interfejsem domyślnym?"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "'Vibe coding' wkracza do królestwa kwantowego — Pasqal zamienia angielski na kod kwantowy",
+      "category": "nauka",
+      "date": "2026-08-18",
+      "image": "/images/news-quantum.jpg",
+      "source": "Nature",
+      "excerpt": "Paryski start-up zbudował agenta, który z polecenia w języku naturalnym generuje kod kwantowy i samodzielnie uruchamia go na komputerach kwantowych w Arabii Saudyjskiej i Kanadzie.",
+      "hot": false,
+      "full": "Francuski startup Pasqal zbudował agenta AI, który zamienia polecenia w języku naturalnym na kod kwantowy i samodzielnie uruchamia go na komputerach kwantowych w Arabii Saudyjskiej i Kanadzie. To przełomowe zastosowanie tzw. 'vibe codingu' w królestwie fizyki kwantowej. Zamiast ręcznie pisać złożone obwody kwantowe, programiści opisują problem po angielsku, a agent tłumaczy go na instrukcje zrozumiałe dla procesora kwantowego. To znacznie obniża barierę wejścia dla firm chcących eksperymentować z komputerami kwantowymi.",
+      "questions": [
+        "Czy programiści muszą się obawiać AI w kodowaniu kwantowym?",
+        "Jakie są terminy komercyjnych komputerów kwantowych?",
+        "Czy 'vibe coding' działa w fizyce kwantowej?"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "AI projektuje komponenty chipów 500× mniejsze niż wyobrażają sobie inżynierowie",
+      "category": "nauka",
+      "date": "2026-08-20",
+      "image": "/images/news-chip.jpg",
+      "source": "Live Science",
+      "excerpt": "Poza ludzką intuicją — modele AI proponują konstrukcje układów scalonych o skali niemożliwej do osiągnięcia metodami projektowania człowieka.",
+      "hot": false,
+      "full": "Modele AI zaprojektowały komponenty układów scalonych 500-krotnie mniejsze niż te, które wyobrażają sobie inżynierowie. Opublikowane w Live Science badania pokazują, że algorytmy proponują konstrukcje o skali niemożliwej do osiągnięcia metodami projektowania człowieka. To efekt uboczny uczenia się AI na danych, które wykracza poza ludzką intuicję projektową. Technologia może zrewolucjonizować produkcję półprzewodników, umożliwiając jeszcze mniejsze i wydajniejsze układy, choć wymaga nowych metod weryfikacji niezawodności.",
+      "questions": [
+        "Czy AI poza ludzką intuicją może tworzyć bezpieczne układy?",
+        "Jak długo potrwa produkcja?",
+        "Czy istnieje limit miniaturyzacji chipów?"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "SOP-Bench — nowy benchmark Amazon do oceny agentów AI w realnych procesach biznesowych",
+      "category": "ai",
+      "date": "2026-08-21",
+      "image": "/images/news-sopbench.jpg",
+      "source": "Amazon Science",
+      "excerpt": "Ponad 2000 zadań z 12 dziedzin. Kluczowe odkrycie: nowsze modele nie zawsze działają lepiej, a nadmiar narzędzi potrafi obciąć skuteczność niemal o połowę.",
+      "hot": false,
+      "full": "Amazon opublikował SOP-Bench — nowy benchmark do oceny agentów AI w realnych procesach biznesowych. Zawiera ponad 2000 zadań z 12 dziedzin, od obsługi klienta po zarządzanie magazynem. Kluczowe odkrycie: nowsze modele nie zawsze działają lepiej, a nadmiar narzędzi potrafi obciąć skuteczność niemal o połowę. To ważny sygnał dla firm wdrażających agentów AI — proste konfiguracje często przewyższają te przeładowane. Benchmark ma pomóc standardyzować ocenę jakości agentów w środowisku biznesowym.",
+      "questions": [
+        "Czy więcej narzędzi = mniej efektywności?",
+        "Jakie są implikacje dla firm?",
+        "Czy SOP-Bench da się ujednolicić?"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "DR Kongo i rebelianci M23 zgadzają się na mapę drogową rozmów pokojowych",
+      "category": "swiat",
+      "date": "2026-08-23",
+      "image": "/images/news-congo.jpg",
+      "source": "Al Jazeera",
+      "excerpt": "Po pięciu dniach rozmów w Szwajcarii strony ustaliły etapy negocjacji. Konflikt wysiedlił ok. 5,3 mln ludzi, a epidemia Eboli pochłonęła od maja ok. 2,5 tys. ofiar.",
+      "hot": false,
+      "full": "Demokratyczna Republika Konga i rebelianci z ugrupowania M23 osiągnęli porozumienie w sprawie mapy drogowej rozmów pokojowych po pięciu dniach negocjacji w Szwajcarii. Konflikt na wschodzie kraju wysiedlił około 5,3 miliona ludzi, a epidemia Eboli pochłonęła od maja około 2,5 tysiąca ofiar. Ustalenia etapów negocjacji to pierwszy od dawna konkretny postęp, choć obserwatorzy pozostają ostrożni co do trwałości porozumienia. Społeczność międzynarodowa wzywa obie strony do respektowania zawieszenia broni.",
+      "questions": [
+        "Czy porozumienie w Szwajcarii przełożi się na trwały pokój?",
+        "Jak międzynarodowa społeczność reaguje na konflikt w KDR?",
+        "Czy kryzys humanitarny odbije się na regionie?"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Ludus AI — polski start-up z Gliwic ułatwia tworzenie gier w Unreal Engine",
+      "category": "polska",
+      "date": "2026-08-18",
+      "image": "/images/news-ludus.jpg",
+      "source": "Rzeczpospolita",
+      "excerpt": "Inteligentny asystent dla Unreal Engine, z którego korzysta 36 tys. twórców. Automatyczne naprawianie kolizji, generowanie obiektów 3D i kodu z języka naturalnego.",
+      "hot": false,
+      "full": "Ludus AI, polski startup z Gliwic, rozwija inteligentnego asystenta dla silnika Unreal Engine, z którego korzysta już 36 tysięcy twórców. Asystent automatycznie naprawia kolizje, generuje obiekty 3D oraz kod z poleceń w języku naturalnym. To polska odpowiedź na globalny trend 'AI-first game development'. Narzędzie znacząco skraca czas tworzenia gier, pozwalając deweloperom skupić się na kreatywnej stronie projektów zamiast żmudnej mechanice. Gliwicki startup zapowiada kolejne integracje z popularnymi silnikami graficznymi.",
+      "questions": [
+        "Czy Ludus AI przełamie barierę dla polskich gamedevów?",
+        "Jak długo wdrożenie na platformach?",
+        "Czy automatyzacja usunie pracę programistów?"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "OpenAI planuje 2 sierpnia 2026: AI Act zobowiązuje do oznaczania treści generowanych",
+      "category": "ai",
+      "date": "2026-08-02",
+      "image": "/images/news-ai-act.jpg",
+      "source": "Gov.pl / Ministerstwo Cyfryzacji",
+      "excerpt": "Od 2 sierpnia podmioty stosujące systemy generujące treści muszą informować odbiorców o autorstwie AI. Termin dla wysokiego ryzyka przesunięty do 2027–2028.",
+      "hot": false,
+      "full": "Od 2 sierpnia podmioty stosujące systemy generujące treści w Unii Europejskiej muszą informować odbiorców o autorstwie AI. Polskie Ministerstwo Cyfryzacji wdrożyło przepisy zobowiązujące do oznaczania treści generowanych przez modele, zgodnie z unijnym rozporządzeniem o AI. Termin pełnego wdrożenia dla systemów wysokiego ryzyka przesunięto do 2027-2028. Nowe przepisy mają zwiększyć transparentność i zaufanie do treści w internecie, a także umożliwić identyfikację materiałów generowanych przez sztuczną inteligencję.",
+      "questions": [
+        "Czy 2 sierpnia to poważny krok w stronę obowiązkowego tagowania?",
+        "Jak to wpłynie na twórców w Polsce?",
+        "Czy ryzyko nadużyć w oznaczaniu istnieje?"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "OpenAI zapowiada GPT-5.7 — kolejny skok w agentach i pamięci długoterminowej",
+      "category": "ai",
+      "date": "2026-08-22",
+      "image": "/images/news-gpt57.jpg",
+      "source": "OpenAI / The Verge",
+      "excerpt": "Kolejna iteracja flagowego modelu ma wzmocnić agentowe zadania wieloetapowe i trwałą pamięć kontekstu. Premiera testowa spodziewana w ciągu tygodni.",
+      "hot": true,
+      "full": "OpenAI zapowiada GPT-5.7 — kolejną iterację flagowego modelu, która ma przynieść znaczący postęp w zadaniach agentowych i pamięci długoterminowej. Model ma lepiej utrzymywać kontekst w długich sesjach, zarządzać zadaniami wieloetapowymi i skuteczniej korzystać z narzędzi. Premiera testowa spodziewana jest w ciągu tygodni, a wcześniejsze modele serii wykazywały już rosnące zdolności do autonomicznego działania. To część szerszego trendu, w którym modele ewoluują z prostych czatbotów w pełnoprawnych agentów wykonujących zadania.",
+      "questions": [
+        "Czy GPT-5.7 wygoni Opus 4.8?",
+        "Jak długo rozwój pamięci długoterminowej?",
+        "Czy agenty AI przełami próg automatyzacji biura?"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Ethereum zbliża się do 2 400 dol. — altcoiny odrabiają straty po hossie BTC",
+      "category": "krypto",
+      "date": "2026-08-22",
+      "image": "/images/news-ethereum.jpg",
+      "source": "CoinDesk / ET",
+      "excerpt": "ETH zyskał ponad 26% w tydzień. Rynek czeka na ruch regulacyjny w USA i wzrost płynności po zapowiedzi wykupu długu przez skarbiec.",
+      "hot": true,
+      "full": "Ethereum zbliża się do poziomu 2400 dolarów, a altcoiny odrabiają straty po hossie bitcoina. ETH zyskał ponad 26% w ciągu tygodnia, a rynek czeka na ruch regulacyjny w USA oraz wzrost płynności po zapowiedzi skarbca o wykupie długu. Analitycy wskazują, że inwestorzy przenoszą część zysków z bitcoina do altcoinów, co napędza szerszy trend wzrostowy. Uwaga rynku skupia się na kluczowych poziomach oporu i możliwych korektach technicznych.",
+      "questions": [
+        "Czy ETH znajdzie siebie na 2400 USD?",
+        "Jak regulacja w USA wpłynie na altcoiny?",
+        "Czy odrabianie strat to tymczasowy efekt?"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Polski Ludus AI zamyka rundę 1,3 mln dol. — asystent dla twórców gier w Unreal Engine",
+      "category": "polska",
+      "date": "2026-08-20",
+      "image": "/images/news-ludus.jpg",
+      "source": "Rzeczpospolita",
+      "excerpt": "Start-up z Gliwic prezentuje Ludus 1.0. Technologia lokalizuje duplikaty zasobów i naprawia kolizje w minuty, gdzie ręczna analiza zajmuje godziny.",
+      "hot": false,
+      "full": "Polski startup Ludus AI z Gliwic zamknął rundę finansowania o wartości 1,3 miliona dolarów na rozwój asystenta dla twórców gier w Unreal Engine. Prezentowany w wersji 1.0 produkt lokalizuje duplikaty zasobów i naprawia kolizje w minuty, podczas gdy ręczna analiza zajmowałaby godziny. Środki zostaną przeznaczone na rozwój zespołu, integracje z kolejnymi silnikami i wejście na rynki międzynarodowe. To kolejny dowód, że polski sektor gamedevu i AI przeżywa rozkwit.",
+      "questions": [
+        "Czy 1,3 mln USD wystarczy na skalowanie?",
+        "Jak Ludus rywalizuje z amerykańskimi asystentami?",
+        "Czy automatyzacja zastąpi twórców?"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Nvidia prezentuje nowy układ AI dla centrów danych — wyścig o inferencję przyspiesza",
+      "category": "tech",
+      "date": "2026-08-21",
+      "image": "/images/news-nvidia.jpg",
+      "source": "Reuters / The Verge",
+      "excerpt": "Nowa generacja akceleratorów ma znacząco obniżyć koszt obsługi modeli multimodalnych. Analitycy widzą w tym kolejną fazę rywalizacji z konkurencją.",
+      "hot": false,
+      "full": "Nvidia zaprezentowała nowy układ AI dla centrów danych, który ma znacząco obniżyć koszt obsługi modeli multimodalnych. Analitycy widzą w tym kolejną fazę rywalizacji o dominację w wyścigu o wydajną inferencję. Nowa generacja akceleratorów celuje w przetwarzanie obrazów, dźwięku i wideo równolegle z tekstem, co jest kluczowe dla rozwijających się modeli multimodalnych. Rynek półprzewodników pozostaje pod presją popytu ze strony wszystkich większych dostawców AI.",
+      "questions": [
+        "Czy 40% wydajności w Azure to faktyczna poprawa?",
+        "Czy Microsoft przejmie rynek GPU?",
+        "Jak Google i Amazon reagują?"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "AI Act w UE: Komisja dostaje pełne uprawnienia egzekucyjne od 2 sierpnia 2026",
+      "category": "polska",
+      "date": "2026-08-21",
+      "image": "/images/news-ai-act.jpg",
+      "source": "Gov.pl / GeekWeek",
+      "excerpt": "Komisja Europejska może żądać dokumentacji, oceniać modele ogólnego przeznaczenia i nakładać sankcje. Firmy mają czas do grudnia na oznaczenie treści AI.",
+      "hot": false,
+      "full": "Od 2 sierpnia Komisja Europejska otrzymała pełne uprawnienia egzekucyjne w ramach unijnego rozporządzenia o AI. Komisja może żądać dokumentacji, oceniać modele ogólnego przeznaczenia i nakładać sankcje. Firmy mają czas do grudnia na dostosowanie się do obowiązku oznaczania treści generowanych przez AI. To kluczowy etap wdrażania najbardziej kompleksowej regulacji AI na świecie, który wpłynie na działalność wszystkich dostawców i użytkowników systemów sztucznej inteligencji w Europie.",
+      "questions": [
+        "Czy cloud gaming trafi do masowej adopcji?",
+        "Czy streamowanie AAA kosztuje mniej niż konsola?",
+        "Jak tradycyjne platformy reagują?"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Bitcoin: ETF-y łapią największy napływ od miesięcy — 1,1 mld dol. w 3 dni",
+      "category": "krypto",
+      "date": "2026-08-21",
+      "image": "/images/news-etf.jpg",
+      "source": "CoinDesk / Business Insider",
+      "excerpt": "Instytucjonalne napływy i regulacyjny optymizm napędzają ruchy rynku. Zlikwidowano ponad 3 mld dol. krótkich pozycji podczas rajdu.",
+      "hot": false,
+      "full": "Fundusze ETF na bitcoina odnotowały największy napływ od miesięcy — 1,1 miliarda dolarów w zaledwie trzy dni. Instytucjonalne napływy i regulacyjny optymizm napędzają ruchy rynku, a podczas rajdu zlikwidowano ponad 3 miliardy dolarów krótkich pozycji. Rosnące zainteresowanie instytucji potwierdza dojrzewanie rynku kryptowalut jako klasy aktywów. Analitycy wskazują, że utrzymujący się napływ do ETF-ów może dodatkowo umocnić trend wzrostowy.",
+      "questions": [
+        "Czy dane o ciemnej materii zmienią model kosmologiczny?",
+        "Jak długo na potwierdzenie?",
+        "Czy mapowanie przyspieszy poszukiwania?"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Elon Musk celuje w SpaceX jako w wycenę 1,2 bln dol. — rekord w sektorze kosmicznym",
+      "category": "biznes",
+      "date": "2026-08-22",
+      "source": "Reuters / Business Insider",
+      "hot": true,
+      "excerpt": "Runda finansowania ma wycenić SpaceX na rekordowy poziom, umacniając pozycję najcenniejszej prywatnej firmy świata. Inwestorzy obstawiają ekspansję Starship i stacje Starlink.",
+      "full": "SpaceX zbliża się do wyceny 1,2 biliona dolarów w nowej rundzie finansowania, co ustanowiłoby rekord w historii prywatnych spółek. Kapitał ma zasilić rozwój ciężkiej rakiety Starship, ekspansję konstelacji Starlink oraz program misji załogowych. Wartość firmy rośnie wraz z coraz częstszymi startami i komercyjnymi umowami z NASA oraz klientami komercyjnymi. Eksperci wskazują, że wycena odzwierciedla wiarę rynku w trwały monopol SpaceX na rynku dostępu do orbity, choć rosnąca konkurencja ze strony Blue Origin i chińskich operatorów może w długim terminie zmienić układ sił.",
+      "questions": [
+        "Czy terapia genowa dla dystrofii będzie refundowana?",
+        "Jakie długoterminowe efekty uboczne?",
+        "Czy dostępność nie stworzy nierówności?"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Microsoft i Blackwell: układy AI nowej generacji zwiększą wydajność chmury o 40%",
+      "category": "tech",
+      "date": "2026-08-22",
+      "source": "The Verge / CNBC",
+      "hot": true,
+      "excerpt": "Integracja akceleratorów Blackwell w Azure ma przyspieszyć inferencję dużych modeli i obniżyć koszty. Microsoft zapowiada nowe regiony chmury dla obciążeń AI.",
+      "full": "Microsoft ogłosił wdrożenie akceleratorów Blackwell nowej generacji w swojej platformie Azure, co ma zwiększyć wydajność inferencji modeli AI nawet o 40% przy jednoczesnym obniżeniu kosztów jednostkowych. Firma zapowiada także otwarcie nowych regionów chmury dedykowanych obciążeniom sztucznej inteligencji w Europie i Azji. Posunięcie to wpisuje się w intensywną rywalizację z Amazonem i Google o udział w rozwijającym się rynku infrastruktury AI. Analitycy podkreślają, że walka o dominację w chmurze AI będzie w nadchodzących latach jednym z głównych motorów wzrostu całej branży technologicznej.",
+      "questions": [
+        "Czy ITER-India dostarczy fuzję komercyjną?",
+        "Jak USA i UE oceniają postępy Indii?",
+        "Czy fuzja rozwiąże crisis energetyczny?"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Nowa konsola do gier w chmurze: Sony i NVIDIA łączą siły w streamingu",
+      "category": "gaming",
+      "date": "2026-08-21",
+      "source": "GameSpot / TechCrunch",
+      "hot": false,
+      "excerpt": "Sojusz ma przynieść streamowanie gier AAA bez sprzętu klasy konsoli. Rynek cloud gamingu przyspiesza.",
+      "full": "Sony i NVIDIA ogłosiły strategiczny sojusz w obszarze gier w chmurze, który ma umożliwić streamowanie tytułów AAA bez potrzeby posiadania wydajnego sprzętu. Technologia bazująca na akceleratorach NVIDIA i autorskiej platformie PlayStation ma oferować jakość wizualną porównywalną z konsolami nowej generacji przy opóźnieniu poniżej progu odczuwalności. Ruch ten jest odpowiedzią na rosnącą popularność subskrypcji cloud gamingu i presję ze strony usług konkurencyjnych. Branża obserwuje, czy sojusz przełoży się na przystępne ceny i szeroką dostępność, które dotychczas stanowiły barierę dla masowej adopcji.",
+      "questions": [
+        "Czy AI w mammografii wydłuży średnią życia?",
+        "Jak lekarze współpracują z AI?",
+        "Czy algorytmy wprowadzą uprzedzenia?"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Teleskop kosmiczny Einstein zaprojektował mapę ciemnej materii całej półkuli nieba",
+      "category": "kosmos",
+      "date": "2026-08-21",
+      "source": "ESA / Live Science",
+      "hot": false,
+      "excerpt": "Najdokładniejsza mapa ciemnej materii od ESA. Wynik może zmienić modele kosmologiczne.",
+      "full": "Teleskop kosmiczny Einstein Europejskiej Agencji Kosmicznej opublikował najdokładniejszą dotychczas mapę rozkładu ciemnej materii obejmującą całą półkulę nieba. Dane powstały dzięki pomiarom mikrosoczewkowania grawitacyjnego miliardów galaktyk i mają bezprecedensową rozdzielczość. Wyniki częściowo potwierdzają przewidywania standardowego modelu kosmologicznego, ale ujawniają także obszary, w których obserwacje odbiegają od teorii, co może sugerować potrzebę modyfikacji modeli ciemnej materii i ciemnej energii. Astronomowie podkreślają, że mapa stanie się fundamentem dla dziesiątek przyszłych badań nad strukturą wszechświata.",
+      "questions": [
+        "Czy obniżki stóp EBC wzmocnią złotego?",
+        "Jak Polska reaguje na ECB?",
+        "Czy inflacja euro wpłynie na polskie stopy?"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Przełom w terapii genowej: pierwsza skuteczna kuracja rzadkiej dystrofii mięśniowej",
+      "category": "zdrowie",
+      "date": "2026-08-20",
+      "source": "Nature Medicine / BBC",
+      "hot": false,
+      "excerpt": "Badanie kliniczne wykazało trwałą poprawę u pacjentów z dystrofią. Nowa era medycyny genowej.",
+      "full": "Naukowcy ogłosili przełomowe wyniki badania klinicznego terapii genowej w leczeniu rzadkiej dystrofii mięśniowej, w którym pacjenci osiągnęli trwałą poprawę funkcji mięśni bez poważnych skutków ubocznych przez okres obserwacji. Terapia wykorzystuje wektor wirusowy do dostarczenia poprawnej kopii genu odpowiedzialnego za chorobę. To pierwsze tak skuteczne podejście w tej grupie schorzeń, otwierające drogę do podobnych terapii w innych rzadkich chorobach genetycznych. Eksperci podkreślają, że choć koszty leczenia pozostają wysokie, rozwój tańszych metod produkcji może uczynić medycynę genową dostępną dla znacznie szerszej grupy pacjentów w nadchodzącej dekadzie.",
+      "questions": [
+        "Czy 3 mln graczy mówi coś o fenomenie?",
+        "Jak Echoes of Terra konkurować ze studio?",
+        "Czy polski gamedev stanie na ciągłych hitach?"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Indie uruchamiają największy na świecie reaktor termojądrowy — milowy krok ku energii gwiazd",
+      "category": "nauka",
+      "date": "2026-08-21",
+      "source": "Reuters / Nature",
+      "hot": false,
+      "excerpt": "Reaktor ITER-India osiąga pierwsze plazmy. Fuzja jądrowa coraz bliżej komercyjnej energetyki.",
+      "full": "Indie oficjalnie uruchomiły największy na świecie reaktor termojądrowy, który osiągnął pierwsze stabilne plazmy w ramach testów. Projekt stanowi milowy krok w międzynarodowych badaniach nad fuzją jądrową, mającą odtworzyć procesy zasilające Słońce i zapewnić niemal nieograniczoną, czystą energię. Pierwsze wyniki potwierdzają zdolność reaktora do utrzymania plazmy w kontrolowanych warunkach, choć do osiągnięcia komercyjnej opłacalności potrzebne będą jeszcze dekady badań. Postęp ten, wraz z równoległymi projektami w USA, Europie i Chinach, przybliża wizję fuzji jako realnego źródła energii przyszłości.",
+      "questions": [
+        "Czy powrót próbek z Marsa potwierdzi życie?",
+        "Jakie ryzyka kontaminacji?",
+        "Czy rywalizacja z Chinami przyspieszy misję?"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Stopy procentowe w strefie euro: EBC utrzymuje kurs, rynek czeka na obniżki",
+      "category": "biznes",
+      "date": "2026-08-22",
+      "source": "Reuters / Bloomberg",
+      "hot": false,
+      "excerpt": "Europejski Bank Centralny pozostawia stopy bez zmian, sygnalizując możliwe luzowanie polityki pieniężnej w kolejnych miesiącach.",
+      "full": "Europejski Bank Centralny utrzymał stopy procentowe na dotychczasowym poziomie, jednocześnie sygnalizując gotowość do obniżek w nadchodzących kwartałach, jeśli inflacja będzie nadal spadać. Decyzja jest zgodna z oczekiwaniami rynków, które wyceniają możliwość pierwszego ruchu w dół już na jesień. Analitycy wskazują, że rozluźnienie polityki pieniężnej może wesprzeć inwestycje i konsumpcję w strefie euro, choć napięcia geopolityczne i zmienność cen energii pozostają czynnikami ryzyka. Uwaga inwestorów przenosi się teraz na publikacje danych o inflacji i wzroście gospodarczym.",
+      "questions": [
+        "Czy GPT-5.7 wygoni Opus 4.8 z modelu?",
+        "Jak długo pamięć długoterminowa?",
+        "Czy AI przełączy automatyzację biura?"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Premiera gry 'Echoes of Terra' bije rekordy: 3 mln graczy w pierwszy weekend",
+      "category": "gaming",
+      "date": "2026-08-22",
+      "source": "IGN / GameSpot",
+      "hot": true,
+      "excerpt": "Najnowsza produkcja polskiego studia przekracza oczekiwania, ustanawiając rekordy sprzedaży na Steam i PlayStation.",
+      "full": "'Echoes of Terra', nowa produkcja polskiego studia gier, zadebiutowała z rekordowymi wynikami — ponad 3 miliony graczy dołączyło w pierwszy weekend od premiery. Gra łączy elementy RPG z otwartym światem i zaawansowaną sztuczną inteligencją przeciwników, co spotkało się z entuzjastycznym przyjęciem krytyków i graczy. Rekordy sprzedaży na platformach Steam i PlayStation potwierdzają rosnącą pozycję polskiego gamedevu na globalnej scenie. Studio zapowiada rozszerzenia i tryb kooperacyjny, licząc na utrzymanie zainteresowania w kolejnych miesiącach.",
+      "questions": [
+        "Czy wycena 1,2 bln za SpaceX jest uzasadniona?",
+        "Czy kosmiczny rynek stanie się monopolistyczną grą?",
+        "Jak długo Elon utrzyma pozycję?"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Misja Mars Sample Return: NASA i ESA zatwierdzają plan powrotu próbek z Marsa",
+      "category": "kosmos",
+      "date": "2026-08-21",
+      "source": "NASA / SpaceNews",
+      "hot": false,
+      "excerpt": "Nowa architektura misji ma przywieźć na Ziemię pierwsze próbki marsjańskiej gleby do 2031 roku.",
+      "full": "NASA i Europejska Agencja Kosmiczna zatwierdziły zaktualizowaną architekturę misji Mars Sample Return, której celem jest sprowadzenie na Ziemię pierwszych próbek marsjańskiej gleby. Nowy plan zakłada uproszczoną konstrukcję, redukcję kosztów i wykorzystanie już istniejących łazików do zbierania materiału. Próbki, jeśli misja zakończy się sukcesem, trafią na Ziemię najwcześniej w 2031 roku i mogą zrewolucjonizować badania nad historią Marsa oraz szansami na życie pozaziemskie. To jedna z najbardziej ambitnych misji eksploracji Układu Słonecznego w historii.",
+      "questions": [
+        "Czy 40% wydajności w Azure to realna poprawa?",
+        "Czy Microsoft przejmie GPU od Nvidii?",
+        "Jak Google i Amazon odpowiadają?"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Sztuczna inteligencja wspomaga diagnostykę raka piersi: 20% mniej błędów",
+      "category": "zdrowie",
+      "date": "2026-08-21",
+      "source": "The Lancet / BBC",
+      "hot": true,
+      "excerpt": "Wyniki duńskiego badania potwierdzają skuteczność AI w analizie mammografii. Lekarze i systemy w tandemie dają najlepsze wyniki.",
+      "full": "Duńskie badanie kliniczne z udziałem ponad 80 tysięcy pacjentek potwierdziło, że sztuczna inteligencja wspomagająca analizę mammografii redukuje liczbę błędów diagnostycznych o około 20%. System AI pracujący w tandemie z radiologami zwiększa wykrywalność wczesnych zmian nowotworowych i zmniejsza liczbę niepotrzebnych biopsji. Naukowcy podkreślają, że najlepsze wyniki osiąga połączenie ludzkiej wiedzy i maszynowej analizy, a nie działanie każdego z osobna. Wyniki mogą przyspieszyć wdrożenie AI w programach badań przesiewowych na całym świecie, choć potrzebne są dalsze badania nad długoterminowym wpływem na wyniki zdrowotne.",
+      "questions": [
+        "Czy cloud gaming w końcu trafi do masowej adopcji?",
+        "Czy streamowanie AAA kosztuje mniej niż konsola?",
+        "Jak tradycyjne platformy gier reagują?"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Nvidia udowodnił, że 'szkielet' (harness) ważniejszy niż model — AVO wbija 100% na ARC-AGI-3",
+      "category": "ai",
+      "date": "2026-08-21",
+      "source": "TechCrunch / The New Stack",
+      "hot": true,
+      "excerpt": "Nvidia pokazał, że odpowiednie otoczenie software'u może podnieść Claude Opus 5 z 30% do 100% w ARC-AGI-3. To przełom w agentic research.",
+      "full": "Nvidia opublikował badanie pokazujące, że tzw. 'harness' — oprogramowanie otaczające model (narzędzia, zarządzanie pamięcią, reguły) — jest daleko ważniejsze niż sam wybór modelu w zadaniach długoterminowych. AVO podniósł Claude Opus 5 na ARC-AGI-3 z 30,2% do 100%. AVO wprowadza trwałą pamięć i komponent nadzorujący.",
+      "questions": [
+        "Czy harness może całkowicie zastąpić rozwój lepszych modeli?",
+        "Jakie są kosztowe konsekwencje udoskonalonego harnessu?",
+        "Czy długoterminowa autonomia agenta to realny cel?"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "AI agent z UK próbował podmienić kod open-source — student z Texas zatrzymał atak",
+      "category": "tech",
+      "date": "2026-08-20",
+      "source": "Reuters",
+      "hot": true,
+      "excerpt": "Automatyczny atak na projekt open-source został wykryty i zatrzymany przez studenta z University of Texas.",
+      "full": "Student z University of Texas w Austynie zatrzymał automatycznego agenta AI, który próbował podmienić złośliwym kodem otwartoźródłowy projekt. To jeden z pierwszych udokumentowanych ataków AI na infrastrukturę open-source. Eksperci ostrzegają: automatyzacja ataków socjotechnicznych to dopiero początek.",
+      "questions": [
+        "Jak open-source powinien reagować na automatyczne ataki AI?",
+        "Czy są potrzebne nowe zabezpieczenia w repozytoriach?",
+        "Jak odróżnić zmianę od AI od ludzkiej?"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Stripe wykupuje OpenRouter za 7 mld dol. — konsolidacja routingu API",
+      "category": "biznes",
+      "date": "2026-08-21",
+      "source": "TechCrunch / The Information",
+      "hot": false,
+      "excerpt": "Stripe przeznacza 7 mld dolarów na OpenRouter, by zdominować routing API między modelami.",
+      "full": "Stripe kupuje OpenRouter, platformę routingu API pomiędzy modelami AI, za 7 mld dolarów. Ma to na celu stworzenie najbogatszego w ekosystemie punktu dostępu do setek modeli AI. Dla developerów uproszczenie, ale także obawy o dominację brokera API.",
+      "questions": [
+        "Czy dominacja jednego routera API może zaszkodzić innowacji?",
+        "Jak to wpłynie na ceny modeli AI?",
+        "Czy OpenRouter zachowa otwartość?"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Polska Aiforia wygrywa Berlin AI Market — nagroda za detekcję nowotworów",
+      "category": "polska",
+      "date": "2026-08-22",
+      "source": "Puls Medycyny",
+      "hot": false,
+      "excerpt": "Aiforia, polski producent AI do diagnostyki, zdobyła nagrodę w Berlinie za detekcję nowotworów w obrazowaniu histopatologicznym.",
+      "full": "Warszawska Aiforia, specjalizująca się w AI dla medycyny, została nagrodzona na targach Inteligentny Rynek AI w Berlinie za automatyczną detekcję nowotworów w obrazowaniu histopatologicznym. System oparty na analizie slajdów mikroskopowych wykrywa nowotwory z dokładnością porównywalną z patologami. To kolejny dowód międzynarodowej renomy polskiego sektora AI medycznej.",
+      "questions": [
+        "Czy AI medyczna zastąpi chirurgów?",
+        "Jakie ryzyka w diagnozie AI?",
+        "Czy polskie start-upy AI konkurować z gigantami?"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Nowy superskręt: OpenAI prezentuje model Agentic Browser, który sam surfuje po sieci",
+      "category": "ai",
+      "date": "2026-08-23",
+      "source": "Business Insider",
+      "hot": true,
+      "excerpt": "OpenAI zbliża się do realizacji ambicji z 2015 r. — agent który używa przeglądarki i aplikacji jak człowiek. Computer Use wchodzi do produktów.",
+      "full": "OpenAI jest blisko urzeczywistnienia jednej ze swoich wieloletnich ambicji — agentów, które potrafią korzystać z komputera i przeglądarki z taką samą zręcznością jak człowiek. W tym roku firma wypuściła rozszerzenie Chrome, które pozwala ChatGPT przejąć przeglądarkę, chmurowe i aplikacyjne przeglądarki oraz dodała Computer Use do narzędzia Codex. Według prezesa Grega Brockmana technologia przestała być przeznaczona wyłącznie dla programistów. To realny krok w stronę uniwersalnej automatyzacji komputerowej.",
+      "questions": [
+        "Czy agentyczna przeglądarka może całkowicie wyprzeć tradycyjny przegląd?",
+        "Jakie ryzyka prywatności wiążą się z auto-pilotem przeglądarki?",
+        "Kiedy Computer Use stanie się standardem dla zwykłych użytkowników?"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Pew Center: 1/3 stron internetowych od premiery ChatGPT ma ślady autorstwa AI",
+      "category": "tech",
+      "date": "2026-08-22",
+      "source": "TechCrunch",
+      "hot": false,
+      "excerpt": "Ponad jedna trzecia stron publikowanych po premierze ChatGPT nosi ślady napisania przez AI. Boty wyprzedziły ludzi w ruchu internetowym.",
+      "full": "Badanie Pew Research pokazuje, że ponad 1/3 stron internetowych opublikowanych po premierze ChatGPT nosi ślady napisania lub znacznego edytowania przez sztuczną inteligencję. Aż 35% nowych stron ma oznaki autorstwa AI, przy czym domeny .com wykazują ~10x więcej takich śladów niż .edu czy .gov. Raport pojawił się tuż po tym, jak Cloudflare ogłosiło, że ruch botów wyprzedził ruch ludzi w internecie. To sygnał o rosnącej inflacji treści AI.",
+      "questions": [
+        "Jak odróżnić wiarygodne treści od AI-inflacji?",
+        "Czy oznaczanie AI-authored ma sens?",
+        "Jak domeny .edu/.gov bronią się przed treścią AI?"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Anthropic Claude zaprojektował białka potwierdzone w laboratorium — 14/15 celów",
+      "category": "nauka",
+      "date": "2026-08-22",
+      "source": "eWeek",
+      "hot": false,
+      "excerpt": "Model Claude zaprojektował de novo funkcjonalne wiązacze białek, potwierdzone w teście mokrym. Rezultat 14/15 celów, hit-rate do 40%.",
+      "full": "Anthropic opublikował wyniki eksperymentów, w których modele Claude samodzielnie zaprojektowały funkcjonalne wiązacze białek i wykonały złożone analizy chemiczne w ciągu minut. W kampanii 15 celów modele wygenerowały 1320 kandydatów, z których 354 potwierdzono w teście mokrym, trafiając 14/15 celów. Wskaźniki powodzenia (22-35%) znacznie przewyższały typowy dla branży poziom 10-15%. To dowód rosnącej roli modeli ogólnego rozumowania we wczesnej biotechnologii.",
+      "questions": [
+        "Czy Claude zastąpi tradycyjne silniki zwijania białek?",
+        "Jakie są granice bezpieczeństwa biologicznego przy AI-designed proteinach?",
+        "Kiedy te białka trafią do leków?"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Huawei wykupuje chińskie laboratorium IoT za 2 mld — przyspiesza AI w przemyśle",
+      "category": "tech",
+      "date": "2026-08-21",
+      "source": "Reuters",
+      "hot": false,
+      "excerpt": "Chiński gigant przejmuje laboratorium, by wdrożyć AI w fabrykach i łańcuchach dostaw. Technologia agentów trafia do przemysłu.",
+      "full": "Huawei ogłosił przejęcie chińskiego laboratorium Internetu Rzeczy za 2 miliardy dolarów, co jest częścią szerszej strategii wdrożenia sztucznej inteligencji do przemysłu i łańcuchów dostaw. Zintegrowana technologia agentów AI, pozwalająca na samodzielne diagnozowanie i optymalizację procesów produkcyjnych, ma przyspieszyć automatyzację chińskich fabryk. To odpowiedź na globalną rywalizację o dominację w przemyślowym IoT i AI.",
+      "questions": [
+        "Czy AI przemysłowa zastąpi operatorów maszyn?",
+        "Jak Chiny wygrywają wyścig o automatyzację?",
+        "Czy przejęcia wzmocnią pozycję Huawei w IoT?"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Golem AI dalej z noktowizorem — robot widzi w ciemności i pracuje w magazynach nocą",
+      "category": "kosmos",
+      "date": "2026-08-20",
+      "source": "TechCrunch",
+      "hot": false,
+      "excerpt": "Roboty wyposażone w AI widzenie nocne działają w magazynach bez oświetlenia. Technologia z kosmosu trafia do logistyki.",
+      "full": "Roboty z wyspecjalizowanym AI widzeniem nocnym, opracowanym pierwotnie na potrzeby misji kosmicznych, znalazły zastosowanie w logistyce. System pozwala maszynom nawigować i sortować paczki w magazynach bez oświetlenia, redukując koszty energii i zwiększając wydajność pracy nocnej. To przykład dyfuzji technologii kosmicznych do komercyjnych zastosowań przemysłowych, otwierający nowy segment w automatyzacji magazynów.",
+      "questions": [
+        "Czy AI widzenie nocne zrewolucjonizuje logistykę?",
+        "Jakie inne technologie z kosmosu znajdą ziemskie zastosowania?",
+        "Czy roboty zastąpią pracowników nocnych w magazynach?"
+      ]
+    }
+  ],
+  "meta": {
+    "name": "AI Evolution News",
+    "tagline": "Gorące newsy ze świata AI, krypto, techu i ciekawostek — po polsku.",
+    "last_updated": "2026-08-24",
+    "source": "AI Evolution Labs"
+  }
+}
