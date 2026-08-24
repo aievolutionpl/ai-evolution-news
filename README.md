@@ -1,8 +1,8 @@
-# AI Evolution News — Terminal
+# AI Evolution News
 
 Polskojęzyczny news portal (AI, krypto, tech, świat, biznes, nauka, gaming, ciekawostki)
-w stylu **terminala giełdowego (Bloomberg)** — ciemny, gęsty, monospace'owy,
-skoncentrowany na szybkim skanowaniu i czytaniu depesz.
+— **minimalistyczna czytelnia**: gęsty strumień depesz widoczny od razu po wejściu,
+filtrowanie wyłącznie ikonami kanałów, klik rozwija zdjęcie i pełny tekst.
 
 **Live:** https://ai-evolution-news.pages.dev
 
@@ -10,85 +10,80 @@ skoncentrowany na szybkim skanowaniu i czytaniu depesz.
 
 - **Cloudflare Pages** (statyka + **Pages Functions** mini-server)
 - **Cloudflare KV** = baza danych (binding `NEWS_DB`)
-- **Vanilla JS + CSS** (bez frameworka), ikony **Lucide** jako lokalny SVG sprite
-- Biblioteki self-hostowane w `/libs/`: **AOS** (animacje), **Toastify** (toasty), **Splide** (karuzela)
+- **Vanilla JS + CSS** (bez frameworka, bez bibliotek), ikony **Lucide** jako lokalny SVG sprite
+- Fonty systemowe — strona nie pobiera ani jednego zewnętrznego zasobu
 
 ## Funkcje
 
-- **Dwa motywy — terminal (ciemny, domyślny) i papier (jasny)**; przełącznik w topbarze
-  lub `F7`, zapis w `localStorage`, ustawiany przed pierwszym malowaniem — zero migotania
-- **Pasek stanu terminala** — sesja, liczba depesz, hot, kanały, „dziś", zapisane, data aktualizacji
-- **Zegar sesji** w topbarze (HH:MM:SS, `tabular-nums`)
-- **Pasek klawiszy funkcyjnych** `F1`–`F8` — znak firmowy terminala, klikalny i skrótowy
-- **Historia dnia** (lead + 3 depesze poboczne), statystyki, tablica sygnałów live
-- Terminalowy widok listy (dense rows, kod kanału jak ticker giełdowy) + siatka kart 16:9
-- **Rozwijane depesze** — klik/Enter → czytnik: pełny opis (`full`), źródło, czas czytania
-- **❓ Burza pytań** — 3 pytania do myślenia przy każdej depeszy
-- **💬 Anonimowe komentarze** — bez logowania (KV, anty-XSS, rate-limit);
-  liczniki ładowane leniwie przez `IntersectionObserver`
-- **★ Zapisane** — depesze odkładane na później (`localStorage`), własny filtr i licznik
+**Zasada UI v4: news od pierwszej sekundy.** Żadnego hero, karuzeli, tickera
+ani paska filtrów przed treścią — pod nagłówkiem od razu zaczyna się strumień depesz.
+
+- **Jeden gęsty strumień** — wszystkie depesze (obecnie 108) w jednej liście,
+  posortowane od najnowszych, pogrupowane sticky nagłówkami dni („Dziś", „Wczoraj", data)
+- **Filtrowanie tylko ikonami** — pasek kanałów w nagłówku to same ikony (Lucide),
+  bez etykiet i bez rozwijanych list; obok trzy przełączniki: 🔥 gorące, ★ zapisane, 🔍 szukaj
+- **Klik = pełna depesza** — wiersz rozwija się w czytnik: zdjęcie 16:9, lead,
+  pełny tekst w mierze 66 znaków (16,5 px / 1,72), źródło, pytania do przemyślenia i komentarze
+- **Treść budowana leniwie** — HTML rozwinięcia i obrazek powstają dopiero przy pierwszym
+  otwarciu depeszy, więc lista 100+ pozycji renderuje się natychmiast
+- **Zero zewnętrznych zasobów** — fonty systemowe, ikony z lokalnego sprite'a `icons.svg`,
+  brak AOS/Splide/Toastify i brak Google Fonts; jedyne żądania to `/api/news` i `/api/comments`
+- **Fallback danych** — gdy `/api/news` nie odpowiada, strona wczytuje `seed-news.json`,
+  więc statyczny podgląd działa bez backendu
+- **Dwa motywy** — ciemny (domyślny) i jasny; ustawiany przed pierwszym malowaniem,
+  zapisywany w `localStorage`. Kolory kanałów przyciemniane `color-mix` na białym tle
+- **Auto-okładki** — depesze bez zdjęcia dostają generowaną grafikę SVG (deterministycznie z `id`):
+  cztery motywy przypisane do rodzin kanałów — obwód (AI/tech), słupki (krypto/biznes),
+  orbity (kosmos/świat/Polska), fale (nauka/zdrowie), siatka (gaming/ciekawostki). Zero liter i logotypów
+- **★ Zapisane** — depesze na później w `localStorage`, licznik na ikonie gwiazdki
 - **🔗 Link do depeszy** — każda ma adres `#news-<id>`; przycisk kopiuje go do schowka
   (Web Share API tam, gdzie jest dostępne), a wklejony link otwiera ją od razu
-- **Sortowanie** — najnowsze / gorące / A→Z / czas czytania (zapamiętywane)
-- **🎲 Losuj** — losowa depesza z aktualnego zestawu filtrów
-- **Aktywne filtry** jako chipy z „✕" + „wyczyść wszystko"
-- **Wyszukiwarka odporna na polskie znaki** — „swiat" znajduje „Świat", „lodz" znajduje „Łódź";
-  wiele słów działa jak AND (`gta rockstar`), 220 ms debounce, skrót `/`, `Esc` czyści
-- **Pełna obsługa klawiatury** — `J`/`K` nawigacja, `Enter` rozwija, `S` zapisuje,
-  `F1` okno pomocy ze skrótami, `?` to samo
-- **Auto-okładki** — depesze bez zdjęcia dostają generowaną, abstrakcyjną grafikę SVG
-  (siatka terminala + geometria w kolorze kanału, deterministycznie z `id`, zero requestów)
-- 🔥 Hot filter, **live ticker** (klik → skok do depeszy), **karuzela gorących**
+- **💬 Anonimowe komentarze** — bez logowania (KV, anty-XSS, rate-limit), ładowane przy rozwinięciu
+- **❓ Pytania do przemyślenia** — 2–3 pytania przy każdej depeszy
+- **Wyszukiwarka odporna na polskie znaki** — „swiat" znajduje „Świat"; wiele słów działa
+  jak AND (`gta rockstar`), 200 ms debounce, skrót `/`, `Esc` zamyka
+- **Klawiatura** — `J`/`K` nawigacja, `Enter` rozwija, `S` zapisuje, `/` szuka, `Esc` zamyka
 - Pasek postępu czytania, przycisk „do góry", `prefers-reduced-motion`
-- Mobile: dolny pasek nawigacji, safe-area, poziomy scroll depesz pobocznych, zero
-  poziomego przewijania strony od 320 px w górę
-- 11 kanałów z własnym kolorem, ikoną i **kodem giełdowym**: AI (`AI.`), Krypto (`CRY`),
-  Tech (`TEC`), Świat (`WLD`), Polska (`POL`), Biznes (`BIZ`), Nauka (`SCI`), Gaming (`GAM`),
-  Kosmos (`SPC`), Zdrowie (`MED`), Ciekawostki (`FUN`)
+- Mobile: jedna kolumna, przewijany poziomo pasek ikon, meta w jednej linii,
+  zero poziomego przewijania strony od 320 px w górę
+- 11 kanałów z własnym kolorem i ikoną: AI, Krypto, Tech, Świat, Polska, Biznes,
+  Nauka, Gaming, Kosmos, Zdrowie, Ciekawostki
 
 ## Skróty klawiszowe
 
 | Klawisz | Działanie |
 |---|---|
-| `/` | kursor w wyszukiwarce |
-| `Esc` | wyczyść wyszukiwanie / zamknij okno |
+| `/` | otwórz wyszukiwarkę |
+| `Esc` | zamknij wyszukiwarkę |
 | `J` / `K` | następna / poprzednia depesza |
 | `Enter` | rozwiń / zwiń zaznaczoną depeszę |
 | `S` | zapisz / usuń z zapisanych |
-| `F1` / `?` | okno ze skrótami |
-| `F2` / `F3` | widok listy / siatki |
-| `F4` / `F5` | filtr: gorące / zapisane |
-| `F6` | losowa depesza |
-| `F7` | motyw terminal ↔ papier |
-| `F8` | przewiń na górę |
 
 ## System designu
 
-Wszystko jest oparte na tokenach CSS (`:root` = terminal, `[data-theme="light"]` = papier):
-płótno, linie, typografia, akcenty, cienie, promienie. Zmiana palety = zmiana kilku zmiennych.
+Wszystko oparte na tokenach CSS (`:root` = ciemny, `[data-theme="light"]` = jasny):
+płótno, powierzchnie, linie, tekst, akcent, promienie. Zmiana palety = zmiana kilku zmiennych.
 
-Paleta terminala: bursztyn `#FFA51F` (akcenty, aktywne stany, klawisze), cyan `#3FD8F0`
-(dane i liczby), zieleń `#00D97E` (up/online), czerwień `#FF3B52` (down/hot) na czerni
-`#04070B`. Krawędzie są ostre (`--r-xs: 2px`), chrom interfejsu jest w całości monospace,
-a siatka linii zastępuje cienie. Kolory kanałów dobrano pod czarne tło i przyciemniono
-przez `color-mix` w motywie jasnym, żeby chipy nie znikały na papierze.
+Ciemny: tło `#0B0D10`, linie `#242C35`, tekst `#E9EEF4`, akcent bursztyn `#FFA51F`,
+hot `#FF5468`. Jasny: biel `#FFFFFF`, linie `#E2E6EC`, tekst `#0E1319`, akcent `#B96A00`.
+Typografia to fonty systemowe (sans dla treści, mono dla metadanych) — zero pobierania.
 
-Ikony to lokalny sprite `icons.svg` (styl Lucide, stroke 1.75, `viewBox 24`) —
+Ikony to lokalny sprite `icons.svg` (styl Lucide, stroke 1.8, `viewBox 24`) —
 jeden request, kolor dziedziczony przez `currentColor`.
 
 ## Struktura
 
 ```
 pages/
-├── index.html            # Single-page UI + JS (to show)
+├── index.html            # Single-page UI + JS
 ├── wrangler.toml         # Pages Functions + KV binding
 ├── icons.svg             # Lucide SVG sprite (zero CDN)
-├── seed-news.json        # Dane startowe (75 depesz) — seed do KV
+├── seed-news.json        # Dane startowe (108 depesz) — seed do KV + fallback dla frontu
 ├── functions/api/
 │   ├── news.js           # GET/POST/PUT/DELETE /api/news, GET /api/health
 │   └── comments.js       # GET/POST /api/comments (anonimowe)
 ├── images/               # Grafiki newsów (PNG→JPEG)
-├── libs/                 # aos.css/js, toastify.css/js, splide.css/js
+├── libs/                 # (nieużywane przez UI v4)
 └── data/                 # (gitignored) lokalne kopie danych
 ```
 
