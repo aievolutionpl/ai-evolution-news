@@ -4,9 +4,13 @@ Polskojęzyczny news portal (AI, krypto, tech, świat, biznes, nauka, gaming, ci
 — **minimalistyczna czytelnia**: gęsty strumień depesz widoczny od razu po wejściu,
 filtrowanie ikonami kanałów, klik rozwija zdjęcie i pełny tekst.
 
-Od UI v6 każdy wiersz niesie zajawkę i tagi, a rozwinięta depesza zaczyna się od
-**Sedna sprawy** (jedno zdanie: co to zmienia) i listy **Konkretów** (fakty i liczby
-z tekstu). Strumień renderuje się partiami po 24 wiersze.
+Projekt **AI Evolution Polska**.
+
+Od UI v7 nad strumieniem stoi przewijający się **pasek LIVE** (tor sunie od lewej do
+prawej, zatrzymuje się pod kursorem) i panel **Puls dnia** ze statystykami oraz tagami
+„na tapecie". Każdy wiersz niesie zajawkę i tagi, a rozwinięta depesza zaczyna się od
+**Sedna sprawy** i listy **Konkretów**. Stopka jest pełną nawigacją: kanały z licznikami,
+skróty do narzędzi i informacja, czyj to projekt.
 
 **Live:** https://ai-evolution-news.pages.dev
 
@@ -19,10 +23,22 @@ z tekstu). Strumień renderuje się partiami po 24 wiersze.
 
 ## Funkcje
 
-**Zasada UI v6: news od pierwszej sekundy.** Żadnego hero, karuzeli, tickera
-ani paska filtrów przed treścią — pod nagłówkiem od razu zaczyna się strumień depesz.
+**Zasada UI v7: news od pierwszej sekundy.** Żadnego hero i karuzeli — nad strumieniem
+stoi tylko pasek LIVE (36 px, same tytuły) i panel Puls dnia; treść zaczyna się
+w pierwszym ekranie, także na telefonie.
 
-- **Jeden gęsty strumień** — wszystkie depesze (obecnie 137) w jednej liście,
+- **Pasek LIVE** — sticky pod nagłówkiem, tor z 26 najnowszymi depeszami przewija się
+  od lewej do prawej jedną animacją `transform` (karta kompozytora, zero pracy JS na
+  klatkę), pauzuje pod kursorem i przy fokusie, klik otwiera depeszę, a
+  `prefers-reduced-motion` zamienia go w zwykły pasek przewijany palcem
+- **Puls dnia** — panel nad strumieniem: ile depesz dziś, ile gorących, ile kanałów,
+  ile w archiwum, plus osiem najczęstszych tagów z ostatnich 70 depesz (klikalne)
+- **Stopka jako nawigacja** — kanały z licznikami, skróty do trybów (gorące, zapisane,
+  szukaj, motyw, na górę), sygnatura **Projekt AI Evolution Polska**, łączny czas czytania
+- **Wczytywanie dwutorowe** — pierwsza klatka rysuje się z wstępnie pobranego
+  `seed-news.json` (`<link rel=preload>`), a odpowiedź `/api/news` dokłada nowości w tle;
+  wcześniej strona czekała na API, a preload szedł w kosz
+- **Jeden gęsty strumień** — wszystkie depesze (obecnie 165) w jednej liście,
   posortowane od najnowszych, pogrupowane sticky nagłówkami dni („Dziś", „Wczoraj", data)
 - **Zajawka i tagi w wierszu** — widać, o co chodzi, bez rozwijania; tag jest klikalny
   i od razu przestawia wyszukiwarkę na tę frazę
@@ -97,7 +113,7 @@ pages/
 ├── index.html            # Single-page UI + JS
 ├── wrangler.toml         # Pages Functions + KV binding
 ├── icons.svg             # Lucide SVG sprite (zero CDN)
-├── seed-news.json        # Korpus redakcyjny (137 depesz, zminifikowany) — scalany w /api/news
+├── seed-news.json        # Korpus redakcyjny (165 depesz, zminifikowany) — scalany w /api/news
 ├── functions/api/
 │   ├── news.js           # GET/POST/PUT/DELETE /api/news, GET /api/health
 │   └── comments.js       # GET/POST /api/comments (anonimowe)

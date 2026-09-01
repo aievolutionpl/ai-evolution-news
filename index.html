@@ -10,9 +10,19 @@
 <meta property="og:description" content="Newsy AI, krypto, tech i świat — po polsku, bez clickbaitu. Sedno sprawy przy każdej depeszy.">
 <meta property="og:image" content="/images/hero-banner.png">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Evolution News">
+<meta property="og:locale" content="pl_PL">
+<meta name="author" content="AI Evolution Polska">
+<meta name="publisher" content="AI Evolution Polska">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"AI Evolution News",
+"inLanguage":"pl-PL","description":"Gęsty przegląd newsów po polsku: AI, krypto, tech i świat. Każda depesza z sednem sprawy i konkretami.",
+"publisher":{"@type":"Organization","name":"AI Evolution Polska"}}
+</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23FFA724'/%3E%3Cpath d='M17.5 5 L9 18h5.5L13.5 27 22 14h-5.5z' fill='%230A0C0F'/%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="/images/hero-banner.png">
-<link rel="preload" href="/seed-news.json" as="fetch" crossorigin="anonymous">
+<link rel="preload" href="/seed-news.json" as="fetch" type="application/json">
+<link rel="preload" href="/icons.svg" as="image" type="image/svg+xml">
 <script>
 /* motyw ustawiany przed pierwszym malowaniem — zero migotania */
 (function(){try{var t=localStorage.getItem('aien-theme');
@@ -415,6 +425,177 @@ footer .keys{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 }
+
+/* ============================================================
+   UI v7 „premium” — pasek LIVE, puls dnia, bogatsza stopka,
+   dopracowana typografia i światło. Nadal zero zewnętrznych
+   zasobów i zero pracy JS w pętli animacji.
+   ============================================================ */
+:root{--live-h:36px;--r-lg:16px}
+
+/* delikatne światło u góry strony — jedno malowanie, bez kosztu przewijania */
+body{
+  background:
+    radial-gradient(1100px 460px at 50% -220px,color-mix(in srgb,var(--accent) 11%,transparent),transparent 72%),
+    radial-gradient(760px 380px at 92% -120px,color-mix(in srgb,#6BA3FF 8%,transparent),transparent 70%),
+    var(--bg);
+  background-repeat:no-repeat;
+}
+[data-theme="light"] body{
+  background:
+    radial-gradient(1100px 460px at 50% -240px,color-mix(in srgb,var(--accent) 7%,transparent),transparent 72%),
+    var(--bg);
+  background-repeat:no-repeat;
+}
+::selection{background:color-mix(in srgb,var(--accent) 30%,transparent)}
+*{scrollbar-width:thin;scrollbar-color:var(--surface-3) transparent}
+*::-webkit-scrollbar{width:9px;height:9px}
+*::-webkit-scrollbar-thumb{background:var(--surface-3);border-radius:99px}
+
+/* ---------- znak marki: gradient zamiast płaskiej plamy ---------- */
+.brand .mk{
+  background:linear-gradient(145deg,color-mix(in srgb,var(--accent) 92%,#fff),var(--accent));
+  box-shadow:0 3px 14px color-mix(in srgb,var(--accent) 38%,transparent),
+             inset 0 1px 0 rgba(255,255,255,.35)}
+.brand:hover .mk{transform:translateY(-1px)}
+.brand .mk{transition:transform .16s ease}
+.brand b{letter-spacing:.6px}
+
+/* ============================================================
+   PASEK LIVE — przewija się od lewej do prawej
+   Animacja to jeden transform na całym torze: karta kompozytora,
+   zero pracy JS na klatkę.
+   ============================================================ */
+.live{
+  position:sticky;top:var(--head-h);z-index:55;
+  height:var(--live-h);display:flex;align-items:center;gap:0;
+  background:color-mix(in srgb,var(--bg-soft) 92%,transparent);
+  backdrop-filter:saturate(150%) blur(12px);
+  border-bottom:1px solid var(--line);overflow:hidden}
+.live-tag{
+  display:flex;align-items:center;gap:6px;flex:none;height:100%;
+  padding:0 12px 0 max(18px,calc((100vw - var(--maxw))/2 + 18px));
+  font:700 10px/1 var(--mono);letter-spacing:1.5px;text-transform:uppercase;
+  color:var(--hot);background:color-mix(in srgb,var(--bg-soft) 96%,transparent);
+  border-right:1px solid var(--line);z-index:2;position:relative}
+.live-tag .dot{width:7px;height:7px;border-radius:50%;background:var(--hot);
+  box-shadow:0 0 0 0 color-mix(in srgb,var(--hot) 60%,transparent);
+  animation:pulse 1.9s ease-out infinite}
+@keyframes pulse{
+  0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--hot) 55%,transparent)}
+  70%{box-shadow:0 0 0 7px transparent}
+  100%{box-shadow:0 0 0 0 transparent}}
+.live-view{position:relative;flex:1;height:100%;overflow:hidden;
+  mask-image:linear-gradient(90deg,transparent 0,#000 34px,#000 calc(100% - 34px),transparent 100%);
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 34px,#000 calc(100% - 34px),transparent 100%)}
+.live-track{display:flex;align-items:center;height:100%;width:max-content;
+  will-change:transform;animation:slide var(--dur,64s) linear infinite}
+/* -50% → 0 : treść wędruje w prawo */
+@keyframes slide{from{transform:translate3d(-50%,0,0)}to{transform:translate3d(0,0,0)}}
+.live:hover .live-track,.live:focus-within .live-track{animation-play-state:paused}
+.live-item{display:inline-flex;align-items:center;gap:8px;flex:none;padding:0 16px;
+  font-size:12.5px;line-height:1;color:var(--text-2);white-space:nowrap;
+  border-right:1px solid var(--line-soft);transition:color .13s}
+.live-item:hover{color:var(--text)}
+.live-item .d{width:5px;height:5px;border-radius:50%;background:var(--c,var(--accent));flex:none}
+.live-item .t{font-weight:600}
+.live-item .k{font:600 10px/1 var(--mono);letter-spacing:.8px;text-transform:uppercase;
+  color:var(--c,var(--accent));opacity:.9}
+.live-item.is-hot .t{color:var(--text)}
+@media (prefers-reduced-motion:reduce){
+  .live-track{animation:none;transform:none}
+  .live-view{overflow-x:auto}
+}
+@media (max-width:720px){
+  .live-tag{padding-left:14px;padding-right:10px;font-size:9px}
+  .live-item{font-size:12px;padding:0 13px}
+}
+
+/* nagłówki dni muszą zjechać pod pasek LIVE */
+.day{top:calc(var(--head-h) + var(--live-h))}
+.day{display:flex;align-items:center;gap:9px}
+.day::after{content:"";flex:1;height:1px;background:var(--line-soft)}
+
+/* ============================================================
+   PULS DNIA — panel wartości nad strumieniem
+   ============================================================ */
+.pulse{margin:16px 0 6px;border:1px solid var(--line);border-radius:var(--r-lg);
+  background:linear-gradient(160deg,color-mix(in srgb,var(--accent) 7%,var(--surface)),var(--surface));
+  overflow:hidden}
+.pulse-h{display:flex;align-items:center;gap:9px;padding:13px 16px 0;
+  font:700 10px/1 var(--mono);letter-spacing:1.3px;text-transform:uppercase;color:var(--accent)}
+.pulse-h .when{margin-left:auto;color:var(--muted);letter-spacing:.6px}
+.pulse-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+  background:var(--line-soft);margin:13px 0 0;border-top:1px solid var(--line-soft)}
+.pulse-stats div{background:var(--surface);padding:12px 16px}
+.pulse-stats b{display:block;font-size:21px;font-weight:700;letter-spacing:-.5px;color:var(--text);
+  font-variant-numeric:tabular-nums}
+.pulse-stats span{font:600 10px/1.3 var(--mono);letter-spacing:.7px;text-transform:uppercase;color:var(--muted)}
+.pulse-tags{display:flex;flex-wrap:wrap;gap:6px;padding:12px 16px 14px;
+  border-top:1px solid var(--line-soft);background:var(--surface)}
+.pulse-tags .lb{font:700 10px/22px var(--mono);letter-spacing:1.1px;text-transform:uppercase;
+  color:var(--muted);margin-right:2px}
+.pulse-tags button{font:600 11.5px/1 var(--mono);color:var(--text-2);
+  border:1px solid var(--line);border-radius:99px;padding:6px 10px;
+  transition:border-color .13s,color .13s,background .13s}
+.pulse-tags button:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+@media (max-width:720px){
+  .pulse-stats{grid-template-columns:repeat(2,1fr)}
+  .pulse-stats b{font-size:19px}
+  .pulse{margin-top:12px}
+}
+
+/* ---------- strumień: dotknięcia premium ---------- */
+.post-head{position:relative}
+.post-head::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:2px;border-radius:2px;
+  background:var(--c);opacity:0;transition:opacity .15s}
+.post-head:hover::before{opacity:.55}
+.post.open .post-head::before{opacity:1}
+.p-thumb img{transition:transform .35s cubic-bezier(.2,.7,.3,1)}
+.post-head:hover .p-thumb img{transform:scale(1.05)}
+.p-title{transition:color .13s}
+.post-head:hover .p-title{color:var(--accent)}
+.p-meta .hot{display:inline-flex;align-items:center;gap:4px;
+  padding:2px 6px;border-radius:99px;font-size:9.5px;
+  background:color-mix(in srgb,var(--hot) 15%,transparent)}
+.body .shot{box-shadow:var(--shadow)}
+.gist{box-shadow:0 6px 22px color-mix(in srgb,var(--accent) 10%,transparent)}
+.article .lead{border-left-width:3px}
+
+/* ============================================================
+   STOPKA — projekt AI Evolution Polska
+   ============================================================ */
+footer{display:block;margin-top:56px;padding:0 18px calc(40px);border-top:none}
+.foot-in{max-width:var(--maxw);margin:0 auto;border-top:1px solid var(--line);padding-top:30px}
+.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:30px}
+.foot-brand .mark{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.foot-brand .mark span.mk{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;
+  background:linear-gradient(145deg,color-mix(in srgb,var(--accent) 92%,#fff),var(--accent));
+  color:var(--accent-ink);box-shadow:0 3px 14px color-mix(in srgb,var(--accent) 34%,transparent)}
+.foot-brand .mark b{font:700 14px/1 var(--sans);letter-spacing:.6px;color:var(--text)}
+.foot-brand .mark b i{font-style:normal;color:var(--accent)}
+.foot-brand p{font:400 13.5px/1.65 var(--sans);color:var(--text-2);max-width:44ch;margin-bottom:14px}
+.foot-org{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border-radius:99px;
+  border:1px solid color-mix(in srgb,var(--accent) 34%,var(--line));
+  background:var(--accent-soft);color:var(--text);font-size:12.5px;font-weight:600}
+.foot-org b{color:var(--accent);font-weight:700}
+.foot-col h5{font:700 10px/1 var(--mono);letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--muted);margin-bottom:12px}
+.foot-col ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.foot-col button,.foot-col a{font-size:13.5px;color:var(--text-2);text-align:left;
+  transition:color .13s;text-decoration:none;display:inline-flex;align-items:center;gap:7px}
+.foot-col button:hover,.foot-col a:hover{color:var(--accent)}
+.foot-col .n{font:600 10.5px/1 var(--mono);color:var(--muted)}
+.foot-bar{display:flex;flex-wrap:wrap;align-items:center;gap:12px;justify-content:space-between;
+  margin-top:28px;padding-top:16px;border-top:1px solid var(--line-soft);
+  font:500 11.5px/1.6 var(--mono);color:var(--muted)}
+.foot-bar .keys{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+@media (max-width:860px){.foot-grid{grid-template-columns:1fr 1fr}.foot-brand{grid-column:1/-1}}
+@media (max-width:720px){
+  footer{margin-top:36px;padding-bottom:calc(96px + env(safe-area-inset-bottom))}
+  .foot-grid{gap:24px}
+  .foot-bar .keys{display:none}
+}
 </style>
 </head>
 <body>
@@ -447,7 +628,13 @@ footer .keys{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
   </div>
 </header>
 
+<div class="live" id="live" aria-label="Pasek najnowszych depesz" hidden>
+  <div class="live-tag"><span class="dot"></span>LIVE</div>
+  <div class="live-view"><div class="live-track" id="liveTrack"></div></div>
+</div>
+
 <main>
+  <div id="pulse"></div>
   <div class="meta-line" id="metaLine"><span>ładowanie depesz…</span></div>
   <div id="feed">
     <div class="skel"></div><div class="skel"></div><div class="skel"></div>
@@ -457,13 +644,46 @@ footer .keys{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 </main>
 
 <footer>
-  <span>© 2026 AI Evolution News · po polsku, bez logowania</span>
-  <span class="keys">
-    <span><kbd>/</kbd> szukaj</span>
-    <span><kbd>J</kbd><kbd>K</kbd> nawigacja</span>
-    <span><kbd>Enter</kbd> rozwiń</span>
-    <span><kbd>S</kbd> zapisz</span>
-  </span>
+  <div class="foot-in">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="mark">
+          <span class="mk"><svg class="icon" aria-hidden="true"><use href="/icons.svg#luc-zap"/></svg></span>
+          <b>AI EVOLUTION <i>NEWS</i></b>
+        </div>
+        <p>Gęsty strumień depesz po polsku: AI, krypto, tech, świat, Polska, biznes, nauka,
+           gaming, kosmos, zdrowie i ciekawostki. Każda depesza z sednem sprawy, konkretami
+           i pytaniami do przemyślenia. Bez logowania, bez śledzenia, bez clickbaitu.</p>
+        <span class="foot-org">
+          <svg class="icon icon-xs" aria-hidden="true"><use href="/icons.svg#luc-zap"/></svg>
+          Projekt <b>AI Evolution Polska</b>
+        </span>
+      </div>
+      <div class="foot-col">
+        <h5>Kanały</h5>
+        <ul id="footCats"></ul>
+      </div>
+      <div class="foot-col">
+        <h5>Czytelnia</h5>
+        <ul>
+          <li><button data-foot="hot"><svg class="icon icon-xs" aria-hidden="true"><use href="/icons.svg#luc-flame"/></svg> Gorące depesze</button></li>
+          <li><button data-foot="saved"><svg class="icon icon-xs" aria-hidden="true"><use href="/icons.svg#luc-star"/></svg> Zapisane na później</button></li>
+          <li><button data-foot="search"><svg class="icon icon-xs" aria-hidden="true"><use href="/icons.svg#luc-search"/></svg> Szukaj w archiwum</button></li>
+          <li><button data-foot="theme"><svg class="icon icon-xs" aria-hidden="true"><use href="/icons.svg#luc-moon"/></svg> Zmień motyw</button></li>
+          <li><button data-foot="top"><svg class="icon icon-xs" aria-hidden="true"><use href="/icons.svg#luc-arrow-up"/></svg> Na górę strumienia</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bar">
+      <span>© 2026 <b>AI Evolution Polska</b> · po polsku, bez logowania · <span id="footCount"></span></span>
+      <span class="keys">
+        <span><kbd>/</kbd> szukaj</span>
+        <span><kbd>J</kbd><kbd>K</kbd> nawigacja</span>
+        <span><kbd>Enter</kbd> rozwiń</span>
+        <span><kbd>S</kbd> zapisz</span>
+      </span>
+    </div>
+  </div>
 </footer>
 
 <nav class="tabbar" id="tabbar" aria-label="Kanały — dolna nawigacja">
@@ -668,20 +888,45 @@ function prepare(list){
   });
   return list;
 }
+function ingest(d){
+  var list=Array.isArray(d&&d.news)?d.news:[];
+  if(!list.length)return false;
+  NEWS=prepare(list);META=(d&&d.meta)||{};BYID=null;
+  buildRail();buildLive();buildPulse();buildFootCats();render();syncTools();
+  return true;
+}
+/* Ziarno jest statyczne i wstępnie pobrane (<link rel=preload>) — rysujemy z niego
+   pierwszą klatkę, a odpowiedź API (wolniejsza, bo idzie przez KV) dokłada
+   ewentualne nowości w tle. Wcześniej strona czekała na API i preload szedł w kosz. */
 function loadData(){
+  var failed=0,first=false;
+  function fail(){
+    if(++failed<2||first)return;
+    $('feed').innerHTML='<div class="empty"><h3>Nie udało się wczytać depesz</h3>'
+      +'<p>Sprawdź połączenie i odśwież stronę.</p></div>';
+    $('metaLine').innerHTML='<span>błąd połączenia</span>';
+  }
+  fetch('/seed-news.json')
+    .then(function(r){return r.json();})
+    .then(function(d){
+      if(first)return;                       /* API zdążyło pierwsze — nie cofamy */
+      if(ingest(d)){first=true;openFromHash();}
+    })
+    .catch(fail);
+
   fetch('/api/news',{headers:{Accept:'application/json'}})
     .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
-    .then(function(d){if(!d||!Array.isArray(d.news)||!d.news.length)throw new Error('pusto');return d;})
-    .catch(function(){return fetch('/seed-news.json').then(function(r){return r.json();});})
     .then(function(d){
-      NEWS=prepare(Array.isArray(d.news)?d.news:[]);META=d.meta||{};
-      buildRail();render();syncTools();openFromHash();
+      if(!d||!Array.isArray(d.news)||!d.news.length)throw new Error('pusto');
+      /* dokładamy tylko, gdy API faktycznie ma coś więcej niż ziarno */
+      var openId=document.querySelector('.post.open');
+      if(first&&d.news.length===NEWS.length)return;
+      if(ingest(d)){
+        if(!first){first=true;openFromHash();}
+        else if(openId)jumpTo(Number(openId.dataset.news));
+      }
     })
-    .catch(function(e){
-      $('feed').innerHTML='<div class="empty"><h3>Nie udało się wczytać depesz</h3><p>'
-        +esc(e.message||'?')+'</p></div>';
-      $('metaLine').innerHTML='<span>błąd połączenia</span>';
-    });
+    .catch(fail);
 }
 
 /* ============================================================
@@ -872,6 +1117,74 @@ function render(){
 }
 
 /* ============================================================
+   PASEK LIVE — najnowsze depesze, tor przewija się w prawo
+   Zbudowany raz przy wczytaniu danych; animacja to czysty CSS.
+   ============================================================ */
+function buildLive(){
+  var pick=NEWS.slice(0,26);
+  if(!pick.length)return;
+  var one=pick.map(function(n){
+    var c=cat(n.category);
+    return '<button class="live-item'+(n.hot?' is-hot':'')+'" data-live="'+n.id+'" '
+      +'style="--c:'+c.color+'" title="'+esc(n.title)+'">'
+      +'<span class="d"></span><span class="k">'+esc(c.label)+'</span>'
+      +'<span class="t">'+esc(n.title)+'</span></button>';
+  }).join('');
+  /* dwie kopie pod sobą = pętla bez szwu; 50% toru to dokładnie jedna kopia */
+  $('liveTrack').innerHTML=one+one;
+  $('liveTrack').style.setProperty('--dur',Math.max(40,pick.length*3.4)+'s');
+  $('live').hidden=false;
+}
+
+/* ============================================================
+   PULS DNIA — co się dziś dzieje, zanim zaczniesz czytać
+   ============================================================ */
+function buildPulse(){
+  if(!NEWS.length)return;
+  var today=NEWS[0].date;
+  var dzis=0,hot=0,mins=0,cats={},tags={};
+  NEWS.forEach(function(n,i){
+    if(n.date===today)dzis++;
+    if(n.hot)hot++;
+    cats[n.category]=1;
+    mins+=readMins(n);
+    if(i<70&&n.tags)n.tags.forEach(function(t){tags[t]=(tags[t]||0)+1;});
+  });
+  var top=Object.keys(tags).sort(function(a,b){
+    return tags[b]-tags[a]||a.localeCompare(b,'pl');}).slice(0,8);
+  var h='<section class="pulse"><div class="pulse-h">'
+    +ico('luc-zap','icon-xs')+' Puls dnia'
+    +'<span class="when">'+esc(fmtDate(today))+'</span></div>'
+    +'<div class="pulse-stats">'
+      +'<div><b>'+dzis+'</b><span>depesz dziś</span></div>'
+      +'<div><b>'+hot+'</b><span>gorących</span></div>'
+      +'<div><b>'+Object.keys(cats).length+'</b><span>kanałów</span></div>'
+      +'<div><b>'+NEWS.length+'</b><span>w archiwum</span></div>'
+    +'</div>';
+  if(top.length){
+    h+='<div class="pulse-tags"><span class="lb">Na tapecie</span>'
+      +top.map(function(t){return '<button data-tag="'+esc(t)+'">#'+esc(t)+'</button>';}).join('')
+      +'</div>';
+  }
+  h+='</section>';
+  $('pulse').innerHTML=h;
+  var fc=$('footCount');
+  if(fc)fc.textContent=NEWS.length+' depesz · '+Math.round(mins/60)+' h czytania';
+}
+
+/* lista kanałów w stopce — klik filtruje strumień */
+function buildFootCats(){
+  var counts={};
+  NEWS.forEach(function(n){counts[n.category]=(counts[n.category]||0)+1;});
+  var h=ORDER.filter(function(id){return counts[id];}).map(function(id){
+    var c=cat(id);
+    return '<li><button data-cat="'+id+'" style="--c:'+c.color+'">'
+      +ico(c.icon,'icon-xs')+esc(c.label)+' <span class="n">'+counts[id]+'</span></button></li>';
+  }).join('');
+  $('footCats').innerHTML=h;
+}
+
+/* ============================================================
    ROZWIJANIE — treść budowana dopiero przy pierwszym otwarciu
    ============================================================ */
 var BYID=null;
@@ -891,7 +1204,10 @@ function toggle(el,force){
   el.querySelector('.post-head').setAttribute('aria-expanded',open?'true':'false');
   if(open){try{history.replaceState(null,'','#news-'+id);}catch(e){}}
 }
-function headOffset(){return (document.querySelector('.top')||{offsetHeight:56}).offsetHeight+8;}
+function headOffset(){
+  var t=document.querySelector('.top'),l=$('live');
+  return (t?t.offsetHeight:56)+(l&&!l.hidden?l.offsetHeight:0)+8;
+}
 function scrollToEl(el){
   window.scrollTo({top:Math.max(0,el.getBoundingClientRect().top+window.scrollY-headOffset())});
 }
@@ -1053,6 +1369,32 @@ function setup(){
   $('sheet').addEventListener('click',function(e){
     if(e.target.closest('[data-close]')){sheet(false);return;}
     var b=e.target.closest('[data-cat]');if(b)pickCat(b.dataset.cat);
+  });
+
+  /* pasek LIVE — klik otwiera depeszę */
+  $('liveTrack').addEventListener('click',function(e){
+    var b=e.target.closest('[data-live]');
+    if(b)jumpTo(Number(b.dataset.live));
+  });
+
+  /* puls dnia — tagi przestawiają wyszukiwarkę */
+  $('pulse').addEventListener('click',function(e){
+    var t=e.target.closest('[data-tag]');
+    if(t)searchFor(t.dataset.tag);
+  });
+
+  /* stopka — kanały i skróty do narzędzi */
+  document.querySelector('footer').addEventListener('click',function(e){
+    var c=e.target.closest('[data-cat]');
+    if(c){pickCat(c.dataset.cat);return;}
+    var f=e.target.closest('[data-foot]');
+    if(!f)return;
+    var a=f.dataset.foot;
+    if(a==='hot'){hotOnly=!hotOnly;syncTools();render();window.scrollTo({top:0});}
+    else if(a==='saved'){savedOnly=!savedOnly;syncTools();render();window.scrollTo({top:0});}
+    else if(a==='search'){window.scrollTo({top:0});toggleSearch(true);}
+    else if(a==='theme'){setTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark');}
+    else if(a==='top'){window.scrollTo({top:0});}
   });
 
   $('hotBtn').addEventListener('click',function(){hotOnly=!hotOnly;syncTools();render();});
