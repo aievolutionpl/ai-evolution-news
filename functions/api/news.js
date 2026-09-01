@@ -78,7 +78,9 @@ function json(data, status = 200) {
 }
 
 function checkAuth(request, env) {
-  const token = env.UPDATE_TOKEN || 'change-me';
+  // Fail-closed: brak skonfigurowanego UPDATE_TOKEN = zapis zawsze odrzucony.
+  const token = env.UPDATE_TOKEN;
+  if (!token) return { ok: false, error: 'Server misconfigured: UPDATE_TOKEN not set' };
   const header = request.headers.get('Authorization') || '';
   if (header === `Bearer ${token}`) return { ok: true };
   return { ok: false, error: 'Unauthorized' };
