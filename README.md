@@ -2,7 +2,11 @@
 
 Polskojęzyczny news portal (AI, krypto, tech, świat, biznes, nauka, gaming, ciekawostki)
 — **minimalistyczna czytelnia**: gęsty strumień depesz widoczny od razu po wejściu,
-filtrowanie wyłącznie ikonami kanałów, klik rozwija zdjęcie i pełny tekst.
+filtrowanie ikonami kanałów, klik rozwija zdjęcie i pełny tekst.
+
+Od UI v6 każdy wiersz niesie zajawkę i tagi, a rozwinięta depesza zaczyna się od
+**Sedna sprawy** (jedno zdanie: co to zmienia) i listy **Konkretów** (fakty i liczby
+z tekstu). Strumień renderuje się partiami po 24 wiersze.
 
 **Live:** https://ai-evolution-news.pages.dev
 
@@ -15,21 +19,34 @@ filtrowanie wyłącznie ikonami kanałów, klik rozwija zdjęcie i pełny tekst.
 
 ## Funkcje
 
-**Zasada UI v4: news od pierwszej sekundy.** Żadnego hero, karuzeli, tickera
+**Zasada UI v6: news od pierwszej sekundy.** Żadnego hero, karuzeli, tickera
 ani paska filtrów przed treścią — pod nagłówkiem od razu zaczyna się strumień depesz.
 
-- **Jeden gęsty strumień** — wszystkie depesze (obecnie 108) w jednej liście,
+- **Jeden gęsty strumień** — wszystkie depesze (obecnie 137) w jednej liście,
   posortowane od najnowszych, pogrupowane sticky nagłówkami dni („Dziś", „Wczoraj", data)
-- **Filtrowanie tylko ikonami** — pasek kanałów w nagłówku to same ikony (Lucide),
-  bez etykiet i bez rozwijanych list; obok trzy przełączniki: 🔥 gorące, ★ zapisane, 🔍 szukaj
-- **Klik = pełna depesza** — wiersz rozwija się w czytnik: zdjęcie 16:9, lead,
-  pełny tekst w mierze 66 znaków (16,5 px / 1,72), źródło, pytania do przemyślenia i komentarze
-- **Treść budowana leniwie** — HTML rozwinięcia i obrazek powstają dopiero przy pierwszym
-  otwarciu depeszy, więc lista 100+ pozycji renderuje się natychmiast
-- **Zero zewnętrznych zasobów** — fonty systemowe, ikony z lokalnego sprite'a `icons.svg`,
-  brak AOS/Splide/Toastify i brak Google Fonts; jedyne żądania to `/api/news` i `/api/comments`
-- **Fallback danych** — gdy `/api/news` nie odpowiada, strona wczytuje `seed-news.json`,
-  więc statyczny podgląd działa bez backendu
+- **Zajawka i tagi w wierszu** — widać, o co chodzi, bez rozwijania; tag jest klikalny
+  i od razu przestawia wyszukiwarkę na tę frazę
+- **Sedno sprawy** — wyróżniony blok na początku rozwinięcia: jedno zdanie o tym,
+  co dana depesza faktycznie zmienia
+- **Konkrety** — 3 punkty z twardymi faktami i liczbami wyjętymi z tekstu depeszy
+- **Filtrowanie ikonami** — pasek kanałów w nagłówku to ikony (Lucide) z etykietą
+  aktywnego i pod kursorem; obok trzy przełączniki: 🔥 gorące, ★ zapisane, 🔍 szukaj.
+  Na mobile dolny pasek zakładek + arkusz „Więcej" z pełną listą kanałów
+- **Klik = pełna depesza** — wiersz rozwija się w czytnik: zdjęcie 16:9, sedno, konkrety,
+  lead, pełny tekst w mierze 66 znaków (16,5 px / 1,72), tagi, źródło, pytania i komentarze
+- **Render partiami** — pierwsza klatka rysuje 24 wiersze, kolejne dochodzą przy
+  dojeździe do końca listy (`IntersectionObserver`); wiersze poza ekranem pomija
+  `content-visibility:auto`
+- **Treść budowana leniwie** — HTML rozwinięcia i generowana okładka powstają dopiero
+  przy pierwszym otwarciu depeszy; miniaturka w wierszu to czyste CSS, zero żądań
+- **Indeks wyszukiwania liczony raz** — przy wczytaniu danych, a nie przy każdym
+  wpisanym znaku
+- **Trzy żądania na wejściu** — `index.html`, `icons.svg` i dane. Favicon jest wpisany
+  w stronę jako SVG (wcześniej ciągnął 900 kB PNG), fonty są systemowe, brak
+  AOS/Splide/Toastify i brak Google Fonts
+- **Dane: ziarno + KV** — `/api/news` scala `seed-news.json` z repozytorium z tym, co
+  dopisano w KV (KV wygrywa po `id`), więc wdrożenie nowych depesz w gicie jest widoczne
+  od razu. Gdy API nie odpowiada, front i tak wczytuje `seed-news.json`
 - **Dwa motywy** — ciemny (domyślny) i jasny; ustawiany przed pierwszym malowaniem,
   zapisywany w `localStorage`. Kolory kanałów przyciemniane `color-mix` na białym tle
 - **Auto-okładki** — depesze bez zdjęcia dostają generowaną grafikę SVG (deterministycznie z `id`):
@@ -64,8 +81,10 @@ ani paska filtrów przed treścią — pod nagłówkiem od razu zaczyna się str
 Wszystko oparte na tokenach CSS (`:root` = ciemny, `[data-theme="light"]` = jasny):
 płótno, powierzchnie, linie, tekst, akcent, promienie. Zmiana palety = zmiana kilku zmiennych.
 
-Ciemny: tło `#0B0D10`, linie `#242C35`, tekst `#E9EEF4`, akcent bursztyn `#FFA51F`,
-hot `#FF5468`. Jasny: biel `#FFFFFF`, linie `#E2E6EC`, tekst `#0E1319`, akcent `#B96A00`.
+Ciemny: tło `#0A0C0F`, linie `#232B36`, tekst `#EAEFF5`, akcent bursztyn `#FFA724`,
+hot `#FF5A6E`. Jasny: `#FCFCFD`, linie `#E3E8EF`, tekst `#0D1219`, akcent `#B25E00`,
+hot `#C8253A`. Kolory kanałów dobrano pod ciemne tło i przyciemnia je `color-mix`
+na jasnym.
 Typografia to fonty systemowe (sans dla treści, mono dla metadanych) — zero pobierania.
 
 Ikony to lokalny sprite `icons.svg` (styl Lucide, stroke 1.8, `viewBox 24`) —
@@ -78,14 +97,36 @@ pages/
 ├── index.html            # Single-page UI + JS
 ├── wrangler.toml         # Pages Functions + KV binding
 ├── icons.svg             # Lucide SVG sprite (zero CDN)
-├── seed-news.json        # Dane startowe (108 depesz) — seed do KV + fallback dla frontu
+├── seed-news.json        # Korpus redakcyjny (137 depesz, zminifikowany) — scalany w /api/news
 ├── functions/api/
 │   ├── news.js           # GET/POST/PUT/DELETE /api/news, GET /api/health
 │   └── comments.js       # GET/POST /api/comments (anonimowe)
 ├── images/               # Grafiki newsów (PNG→JPEG)
-├── libs/                 # (nieużywane przez UI v4)
+├── libs/                 # (nieużywane przez UI — zostały po v2)
 └── data/                 # (gitignored) lokalne kopie danych
 ```
+
+## Schemat depeszy
+
+```jsonc
+{
+  "id": 142,
+  "title": "…",
+  "category": "biznes",          // ai|krypto|tech|swiat|polska|biznes|nauka|gaming|kosmos|zdrowie|fun
+  "date": "2026-09-01",
+  "source": "CNBC / Reuters",
+  "hot": true,
+  "excerpt": "Zajawka — pokazywana w wierszu i jako lead.",
+  "full": "Akapity rozdzielone pustą linią.",
+  "why": "Sedno sprawy: jedno zdanie o tym, co to zmienia.",
+  "points": ["Konkret 1", "Konkret 2", "Konkret 3"],
+  "questions": ["Pytanie 1", "Pytanie 2", "Pytanie 3"],
+  "tags": ["tag1", "tag2", "tag3"],
+  "image": "/images/news-142.jpg"   // opcjonalne — bez niego generowana okładka SVG
+}
+```
+
+`why`, `points` i `tags` są opcjonalne: bez nich UI po prostu nie rysuje danego bloku.
 
 ## Deploy
 
@@ -116,7 +157,7 @@ news deploy          # deploy Cloudflare Pages
 
 | Metoda | Endpoint | Opis |
 |---|---|---|
-| GET | `/api/news` | Lista newsów + meta |
+| GET | `/api/news` | Lista newsów + meta (ziarno z repo scalone z KV) |
 | POST/PUT | `/api/news` | Zapis listy (wymaga Bearer token) |
 | DELETE | `/api/news/:id` | Usuń news |
 | GET | `/api/comments?news=<id>` | Komentarze dla newsa |
