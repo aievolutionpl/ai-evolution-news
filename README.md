@@ -4,9 +4,11 @@ Polskojęzyczny news portal (AI, krypto, tech, świat, biznes, nauka, gaming, ci
 — **minimalistyczna czytelnia**: gęsty strumień depesz widoczny od razu po wejściu,
 filtrowanie ikonami kanałów, klik rozwija zdjęcie i pełny tekst.
 
-Od UI v6 każdy wiersz niesie zajawkę i tagi, a rozwinięta depesza zaczyna się od
-**Sedna sprawy** (jedno zdanie: co to zmienia) i listy **Konkretów** (fakty i liczby
-z tekstu). Strumień renderuje się partiami po 24 wiersze.
+Od UI v7 każda depesza jest kartą z paskiem w kolorze kanału, typografia jest
+o klasę większa, a domyślnym motywem jest jasny. Wiersz niesie zajawkę i tagi,
+a rozwinięta depesza zaczyna się od **Sedna sprawy** (jedno zdanie: co to zmienia)
+i listy **Konkretów** (fakty i liczby z tekstu). Strumień renderuje się partiami
+po 24 wiersze.
 
 **Live:** https://ai-evolution-news.pages.dev
 
@@ -19,18 +21,19 @@ z tekstu). Strumień renderuje się partiami po 24 wiersze.
 
 ## Funkcje
 
-**Zasada UI v6: news od pierwszej sekundy.** Żadnego hero, karuzeli, tickera
+**Zasada UI v7: news od pierwszej sekundy.** Żadnego hero, karuzeli, tickera
 ani paska filtrów przed treścią — pod nagłówkiem od razu zaczyna się strumień depesz.
 
-- **Jeden gęsty strumień** — wszystkie depesze (obecnie 137) w jednej liście,
-  posortowane od najnowszych, pogrupowane sticky nagłówkami dni („Dziś", „Wczoraj", data)
+- **Jeden strumień kart** — wszystkie depesze (obecnie 163) w jednej liście,
+  posortowane od najnowszych, pogrupowane sticky nagłówkami dni („Dziś", „Wczoraj", data).
+  Każda karta ma pasek w kolorze swojego kanału, więc kategorie nie zlewają się w ścianę tekstu
 - **Zajawka i tagi w wierszu** — widać, o co chodzi, bez rozwijania; tag jest klikalny
   i od razu przestawia wyszukiwarkę na tę frazę
 - **Sedno sprawy** — wyróżniony blok na początku rozwinięcia: jedno zdanie o tym,
   co dana depesza faktycznie zmienia
 - **Konkrety** — 3 punkty z twardymi faktami i liczbami wyjętymi z tekstu depeszy
-- **Filtrowanie ikonami** — pasek kanałów w nagłówku to ikony (Lucide) z etykietą
-  aktywnego i pod kursorem; obok trzy przełączniki: 🔥 gorące, ★ zapisane, 🔍 szukaj.
+- **Dwupoziomowa nawigacja** — górny pasek to marka i narzędzia (🔥 gorące, ★ zapisane,
+  🔍 szukaj, motyw), drugi poziom to kanały z ikoną, etykietą i licznikiem depesz.
   Na mobile dolny pasek zakładek + arkusz „Więcej" z pełną listą kanałów
 - **Klik = pełna depesza** — wiersz rozwija się w czytnik: zdjęcie 16:9, sedno, konkrety,
   lead, pełny tekst w mierze 66 znaków (16,5 px / 1,72), tagi, źródło, pytania i komentarze
@@ -47,8 +50,9 @@ ani paska filtrów przed treścią — pod nagłówkiem od razu zaczyna się str
 - **Dane: ziarno + KV** — `/api/news` scala `seed-news.json` z repozytorium z tym, co
   dopisano w KV (KV wygrywa po `id`), więc wdrożenie nowych depesz w gicie jest widoczne
   od razu. Gdy API nie odpowiada, front i tak wczytuje `seed-news.json`
-- **Dwa motywy** — ciemny (domyślny) i jasny; ustawiany przed pierwszym malowaniem,
-  zapisywany w `localStorage`. Kolory kanałów przyciemniane `color-mix` na białym tle
+- **Dwa motywy** — jasny (domyślny) i ciemny; ustawiany przed pierwszym malowaniem,
+  zapisywany w `localStorage`. Kolory kanałów przyciemniane `color-mix` na jasnym tle,
+  a generowane okładki mają osobne warianty dla obu motywów
 - **Auto-okładki** — depesze bez zdjęcia dostają generowaną grafikę SVG (deterministycznie z `id`):
   cztery motywy przypisane do rodzin kanałów — obwód (AI/tech), słupki (krypto/biznes),
   orbity (kosmos/świat/Polska), fale (nauka/zdrowie), siatka (gaming/ciekawostki). Zero liter i logotypów
@@ -81,10 +85,13 @@ ani paska filtrów przed treścią — pod nagłówkiem od razu zaczyna się str
 Wszystko oparte na tokenach CSS (`:root` = ciemny, `[data-theme="light"]` = jasny):
 płótno, powierzchnie, linie, tekst, akcent, promienie. Zmiana palety = zmiana kilku zmiennych.
 
-Ciemny: tło `#0A0C0F`, linie `#232B36`, tekst `#EAEFF5`, akcent bursztyn `#FFA724`,
-hot `#FF5A6E`. Jasny: `#FCFCFD`, linie `#E3E8EF`, tekst `#0D1219`, akcent `#B25E00`,
-hot `#C8253A`. Kolory kanałów dobrano pod ciemne tło i przyciemnia je `color-mix`
-na jasnym.
+Jasny (domyślny): tło `#F5F7FA`, karty `#FFFFFF`, linie `#D7DEE9`, tekst `#0A0F16`,
+akcent `#B15A00`, hot `#C0243A`. Ciemny: tło `#080A0E`, karty `#12171F`,
+linie `#2A3542`, tekst `#EDF2F8`, akcent `#FFB13D`, hot `#FF6076`.
+Kolory kanałów dobrano pod ciemne tło i przyciemnia je `color-mix` na jasnym.
+
+Typografia: 17 px bazy, tytuł depeszy 20 px, zajawka 15,5 px, tekst artykułu 17,5 px
+w mierze 70 znaków. Ikony 21 px (18 px małe). Kolumna 1320 px, od 1700 px — 1440 px.
 Typografia to fonty systemowe (sans dla treści, mono dla metadanych) — zero pobierania.
 
 Ikony to lokalny sprite `icons.svg` (styl Lucide, stroke 1.8, `viewBox 24`) —
@@ -97,7 +104,7 @@ pages/
 ├── index.html            # Single-page UI + JS
 ├── wrangler.toml         # Pages Functions + KV binding
 ├── icons.svg             # Lucide SVG sprite (zero CDN)
-├── seed-news.json        # Korpus redakcyjny (137 depesz, zminifikowany) — scalany w /api/news
+├── seed-news.json        # Korpus redakcyjny (163 depesze, zminifikowany) — scalany w /api/news
 ├── functions/api/
 │   ├── news.js           # GET/POST/PUT/DELETE /api/news, GET /api/health
 │   └── comments.js       # GET/POST /api/comments (anonimowe)
