@@ -1,0 +1,172 @@
+{
+ "skyline-finance": {
+  "file": "/images/cat-skyline-finance.jpg",
+  "desc": "corporate skyscrapers in financial district, low angle, dramatic sky",
+  "kb": 116
+ },
+ "controller": {
+  "file": "/images/cat-controller.jpg",
+  "desc": "game controller on dark background with neon RGB lighting",
+  "kb": 46
+ },
+ "globe-news": {
+  "file": "/images/cat-globe-news.jpg",
+  "desc": "dramatic world map with glowing connection lines, dark editorial style",
+  "kb": 89
+ },
+ "datacenter": {
+  "file": "/images/cat-datacenter.jpg",
+  "desc": "modern data center corridor with rows of server racks and blue LED lights",
+  "kb": 86
+ },
+ "warsaw": {
+  "file": "/images/cat-warsaw.jpg",
+  "desc": "warsaw skyline with palace of culture at golden hour, modern city mood",
+  "kb": 78
+ },
+ "smartphone": {
+  "file": "/images/cat-smartphone.jpg",
+  "desc": "premium smartphone on dark desk with soft studio lighting",
+  "kb": 45
+ },
+ "arcade": {
+  "file": "/images/cat-arcade.jpg",
+  "desc": "retro-futuristic gaming room with multiple screens, neon atmosphere",
+  "kb": 87
+ },
+ "btc-golden": {
+  "file": "/images/cat-btc-golden.jpg",
+  "desc": "golden bitcoin coin on dark reflective surface with dramatic rim lighting, financial mood",
+  "kb": 70
+ },
+ "esports": {
+  "file": "/images/cat-esports.jpg",
+  "desc": "esports arena with massive screens and crowd silhouettes, purple lighting",
+  "kb": 78
+ },
+ "penguin": {
+  "file": "/images/cat-penguin.jpg",
+  "desc": "cute penguin on rocky beach with ocean waves, natural daylight photography",
+  "kb": 72
+ },
+ "ai-lab": {
+  "file": "/images/cat-ai-lab.jpg",
+  "desc": "futuristic AI research laboratory with glowing neural network visualization on large screens, dark cinematic, cyan and purple lighting",
+  "kb": 92
+ },
+ "airport": {
+  "file": "/images/cat-airport.jpg",
+  "desc": "busy modern airport terminal at dusk, planes at gates, cinematic wide shot",
+  "kb": 113
+ },
+ "rocket-launch": {
+  "file": "/images/cat-rocket-launch.jpg",
+  "desc": "rocket launching at dawn with dramatic exhaust plume, low angle",
+  "kb": 47
+ },
+ "diplomacy": {
+  "file": "/images/cat-diplomacy.jpg",
+  "desc": "empty conference hall with rows of national flags, dramatic lighting",
+  "kb": 74
+ },
+ "trading-desk": {
+  "file": "/images/cat-trading-desk.jpg",
+  "desc": "financial trading desk with multiple screens showing green and red candlestick charts, dark room",
+  "kb": 49
+ },
+ "satellite": {
+  "file": "/images/cat-satellite.jpg",
+  "desc": "communications satellite orbiting earth, solar panels glinting, space background",
+  "kb": 79
+ },
+ "sejm": {
+  "file": "/images/cat-sejm.jpg",
+  "desc": "polish parliament building exterior, flag flying, daylight",
+  "kb": 89
+ },
+ "medical": {
+  "file": "/images/cat-medical.jpg",
+  "desc": "modern medical laboratory with blood test vials, clinical bright lighting",
+  "kb": 69
+ },
+ "mars": {
+  "file": "/images/cat-mars.jpg",
+  "desc": "mars surface with rover, reddish landscape, dusty sky",
+  "kb": 73
+ },
+ "polish-office": {
+  "file": "/images/cat-polish-office.jpg",
+  "desc": "modern IT office in poland, developers at work, natural light",
+  "kb": 80
+ },
+ "ai-chip": {
+  "file": "/images/cat-ai-chip.jpg",
+  "desc": "macro shot of advanced AI processor chip on circuit board, glowing traces, dramatic lighting",
+  "kb": 115
+ },
+ "robot-run": {
+  "file": "/images/cat-robot-run.jpg",
+  "desc": "humanoid robot sprinting on athletic track, dynamic motion, stadium background",
+  "kb": 63
+ },
+ "ai-agent": {
+  "file": "/images/cat-ai-agent.jpg",
+  "desc": "humanoid robot assistant working at a modern desk with multiple monitors, warm office lighting",
+  "kb": 65
+ },
+ "lab": {
+  "file": "/images/cat-lab.jpg",
+  "desc": "scientific research laboratory with microscope and glassware, clean bright look",
+  "kb": 75
+ },
+ "robotaxi": {
+  "file": "/images/cat-robotaxi.jpg",
+  "desc": "autonomous self-driving car on city street at dusk, lidar sensors visible",
+  "kb": 94
+ },
+ "brain": {
+  "file": "/images/cat-brain.jpg",
+  "desc": "glowing human brain hologram in dark medical research setting, blue tones",
+  "kb": 67
+ },
+ "ai-regulation": {
+  "file": "/images/cat-ai-regulation.jpg",
+  "desc": "european union flags in front of modern government building, glass architecture, daylight",
+  "kb": 79
+ },
+ "charts": {
+  "file": "/images/cat-charts.jpg",
+  "desc": "abstract stock market growth chart in green rising over dark background",
+  "kb": 47
+ },
+ "warehouse-robot": {
+  "file": "/images/cat-warehouse-robot.jpg",
+  "desc": "automated warehouse with robotic arms moving packages, industrial lighting",
+  "kb": 120
+ },
+ "telescope": {
+  "file": "/images/cat-telescope.jpg",
+  "desc": "space telescope observing distant galaxy, deep space, stars",
+  "kb": 62
+ },
+ "blockchain": {
+  "file": "/images/cat-blockchain.jpg",
+  "desc": "abstract glowing blockchain network of connected nodes, deep blue and gold palette",
+  "kb": 69
+ },
+ "starfield": {
+  "file": "/images/cat-starfield.jpg",
+  "desc": "deep space starfield with nebula, purple and blue tones",
+  "kb": 103
+ },
+ "fusion": {
+  "file": "/images/cat-fusion.jpg",
+  "desc": "nuclear fusion reactor tokamak interior with plasma glow, orange and violet",
+  "kb": 107
+ },
+ "sleep": {
+  "file": "/images/cat-sleep.jpg",
+  "desc": "peaceful bedroom at night, soft moonlight through window, calm mood",
+  "kb": 46
+ }
+}
