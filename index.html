@@ -558,6 +558,13 @@ body{
 .p-meta .hot{display:inline-flex;align-items:center;gap:4px;
   padding:2px 6px;border-radius:99px;font-size:9.5px;
   background:color-mix(in srgb,var(--hot) 15%,transparent)}
+.p-meta .hot .dot{width:5px;height:5px;border-radius:50%;background:var(--hot);flex:none;
+  animation:hotpulse 1.6s ease-in-out infinite}
+@keyframes hotpulse{
+  0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--hot) 55%,transparent)}
+  50%{box-shadow:0 0 0 4px color-mix(in srgb,var(--hot) 0%,transparent)}
+}
+@media (prefers-reduced-motion:reduce){.p-meta .hot .dot{animation:none}}
 .body .shot{box-shadow:var(--shadow)}
 .gist{box-shadow:0 6px 22px color-mix(in srgb,var(--accent) 10%,transparent)}
 .article .lead{border-left-width:3px}
@@ -921,9 +928,14 @@ function loadData(){
       /* dokładamy tylko, gdy API faktycznie ma coś więcej niż ziarno */
       var openId=document.querySelector('.post.open');
       if(first&&d.news.length===NEWS.length)return;
+      var prevCount=NEWS.length;
       if(ingest(d)){
         if(!first){first=true;openFromHash();}
-        else if(openId)jumpTo(Number(openId.dataset.news));
+        else{
+          if(openId)jumpTo(Number(openId.dataset.news));
+          var added=d.news.length-prevCount;
+          if(added>0)toast(added===1?'Doszła 1 nowa depesza':'Doszło '+added+' nowych depesz');
+        }
       }
     })
     .catch(fail);
@@ -1013,7 +1025,7 @@ function headHTML(n){
         +'<span>'+esc(relDays(n.date))+'</span><span class="sep"></span>'
         +'<span>'+readMins(n)+' min</span>'
         +(n.source?'<span class="sep src"></span><span class="src">'+esc(n.source)+'</span>':'')
-        +(n.hot?'<span class="sep"></span><span class="hot">HOT</span>':'')
+        +(n.hot?'<span class="sep"></span><span class="hot"><i class="dot" aria-hidden="true"></i>HOT</span>':'')
       +'</span>'
       +tagsHTML(n,true)
     +'</span>'
