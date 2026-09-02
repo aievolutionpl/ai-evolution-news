@@ -168,5 +168,170 @@
   "file": "/images/cat-sleep.jpg",
   "desc": "peaceful bedroom at night, soft moonlight through window, calm mood",
   "kb": 46
+ },
+ "ai-neural-face": {
+  "file": "/images/cat-ai-neural-face.jpg",
+  "desc": "abstract face of luminous neural threads, navy/cyan",
+  "kb": 67
+ },
+ "ai-robots-hand": {
+  "file": "/images/cat-ai-robots-hand.jpg",
+  "desc": "robot and human hands reaching, volumetric light",
+  "kb": 27
+ },
+ "ai-agent-desk": {
+  "file": "/images/cat-ai-agent-desk.jpg",
+  "desc": "holographic AI panels over office desk at dusk",
+  "kb": 91
+ },
+ "krypto-vault": {
+  "file": "/images/cat-krypto-vault.jpg",
+  "desc": "bank vault with golden digital currency light",
+  "kb": 63
+ },
+ "krypto-market-floor": {
+  "file": "/images/cat-krypto-market-floor.jpg",
+  "desc": "trading floor with giant market chart screens",
+  "kb": 104
+ },
+ "krypto-mining": {
+  "file": "/images/cat-krypto-mining.jpg",
+  "desc": "mining server rows, amber LEDs, industrial hall",
+  "kb": 95
+ },
+ "tech-circuit-city": {
+  "file": "/images/cat-tech-circuit-city.jpg",
+  "desc": "macro circuit board glowing like a night city",
+  "kb": 108
+ },
+ "tech-laser-fab": {
+  "file": "/images/cat-tech-laser-fab.jpg",
+  "desc": "semiconductor cleanroom, violet laser, silhouette",
+  "kb": 72
+ },
+ "tech-devices": {
+  "file": "/images/cat-tech-devices.jpg",
+  "desc": "premium devices on dark slate, dramatic light",
+  "kb": 44
+ },
+ "swiat-ocean-storm": {
+  "file": "/images/cat-swiat-ocean-storm.jpg",
+  "desc": "stormy ocean aerial, climate mood",
+  "kb": 79
+ },
+ "swiat-city-refugees": {
+  "file": "/images/cat-swiat-city-refugees.jpg",
+  "desc": "people with luggage against setting sun",
+  "kb": 47
+ },
+ "swiat-solar-field": {
+  "file": "/images/cat-swiat-solar-field.jpg",
+  "desc": "solar field at sunrise, golden haze",
+  "kb": 63
+ },
+ "polska-acumulator": {
+  "file": "/images/cat-polska-acumulator.jpg",
+  "desc": "battery factory line, orange robots",
+  "kb": 122
+ },
+ "polska-school": {
+  "file": "/images/cat-polska-school.jpg",
+  "desc": "Polish classroom with AI holograms",
+  "kb": 64
+ },
+ "polska-energy": {
+  "file": "/images/cat-polska-energy.jpg",
+  "desc": "wind turbines over Polish farmland at dusk",
+  "kb": 87
+ },
+ "biznes-4day": {
+  "file": "/images/cat-biznes-4day.jpg",
+  "desc": "office golden hour, people leaving early",
+  "kb": 65
+ },
+ "biznes-vc-hardware": {
+  "file": "/images/cat-biznes-vc-hardware.jpg",
+  "desc": "hardware prototypes workbench, VC meeting",
+  "kb": 64
+ },
+ "biznes-cloud-cost": {
+  "file": "/images/cat-biznes-cloud-cost.jpg",
+  "desc": "server corridor with price holograms, blue",
+  "kb": 68
+ },
+ "nauka-lab-glass": {
+  "file": "/images/cat-nauka-lab-glass.jpg",
+  "desc": "glowing flask in dark laboratory, bokeh",
+  "kb": 40
+ },
+ "nauka-superconductor": {
+  "file": "/images/cat-nauka-superconductor.jpg",
+  "desc": "levitating cube over magnetic track",
+  "kb": 46
+ },
+ "nauka-weather-model": {
+  "file": "/images/cat-nauka-weather-model.jpg",
+  "desc": "3D weather swirls over globe, control room",
+  "kb": 86
+ },
+ "gaming-arena": {
+  "file": "/images/cat-gaming-arena.jpg",
+  "desc": "esports arena, magenta stage lighting",
+  "kb": 101
+ },
+ "gaming-dynamic-price": {
+  "file": "/images/cat-gaming-dynamic-price.jpg",
+  "desc": "neon game store at night, rainy reflections",
+  "kb": 96
+ },
+ "gaming-steam-record": {
+  "file": "/images/cat-gaming-steam-record.jpg",
+  "desc": "multi-monitor gaming setup, RGB dark room",
+  "kb": 79
+ },
+ "kosmos-debris": {
+  "file": "/images/cat-kosmos-debris.jpg",
+  "desc": "orbital debris field around Earth, cinematic",
+  "kb": 82
+ },
+ "kosmos-asteroid-return": {
+  "file": "/images/cat-kosmos-asteroid-return.jpg",
+  "desc": "return capsule parachute over desert dawn",
+  "kb": 41
+ },
+ "kosmos-telescope-nova": {
+  "file": "/images/cat-kosmos-telescope-nova.jpg",
+  "desc": "radio telescopes under milky way",
+  "kb": 74
+ },
+ "zdrowie-antibiotic": {
+  "file": "/images/cat-zdrowie-antibiotic.jpg",
+  "desc": "petri dishes and microscope, clinical teal",
+  "kb": 82
+ },
+ "zdrowie-health-app": {
+  "file": "/images/cat-zdrowie-health-app.jpg",
+  "desc": "smartwatch health rings, morning light",
+  "kb": 37
+ },
+ "zdrowie-eu-health": {
+  "file": "/images/cat-zdrowie-eu-health.jpg",
+  "desc": "EU glass facade with medical hologram",
+  "kb": 86
+ },
+ "fun-melody-crossing": {
+  "file": "/images/cat-fun-melody-crossing.jpg",
+  "desc": "musical notes over night crossing, neon",
+  "kb": 125
+ },
+ "fun-old-atlas": {
+  "file": "/images/cat-fun-old-atlas.jpg",
+  "desc": "ancient atlas in candle-lit library",
+  "kb": 83
+ },
+ "fun-record-crowd": {
+  "file": "/images/cat-fun-record-crowd.jpg",
+  "desc": "stadium crowd with confetti, wide angle",
+  "kb": 134
  }
 }
