@@ -6,11 +6,13 @@ filtrowanie ikonami kanałów, klik rozwija zdjęcie i pełny tekst.
 
 Projekt **AI Evolution Polska**.
 
-Od UI v7 nad strumieniem stoi przewijający się **pasek LIVE** (tor sunie od lewej do
-prawej, zatrzymuje się pod kursorem) i panel **Puls dnia** ze statystykami oraz tagami
-„na tapecie". Każdy wiersz niesie zajawkę i tagi, a rozwinięta depesza zaczyna się od
-**Sedna sprawy** i listy **Konkretów**. Stopka jest pełną nawigacją: kanały z licznikami,
-skróty do narzędzi i informacja, czyj to projekt.
+Od UI v8 układ jest trzykolumnowy: **kolumny reklamowe stoją w miejscu**
+(`position:sticky`, przyklejone tuż pod paskiem LIVE), a przewija się wyłącznie
+środkowy strumień depesz. Nad strumieniem sunie **pasek LIVE**, rozwinięta depesza
+zaczyna się od **Sedna sprawy** i listy **Konkretów**, a pod tekstem stoją klikalne tagi.
+
+Redakcję prowadzi agent opisany w [`AGENT-REDAKTOR.md`](AGENT-REDAKTOR.md) —
+to jego brief: głos, zasady pisania, anatomia depeszy i lista kontrolna przed zapisem.
 
 **Live:** https://ai-evolution-news.pages.dev
 
@@ -19,52 +21,59 @@ skróty do narzędzi i informacja, czyj to projekt.
 - **Cloudflare Pages** (statyka + **Pages Functions** mini-server)
 - **Cloudflare KV** = baza danych (binding `NEWS_DB`)
 - **Vanilla JS + CSS** (bez frameworka, bez bibliotek), ikony **Lucide** jako lokalny SVG sprite
-- Fonty systemowe — strona nie pobiera ani jednego zewnętrznego zasobu
+- Webfonty (Space Grotesk / IBM Plex) ładowane **bez blokowania renderu** —
+  pierwsza klatka rysuje się fontami systemowymi, webfonty wskakują, gdy dojdą.
+  Gdy CDN nie odpowiada, strona działa dalej bez żadnej zmiany zachowania
 
 ## Funkcje
 
-**Zasada UI v7: news od pierwszej sekundy.** Żadnego hero i karuzeli — nad strumieniem
-stoi tylko pasek LIVE (36 px, same tytuły) i panel Puls dnia; treść zaczyna się
-w pierwszym ekranie, także na telefonie.
+**Zasada UI v8: news od pierwszej sekundy.** Żadnego hero i karuzeli — nad strumieniem
+stoi tylko pasek LIVE (32 px, same tytuły); treść zaczyna się w pierwszym ekranie,
+także na telefonie.
 
-- **Pasek LIVE** — sticky pod nagłówkiem, tor z 26 najnowszymi depeszami przewija się
+- **Trzy kolumny, przewija się jedna** — po bokach stoją kolumny reklamowe
+  (`position:sticky`, `align-self:start`), przyklejone pod paskiem LIVE i **niezależne
+  od przewijania**. Ruch ma wyłącznie środkowy strumień. Poniżej 1400 px znika prawa
+  kolumna, poniżej 1120 px obie i strumień dostaje pełną szerokość. Na niskim oknie
+  (< 820 px) chowa się drugi baner, żeby nie wisiał przycięty w połowie
+- **Sedno sprawy i Konkrety w treści** — rozwinięta depesza otwiera się blokiem
+  „co to zmienia", potem 3–4 twarde fakty z liczbami, dopiero potem tekst
+- **Tagi pod tekstem** — klikalne, od razu przestawiają wyszukiwarkę na tę frazę
+- **Pasek postępu czytania** — 2 px na górze okna, liczony w jednym `rAF`
+  razem z przyciskiem „do góry" (jeden nasłuch scrolla na całą stronę)
+- **Pasek LIVE** — sticky pod nagłówkiem, tor z najnowszymi depeszami przewija się
   od lewej do prawej jedną animacją `transform` (karta kompozytora, zero pracy JS na
   klatkę), pauzuje pod kursorem i przy fokusie, klik otwiera depeszę, a
   `prefers-reduced-motion` zamienia go w zwykły pasek przewijany palcem
-- **Puls dnia** — panel nad strumieniem: ile depesz dziś, ile gorących, ile kanałów,
-  ile w archiwum, plus osiem najczęstszych tagów z ostatnich 70 depesz (klikalne)
-- **Stopka jako nawigacja** — kanały z licznikami, skróty do trybów (gorące, zapisane,
-  szukaj, motyw, na górę), sygnatura **Projekt AI Evolution Polska**, łączny czas czytania
-- **Wczytywanie dwutorowe** — pierwsza klatka rysuje się z wstępnie pobranego
-  `seed-news.json` (`<link rel=preload>`), a odpowiedź `/api/news` dokłada nowości w tle;
-  wcześniej strona czekała na API, a preload szedł w kosz
-- **Jeden gęsty strumień** — wszystkie depesze (obecnie 165) w jednej liście,
+- **Panele pod strumieniem** — Popularne (P190), Czego szukamy (P191, chmura tagów
+  liczona z tytułów), GitHub Trending (P201) i Nowe modele LLM (P202)
+- **Jeden gęsty strumień** — wszystkie depesze (obecnie **186**) w jednej liście,
   posortowane od najnowszych, pogrupowane sticky nagłówkami dni („Dziś", „Wczoraj", data)
-- **Zajawka i tagi w wierszu** — widać, o co chodzi, bez rozwijania; tag jest klikalny
-  i od razu przestawia wyszukiwarkę na tę frazę
 - **Sedno sprawy** — wyróżniony blok na początku rozwinięcia: jedno zdanie o tym,
   co dana depesza faktycznie zmienia
-- **Konkrety** — 3 punkty z twardymi faktami i liczbami wyjętymi z tekstu depeszy
-- **Filtrowanie ikonami** — pasek kanałów w nagłówku to ikony (Lucide) z etykietą
-  aktywnego i pod kursorem; obok trzy przełączniki: 🔥 gorące, ★ zapisane, 🔍 szukaj.
-  Na mobile dolny pasek zakładek + arkusz „Więcej" z pełną listą kanałów
-- **Klik = pełna depesza** — wiersz rozwija się w czytnik: zdjęcie 16:9, sedno, konkrety,
-  lead, pełny tekst w mierze 66 znaków (16,5 px / 1,72), tagi, źródło, pytania i komentarze
+- **Konkrety** — 3–4 punkty z twardymi faktami i liczbami wyjętymi z tekstu depeszy
+- **Filtrowanie ikonami** — pasek kanałów w nagłówku to pigułki z numerem strony
+  (P100…P111); obok cztery przełączniki: 🔥 gorące, ★ zapisane, 🔍 szukaj, ↻ odśwież.
+  Na mobile dolny pasek zakładek + **arkusz „Więcej"** z pełną listą kanałów
+  i licznikami (zamyka go tło, ✕ albo `Esc`)
+- **Klik = pełna depesza** — wiersz rozwija się w czytnik: zdjęcie 16:9, lead, sedno,
+  konkrety, pełny tekst w mierze 70 znaków (15,5 px / 1,72), tagi, źródło, pytania
+  i komentarze
 - **Render partiami** — pierwsza klatka rysuje 24 wiersze, kolejne dochodzą przy
-  dojeździe do końca listy (`IntersectionObserver`); wiersze poza ekranem pomija
-  `content-visibility:auto`
+  dojeździe do końca listy (`IntersectionObserver` + dopięcie w `rAF`, bo obserwator
+  odpala się wyłącznie przy zmianie stanu); wiersze poza ekranem pomija
+  `content-visibility:auto`. Skok po `#news-<id>` dosuwa listę aż do celu
 - **Treść budowana leniwie** — HTML rozwinięcia i generowana okładka powstają dopiero
-  przy pierwszym otwarciu depeszy; miniaturka w wierszu to czyste CSS, zero żądań
+  przy pierwszym otwarciu depeszy
 - **Indeks wyszukiwania liczony raz** — przy wczytaniu danych, a nie przy każdym
-  wpisanym znaku
-- **Trzy żądania na wejściu** — `index.html`, `icons.svg` i dane. Favicon jest wpisany
-  w stronę jako SVG (wcześniej ciągnął 900 kB PNG), fonty są systemowe, brak
-  AOS/Splide/Toastify i brak Google Fonts
+  wpisanym znaku; obejmuje tytuł, zajawkę, treść, sedno, konkrety, tagi i źródło
+- **Lekkie wejście** — `index.html`, `icons.svg` i dane. Favicon 32 px, zero
+  AOS/Splide/Toastify, webfonty nie blokują pierwszej klatki
 - **Dane: ziarno + KV** — `/api/news` scala `seed-news.json` z repozytorium z tym, co
   dopisano w KV (KV wygrywa po `id`), więc wdrożenie nowych depesz w gicie jest widoczne
   od razu. Gdy API nie odpowiada, front i tak wczytuje `seed-news.json`
-- **Dwa motywy** — ciemny (domyślny) i jasny; ustawiany przed pierwszym malowaniem,
-  zapisywany w `localStorage`. Kolory kanałów przyciemniane `color-mix` na białym tle
+- **Dwa motywy** — jasny (domyślny) i ciemny; ustawiany przed pierwszym malowaniem,
+  zapisywany w `localStorage`
 - **Auto-okładki** — depesze bez zdjęcia dostają generowaną grafikę SVG (deterministycznie z `id`):
   cztery motywy przypisane do rodzin kanałów — obwód (AI/tech), słupki (krypto/biznes),
   orbity (kosmos/świat/Polska), fale (nauka/zdrowie), siatka (gaming/ciekawostki). Zero liter i logotypów
@@ -72,7 +81,7 @@ w pierwszym ekranie, także na telefonie.
 - **🔗 Link do depeszy** — każda ma adres `#news-<id>`; przycisk kopiuje go do schowka
   (Web Share API tam, gdzie jest dostępne), a wklejony link otwiera ją od razu
 - **💬 Anonimowe komentarze** — bez logowania (KV, anty-XSS, rate-limit), ładowane przy rozwinięciu
-- **❓ Pytania do przemyślenia** — 2–3 pytania przy każdej depeszy
+- **❓ Pytania do przemyślenia** — 3 pytania przy każdej depeszy, pisane pod konkretny temat
 - **Wyszukiwarka odporna na polskie znaki** — „swiat" znajduje „Świat"; wiele słów działa
   jak AND (`gta rockstar`), 200 ms debounce, skrót `/`, `Esc` zamyka
 - **Klawiatura** — `J`/`K` nawigacja, `Enter` rozwija, `S` zapisuje, `/` szuka, `Esc` zamyka
@@ -87,21 +96,26 @@ w pierwszym ekranie, także na telefonie.
 | Klawisz | Działanie |
 |---|---|
 | `/` | otwórz wyszukiwarkę |
-| `Esc` | zamknij wyszukiwarkę |
+| `Esc` | zamknij wyszukiwarkę → arkusz kanałów → rozwiniętą depeszę |
 | `J` / `K` | następna / poprzednia depesza |
 | `Enter` | rozwiń / zwiń zaznaczoną depeszę |
 | `S` | zapisz / usuń z zapisanych |
 
 ## System designu
 
-Wszystko oparte na tokenach CSS (`:root` = ciemny, `[data-theme="light"]` = jasny):
-płótno, powierzchnie, linie, tekst, akcent, promienie. Zmiana palety = zmiana kilku zmiennych.
+Wszystko oparte na tokenach CSS (`:root` = jasny, `[data-theme="dark"]` = ciemny):
+płótno, powierzchnie, linie, tekst, akcent, promienie, szerokości kolumn.
+Zmiana palety = zmiana kilku zmiennych.
 
-Ciemny: tło `#0A0C0F`, linie `#232B36`, tekst `#EAEFF5`, akcent bursztyn `#FFA724`,
-hot `#FF5A6E`. Jasny: `#FCFCFD`, linie `#E3E8EF`, tekst `#0D1219`, akcent `#B25E00`,
-hot `#C8253A`. Kolory kanałów dobrano pod ciemne tło i przyciemnia je `color-mix`
-na jasnym.
-Typografia to fonty systemowe (sans dla treści, mono dla metadanych) — zero pobierania.
+Jasny: tło `#F4F5F2`, powierzchnia `#FFFFFF`, linie `#D8DCE0`, tekst `#111111`,
+akcent żółty `#F4B400`. Ciemny: `#0B0D0E`, `#15181B`, `#272C31`, `#EDEFF1`, `#F7C13B`.
+
+Zmienne układu: `--shell-maxw` (1560 px), `--rail-w` (224 px — kolumny reklamowe),
+`--rail-gap` i `--ticker-h` — ta ostatnia trzyma zgodność między wysokością paska LIVE
+a `top` wszystkich elementów przyklejonych pod nim (nagłówki dni, kolumny reklamowe).
+
+Typografia: Space Grotesk (nagłówki), IBM Plex Sans (treść), IBM Plex Mono (metadane),
+każdy z pełnym stosem systemowych zapasów.
 
 Ikony to lokalny sprite `icons.svg` (styl Lucide, stroke 1.8, `viewBox 24`) —
 jeden request, kolor dziedziczony przez `currentColor`.
@@ -113,11 +127,15 @@ pages/
 ├── index.html            # Single-page UI + JS
 ├── wrangler.toml         # Pages Functions + KV binding
 ├── icons.svg             # Lucide SVG sprite (zero CDN)
-├── seed-news.json        # Korpus redakcyjny (165 depesz, zminifikowany) — scalany w /api/news
+├── seed-news.json        # Korpus redakcyjny (186 depesz, zminifikowany) — scalany w /api/news
+├── AGENT-REDAKTOR.md     # Brief agenta prowadzącego redakcję — czytaj przed pisaniem
+├── .claude/agents/
+│   └── redaktor.md       # Ten sam agent jako subagent Claude Code (/agents → redaktor)
 ├── functions/api/
 │   ├── news.js           # GET/POST/PUT/DELETE /api/news, GET /api/health
 │   └── comments.js       # GET/POST /api/comments (anonimowe)
-├── images/               # Grafiki newsów (PNG→JPEG)
+├── images/               # Grafiki newsów: JPEG 800×450 + autorskie okładki art-*.svg
+│   └── IMAGE-DB.json     # Bank grafik z opisami scen
 ├── libs/                 # (nieużywane przez UI — zostały po v2)
 └── data/                 # (gitignored) lokalne kopie danych
 ```
@@ -142,7 +160,9 @@ pages/
 }
 ```
 
-`why`, `points` i `tags` są opcjonalne: bez nich UI po prostu nie rysuje danego bloku.
+`why`, `points` i `tags` są technicznie opcjonalne — bez nich UI po prostu nie rysuje
+danego bloku — ale redakcyjnie **obowiązkowe**: dziś komplet ma 186/186 depesz.
+Zasady pisania każdego z tych pól opisuje [`AGENT-REDAKTOR.md`](AGENT-REDAKTOR.md).
 
 ## Deploy
 
@@ -185,4 +205,29 @@ Cron (JARVIS) codziennie 08:00: nowe newsy z obrazkiem do każdego + okresowe ul
 
 ## Zasada grafik
 
-Obrazki absolutnie bez liter/logo/tekstu (reguła no-text-in-assets, weryfikacja vision_analyze). Brandowe kolory: akcent `#0B6CD8`, cień — czysty, minimal.
+Obrazki **absolutnie bez liter, logo i znaków wodnych** (reguła no-text-in-assets).
+Format 800 × 450: JPEG dla zdjęć, SVG dla grafik abstrakcyjnych. Każda nowa grafika
+dostaje wpis w `images/IMAGE-DB.json` z opisem sceny; jednej grafiki nie przypisujemy
+więcej niż trzem depeszom.
+
+Okładki `art-*.svg` to autorskie kompozycje wektorowe: ciemna baza, geometria
+w kolorze kanału, jedno ognisko. Ważą po 3–22 kB, czyli ułamek zdjęcia,
+i skalują się bez utraty ostrości.
+
+## Kontrola jakości korpusu
+
+```bash
+python3 - <<'EOF'
+import json
+d = json.load(open('seed-news.json'))
+n = d['news']
+assert len({x['id'] for x in n}) == len(n), 'zduplikowane id'
+assert d['meta']['count'] == len(n), 'meta.count nie zgadza się z listą'
+print('OK:', len(n), 'depesz')
+EOF
+```
+
+Poza tym przed każdym wdrożeniem warto sprawdzić: rekordy testowe w tytułach,
+puste `full`, mojibake (`Ä`, `Å`, `â€`), martwe ścieżki grafik i — najważniejsze —
+czy `full` opowiada o tym samym co `title`. Pełna lista kontrolna: §7 i §8
+w [`AGENT-REDAKTOR.md`](AGENT-REDAKTOR.md).
