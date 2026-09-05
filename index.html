@@ -22,7 +22,10 @@
 <link rel="apple-touch-icon" href="/images/logo-512.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- fonty ładowane bez blokowania renderu: strumień depesz rysuje się fontami
+     systemowymi, webfonty wskakują, gdy dojdą (albo nigdy, gdy CDN nie odpowiada) -->
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"AI Evolution News",
 "url":"https://ai-evolution-news.pages.dev/","logo":{"@type":"ImageObject","url":"https://ai-evolution-news.pages.dev/images/logo-512.jpg"},
@@ -72,6 +75,11 @@
   --sp-1:4px;--sp-2:8px;--sp-3:12px;--sp-4:16px;--sp-5:20px;--sp-6:28px;--sp-7:40px;
   --radius-sm:6px;--radius-md:8px;--radius-pill:999px;
   --maxw:1220px;
+  --shell-maxw:1560px;
+  --rail-w:224px;
+  --rail-gap:28px;
+  /* wysokość paska LIVE — jedyny element przyklejony do góry okna */
+  --ticker-h:32px;
   --dur:140ms;
 }
 html[data-theme="dark"]{
@@ -96,9 +104,12 @@ html[data-theme="dark"]{
 html[data-theme="dark"] .cover-fallback{filter:none}
 html[data-theme="light"] .cover-fallback{filter:brightness(1.04) saturate(.96)}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+/* overflow-x:clip zamiast hidden — hidden robi z body kontener przewijania
+   i psuje position:sticky w kolumnach reklamowych */
 body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:14px;
-  line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+  line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:clip;
   padding-bottom:calc(52px + env(safe-area-inset-bottom))}
+@supports not (overflow-x:clip){body{overflow-x:hidden}}
 img{max-width:100%;display:block}
 button,input,textarea{font:inherit;color:inherit}
 button{background:none;border:none;cursor:pointer}
@@ -122,7 +133,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--yellow);outline-off
 .ticker-run{flex:1;overflow:hidden;position:relative;-webkit-mask-image:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent)}
 .ticker-track{display:inline-flex;gap:36px;white-space:nowrap;width:max-content;
   animation:ticker-right 34s linear infinite;padding-left:20px;will-change:transform}
-.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker:hover .ticker-track,.ticker:focus-within .ticker-track{animation-play-state:paused}
 @keyframes ticker-right{from{transform:translateX(-50%)}to{transform:translateX(0)}}
 .ticker-item{font:500 11.5px/32px var(--font-mono);color:#B7BEC5;cursor:pointer;transition:color var(--dur)}
 .ticker-item b{color:var(--yellow);font-weight:700;margin-right:7px}
@@ -187,18 +198,59 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--yellow);outline-off
 .statusbar .reset{color:var(--link);cursor:pointer;text-transform:none;letter-spacing:0}
 .statusbar .reset:hover{text-decoration:underline}
 
+/* ================= PASEK POSTĘPU CZYTANIA ================= */
+#progress{position:fixed;top:0;left:0;height:2px;width:0;z-index:95;
+  background:var(--yellow);transition:width 90ms linear;pointer-events:none}
+
+/* ================= SZKIELET STRONY — 3 kolumny ================= */
+/* Kolumny boczne stoją w miejscu (position:sticky), przewija się wyłącznie
+   środkowy strumień depesz. align-self:start jest konieczne — element siatki
+   domyślnie rozciąga się na całą wysokość i sticky przestaje działać. */
+.shell{max-width:var(--shell-maxw);margin:0 auto;padding:6px 20px 30px;
+  display:grid;grid-template-columns:var(--rail-w) minmax(0,1fr) var(--rail-w);
+  gap:var(--rail-gap);align-items:start}
+.shell>main{min-width:0;grid-column:2}
+
+.adrail{position:sticky;top:calc(var(--ticker-h) + 12px);align-self:start;
+  display:flex;flex-direction:column;gap:18px;
+  max-height:calc(100vh - var(--ticker-h) - 24px);overflow:hidden}
+.adrail-l{grid-column:1}
+.adrail-r{grid-column:3}
+.adrail .rail-label{font:600 9px/1 var(--font-mono);letter-spacing:1.6px;
+  color:var(--muted);text-transform:uppercase;padding-left:1px}
+
+.adslot{display:block;border:1px solid var(--border);background:var(--surface);
+  border-radius:var(--radius-md);overflow:hidden;
+  transition:border-color var(--dur),transform var(--dur)}
+.adslot:hover{border-color:var(--text)}
+.adslot:hover .ad-img img{transform:scale(1.05)}
+.ad-img{aspect-ratio:16/10;overflow:hidden;background:var(--surface-2)}
+.ad-img img{width:100%;height:100%;object-fit:cover;transition:transform 320ms ease}
+.ad-txt{padding:11px 12px 13px}
+.ad-kicker{display:block;font:700 9px/1 var(--font-mono);letter-spacing:1.4px;
+  text-transform:uppercase;color:var(--yellow);margin-bottom:6px}
+.ad-title{display:block;font-family:var(--font-display);font-size:13.5px;font-weight:650;
+  line-height:1.3;color:var(--text);margin-bottom:5px}
+.ad-desc{display:block;font-size:11.5px;line-height:1.45;color:var(--text-2)}
+.ad-cta{display:inline-flex;align-items:center;gap:5px;margin-top:9px;
+  font:700 10px/1 var(--font-mono);letter-spacing:.8px;text-transform:uppercase;color:var(--link)}
+.adslot:hover .ad-cta{text-decoration:underline}
+
 /* ================= LISTA DEPESZ — newswire ================= */
-main{max-width:var(--maxw);margin:0 auto;padding:6px 20px 30px}
 #feed{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md)}
 #feed>.post:last-child{border-bottom:none}
 
-.day{position:sticky;top:36px;z-index:20;background:var(--surface);
+.day{position:sticky;top:var(--ticker-h);z-index:20;background:var(--surface);
   padding:16px 16px 8px;display:flex;align-items:center;gap:10px;
   font:700 10.5px/1 var(--font-mono);color:var(--text-2);letter-spacing:2px;text-transform:uppercase}
 .day::after{content:"";flex:1;height:1px;background:var(--border-soft)}
 .day b{color:var(--yellow)}
 
-.post{border-bottom:1px solid var(--border-soft);position:relative}
+/* content-visibility pomija rysowanie wierszy poza ekranem; contain-intrinsic-size
+   podaje przeglądarce zastępczą wysokość, żeby pasek przewijania nie skakał */
+.post{border-bottom:1px solid var(--border-soft);position:relative;
+  content-visibility:auto;contain-intrinsic-size:auto 116px}
+.post.open{content-visibility:visible}
 .post-head{width:100%;display:grid;grid-template-columns:1fr 120px 32px;gap:16px;
   align-items:center;padding:18px 16px;text-align:left;transition:background var(--dur)}
 .post-head:hover{background:var(--surface-2)}
@@ -216,7 +268,9 @@ main{max-width:var(--maxw);margin:0 auto;padding:6px 20px 30px}
 .p-meta .cat-tag{display:inline-flex;align-items:center;gap:5px;color:var(--text-2);font-weight:600;text-transform:uppercase}
 .p-meta .cat-tag .dot{width:6px;height:6px;border-radius:2px;background:var(--c,var(--yellow));flex:none}
 .p-meta .cat-tag b{color:var(--muted);font-weight:600}
-.p-meta .src{color:var(--muted);font-family:var(--font-body)}
+.p-meta .srcwrap{display:inline-flex;align-items:center;gap:8px;min-width:0}
+.p-meta .src{color:var(--muted);font-family:var(--font-body);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .p-meta .ago{color:var(--text-2);font-weight:600}
 .p-meta .hot{color:#fff;background:var(--red);font:700 10px/1 var(--font-mono);letter-spacing:.4px;padding:3px 7px;border-radius:3px}
 .p-meta .sep{width:3px;height:3px;background:currentColor;opacity:.35;border-radius:50%}
@@ -252,6 +306,33 @@ main{max-width:var(--maxw);margin:0 auto;padding:6px 20px 30px}
   border-left:3px solid var(--yellow);border-radius:0 var(--radius-sm) var(--radius-sm) 0}
 .article p{font-family:var(--font-body);font-size:15.5px;line-height:1.72;color:var(--text-2);margin-bottom:14px}
 .article p:last-child{margin-bottom:0}
+
+/* ---------- SEDNO SPRAWY + KONKRETY ---------- */
+.gist{display:flex;gap:12px;align-items:flex-start;margin:0 0 16px;padding:14px 16px;
+  border:1px solid var(--border);border-left:3px solid var(--yellow);
+  background:var(--yellow-soft);border-radius:0 var(--radius-sm) var(--radius-sm) 0;max-width:70ch}
+.gist .icon{color:var(--yellow);margin-top:2px}
+.gist-t{display:block;font:700 9.5px/1 var(--font-mono);letter-spacing:1.5px;
+  text-transform:uppercase;color:var(--text-2);margin-bottom:6px}
+.gist p{font-family:var(--font-body);font-size:15px;line-height:1.55;font-weight:600;color:var(--text);margin:0}
+
+.facts{margin:0 0 18px;max-width:70ch}
+.facts h5{display:flex;align-items:center;gap:7px;font:700 9.5px/1 var(--font-mono);
+  letter-spacing:1.5px;text-transform:uppercase;color:var(--text-2);margin-bottom:10px}
+.facts h5 .icon{color:var(--yellow)}
+.facts ul{list-style:none}
+.facts li{position:relative;padding:6px 0 6px 22px;
+  font-family:var(--font-body);font-size:14.5px;line-height:1.55;color:var(--text-2)}
+.facts li::before{content:"";position:absolute;left:4px;top:14px;width:7px;height:7px;
+  border-radius:2px;background:var(--c,var(--yellow));opacity:.85}
+
+/* ---------- TAGI POD TEKSTEM ---------- */
+.tagrow{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px;max-width:70ch}
+.tagrow button{border:1px solid var(--border);border-radius:var(--radius-pill);
+  padding:6px 12px;min-height:30px;font:600 11px/1 var(--font-mono);color:var(--text-2);
+  background:var(--surface);letter-spacing:.3px;transition:border-color var(--dur),color var(--dur)}
+.tagrow button::before{content:"#";opacity:.5;margin-right:2px}
+.tagrow button:hover{border-color:var(--text);color:var(--text)}
 
 .srcline{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;
   font:500 11.5px/1.6 var(--font-mono);color:var(--muted);letter-spacing:.4px;text-transform:uppercase}
@@ -395,11 +476,60 @@ main{max-width:var(--maxw);margin:0 auto;padding:6px 20px 30px}
 .tabbar button.on{color:var(--text);background:var(--surface-2)}
 .tabbar button.on .icon{color:var(--yellow)}
 
+/* ---------- ARKUSZ KANAŁÓW (mobile) ---------- */
+.sheet{position:fixed;inset:0;z-index:80;display:none}
+.sheet.show{display:block}
+.sheet-bd{position:absolute;inset:0;background:rgba(0,0,0,.5);
+  opacity:0;transition:opacity .2s}
+.sheet.show .sheet-bd{opacity:1}
+.sheet-pn{position:absolute;left:0;right:0;bottom:0;background:var(--surface);
+  border-top:1px solid var(--border);border-radius:14px 14px 0 0;
+  padding:8px 14px calc(18px + env(safe-area-inset-bottom));
+  max-height:82vh;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  transform:translateY(100%);transition:transform .24s cubic-bezier(.22,.8,.3,1)}
+.sheet.show .sheet-pn{transform:translateY(0)}
+.sheet-grab{width:38px;height:4px;border-radius:2px;background:var(--border);
+  margin:6px auto 12px}
+.sheet-h{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;
+  font:700 11px/1 var(--font-mono);letter-spacing:1.4px;text-transform:uppercase;color:var(--text-2)}
+.sheet-h button{color:var(--muted);padding:6px;margin:-6px}
+.sheet-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.sheet-grid button{display:flex;align-items:center;gap:9px;padding:12px 12px;min-height:48px;
+  border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);
+  font:600 12px/1 var(--font-mono);letter-spacing:.4px;text-transform:uppercase;text-align:left}
+.sheet-grid button .dot{width:8px;height:8px;border-radius:2px;background:var(--c,var(--yellow));flex:none}
+.sheet-grid button i{font-style:normal;margin-left:auto;color:var(--muted);font-weight:700;font-size:11px}
+.sheet-grid button.on{background:var(--active-bg);border-color:var(--active-bg);color:var(--active-text)}
+.sheet-grid button.on i{color:var(--active-text);opacity:.7}
+
+/* ---------- DOCIĄGANIE KOLEJNYCH DEPESZ ---------- */
+#more{height:1px}
+.moreinfo{padding:16px;text-align:center;font:600 10.5px/1 var(--font-mono);
+  letter-spacing:1.2px;text-transform:uppercase;color:var(--muted)}
+
+/* ================= ODDECH UKŁADU ================= */
+/* poniżej 1400 px znika prawa kolumna, poniżej 1120 px obie —
+   strumień dostaje wtedy całą szerokość, tak jak wcześniej */
+/* na niskim oknie drugi baner nie zmieściłby się w całości — lepiej go nie pokazać,
+   niż pokazać przycięty w połowie */
+@media (max-height:820px){
+  .adrail a.adslot:nth-of-type(2){display:none}
+}
+@media (max-width:1400px){
+  .shell{grid-template-columns:var(--rail-w) minmax(0,1fr);max-width:1180px}
+  .adrail-r{display:none}
+}
+@media (max-width:1120px){
+  .shell{grid-template-columns:minmax(0,1fr);max-width:var(--maxw);gap:0}
+  .adrail{display:none}
+  .shell>main{grid-column:1}
+}
 @media (max-width:900px){
   .p-thumb{width:96px;height:72px}
   .post-head{grid-template-columns:1fr 96px 32px}
 }
 @media (max-width:720px){
+  :root{--ticker-h:28px}
   /* kompaktowy header: jedna linia */
   .mast-in{padding:9px 12px;gap:6px;align-items:center}
   .mast-logo{width:26px;height:26px;margin-right:0;border-radius:4px}
@@ -413,18 +543,23 @@ main{max-width:var(--maxw);margin:0 auto;padding:6px 20px 30px}
   .rail-hint{display:none}
   .tabbar{display:block}
   body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
-  .ticker{height:28px}
-  .ticker-tag{font-size:9px;line-height:28px}
-  .ticker-item{font-size:10.5px;line-height:28px}
-  .day{top:28px;padding:14px 12px 8px}
-  main{padding:4px 12px 24px}
+  .ticker{height:var(--ticker-h)}
+  .ticker-tag{font-size:9px;line-height:var(--ticker-h)}
+  .ticker-item{font-size:10.5px;line-height:var(--ticker-h)}
+  .day{padding:14px 12px 8px}
+  .shell{padding:4px 12px 24px}
+  .gist{padding:12px 13px}
+  .gist p{font-size:14.5px}
+  .facts li{font-size:14px}
   .post-head{grid-template-columns:1fr 92px;grid-template-rows:auto auto;gap:4px 12px;padding:14px 12px}
   .p-right{display:none}
   .p-body{grid-column:1;grid-row:1/3}
   .p-thumb{grid-column:2;grid-row:1/3;width:92px;height:76px}
   .p-title{font-size:16px;font-weight:660;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
   .p-meta{font-size:11px;gap:6px}
-  .p-meta .src{display:none}
+  .p-meta .srcwrap{display:none}
+  .statusbar{gap:6px 12px}
+  .statusbar .dot-sep{display:none}
   .article p,.article .lead{font-size:15.5px;line-height:1.72}
   .body{padding:2px 12px 22px}
   .body .shot{aspect-ratio:16/10;max-height:42vh}
@@ -477,14 +612,65 @@ main{max-width:var(--maxw);margin:0 auto;padding:6px 20px 30px}
   </form>
 </div>
 
-<main>
-  <div class="statusbar" id="metaLine"><span>ładowanie depesz…</span></div>
-  <div id="feed">
-    <div class="skel"></div><div class="skel"></div><div class="skel"></div>
-    <div class="skel"></div><div class="skel"></div><div class="skel"></div>
-  </div>
-  <div id="extras"></div>
-</main>
+<div class="shell">
+
+  <!-- KOLUMNA REKLAMOWA — lewa. Stoi w miejscu, przewija się tylko strumień. -->
+  <aside class="adrail adrail-l" aria-label="Reklama">
+    <span class="rail-label">Reklama</span>
+    <a class="adslot" href="https://aievolution.pl" target="_blank" rel="noopener sponsored">
+      <span class="ad-img"><img src="/images/cat-ai-agent-desk.jpg" alt="" loading="lazy" decoding="async" width="224" height="140"></span>
+      <span class="ad-txt">
+        <span class="ad-kicker">AI Evolution Labs</span>
+        <span class="ad-title">Wdrożenia AI dla firm</span>
+        <span class="ad-desc">Audyt procesów, pilotaż i wdrożenie agentów — od pierwszej rozmowy do produkcji.</span>
+        <span class="ad-cta">Sprawdź ofertę →</span>
+      </span>
+    </a>
+    <a class="adslot" href="https://aievolution.pl" target="_blank" rel="noopener sponsored">
+      <span class="ad-img"><img src="/images/cat-ai-neural-face.jpg" alt="" loading="lazy" decoding="async" width="224" height="140"></span>
+      <span class="ad-txt">
+        <span class="ad-kicker">Newsletter</span>
+        <span class="ad-title">Puls AI, co rano</span>
+        <span class="ad-desc">Pięć depesz, które naprawdę coś zmieniają. Bez spamu, jeden mail dziennie.</span>
+        <span class="ad-cta">Zapisz się →</span>
+      </span>
+    </a>
+  </aside>
+
+  <main>
+    <div class="statusbar" id="metaLine"><span>ładowanie depesz…</span></div>
+    <div id="feed">
+      <div class="skel"></div><div class="skel"></div><div class="skel"></div>
+      <div class="skel"></div><div class="skel"></div><div class="skel"></div>
+    </div>
+    <div id="more"></div>
+    <div id="extras"></div>
+  </main>
+
+  <!-- KOLUMNA REKLAMOWA — prawa -->
+  <aside class="adrail adrail-r" aria-label="Reklama">
+    <span class="rail-label">Reklama</span>
+    <a class="adslot" href="https://aievolution.pl" target="_blank" rel="noopener sponsored">
+      <span class="ad-img"><img src="/images/cat-warsaw.jpg" alt="" loading="lazy" decoding="async" width="224" height="140"></span>
+      <span class="ad-txt">
+        <span class="ad-kicker">Spotkanie</span>
+        <span class="ad-title">Meetup AI Evolution</span>
+        <span class="ad-desc">Warszawa, ostatni czwartek miesiąca. Trzy prelekcje, zero slajdów sprzedażowych.</span>
+        <span class="ad-cta">Weź udział →</span>
+      </span>
+    </a>
+    <a class="adslot" href="https://aievolution.pl" target="_blank" rel="noopener sponsored">
+      <span class="ad-img"><img src="/images/cat-ai-chip.jpg" alt="" loading="lazy" decoding="async" width="224" height="140"></span>
+      <span class="ad-txt">
+        <span class="ad-kicker">Baza wiedzy</span>
+        <span class="ad-title">Katalog modeli i narzędzi</span>
+        <span class="ad-desc">Ceny, limity i mocne strony modeli w jednym miejscu — aktualizowane co tydzień.</span>
+        <span class="ad-cta">Otwórz katalog →</span>
+      </span>
+    </a>
+  </aside>
+
+</div>
 
 <footer class="termfoot">
   <div class="termfoot-in">
@@ -502,6 +688,18 @@ main{max-width:var(--maxw);margin:0 auto;padding:6px 20px 30px}
   <div class="tabbar-in" id="tabbarIn"></div>
 </nav>
 
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Wszystkie kanały" hidden>
+  <div class="sheet-bd" id="sheetBd"></div>
+  <div class="sheet-pn">
+    <div class="sheet-grab"></div>
+    <div class="sheet-h">Wszystkie kanały
+      <button id="sheetX" aria-label="Zamknij"><svg class="icon icon-sm" aria-hidden="true"><use href="/icons.svg#luc-x"/></svg></button>
+    </div>
+    <div class="sheet-grid" id="sheetGrid"></div>
+  </div>
+</div>
+
+<div id="progress" aria-hidden="true"></div>
 <button id="toTop" aria-label="Do góry"><svg class="icon" aria-hidden="true"><use href="/icons.svg#luc-arrow-up"/></svg></button>
 <div id="toast" role="status" aria-live="polite"></div>
 
@@ -696,9 +894,12 @@ function dayLabel(d){
   if(diff===1)return 'WCZORAJ · '+fmtDate(d);
   return fmtDate(d);
 }
+/* czas czytania po polsku liczony przy 150 słowach na minutę — teksty są gęste,
+   a do rachunku wchodzi wszystko, co czytelnik faktycznie czyta */
 function readMins(n){
-  var w=String(n.full||n.excerpt||'').trim().split(/\s+/).filter(Boolean).length;
-  return Math.max(1,Math.ceil(w/170));
+  var txt=[n.excerpt||'',n.why||'',(n.points||[]).join(' '),n.full||''].join(' ');
+  var w=txt.trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1,Math.round(w/150));
 }
 function isUrl(s){return /^https?:\/\//i.test(String(s||''));}
 
@@ -707,7 +908,9 @@ function tickClock(){
   var n=new Date();
   var t=String(n.getHours()).padStart(2,'0')+':'+String(n.getMinutes()).padStart(2,'0')+':'+String(n.getSeconds()).padStart(2,'0');
   var el=$('clock');
-  if(el)el.textContent='DATA '+n.toLocaleDateString('pl-PL')+' · '+t+' CET · P100 Wszystkie';
+  if(!el)return;
+  var c=activeCat==='all'?{page:100,label:'Wszystkie'}:cat(activeCat);
+  el.textContent='DATA '+n.toLocaleDateString('pl-PL')+' · '+t+' CET · P'+c.page+' '+c.label;
 }
 setInterval(tickClock,1000);
 
@@ -718,12 +921,23 @@ function loadData(){
     .catch(function(){return fetch('/seed-news.json').then(function(r){return r.json();});})
     .then(function(d){
       NEWS=Array.isArray(d.news)?d.news:[];META=d.meta||{};
-      buildRail();render();buildTicker();syncTools();openFromHash();buildExtras();
+      buildIndex();buildRail();buildSheet();render();buildTicker();syncTools();
+      openFromHash();buildExtras();
     })
     .catch(function(e){
       $('feed').innerHTML='<div class="empty"><h3>BŁĄD POŁĄCZENIA</h3><p>'+esc(e.message||'?')+'</p></div>';
       $('metaLine').innerHTML='<span>błąd połączenia</span>';
     });
+}
+
+/* INDEKS WYSZUKIWANIA — liczony raz przy wczytaniu danych, nie przy każdym znaku */
+var HAY=new Map();
+function buildIndex(){
+  HAY.clear();
+  NEWS.forEach(function(n){
+    HAY.set(n.id,norm([n.title,n.excerpt||'',n.full||'',n.why||'',n.source||'',
+      (n.tags||[]).join(' '),(n.points||[]).join(' '),cat(n.category).label].join(' ')));
+  });
 }
 
 /* FILTROWANIE */
@@ -734,7 +948,8 @@ function filtered(){
   if(search){
     var words=norm(search).split(/\s+/).filter(Boolean);
     list=list.filter(function(n){
-      var hay=norm(n.title+' '+(n.excerpt||'')+' '+(n.full||'')+' '+(n.source||'')+' '+cat(n.category).label);
+      var hay=HAY.get(n.id);
+      if(hay==null)hay=norm(n.title+' '+(n.excerpt||''));
       return words.every(function(w){return hay.indexOf(w)>-1;});
     });
   }
@@ -769,8 +984,32 @@ function buildRail(){
     t+='<button data-cat="'+id+'" class="'+(activeCat===id?'on':'')+'" style="--c:'+c.color+'" '
       +'aria-label="'+esc(c.label)+'">'+ico(c.icon)+'<span>'+esc(c.label)+'</span></button>';
   });
-  t+='<button data-cat="__more" aria-label="Więcej kanałów">'+ico('luc-list')+'<span>Więcej</span></button>';
+  var rest=ORDER.filter(function(id){return counts[id]&&shown.indexOf(id)<0;});
+  var moreOn=rest.indexOf(activeCat)>-1;
+  t+='<button data-cat="__more" class="'+(moreOn?'on':'')+'" aria-label="Więcej kanałów">'
+    +ico('luc-list')+'<span>'+(moreOn?esc(cat(activeCat).label):'Więcej')+'</span></button>';
   $('tabbarIn').innerHTML=t;
+}
+
+/* ARKUSZ KANAŁÓW — pełna lista pod przyciskiem „Więcej" na telefonie */
+function buildSheet(){
+  var host=$('sheetGrid');if(!host)return;
+  var counts={};
+  NEWS.forEach(function(n){counts[n.category]=(counts[n.category]||0)+1;});
+  var h='<button data-cat="all" class="'+(activeCat==='all'?'on':'')+'" '
+    +'style="--c:var(--yellow)"><span class="dot"></span>Wszystkie <i>'+NEWS.length+'</i></button>';
+  ORDER.forEach(function(id){
+    if(!counts[id])return;
+    var c=cat(id);
+    h+='<button data-cat="'+id+'" class="'+(activeCat===id?'on':'')+'" style="--c:'+c.color+'">'
+      +'<span class="dot"></span>'+esc(c.label)+' <i>'+counts[id]+'</i></button>';
+  });
+  host.innerHTML=h;
+}
+function toggleSheet(on){
+  var s=$('sheet');if(!s)return;
+  if(on){buildSheet();s.hidden=false;requestAnimationFrame(function(){s.classList.add('show');});}
+  else{s.classList.remove('show');setTimeout(function(){s.hidden=true;},240);}
 }
 
 /* TICKER — nagłówki bieżą */
@@ -885,7 +1124,8 @@ function metaHTML(n,pageNo){
     +(n.hot?'<span class="hot">HOT</span><span class="sep"></span>':'')
     +'<span class="ago">'+esc(relDays(n.date))+'</span><span class="sep"></span>'
     +'<span>'+readMins(n)+' MIN</span>'
-    +'<span class="sep"></span><span class="src">'+esc(src)+'</span>'
+    /* separator i źródło znikają razem — inaczej na telefonie zostaje wisząca kropka */
+    +'<span class="srcwrap"><span class="sep"></span><span class="src">'+esc(src)+'</span></span>'
   +'</span>';
 }
 
@@ -917,6 +1157,18 @@ function bodyHTML(n){
   var src=n.source?(isUrl(n.source)
       ?'<a href="'+esc(n.source)+'" target="_blank" rel="noopener">→ CZYTAJ W ŹRÓDLE</a>'
       :'<span>ŹRÓDŁO: <b>'+esc(n.source)+'</b></span>'):''  ;
+  /* SEDNO SPRAWY — jedno zdanie o tym, co dana depesza zmienia */
+  var gist=n.why?'<div class="gist">'+ico('luc-zap','icon-sm')
+      +'<div><span class="gist-t">Sedno sprawy</span><p>'+esc(n.why)+'</p></div></div>':'';
+  /* KONKRETY — twarde fakty i liczby wyjęte z tekstu */
+  var facts=(n.points&&n.points.length)
+    ?'<div class="facts"><h5>'+ico('luc-check','icon-xs')+' Konkrety</h5><ul>'
+      +n.points.map(function(p){return '<li>'+esc(p)+'</li>';}).join('')+'</ul></div>'
+    :'';
+  var tags=(n.tags&&n.tags.length)
+    ?'<div class="tagrow">'+n.tags.map(function(t){
+        return '<button data-tag="'+esc(t)+'">'+esc(t)+'</button>';}).join('')+'</div>'
+    :'';
   var q=(n.questions&&n.questions.length)
     ?'<div class="sub"><h4>'+ico('luc-help','icon-xs')+' DO PRZEMYŚLENIA</h4>'
       +n.questions.map(function(x){return '<div class="q">'+esc(x)+'</div>';}).join('')+'</div>'
@@ -925,7 +1177,10 @@ function bodyHTML(n){
       +'data-fb="'+esc(coverFor(n))+'" onerror="if(this.src!==this.dataset.fb)this.src=this.dataset.fb"></div>'
     +'<div class="article">'
       +(n.excerpt?'<p class="lead">'+esc(n.excerpt)+'</p>':'')
+      +gist
+      +facts
       +paras
+      +tags
       +'<div class="srcline">'+src
         +'<span>'+fmtDate(n.date)+'</span><span>·</span><span>'+readMins(n)+' MIN CZYTANIA</span></div>'
       +'<div class="rowtools">'
@@ -959,24 +1214,87 @@ function render(){
   if(META.last_updated)m.push('<span class="chip">UPDATE '+esc(fmtDate(META.last_updated))+'</span>');
   if(activeCat!=='all'||hotOnly||savedOnly||search)
     m.push('<button class="reset" id="resetBtn">WYCZYŚĆ FILTRY</button>');
-  $('metaLine').innerHTML=m.join('<span>·</span>');
+  $('metaLine').innerHTML=m.join('<span class="dot-sep">·</span>');
   $('metaLine').style.display=m.length?'':'none';
 
   if(!list.length){
     $('feed').innerHTML='<div class="empty"><h3>BRAK DEPESZ</h3>'
       +'<p>Nic nie pasuje do wybranych filtrów.</p>'
       +'<button id="resetBtn2">POKAŻ WSZYSTKIE</button></div>';
-    READY.clear();return;
+    $('more').innerHTML='';
+    READY.clear();VIEW=[];SHOWN=0;return;
   }
-  var html='',lastDay='',idx=0;
-  list.forEach(function(n){
-    idx++;
-    if(n.date!==lastDay){lastDay=n.date;html+='<div class="day"><b>◆</b>'+dayLabel(n.date)+'</div>';}
-    html+='<article class="post" data-news="'+n.id+'" id="news-'+n.id+'" tabindex="0">'
-      +ArticleRow(n,idx)+'<div class="body"></div></article>';
-  });
-  $('feed').innerHTML=html;
+  /* render partiami — pierwsza klatka rysuje BATCH wierszy, reszta dochodzi
+     przy dojeździe do końca listy (IntersectionObserver na #more) */
+  VIEW=list;SHOWN=0;LAST_DAY='';
   READY.clear();
+  $('feed').innerHTML='';
+  renderBatch();
+}
+
+var VIEW=[],SHOWN=0,LAST_DAY='',BATCH=24,moreObserver=null;
+
+function rowsHTML(from,to){
+  var html='';
+  for(var i=from;i<to;i++){
+    var n=VIEW[i],c=cat(n.category);
+    if(n.date!==LAST_DAY){
+      LAST_DAY=n.date;
+      html+='<div class="day"><b>◆</b>'+dayLabel(n.date)+'</div>';
+    }
+    html+='<article class="post" data-news="'+n.id+'" id="news-'+n.id+'" tabindex="0" '
+      +'style="--c:'+c.color+'">'+ArticleRow(n,i+1)+'<div class="body"></div></article>';
+  }
+  return html;
+}
+
+function renderBatch(){
+  if(SHOWN>=VIEW.length)return;
+  var to=Math.min(SHOWN+BATCH,VIEW.length);
+  $('feed').insertAdjacentHTML('beforeend',rowsHTML(SHOWN,to));
+  SHOWN=to;
+  var left=VIEW.length-SHOWN;
+  $('more').innerHTML=left?'<div class="moreinfo">jeszcze '+left+' depesz…</div>':'';
+  /* observe() jest idempotentne — po zmianie filtra wraca do pracy samo */
+  if(moreObserver){
+    if(left)moreObserver.observe($('more'));
+    else moreObserver.unobserve($('more'));
+  }
+  /* IntersectionObserver odpala się tylko przy ZMIANIE stanu. Gdy po dorysowaniu
+     partii sentinel nadal jest w zasięgu, kolejne zdarzenie już nie przyjdzie —
+     dlatego sprawdzamy to sami w następnej klatce. */
+  if(left)requestAnimationFrame(maybeMore);
+}
+
+var MORE_MARGIN=900;
+function maybeMore(){
+  if(SHOWN>=VIEW.length)return;
+  var el=$('more');if(!el)return;
+  var top=el.getBoundingClientRect().top;
+  if(top<window.innerHeight+MORE_MARGIN)renderBatch();
+}
+
+/* dociąga kolejne partie, gdy koniec listy zbliża się do ekranu */
+function initMoreObserver(){
+  if(!('IntersectionObserver' in window)){
+    /* bez obserwatora zostaje sam nasłuch scrolla — patrz onScroll() */
+    return;
+  }
+  moreObserver=new IntersectionObserver(function(entries){
+    if(entries[0].isIntersecting)renderBatch();
+  },{rootMargin:MORE_MARGIN+'px 0px'});
+  moreObserver.observe($('more'));
+}
+
+/* dosuwa listę aż do wskazanej depeszy — potrzebne przy #news-<id> i skokach */
+function ensureVisible(id){
+  id=Number(id);
+  for(var i=0;i<VIEW.length;i++){
+    if(Number(VIEW[i].id)!==id)continue;
+    while(SHOWN<=i)renderBatch();
+    return true;
+  }
+  return false;
 }
 
 /* ROZWIJANIE */
@@ -1008,6 +1326,7 @@ function jumpTo(id){
   if(savedOnly&&!isSaved(n.id))savedOnly=false;
   if(search){search='';$('q').value='';}
   buildRail();syncTools();render();
+  ensureVisible(n.id);
   requestAnimationFrame(function(){
     var el=document.querySelector('[data-news="'+n.id+'"]');if(!el)return;
     toggle(el,true);scrollToEl(el);el.focus({preventScroll:true});
@@ -1106,6 +1425,11 @@ function moveFocus(dir){
   if(!items.length)return;
   var cur=document.activeElement?document.activeElement.closest('.post'):null;
   var i=cur?items.indexOf(cur)+dir:0;
+  /* na końcu wyrenderowanej partii dociągnij następną, zamiast utykać */
+  if(i>=items.length&&SHOWN<VIEW.length){
+    renderBatch();
+    items=[].slice.call(document.querySelectorAll('.post'));
+  }
   if(i<0)i=0;if(i>=items.length)i=items.length-1;
   items[i].focus({preventScroll:true});scrollToEl(items[i]);
 }
@@ -1132,13 +1456,9 @@ function setup(){
     searchTimer=setTimeout(function(){search=v.trim();render();},200);
   });
 
-  function pickCat(cat){
-    if(cat==='__more'){
-      window.scrollTo({top:0});
-      toast('Wybierz kanał w pasku P100 u góry — przewiń w bok');
-      return;
-    }
-    activeCat=cat;buildRail();render();
+  function pickCat(id){
+    if(id==='__more'){toggleSheet(true);return;}
+    activeCat=id;buildRail();render();tickClock();
     window.scrollTo({top:0});
   }
   $('rail').addEventListener('click',function(e){
@@ -1149,6 +1469,12 @@ function setup(){
     var b=e.target.closest('[data-cat]');if(!b)return;
     pickCat(b.dataset.cat);
   });
+  $('sheetGrid').addEventListener('click',function(e){
+    var b=e.target.closest('[data-cat]');if(!b)return;
+    toggleSheet(false);pickCat(b.dataset.cat);
+  });
+  $('sheetBd').addEventListener('click',function(){toggleSheet(false);});
+  $('sheetX').addEventListener('click',function(){toggleSheet(false);});
   $('tickerTrack').addEventListener('click',function(e){
     var it=e.target.closest('[data-tick]');if(!it)return;
     jumpTo(Number(it.dataset.tick));
@@ -1179,6 +1505,9 @@ function setup(){
       ||document.activeElement.isContentEditable;
     if(e.key==='Escape'){
       if(document.activeElement===$('q')){toggleSearch(false);$('q').blur();return;}
+      if($('sheet')&&$('sheet').classList.contains('show')){toggleSheet(false);return;}
+      var openPost=document.querySelector('.post.open');
+      if(openPost){toggle(openPost,false);openPost.focus({preventScroll:true});return;}
     }
     if(typing)return;
     if(e.metaKey||e.ctrlKey||e.altKey)return;
@@ -1193,13 +1522,30 @@ function setup(){
 
   window.addEventListener('hashchange',openFromHash);
 
-  var top=$('toTop');
-  function onScroll(){top.classList.toggle('show',window.scrollY>800);}
-  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+  /* jeden handler scrolla na całą stronę, spięty w rAF — pasek postępu,
+     przycisk „do góry" i nic poza tym */
+  var top=$('toTop'),bar=$('progress'),ticking=false;
+  function onScroll(){
+    top.classList.toggle('show',window.scrollY>800);
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    bar.style.width=(h>0?Math.min(100,window.scrollY/h*100):0)+'%';
+    maybeMore();
+    ticking=false;
+  }
+  window.addEventListener('scroll',function(){
+    if(ticking)return;
+    ticking=true;requestAnimationFrame(onScroll);
+  },{passive:true});
+  window.addEventListener('resize',onScroll,{passive:true});
+  onScroll();
   top.addEventListener('click',function(){window.scrollTo({top:0});});
+
+  initMoreObserver();
 }
 
-document.addEventListener('DOMContentLoaded',function(){initTheme();loadSaved();tickClock();setup();syncTools();buildExtras();loadData();});
+document.addEventListener('DOMContentLoaded',function(){
+  initTheme();loadSaved();tickClock();setup();syncTools();loadData();
+});
 </script>
 </body>
 </html>
