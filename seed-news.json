@@ -1,1 +1,85 @@
-{"news":[{"id":194,"title":"test"}],"meta":{"count":1}}
+{
+  "meta": {
+    "count": 3,
+    "last_updated": "2026-09-16",
+    "edition": "2026-09-16"
+  },
+  "edition": {
+    "date": "2026-09-16",
+    "kicker": "Wydanie 16 września",
+    "lead": "OpenAI, Anthropic i Google DeepMind od kilku tygodni koordynują prace nad bezpieczeństwem frontier AI. Huang i Zuckerberg nie chcą wspólnego spowolnienia. Bitcoin spadł pod 75 tys. USD po głosowaniu 49–50 nad CLARITY Act.",
+    "bullets": [
+      "Chris Lehane (OpenAI): rozmowy z Anthropic i DeepMind trwają od tygodni; zwolnienie antitrust nie jest potrzebne.",
+      "Senat USA nie otworzył debaty nad CLARITY Act. ETF-y spot BTC: ok. 450 mln USD odpływu w jeden dzień.",
+      "Na GitHubie rosną harnessy agentów: hermes-agent, deepseek-harness, Orca, agent-skills."
+    ]
+  },
+  "news": [
+    {
+      "id": 201,
+      "title": "OpenAI, Anthropic i DeepMind od tygodni pracują wspólnie nad safety",
+      "category": "ai",
+      "date": "2026-09-16",
+      "source": "Reuters / Bloomberg / TechCrunch",
+      "hot": true,
+      "excerpt": "Chris Lehane potwierdził w Waszyngtonie, że OpenAI od kilku tygodni rozmawia z Anthropic i Google DeepMind o bezpieczeństwie AI. Nie uważa, by firmy potrzebowały zwolnienia antymonopolowego.",
+      "why": "Koordynacja laboratoriów wchodzi w pole widzenia regulatorów antitrust, zanim powstanie federalny standard.",
+      "points": [
+        "Rozmowy trwają od kilku tygodni — Lehane, 15 września",
+        "Huang i Zuckerberg dystansują się od skoordynowanego slowdownu (FT)",
+        "Altman: safety case przed dużymi runami RL, nie tylko przed release"
+      ],
+      "full": "Chris Lehane, szef polityki OpenAI, powiedział we wtorek w Waszyngtonie, że firma od kilku tygodni pracuje z Anthropic i Google DeepMind nad bezpieczeństwem AI. Nie sądzi, by do tej koordynacji potrzebne było zwolnienie z prawa antymonopolowego.\n\nTło to esej Dario Amodeiego z soboty i publiczne poparcie Altmana, Hassabisa i Muska dla wolniejszego tempa rozwoju systemów frontier. Lehane dodał, że OpenAI poprze dwupartyjne projekty ograniczające ryzyko katastroficzne.\n\nFinancial Times pisze, że Jensen Huang i Mark Zuckerberg odcinają się od wspólnego hamowania. To rozjazd: jedne laboratoria chcą wspólnych ewaluatorów, inne nie chcą zmowy tempa.\n\nDla kupującego modele liczy się, czy „wspólny standard” będzie audytem, czy pretekstem do zamykania dostępu. Na razie są słowa i briefing, nie dokument.",
+      "tags": ["openai", "anthropic", "regulacje"],
+      "questions": [
+        "Kiedy koordynacja safety przestaje być safety, a zaczyna być zmową tempa?",
+        "Kto opłaca zewnętrznych ewaluatorów wsadzanych do laboratoriów?",
+        "Czy Kongres napisze ramy, zanim laboratoria napiszą je same?"
+      ]
+    },
+    {
+      "id": 202,
+      "title": "Senat blokuje CLARITY Act 49–50. Bitcoin chwilowo pod 75 tys. USD",
+      "category": "krypto",
+      "date": "2026-09-16",
+      "source": "Cointelegraph / The Block",
+      "hot": true,
+      "excerpt": "Proceduralne głosowanie w Senacie USA nad CLARITY Act padło 49–50. Bitcoin zszedł pod 75 tys. dolarów, potem odbił. We wtorek ETF-y spot odnotowały ok. 450 mln USD odpływu.",
+      "why": "Rynek wraca do stóp procentowych i rentowności, nie do obietnicy amerykańskiej ustawy rynkowej w 2026.",
+      "points": [
+        "Głosowanie cloture: 49–50, próg 60 głosów",
+        "BTC: dołek ok. 74,9–75,6 tys. USD, potem odbicie ponad 75,5 tys.",
+        "ETF spot: ok. 450 mln USD odpływu we wtorek (Farside)"
+      ],
+      "full": "Senat Stanów Zjednoczonych nie otworzył debaty nad Digital Asset Market Clarity Act. Wynik 49–50 nie dosięgnął 60 głosów potrzebnych do cloture.\n\nBitcoin zszedł pod 75 tys. dolarów — najniżej od końca sierpnia — przy rentowności 10-latek powyżej 5 proc. i oczekiwaniu na decyzję Fedu. Zlewarowane longa skasowały blisko 100 mln USD.\n\nAnalitycy cytowani przez The Block mówią, że to nie jest zmiana strukturalna protokołu, tylko polityka i koszt pieniądza. XRP spadał o ok. 10 proc.\n\nKupujący ETF-y dostali przerwę po sześciu tygodniach wpłat. Jeśli Fed podniesie stopy, ustawa i tak nie wróci w tym tygodniu.",
+      "tags": ["bitcoin", "regulacje", "etf"],
+      "questions": [
+        "Czy kolejna wersja ustawy wróci przed końcem 2026?",
+        "Ile z sześciotygodniowych wpłat do ETF-ów zostanie po serii odpływów?",
+        "Co zrobi Fed 16 września i jak to ułoży się z 5-procentową rentownością?"
+      ]
+    },
+    {
+      "id": 203,
+      "title": "GitHub: harnessy agentów — Hermes, DeepSeek, Orca, skills",
+      "category": "tech",
+      "date": "2026-09-16",
+      "source": "GitHub / StartupCorners",
+      "hot": false,
+      "excerpt": "Na listach trending wciąż siedzą narzędzia do floty agentów, nie pojedyncze czaty. Hermes Agent jest aktualizowany 16 września. Deweloperzy łączą Claude Code z Codexem i szukają multipleksera sesji.",
+      "why": "Problem nie jest „jaki model”, tylko jak utrzymać kilka agentów bez ręcznego kopiowania kontekstu.",
+      "points": [
+        "NousResearch/hermes-agent aktualizowany 16.09.2026",
+        "addyosmani/agent-skills: zestaw SKILL.md pod Claude Code i Codex",
+        "Orca / Herdr: ADE albo terminal do równoległych sesji"
+      ],
+      "full": "Listy GitHub Trending z połowy września układają się wokół harnessu: pamięć, skill, multiplekser, nie wokół kolejnego wrappera na chat.\n\nHermes Agent (Nous Research) dostaje commity 16 września. DeepSeek Harness reklamuje model „wszystko jest pluginem”. Orca obiecuje flotę równoległych agentów w jednym ADE.\n\nNa X @jojoldu opisuje codzienny setup: Claude Code plus Codex, a brakuje widoku, który agent skończył. Herdr — narzędzie wspominane przez DHH — dodaje powiadomienia do sesji terminalowych.\n\nRepo addyosmani/agent-skills zbiera procedury od specyfikacji po release. To nie jest news o nowym modelu. To news o narzędziach, bez których model zostaje w jednym oknie.",
+      "tags": ["github", "agenci", "claude code"],
+      "questions": [
+        "Ile sesji agentów da się utrzymać, zanim kontekst zacznie się rozjeżdżać?",
+        "Czy wspólny format SKILL.md utrzyma się między Claude Code, Codex i OpenClaw?",
+        "Kiedy harness zaczyna być większym kosztem niż sam model?"
+      ]
+    }
+  ]
+}
