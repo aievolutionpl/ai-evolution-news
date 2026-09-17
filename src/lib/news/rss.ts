@@ -8,6 +8,12 @@ export const FEEDS: Feed[] = [
     category: "ai",
   },
   {
+    id: "openai-news",
+    title: "OpenAI News",
+    url: "https://openai.com/news/rss.xml",
+    category: "ai",
+  },
+  {
     id: "anthropic",
     title: "Anthropic News",
     url: "https://www.anthropic.com/news/rss.xml",
@@ -17,6 +23,18 @@ export const FEEDS: Feed[] = [
     id: "google-ai",
     title: "Google AI Blog",
     url: "https://blog.google/technology/ai/rss/",
+    category: "ai",
+  },
+  {
+    id: "huggingface-blog",
+    title: "Hugging Face Blog",
+    url: "https://huggingface.co/blog/feed.xml",
+    category: "ai",
+  },
+  {
+    id: "simonw",
+    title: "Simon Willison",
+    url: "https://simonwillison.net/atom/everything/",
     category: "ai",
   },
   {

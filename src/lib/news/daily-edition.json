@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-16",
-  "kicker": "Wydanie 16 września",
-  "lead": "OpenAI, Anthropic i Google DeepMind od kilku tygodni rozmawiają o wspólnych standardach bezpieczeństwa frontier AI — potwierdził w Waszyngtonie Chris Lehane. Jensen Huang i Mark Zuckerberg odcinają się od pomysłu skoordynowanego spowolnienia. Bitcoin spadł pod 75 tys. dolarów po tym, jak Senat USA nie przepuścił CLARITY Act (49–50), a rentowność 10-latek przebiła 5 procent. Na GitHubie wciąż dominują harnessy agentów: Hermes, DeepSeek Harness, Orca.",
+  "date": "2026-09-17",
+  "kicker": "Wydanie 17 września",
+  "lead": "Anthropic łączy czat i Cowork w jedno Claude: model sam kieruje zadanie do krótkiej odpowiedzi albo pracy w tle; Docs i Slides są w becie na planach Pro i Max. OpenAI publikuje ramę ujawniania misalignmentu i sześć raportów z półrocza. Fed podnosi stopy o 25 pb do 3,75–4,00 proc. — pierwsza podwyżka od trzech lat. Bitcoin wraca około 76 tys. USD po dołku przy 75 tys. i po odpływie z ETF-ów spot.",
   "bullets": [
-    "Lehane: rozmowy OpenAI–Anthropic–DeepMind trwają od tygodni; nie widzi potrzeby zwolnienia antymonopolowego.",
-    "Senat USA nie otworzył debaty nad CLARITY Act (49–50). BTC chwilowo pod 75 tys. USD; ETF-y spot straciły ok. 450 mln USD w jeden dzień.",
-    "@sama zapowiada serię premier przed DevDay; @gdb: Astra prowadzi w wydatkach, Luna w tokenach na OpenRouterze."
+    "@claudeai: Cowork i czat łączą się w jedno okno; rollout Pro/Max w ciągu kilku tygodni.",
+    "@OpenAI: nowa procedura ujawniania misalignmentu + sześć raportów z treningu i ewaluacji.",
+    "Fed +25 pb. BTC ok. 76,3 tys. USD po dołku ~75,3 tys.; ETF-y spot BTC: ok. 450 mln USD odpływu."
   ]
 }
