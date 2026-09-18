@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "one-claude",
-    topic: "Anthropic łączy czat i Cowork w jedno Claude",
+    id: "anthropic-rsi-metrics",
+    topic: "Anthropic: Claude prowadzi 26% prac R&D",
     posts: [
       {
-        handle: "claudeai",
-        text: "Claude Cowork and chat are merging into one Claude. Ask a quick question or hand over a report, and Claude takes it from there, even after you close your laptop. Rolling out to Pro and Max over the next few weeks.",
-        url: "https://x.com/claudeai/status/2100258490740539730",
+        handle: "AnthropicAI",
+        text: "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. Today, we're sharing three measurements: how much AI R&D is done by AI, how well agents are overseen, and how compute is allocated.",
+        url: "https://x.com/AnthropicAI/status/2100684274114699295",
       },
     ],
   },
   {
-    id: "claude-docs-slides",
-    topic: "Docs, Slides i Design w becie — te same limity planu",
+    id: "claude-projects",
+    topic: "Claude Projects: równoległe wątki z jednego czatu",
     posts: [
       {
         handle: "claudeai",
-        text: "If you've been working in Cowork, everything is where you left it: chats, projects, artifacts, connectors, and skills. Claude Design, Claude Slides, and Claude Docs are in beta on all paid plans.",
-        url: "https://x.com/claudeai/status/2100258495543071016",
+        text: "Projects now run from one conversation, starting in Claude Code. You describe what needs doing, and Claude directs parallel threads that keep working after you close your laptop. In beta today for select Pro and Max users in cloud sessions.",
+        url: "https://x.com/claudeai/status/2100632677904744716",
       },
     ],
   },
   {
-    id: "openai-misalignment",
-    topic: "OpenAI: rama ujawniania misalignmentu i 6 raportów",
+    id: "anthropic-bio-opt",
+    topic: "Claude przyspiesza 30 modeli biomolekularnych 4×",
+    posts: [
+      {
+        handle: "AnthropicAI",
+        text: "Claude was able to optimize inference for more than 30 open-source models, making them 4x faster on average, partly by writing custom software for GPUs. We're open sourcing all of the optimization code.",
+        url: "https://x.com/AnthropicAI/status/2100701581109072332",
+      },
+    ],
+  },
+  {
+    id: "openai-astra-law",
+    topic: "OpenAI: Astra for Law na GPT-6 Astra",
     posts: [
       {
         handle: "OpenAI",
-        text: "We're sharing our new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI. Alongside the framework, we're publishing six reports on instances of misaligned behavior from the last six months.",
-        url: "https://x.com/OpenAI/status/2100344867507327087",
+        text: "Astra for Law: Frontier intelligence built for your practice. A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms.",
+        url: "https://x.com/OpenAI/status/2100679992720142459",
       },
     ],
   },
   {
-    id: "simonw-tools",
-    topic: "Willison: publikujcie opisy narzędzi tak jak system prompt",
+    id: "lsvp-mythos",
+    topic: "Life Sciences Verification: Mythos w becie",
     posts: [
       {
-        handle: "simonw",
-        text: "If Claude is about to grow all of the Cowork features it would be REALLY useful if you published the tool descriptions in the same place that you publish the system prompts.",
-        url: "https://x.com/simonw/status/2100311982641668186",
-      },
-    ],
-  },
-  {
-    id: "grok-ladder",
-    topic: "Musk: Grok 4.7 ≈ Opus 5.0; Grok 5 — zobaczymy",
-    posts: [
-      {
-        handle: "elonmusk",
-        text: "Grok 4.7 should be roughly on par with Opus 5.0, not 5.1. Better in some ways, worse in others. We need to fix multimodal performance. Grok 4.8 will be a noticeable improvement. Grok 5 maybe better than anything. We shall see.",
-        url: "https://x.com/elonmusk/status/2099458047408013751",
+        handle: "AnthropicAI",
+        text: "Today we’re opening applications for the Life Sciences Verification Program. Life science professionals can use our models—including, for the first time, Mythos—with a new set of safeguards designed to enable biology-related work.",
+        url: "https://x.com/AnthropicAI/status/2100646837799834096",
       },
     ],
   },
   {
     id: "hermes-plugins",
-    topic: "Hermes Agent: 4 oficjalne + 96 wtyczek społeczności",
+    topic: "Hermes: fala pluginów — pamięć, głos, GitHub App",
     posts: [
       {
-        handle: "rebubit",
-        text: "HERMES AGENT PLUGINS — 4 official plugins, 96 community plugins. Desktop mods, new platforms, browsing, specialized tools. Community entries are reviewed.",
-        url: "https://x.com/rebubit/status/2100469930793537951",
+        handle: "GitTrend0x",
+        text: "Hermes plugin wave: oh-my-hermes on GitHub Trending, Signet cross-harness memory, token-optimizer, live voice gateway, and a GitHub App so each agent gets its own credentials instead of borrowing yours.",
+        url: "https://x.com/GitTrend0x/status/2100831093427777602",
       },
     ],
   },
   {
-    id: "fed-btc",
-    topic: "Fed +25 pb; BTC wraca nad 76 tys. USD",
+    id: "btc-77k",
+    topic: "BTC nad 77 tys. USD mimo Fed i odpływów ETF",
     posts: [
       {
-        handle: "ducktapewilldo",
-        text: "Bitcoin actually traded above $76,000 today, even after the Fed's first rate hike since 2023. Normally higher rates spook crypto — this time it barely flinched.",
-        url: "https://x.com/ducktapewilldo/status/2100469891593650519",
+        handle: "FratelliDCrypto",
+        text: "Bitcoin back above $77,000. Spot BTC ETFs still saw outflows on Sept 17, but only about $24.2M after −$450.4M on the 15th and −$295.9M on the 16th. Institutional pressure looks to have cooled sharply.",
+        url: "https://x.com/FratelliDCrypto/status/2100825529234461104",
       },
     ],
   },
   {
-    id: "github-harness",
-    topic: "GitHub: DeepSeek Harness, Hermes, Orca, ECC",
+    id: "github-agents",
+    topic: "GitHub: agent harnessy i tempo RSI w labach",
     posts: [
       {
-        handle: "eddyt1717",
-        text: "The things you can do with an agent harness like Hermes is kinda nuts... Agentic workflows with obsidian vault brain, cron jobs, daily briefs. All locally.",
-        url: "https://x.com/eddyt1717/status/2100469120688935078",
+        handle: "notjazii",
+        text: "Anthropic really wants everyone to slow down and for the first time they are transparent about how fast AI development is moving. Claude now leads 26% of its AI R&D, up from less than 1% in February.",
+        url: "https://x.com/notjazii/status/2100693741015285771",
       },
     ],
   },

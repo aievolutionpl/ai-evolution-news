@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-17",
-  "kicker": "Wydanie 17 września",
-  "lead": "Anthropic łączy czat i Cowork w jedno Claude: model sam kieruje zadanie do krótkiej odpowiedzi albo pracy w tle; Docs i Slides są w becie na planach Pro i Max. OpenAI publikuje ramę ujawniania misalignmentu i sześć raportów z półrocza. Fed podnosi stopy o 25 pb do 3,75–4,00 proc. — pierwsza podwyżka od trzech lat. Bitcoin wraca około 76 tys. USD po dołku przy 75 tys. i po odpływie z ETF-ów spot.",
+  "date": "2026-09-18",
+  "kicker": "Wydanie 18 września",
+  "lead": "Anthropic publikuje metryki RSI: Claude \u201eprowadzi\u201d 26% prac R&D (z <1% w marcu), ponad 90% to współpraca z człowiekiem, pełna autonomia — zero. Równolegle otwiera kod przyspieszenia inferencji 30 modeli biomolekularnych (średnio 4×) i program Life Sciences z Mythos. OpenAI startuje Astra for Law na GPT-6 Astra z indeksem 230 mln dokumentów prawnych. Bitcoin wraca nad 77 tys. USD mimo hawkish Fed i odpływów z ETF-ów.",
   "bullets": [
-    "@claudeai: Cowork i czat łączą się w jedno okno; rollout Pro/Max w ciągu kilku tygodni.",
-    "@OpenAI: nowa procedura ujawniania misalignmentu + sześć raportów z treningu i ewaluacji.",
-    "Fed +25 pb. BTC ok. 76,3 tys. USD po dołku ~75,3 tys.; ETF-y spot BTC: ok. 450 mln USD odpływu."
+    "@AnthropicAI: Claude prowadzi 26% R&D; ~30 tys. agentów na platformie; 1 na 47 tys. decyzji zablokowana.",
+    "@claudeai: Projects z jednego czatu — równoległe wątki w chmurze, beta Pro/Max w Claude Code.",
+    "@OpenAI: Astra for Law + 26 pluginów partnerskich; BTC ok. 77,3 tys. USD, ETF-y spot: kolejne odpływy (~296 mln USD)."
   ]
 }
