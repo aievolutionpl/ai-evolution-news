@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-18",
-  "kicker": "Wydanie 18 września",
-  "lead": "Anthropic publikuje metryki RSI: Claude \u201eprowadzi\u201d 26% prac R&D (z <1% w marcu), ponad 90% to współpraca z człowiekiem, pełna autonomia — zero. Równolegle otwiera kod przyspieszenia inferencji 30 modeli biomolekularnych (średnio 4×) i program Life Sciences z Mythos. OpenAI startuje Astra for Law na GPT-6 Astra z indeksem 230 mln dokumentów prawnych. Bitcoin wraca nad 77 tys. USD mimo hawkish Fed i odpływów z ETF-ów.",
+  "date": "2026-09-19",
+  "kicker": "Wydanie 19 września",
+  "lead": "Hacktron AI użył Claude Opus 5 w programie bug bounty OpenAI: łańcuch libheif/Discourse + SSO dał dostęp do kont ChatGPT/Codex pracowników i PR-a w wewnętrznym monorepo. OpenAI załatało lukę w ok. 14 godzin i wypłaciło 6500 USD. Reuters: Anthropic rozważa nowy model przed IPO, bo GPT-6 Astra ma ok. 13% wydatków enterprise u Ramp vs 8% Claude Fable. Bitcoin wrócił nad 81 tys. USD po squeeze shortów.",
   "bullets": [
-    "@AnthropicAI: Claude prowadzi 26% R&D; ~30 tys. agentów na platformie; 1 na 47 tys. decyzji zablokowana.",
-    "@claudeai: Projects z jednego czatu — równoległe wątki w chmurze, beta Pro/Max w Claude Code.",
-    "@OpenAI: Astra for Law + 26 pluginów partnerskich; BTC ok. 77,3 tys. USD, ETF-y spot: kolejne odpływy (~296 mln USD)."
+    "@AnthropicAI + Accenture: min. 1 mld USD każda strona na wbudowaną ewaluację modeli (5 lat).",
+    "Hacktron: Opus 4.8 nie złożył exploita; Opus 5 tak. Proof: nieszkodliwy PR #1186742.",
+    "BTC szczyt ok. 81,2–81,7 tys. USD; ~238 mln USD likwidacji shortów. Tencent/BrowserSkill na GitHub Trending."
   ]
 }
