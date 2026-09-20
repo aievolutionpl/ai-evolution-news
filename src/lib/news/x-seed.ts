@@ -2,13 +2,24 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "hacktron-openai-claude",
-    topic: "Hacktron + Claude Opus 5: bounty w OpenAI",
+    id: "antitrust-slowdown-suit",
+    topic: "Pozew: rzekoma zmowa o spowolnieniu frontier AI",
     posts: [
       {
-        handle: "S1r1u5_",
-        text: "On July 25, we hacked OpenAI. Two bugs let us take over ChatGPT/Codex accounts of OpenAI employees and reach connected services: Outlook, Slack, GitHub. We proved it with a PR in OpenAI's internal codebase. It took us <72 hrs.",
-        url: "https://x.com/S1r1u5_",
+        handle: "harshkoohli",
+        text: "BREAKING: Anthropic, OpenAI, SpaceXAI, and Google just got hit with a federal antitrust lawsuit. The claim: their CEOs publicly agreeing to pace the frontier was illegal coordination to slow AI progress. Filed in Northern District of California.",
+        url: "https://x.com/harshkoohli/status/2101508400878100720",
+      },
+    ],
+  },
+  {
+    id: "reuters-anthropic-ipo",
+    topic: "Reuters: Anthropic waży nowy model przed IPO",
+    posts: [
+      {
+        handle: "David_SmithA1",
+        text: "JUST IN: Anthropic, the company behind Claude, is reportedly eyeing an IPO as early as November at a valuation near $2 trillion. That would make it one of the largest public listings in history.",
+        url: "https://x.com/David_SmithA1/status/2101072014358515778",
       },
     ],
   },
@@ -24,46 +35,13 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "reuters-anthropic-model",
-    topic: "Reuters: Anthropic waży nowy model przed IPO",
+    id: "anthropic-ai-rnd-metrics",
+    topic: "Anthropic: Claude prowadzi 26% prac R&D nad następcą",
     posts: [
       {
-        handle: "David_SmithA1",
-        text: "JUST IN: Anthropic, the company behind Claude, is reportedly eyeing an IPO as early as November at a valuation near $2 trillion. That would make it one of the largest public listings in history.",
-        url: "https://x.com/David_SmithA1/status/2101072014358515778",
-      },
-    ],
-  },
-  {
-    id: "astra-vs-fable",
-    topic: "Astra 13% vs Fable 8% wydatków enterprise (Ramp)",
-    posts: [
-      {
-        handle: "defileo",
-        text: "A neutral referee gave GPT-6 Astra a 61 on the Intelligence Index, the same as its predecessor. Claude Fable 5.1 sits at 66 on the same harness. Mythos 5.1, same weights as Fable with fewer guardrails, is handed only to verified labs.",
-        url: "https://x.com/defileo/status/2101007936541827468",
-      },
-    ],
-  },
-  {
-    id: "btc-81k",
-    topic: "Bitcoin nad 81 tys. USD po squeeze shortów",
-    posts: [
-      {
-        handle: "ScalpingX",
-        text: "Crypto Absorbs Fed and CLARITY Shocks as BTC Tests $81,000. Bitcoin closed the September 14–18 week with a strong rebound, briefly breaking above $81,000. Roughly $238 million in short positions were liquidated as price moved above $80,000.",
-        url: "https://x.com/ScalpingX/status/2101193115034104093",
-      },
-    ],
-  },
-  {
-    id: "browserskill-trending",
-    topic: "GitHub: Tencent/BrowserSkill na Trending",
-    posts: [
-      {
-        handle: "GitHubGPT",
-        text: "BrowserSkill connects AI agents to your logged-in browser to automate web tasks without interrupting your work. TypeScript. Tencent/BrowserSkill on GitHub.",
-        url: "https://x.com/GitHubGPT/status/2101060512062869773",
+        handle: "AnthropicAI",
+        text: "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. Today we're sharing three measurements: how much AI R&D is done by AI, how well AI agents are overseen, and how compute is allocated.",
+        url: "https://x.com/AnthropicAI/status/2100684274114699295",
       },
     ],
   },
@@ -79,13 +57,35 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "class-action-pact",
-    topic: "Pozew: rzekomy pakt o spowolnieniu frontier AI",
+    id: "btc-81k",
+    topic: "Bitcoin nad 81 tys. USD po squeeze i ETF",
     posts: [
       {
-        handle: "RafaelPradox",
-        text: "Hacktron used Claude Opus 5 to exploit a libheif bug on OpenAI's Discourse forum, then chained an SSO sign-in flaw into employee ChatGPT/Codex takeover — proof was a harmless internal PR. OpenAI fixed it in ~14 hours. $6,500 bounty.",
-        url: "https://x.com/RafaelPradox/status/2101178009864614219",
+        handle: "ScalpingX",
+        text: "Crypto Absorbs Fed and CLARITY Shocks as BTC Tests $81,000. Bitcoin closed the September 14–18 week with a strong rebound, briefly breaking above $81,000. Roughly $238 million in short positions were liquidated as price moved above $80,000.",
+        url: "https://x.com/ScalpingX/status/2101193115034104093",
+      },
+    ],
+  },
+  {
+    id: "browserskill-trending",
+    topic: "GitHub: Tencent/BrowserSkill na Trending",
+    posts: [
+      {
+        handle: "aikonect_",
+        text: "The next step for AI agents is obvious. Give them access to your actual browser. Tencent just open sourced BrowserSkill so agents can interact with real logged-in browser sessions.",
+        url: "https://x.com/aikonect_/status/2101282517017931804",
+      },
+    ],
+  },
+  {
+    id: "hacktron-openai-claude",
+    topic: "Hacktron + Claude Opus 5: bounty w OpenAI",
+    posts: [
+      {
+        handle: "S1r1u5_",
+        text: "On July 25, we hacked OpenAI. Two bugs let us take over ChatGPT/Codex accounts of OpenAI employees and reach connected services: Outlook, Slack, GitHub. We proved it with a PR in OpenAI's internal codebase. It took us <72 hrs.",
+        url: "https://x.com/S1r1u5_",
       },
     ],
   },

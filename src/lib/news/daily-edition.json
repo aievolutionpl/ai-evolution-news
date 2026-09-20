@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-19",
-  "kicker": "Wydanie 19 września",
-  "lead": "Hacktron AI użył Claude Opus 5 w programie bug bounty OpenAI: łańcuch libheif/Discourse + SSO dał dostęp do kont ChatGPT/Codex pracowników i PR-a w wewnętrznym monorepo. OpenAI załatało lukę w ok. 14 godzin i wypłaciło 6500 USD. Reuters: Anthropic rozważa nowy model przed IPO, bo GPT-6 Astra ma ok. 13% wydatków enterprise u Ramp vs 8% Claude Fable. Bitcoin wrócił nad 81 tys. USD po squeeze shortów.",
+  "date": "2026-09-20",
+  "kicker": "Wydanie 20 września",
+  "lead": "W sądzie federalnym w Kalifornii złożono pozew antymonopolowy: abonenci ChatGPT, Claude, Grok i Gemini zarzucają Anthropic, OpenAI, Google i SpaceXAI zmowę o spowolnieniu frontier AI po eseju Dario Amodeiego z 12 września. Reuters: Anthropic waży nowy model przed IPO, bo GPT-6 Astra ma ok. 13% wydatków enterprise u Ramp wobec 8% Claude Fable. Bitcoin utrzymał się nad 81 tys. USD po piątkowym squeeze shortów i napływach do ETF.",
   "bullets": [
-    "@AnthropicAI + Accenture: min. 1 mld USD każda strona na wbudowaną ewaluację modeli (5 lat).",
-    "Hacktron: Opus 4.8 nie złożył exploita; Opus 5 tak. Proof: nieszkodliwy PR #1186742.",
-    "BTC szczyt ok. 81,2–81,7 tys. USD; ~238 mln USD likwidacji shortów. Tencent/BrowserSkill na GitHub Trending."
+    "Pozew (N.D. Cal., piątek): publiczna zgoda CEO na pacing frontier jako rzekoma zmowa.",
+    "@AnthropicAI + Accenture: min. 1 mld USD każda strona na ewaluację modeli (5 lat).",
+    "GitHub Trending: Tencent/BrowserSkill, anthropics/claude-code, stablyai/orca. BTC ~81,1 tys. USD."
   ]
 }
