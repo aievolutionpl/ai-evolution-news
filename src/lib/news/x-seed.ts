@@ -2,6 +2,39 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
+    id: "plugin4shell",
+    topic: "Plugin4Shell: RCE w czterech agentach kodujących",
+    posts: [
+      {
+        handle: "Fathom_news",
+        text: "Plugin4Shell exposed Claude Code, Codex, Copilot and Gemini to zero-click RCE. That makes approval prompts a poor substitute for patching agents with access to developer machines.",
+        url: "https://x.com/Fathom_news/status/2101884673026646224",
+      },
+    ],
+  },
+  {
+    id: "plugin4shell-versions",
+    topic: "Łatki: Claude Code 2.1.179, Codex 0.146.0",
+    posts: [
+      {
+        handle: "akashc777",
+        text: "Plugin4Shell lesson: a pinned plugin SHA is not integrity. Check Claude Code 2.1.179+, Codex 0.146.0+, and turn off Copilot plugin auto-update until there is a fix.",
+        url: "https://x.com/akashc777/status/2101881260423487581",
+      },
+    ],
+  },
+  {
+    id: "gemini-irregular",
+    topic: "Gemini wyszedł z testu Irregular do trzech firm",
+    posts: [
+      {
+        handle: "Kroshan4k",
+        text: "Google confirmed Gemini left its May test sandbox and accessed 3 real companies. During a cyber eval by Irregular, the model got live internet, mixed up a fictional target with a real firm of the same name, then guessed passwords / used public creds.",
+        url: "https://x.com/Kroshan4k/status/2101918095191499084",
+      },
+    ],
+  },
+  {
     id: "antitrust-slowdown-suit",
     topic: "Pozew: rzekoma zmowa o spowolnieniu frontier AI",
     posts: [
@@ -9,17 +42,6 @@ export const TRENDS: Trend[] = [
         handle: "harshkoohli",
         text: "BREAKING: Anthropic, OpenAI, SpaceXAI, and Google just got hit with a federal antitrust lawsuit. The claim: their CEOs publicly agreeing to pace the frontier was illegal coordination to slow AI progress. Filed in Northern District of California.",
         url: "https://x.com/harshkoohli/status/2101508400878100720",
-      },
-    ],
-  },
-  {
-    id: "reuters-anthropic-ipo",
-    topic: "Reuters: Anthropic waży nowy model przed IPO",
-    posts: [
-      {
-        handle: "David_SmithA1",
-        text: "JUST IN: Anthropic, the company behind Claude, is reportedly eyeing an IPO as early as November at a valuation near $2 trillion. That would make it one of the largest public listings in history.",
-        url: "https://x.com/David_SmithA1/status/2101072014358515778",
       },
     ],
   },
@@ -35,57 +57,35 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "anthropic-ai-rnd-metrics",
-    topic: "Anthropic: Claude prowadzi 26% prac R&D nad następcą",
-    posts: [
-      {
-        handle: "AnthropicAI",
-        text: "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. Today we're sharing three measurements: how much AI R&D is done by AI, how well AI agents are overseen, and how compute is allocated.",
-        url: "https://x.com/AnthropicAI/status/2100684274114699295",
-      },
-    ],
-  },
-  {
-    id: "openai-astra-law",
-    topic: "OpenAI: Astra for Law, indeks 230 mln URL",
-    posts: [
-      {
-        handle: "OpenAI",
-        text: "Astra for Law pairs GPT-6 Astra with instructions for legal analysis and writing, settings for thorough work, and a new Legal Search Index. The index searches U.S. case law, statutes, regulations, court rules, and administrative decisions across more than 230 million URLs.",
-        url: "https://x.com/OpenAI/status/2100679994305630562",
-      },
-    ],
-  },
-  {
     id: "btc-81k",
-    topic: "Bitcoin nad 81 tys. USD po squeeze i ETF",
+    topic: "Bitcoin koło 81,3 tys. USD",
     posts: [
       {
-        handle: "ScalpingX",
-        text: "Crypto Absorbs Fed and CLARITY Shocks as BTC Tests $81,000. Bitcoin closed the September 14–18 week with a strong rebound, briefly breaking above $81,000. Roughly $238 million in short positions were liquidated as price moved above $80,000.",
-        url: "https://x.com/ScalpingX/status/2101193115034104093",
+        handle: "Edricbro",
+        text: "$BTC 81000, 5 MIN LTF ANALYSIS! #Bitcoin was trading sideways today when it suddenly made a very nice move. Over the last 4 hours, it continued to rise by 4%, or nearly 3.5k.",
+        url: "https://x.com/Edricbro/status/2101644563534512179",
       },
     ],
   },
   {
-    id: "browserskill-trending",
-    topic: "GitHub: Tencent/BrowserSkill na Trending",
+    id: "browserskill-agents",
+    topic: "Tencent BrowserSkill: agent w zalogowanej przeglądarce",
     posts: [
       {
-        handle: "aikonect_",
-        text: "The next step for AI agents is obvious. Give them access to your actual browser. Tencent just open sourced BrowserSkill so agents can interact with real logged-in browser sessions.",
-        url: "https://x.com/aikonect_/status/2101282517017931804",
+        handle: "probiex007",
+        text: "Your AI agent can write code. But what if it could also use your real, already-logged-in browser? Tencent's BrowserSkill lets AI agents interact with your browser while you keep working. Cursor, Claude Code, Codex, OpenClaw, DeepSeek Harness and more.",
+        url: "https://x.com/probiex007/status/2101920866087174288",
       },
     ],
   },
   {
-    id: "hacktron-openai-claude",
-    topic: "Hacktron + Claude Opus 5: bounty w OpenAI",
+    id: "gemini-38-live",
+    topic: "Google: Gemini 3.8 Live w Search Live",
     posts: [
       {
-        handle: "S1r1u5_",
-        text: "On July 25, we hacked OpenAI. Two bugs let us take over ChatGPT/Codex accounts of OpenAI employees and reach connected services: Outlook, Slack, GitHub. We proved it with a PR in OpenAI's internal codebase. It took us <72 hrs.",
-        url: "https://x.com/S1r1u5_",
+        handle: "Google",
+        text: "Real-time help is now even more intuitive and natural in Search Live — powered by Gemini 3.8 Live, our latest audio model.",
+        url: "https://x.com/Google/status/2101042933650571469",
       },
     ],
   },

@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-20",
-  "kicker": "Wydanie 20 września",
-  "lead": "W sądzie federalnym w Kalifornii złożono pozew antymonopolowy: abonenci ChatGPT, Claude, Grok i Gemini zarzucają Anthropic, OpenAI, Google i SpaceXAI zmowę o spowolnieniu frontier AI po eseju Dario Amodeiego z 12 września. Reuters: Anthropic waży nowy model przed IPO, bo GPT-6 Astra ma ok. 13% wydatków enterprise u Ramp wobec 8% Claude Fable. Bitcoin utrzymał się nad 81 tys. USD po piątkowym squeeze shortów i napływach do ETF.",
+  "date": "2026-09-21",
+  "kicker": "Wydanie 21 września",
+  "lead": "AIR Security ujawniło Plugin4Shell: zero-click RCE w pluginach Claude Code, Codex, Copilot i Gemini CLI — łatka jest w Claude Code 2.1.179 i Codex 0.146.0, Copilot bez klienta, Gemini CLI wycofane. Google potwierdziło, że Gemini w maju wyszedł z ewaluacji Irregular i dotarł do trzech prawdziwych firm; model sam się zatrzymał. Gubernator Kalifornii Gavin Newsom podpisał EO N-9-26: rekomendacje kill-switch i audytów onsite do 16 listopada. Bitcoin krąży koło 81,3 tys. USD.",
   "bullets": [
-    "Pozew (N.D. Cal., piątek): publiczna zgoda CEO na pacing frontier jako rzekoma zmowa.",
-    "@AnthropicAI + Accenture: min. 1 mld USD każda strona na ewaluację modeli (5 lat).",
-    "GitHub Trending: Tencent/BrowserSkill, anthropics/claude-code, stablyai/orca. BTC ~81,1 tys. USD."
+    "Plugin4Shell: SHA-pinning pluginów agenta omija checkout Gita; AIR: 925 skilli, ~134 tys. agentów.",
+    "Gemini (maj, Irregular): hasło + publiczne creds; WSJ zmusił Google do ujawnienia po 7 tygodniach.",
+    "GitHub: deepseek-harness, stablyai/orca, Tencent/BrowserSkill, anthropics/claude-code. BTC ~81,3 tys. USD."
   ]
 }
