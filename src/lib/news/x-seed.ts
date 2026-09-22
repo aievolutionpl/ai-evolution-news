@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "plugin4shell",
-    topic: "Plugin4Shell: RCE w czterech agentach kodujących",
+    id: "grok-47-release",
+    topic: "Grok 4.7: 2/6 USD, top 4 na AA Index",
     posts: [
       {
-        handle: "Fathom_news",
-        text: "Plugin4Shell exposed Claude Code, Codex, Copilot and Gemini to zero-click RCE. That makes approval prompts a poor substitute for patching agents with access to developer machines.",
-        url: "https://x.com/Fathom_news/status/2101884673026646224",
+        handle: "elonmusk",
+        text: "Grok 4.7 places @SpaceXAI as third, after Anthropic & OpenAI, for agentic coding. When factoring in that Grok is significantly faster & lower cost, it's a great choice for your everyday workhorse.",
+        url: "https://x.com/elonmusk/status/2102082011233931762",
       },
     ],
   },
   {
-    id: "plugin4shell-versions",
-    topic: "Łatki: Claude Code 2.1.179, Codex 0.146.0",
+    id: "grok-47-aa",
+    topic: "Artificial Analysis: +2 pkt vs 4.6, więcej tokenów",
     posts: [
       {
-        handle: "akashc777",
-        text: "Plugin4Shell lesson: a pinned plugin SHA is not integrity. Check Claude Code 2.1.179+, Codex 0.146.0+, and turn off Copilot plugin auto-update until there is a fix.",
-        url: "https://x.com/akashc777/status/2101881260423487581",
+        handle: "ArtificialAnlys",
+        text: "Grok 4.7 scores 46 on the Artificial Analysis Intelligence Index to bring SpaceXAI into the top 4 AI labs. Coding Agent Index performance has also improved, overtaking GPT-5.6 Sol. Grok 4.7 (xhigh) uses approximately 81k output tokens per Intelligence Index task, compared with 36k for Grok 4.6 (high).",
+        url: "https://x.com/ArtificialAnlys/status/2102074898327932987",
       },
     ],
   },
   {
-    id: "gemini-irregular",
-    topic: "Gemini wyszedł z testu Irregular do trzech firm",
+    id: "grok-47-harness",
+    topic: "Musk: Grok 4.7 z harnessem Build",
     posts: [
       {
-        handle: "Kroshan4k",
-        text: "Google confirmed Gemini left its May test sandbox and accessed 3 real companies. During a cyber eval by Irregular, the model got live internet, mixed up a fictional target with a real firm of the same name, then guessed passwords / used public creds.",
-        url: "https://x.com/Kroshan4k/status/2101918095191499084",
+        handle: "elonmusk",
+        text: "Important to use Grok 4.7 with our Build harness for the best results https://X.ai/build",
+        url: "https://x.com/elonmusk/status/2102102621037236699",
       },
     ],
   },
   {
-    id: "antitrust-slowdown-suit",
-    topic: "Pozew: rzekoma zmowa o spowolnieniu frontier AI",
+    id: "theo-grok-47",
+    topic: "Theo: 4.7 zużywa 30–80% więcej tokenów",
     posts: [
       {
-        handle: "harshkoohli",
-        text: "BREAKING: Anthropic, OpenAI, SpaceXAI, and Google just got hit with a federal antitrust lawsuit. The claim: their CEOs publicly agreeing to pace the frontier was illegal coordination to slow AI progress. Filed in Northern District of California.",
-        url: "https://x.com/harshkoohli/status/2101508400878100720",
+        handle: "theo",
+        text: "Grok 4.7 is much harder to forgive. They claimed it would be more token-efficient, and it's less by 30 to 80%. It scores worse than Grok 4.6 in various benchmarks. It's slower, it's less pleasant to use, and real-world costs come out to more than 2x above Grok 4.6.",
+        url: "https://x.com/theo/status/2102259624313549130",
       },
     ],
   },
   {
-    id: "anthropic-accenture-eval",
-    topic: "Anthropic + Accenture: ewaluacja za 1+1 mld USD",
+    id: "harvey-kimi",
+    topic: "Harvey schodzi z OpenAI/Anthropic na Kimi K3",
     posts: [
       {
-        handle: "AnthropicAI",
-        text: "We're partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
-        url: "https://x.com/AnthropicAI/status/2101039819870937247",
+        handle: "Raccoon679",
+        text: "harvey went from +50% margin to -50% as its bill rose 20x on openai/anthropic pricing. the fix: post-train moonshot's open-weight kimi k3 in-house. bloomberg says abridge, decagon and ramp are following.",
+        url: "https://x.com/Raccoon679/status/2102276533419196862",
       },
     ],
   },
   {
-    id: "btc-81k",
-    topic: "Bitcoin koło 81,3 tys. USD",
+    id: "zcode-uploads",
+    topic: "ZCode: domyślny upload repo na Alibaba Cloud",
     posts: [
       {
-        handle: "Edricbro",
-        text: "$BTC 81000, 5 MIN LTF ANALYSIS! #Bitcoin was trading sideways today when it suddenly made a very nice move. Over the last 4 hours, it continued to rise by 4%, or nearly 3.5k.",
-        url: "https://x.com/Edricbro/status/2101644563534512179",
+        handle: "GenAISpotlight",
+        text: "Z.ai turned on Codebase Indexing by default, and it packaged entire workspaces, Git history included, for Alibaba Cloud. Developer ferstar found a 313MB archive that failed to upload 564 times; a 15KB file got through.",
+        url: "https://x.com/GenAISpotlight/status/2102219587504771494",
       },
     ],
   },
   {
-    id: "browserskill-agents",
-    topic: "Tencent BrowserSkill: agent w zalogowanej przeglądarce",
+    id: "gh-security-audit-skill",
+    topic: "GitHub: Cloudflare security-audit-skill",
     posts: [
       {
-        handle: "probiex007",
-        text: "Your AI agent can write code. But what if it could also use your real, already-logged-in browser? Tencent's BrowserSkill lets AI agents interact with your browser while you keep working. Cursor, Claude Code, Codex, OpenClaw, DeepSeek Harness and more.",
-        url: "https://x.com/probiex007/status/2101920866087174288",
+        handle: "labmosaic",
+        text: "github trending today: coder/coder, addyosmani/agent-skills, claude-code, cloudflare security-audit-skill, trycua/cua — all agent infra, top 10. the agent layer isn't coming, it's here.",
+        url: "https://x.com/labmosaic/status/2101979868862808087",
       },
     ],
   },
   {
-    id: "gemini-38-live",
-    topic: "Google: Gemini 3.8 Live w Search Live",
+    id: "btc-85k",
+    topic: "Bitcoin po skoku do 86,6 tys. koło 85,3 tys. USD",
     posts: [
       {
-        handle: "Google",
-        text: "Real-time help is now even more intuitive and natural in Search Live — powered by Gemini 3.8 Live, our latest audio model.",
-        url: "https://x.com/Google/status/2101042933650571469",
+        handle: "TradePulseLabs",
+        text: "BITCOIN MOMENTUM IS BACK. Bitcoin: ~$86,794. 24H move: +7.4%. BTC has reclaimed the $85K area with aggressive momentum. The next psychological battleground is around $87K.",
+        url: "https://x.com/TradePulseLabs/status/2102279750500626749",
       },
     ],
   },

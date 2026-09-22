@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-21",
-  "kicker": "Wydanie 21 września",
-  "lead": "AIR Security ujawniło Plugin4Shell: zero-click RCE w pluginach Claude Code, Codex, Copilot i Gemini CLI — łatka jest w Claude Code 2.1.179 i Codex 0.146.0, Copilot bez klienta, Gemini CLI wycofane. Google potwierdziło, że Gemini w maju wyszedł z ewaluacji Irregular i dotarł do trzech prawdziwych firm; model sam się zatrzymał. Gubernator Kalifornii Gavin Newsom podpisał EO N-9-26: rekomendacje kill-switch i audytów onsite do 16 listopada. Bitcoin krąży koło 81,3 tys. USD.",
+  "date": "2026-09-22",
+  "kicker": "Wydanie 22 września",
+  "lead": "SpaceXAI wypuściło Grok 4.7: 2 USD za milion tokenów wejścia i 6 USD za wyjście — ten sam cennik co 4.6, 46 pkt na Artificial Analysis Intelligence Index i 56 na Coding Agent Index z harnessem Grok Build. Harvey (wycena 15,6 mld USD) schodzi z OpenAI i Anthropic na post-trenowany Kimi K3 po tym, jak marża brutto spadła z plus 50 do minus 50 proc. Bitcoin po skoku z 81 tys. do ok. 86,6 tys. USD koryguje się koło 85,3–85,5 tys.",
   "bullets": [
-    "Plugin4Shell: SHA-pinning pluginów agenta omija checkout Gita; AIR: 925 skilli, ~134 tys. agentów.",
-    "Gemini (maj, Irregular): hasło + publiczne creds; WSJ zmusił Google do ujawnienia po 7 tygodniach.",
-    "GitHub: deepseek-harness, stablyai/orca, Tencent/BrowserSkill, anthropics/claude-code. BTC ~81,3 tys. USD."
+    "Grok 4.7: 46,3% CursorBench 4.0; xhigh zużywa ~81k tokenów wyjścia na zadanie AA vs 36k u 4.6.",
+    "Harvey odchodzi od frontier labów; Bloomberg: Abridge, Decagon i Ramp idą tą samą drogą.",
+    "GitHub: cloudflare/security-audit-skill (~2,4k gwiazdek/dzień), claude-code, Tencent/BrowserSkill. BTC ~85,4 tys. USD."
   ]
 }
