@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-22",
-  "kicker": "Wydanie 22 września",
-  "lead": "SpaceXAI wypuściło Grok 4.7: 2 USD za milion tokenów wejścia i 6 USD za wyjście — ten sam cennik co 4.6, 46 pkt na Artificial Analysis Intelligence Index i 56 na Coding Agent Index z harnessem Grok Build. Harvey (wycena 15,6 mld USD) schodzi z OpenAI i Anthropic na post-trenowany Kimi K3 po tym, jak marża brutto spadła z plus 50 do minus 50 proc. Bitcoin po skoku z 81 tys. do ok. 86,6 tys. USD koryguje się koło 85,3–85,5 tys.",
+  "date": "2026-09-23",
+  "kicker": "Wydanie 23 września",
+  "lead": "We wtorek Anthropic wypuściło Claude Opus 5.5 — pierwszy model rodziny 5.5: poziom Fable 5.1 przy koszcie ok. 40 proc. niższym niż Opus 5 (4/20 USD za milion tokenów). Minuty później OpenAI dodało GPT-6 Sol (2/10 USD) i GPT-6 Luna (0,10/0,50 USD), o 50 proc. taniej niż promocja GPT-5.6. Grok 4.7 (2/6 USD) zostaje w top 4 Artificial Analysis; Bitcoin po skoku z ~81 do ~86,6 tys. USD trzyma się koło 86,2 tys.",
   "bullets": [
-    "Grok 4.7: 46,3% CursorBench 4.0; xhigh zużywa ~81k tokenów wyjścia na zadanie AA vs 36k u 4.6.",
-    "Harvey odchodzi od frontier labów; Bloomberg: Abridge, Decagon i Ramp idą tą samą drogą.",
-    "GitHub: cloudflare/security-audit-skill (~2,4k gwiazdek/dzień), claude-code, Tencent/BrowserSkill. BTC ~85,4 tys. USD."
+    "Opus 5.5: 66,4% Terminal-Bench 4.0; Anthropic: o ~85% mniej prób wyjścia poza granice testu.",
+    "GPT-6 Sol w ChatGPT Work i Codex; Luna dla high-volume. Grok 4.7 + Build: 56 pkt Coding Agent Index.",
+    "GitHub: google/ax, anthropics/claude-code, cloudflare/security-audit-skill. BTC ~86,2 tys. USD."
   ]
 }
