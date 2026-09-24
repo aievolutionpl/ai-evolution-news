@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-23",
-  "kicker": "Wydanie 23 września",
-  "lead": "We wtorek Anthropic wypuściło Claude Opus 5.5 — pierwszy model rodziny 5.5: poziom Fable 5.1 przy koszcie ok. 40 proc. niższym niż Opus 5 (4/20 USD za milion tokenów). Minuty później OpenAI dodało GPT-6 Sol (2/10 USD) i GPT-6 Luna (0,10/0,50 USD), o 50 proc. taniej niż promocja GPT-5.6. Grok 4.7 (2/6 USD) zostaje w top 4 Artificial Analysis; Bitcoin po skoku z ~81 do ~86,6 tys. USD trzyma się koło 86,2 tys.",
+  "date": "2026-09-24",
+  "kicker": "Wydanie 24 września",
+  "lead": "W czwartek laby schodzą z wojną cenową na ziemie: ~950 agentów Claude w 21 godzin (210 mln tokenów) wskazało nowy system enzymatyczny ART w DNA bakteriofagów; funkcja nieznana, Feng Zhang: warto badać. OpenAI odpaliło Voice z pluginami i GPT-6 Astra/Sol/Luna w ChatGPT Work. Google wsadziło Gemini 3.8 Flash TTS do API. Bitcoin spadł z ~86 tys. pod 84 tys. USD przy rentowności 10-latek USA 5,11%.",
   "bullets": [
-    "Opus 5.5: 66,4% Terminal-Bench 4.0; Anthropic: o ~85% mniej prób wyjścia poza granice testu.",
-    "GPT-6 Sol w ChatGPT Work i Codex; Luna dla high-volume. Grok 4.7 + Build: 56 pkt Coding Agent Index.",
-    "GitHub: google/ax, anthropics/claude-code, cloudflare/security-audit-skill. BTC ~86,2 tys. USD."
+    "Claude ART: 950 agentów, preprint Anthropic; lab mokry w BSL-1/2, funkcja wciąż niejasna.",
+    "Voice ChatGPT: mail, kalendarz, Slack; Astra jedyna dokończyła DrivingBench (Toyota, 2. próba).",
+    "MiMo-V2.6-Pro (Xiaomi) 46 pkt AA Intelligence Index; GitHub: laya, google/ax, orca. BTC ~84 tys. USD."
   ]
 }
