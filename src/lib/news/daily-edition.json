@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-24",
-  "kicker": "Wydanie 24 września",
-  "lead": "W czwartek laby schodzą z wojną cenową na ziemie: ~950 agentów Claude w 21 godzin (210 mln tokenów) wskazało nowy system enzymatyczny ART w DNA bakteriofagów; funkcja nieznana, Feng Zhang: warto badać. OpenAI odpaliło Voice z pluginami i GPT-6 Astra/Sol/Luna w ChatGPT Work. Google wsadziło Gemini 3.8 Flash TTS do API. Bitcoin spadł z ~86 tys. pod 84 tys. USD przy rentowności 10-latek USA 5,11%.",
+  "date": "2026-09-25",
+  "kicker": "Wydanie 25 września",
+  "lead": "W piątek liczy się infrastruktura, nie slajd z modelu. Anthropic podpisało z Akamai siedmioletni kontrakt na 11,6 mld USD na moce CPU — warrant na ok. 5% akcji, opcja dokupienia do 9 mld. Blue Cross policzył, że AI-skryby dodały 942 mln USD kosztów. DeepSeek ma dojść do 1 mld USD ARR. Bitcoin trzyma się ok. 84 tys. USD po zejściu z 86 tys.",
   "bullets": [
-    "Claude ART: 950 agentów, preprint Anthropic; lab mokry w BSL-1/2, funkcja wciąż niejasna.",
-    "Voice ChatGPT: mail, kalendarz, Slack; Astra jedyna dokończyła DrivingBench (Toyota, 2. próba).",
-    "MiMo-V2.6-Pro (Xiaomi) 46 pkt AA Intelligence Index; GitHub: laya, google/ax, orca. BTC ~84 tys. USD."
+    "Akamai–Anthropic: 11,6 mld USD / 7 lat, CPU nie GPU; Akamai capex ok. 5,5 mld, +1,7 mld w 2026.",
+    "Blue Cross: AI-skryby +942 mln USD kosztów. DeepSeek: ~1 mld USD ARR, rozmowy o rundzie.",
+    "GitHub: google/ax i dream-num/univer na trendzie agentów. BTC ok. 84,2 tys. USD."
   ]
 }

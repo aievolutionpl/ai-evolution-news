@@ -2,8 +2,30 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
+    id: "akamai-anthropic",
+    topic: "Anthropic–Akamai: 11,6 mld USD na CPU",
+    posts: [
+      {
+        handle: "aleabitoreddit",
+        text: "$AKAM signs $11.6B compute deal with Anthropic for accelerated CPU workloads demands over 7 years. Akamai ests. ~$5.5B of capex to service the $11.6B commitment. Including +$1.7B of 2026 capex specifically to pre-purchase supply chain components like memory.",
+        url: "https://x.com/aleabitoreddit/status/2103232350348001701",
+      },
+    ],
+  },
+  {
+    id: "akamai-warrants",
+    topic: "Warrant na ~5% Akamai przy $111,33",
+    posts: [
+      {
+        handle: "clausiusiv",
+        text: "#Anthropic just signed $11.6B of CPU capacity with $AKAM. CPU. from a CDN. not AWS. Anthropic also gets warrants on up to ~5% of Akamai at $111.33, vesting as it spends more. the customer is now long the landlord.",
+        url: "https://x.com/clausiusiv/status/2103233488988381688",
+      },
+    ],
+  },
+  {
     id: "claude-art",
-    topic: "Claude: nowy system enzymatyczny ART w fagach",
+    topic: "Claude: nieznany system enzymatyczny w fagach",
     posts: [
       {
         handle: "AnthropicAI",
@@ -13,19 +35,19 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "art-lab",
-    topic: "Lab molekularny Anthropic: hipotezy Claude, wet-lab ludzie",
+    id: "gemini-tts",
+    topic: "Gemini 3.8 Flash TTS i Flash-Lite TTS",
     posts: [
       {
-        handle: "AnthropicAI",
-        text: "This is the first result from our new molecular biology lab, where a team of Anthropic biologists is using Claude to explore and accelerate fundamental biology research.",
-        url: "https://x.com/AnthropicAI/status/2102824961538920822",
+        handle: "GoogleAI",
+        text: "We’re launching Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS. Our most expressive audio models yet let you create custom voices across 100+ languages or pick from 2,000+ ready-to-use ones.",
+        url: "https://x.com/GoogleAI/status/2102781694730285427",
       },
     ],
   },
   {
     id: "chatgpt-voice",
-    topic: "ChatGPT Voice: pluginy, Astra/Sol/Luna, Work",
+    topic: "ChatGPT Voice: pluginy, Astra/Sol/Luna",
     posts: [
       {
         handle: "OpenAI",
@@ -35,52 +57,30 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "gemini-tts",
-    topic: "Gemini 3.8 Flash TTS i Flash-Lite TTS",
-    posts: [
-      {
-        handle: "GoogleAIStudio",
-        text: "introducing Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS, our most expressive audio generation models yet",
-        url: "https://x.com/GoogleAIStudio/status/2102781516107370894",
-      },
-    ],
-  },
-  {
-    id: "aa-pareto",
-    topic: "AA: Luna, MiMo, Sol i Opus 5.5 na Pareto",
-    posts: [
-      {
-        handle: "ArtificialAnlys",
-        text: "The Intelligence Index vs Cost per Task Pareto frontier shifted this week with the releases of MiMo-V2.6-Pro, Claude Opus 5.5, GPT-6 Luna, and GPT-6 Sol",
-        url: "https://x.com/ArtificialAnlys/status/2102833926788288704",
-      },
-    ],
-  },
-  {
-    id: "gh-copilot-sdk",
-    topic: "GitHub: livestreamy Copilot SDK od 24 września",
+    id: "gh-dependabot-copilot",
+    topic: "GitHub: Copilot robi pierwszy pass Dependabot",
     posts: [
       {
         handle: "github",
-        text: "Coming soon: Let's Learn GitHub Copilot SDK. Starting September 24, we'll host beginner-friendly livestreams on how to build agentic applications with the GitHub Copilot SDK.",
-        url: "https://x.com/github/status/2102793913979244800",
+        text: "Dependabot pull requests are easy to review one at a time ... and tedious to review by the dozen. Build a GitHub Copilot app automation that does the first pass for you.",
+        url: "https://x.com/github/status/2103162660384645199",
       },
     ],
   },
   {
-    id: "gh-sol-luna",
-    topic: "GPT-6 Sol i Luna w GitHub Copilot",
+    id: "gh-muse",
+    topic: "GitHub × Muse: PR i issue bez zmiany karty",
     posts: [
       {
         handle: "github",
-        text: "@OpenAIDevs's GPT-6 family is expanding in GitHub Copilot with two additional models now generally available. GPT-6 Sol: the balanced model for interactive and agentic coding. GPT-6 Luna: a lightweight, cost-efficient model.",
-        url: "https://x.com/github/status/2102468342007439789",
+        text: "GitHub 🤝 @Muse. A new way to connect your GitHub account to review PRs, catch up on issues and notifications, and leave comments without switching tabs.",
+        url: "https://x.com/github/status/2102904992709689681",
       },
     ],
   },
   {
     id: "btc-84k",
-    topic: "Bitcoin pod 84 tys. USD, rentowność 5,11%",
+    topic: "Bitcoin koło 84 tys. USD po zejściu z 86k",
     posts: [
       {
         handle: "basismacro",
