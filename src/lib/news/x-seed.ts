@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "akamai-anthropic",
-    topic: "Anthropic–Akamai: 11,6 mld USD na CPU",
+    id: "muse-meta",
+    topic: "Meta Muse: trwała Ubuntu VM dla agenta",
     posts: [
       {
-        handle: "aleabitoreddit",
-        text: "$AKAM signs $11.6B compute deal with Anthropic for accelerated CPU workloads demands over 7 years. Akamai ests. ~$5.5B of capex to service the $11.6B commitment. Including +$1.7B of 2026 capex specifically to pre-purchase supply chain components like memory.",
-        url: "https://x.com/aleabitoreddit/status/2103232350348001701",
+        handle: "edhumbling",
+        text: "I went deep on @Muse's official account to learn what Meta's personal AI agent REALLY does. Not the hype — the actual capabilities, straight from their own demos.",
+        url: "https://x.com/edhumbling/status/2103721889759916035",
       },
     ],
   },
   {
-    id: "akamai-warrants",
-    topic: "Warrant na ~5% Akamai przy $111,33",
+    id: "muse-vs-openclaw",
+    topic: "Muse vs OpenClaw: zaufanie i Gmail",
     posts: [
       {
-        handle: "clausiusiv",
-        text: "#Anthropic just signed $11.6B of CPU capacity with $AKAM. CPU. from a CDN. not AWS. Anthropic also gets warrants on up to ~5% of Akamai at $111.33, vesting as it spends more. the customer is now long the landlord.",
-        url: "https://x.com/clausiusiv/status/2103233488988381688",
+        handle: "seekinggradient",
+        text: "Been using Muse for the last few days. Truly great. Only thing is, I find myself being super careful with what I share. Compared to my OpenClaw for some reason I have a mental block with giving Meta access to my Gmail.",
+        url: "https://x.com/seekinggradient/status/2103721359985738226",
       },
     ],
   },
   {
-    id: "claude-art",
-    topic: "Claude: nieznany system enzymatyczny w fagach",
+    id: "claude-vs-codex",
+    topic: "T3 Code: Claude 2× Codex",
     posts: [
       {
-        handle: "AnthropicAI",
-        text: "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR.",
-        url: "https://x.com/AnthropicAI/status/2102824959827742916",
+        handle: "theo",
+        text: "Two weeks ago, Codex was more popular than Claude in T3 Code. Today, Claude is 2x more popular than Codex",
+        url: "https://x.com/theo/status/2103704797237096741",
       },
     ],
   },
   {
-    id: "gemini-tts",
-    topic: "Gemini 3.8 Flash TTS i Flash-Lite TTS",
+    id: "claude-codex-minutes",
+    topic: "Claude agent minutes +90%, Codex −30%",
     posts: [
       {
-        handle: "GoogleAI",
-        text: "We’re launching Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS. Our most expressive audio models yet let you create custom voices across 100+ languages or pick from 2,000+ ready-to-use ones.",
-        url: "https://x.com/GoogleAI/status/2102781694730285427",
+        handle: "SaaiArora",
+        text: "Before launch, codex beat claude code 18 days straight. After launch claude has won every day since. claude agent minutes are up +90% and Codex is down 30%",
+        url: "https://x.com/SaaiArora/status/2103727490112111051",
       },
     ],
   },
   {
-    id: "chatgpt-voice",
-    topic: "ChatGPT Voice: pluginy, Astra/Sol/Luna",
+    id: "paseo-agents",
+    topic: "Paseo: Claude, Codex i Copilot w jednym daemonie",
     posts: [
       {
-        handle: "OpenAI",
-        text: "We heard you loud and clear. ChatGPT Voice can now: Use plugins like your email, calendar, and Slack. Be powered by GPT-6 Astra, Sol, and Luna. Be used in ChatGPT Work on web and mobile.",
-        url: "https://x.com/OpenAI/status/2102808325742322002",
+        handle: "rosehexon",
+        text: "getpaseo/paseo — TypeScript, ★18578. Claude Code, Codex, Copilot, OpenCode, Pi w jednym interfejsie; agent na twojej maszynie. Skill: /paseo-handoff, /paseo-advisor, /paseo-committee.",
+        url: "https://x.com/rosehexon/status/2103726765629981181",
       },
     ],
   },
   {
-    id: "gh-dependabot-copilot",
-    topic: "GitHub: Copilot robi pierwszy pass Dependabot",
+    id: "btc-etf-inflows",
+    topic: "ETF-y BTC: +2,84 mld USD / 6 sesji",
     posts: [
       {
-        handle: "github",
-        text: "Dependabot pull requests are easy to review one at a time ... and tedious to review by the dozen. Build a GitHub Copilot app automation that does the first pass for you.",
-        url: "https://x.com/github/status/2103162660384645199",
-      },
-    ],
-  },
-  {
-    id: "gh-muse",
-    topic: "GitHub × Muse: PR i issue bez zmiany karty",
-    posts: [
-      {
-        handle: "github",
-        text: "GitHub 🤝 @Muse. A new way to connect your GitHub account to review PRs, catch up on issues and notifications, and leave comments without switching tabs.",
-        url: "https://x.com/github/status/2102904992709689681",
+        handle: "iamelvisfx",
+        text: "U.S. Spot Bitcoin ETFs have seen $2.84 billion in net inflows over the past 6 trading session.",
+        url: "https://x.com/iamelvisfx/status/2103692980490023007",
       },
     ],
   },
   {
     id: "btc-84k",
-    topic: "Bitcoin koło 84 tys. USD po zejściu z 86k",
+    topic: "Bitcoin zamyka dzień przy ~84 tys. USD",
     posts: [
       {
-        handle: "basismacro",
-        text: "Five percent yields took the risk back. US 10-year +15bp to 5.114%, the highest since July 2007. Bitcoin broke below $84,000, through the $86k ETF cost basis.",
-        url: "https://x.com/basismacro/status/2103003344260505895",
+        handle: "PhilakoneCrypto",
+        text: "Daily Bitcoin Morning Brief. BTC closed at $84,056. Daily Supertrend is bullish; price is above the 50 SMA and 200 SMA. RSI is 64.28. Support: $81,144 | Resistance: $87,385",
+        url: "https://x.com/PhilakoneCrypto/status/2103653497119871192",
+      },
+    ],
+  },
+  {
+    id: "btc-structure",
+    topic: "BTC: 82,3k jako poziom struktury",
+    posts: [
+      {
+        handle: "WhaleNoName",
+        text: "BTC is currently trading around $84K, after rejecting from the $87K area. The key level of this pull back is $82.3K. Hold it — bullish structure stays intact.",
+        url: "https://x.com/WhaleNoName/status/2103653795779490249",
       },
     ],
   },

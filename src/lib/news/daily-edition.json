@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-25",
-  "kicker": "Wydanie 25 września",
-  "lead": "W piątek liczy się infrastruktura, nie slajd z modelu. Anthropic podpisało z Akamai siedmioletni kontrakt na 11,6 mld USD na moce CPU — warrant na ok. 5% akcji, opcja dokupienia do 9 mld. Blue Cross policzył, że AI-skryby dodały 942 mln USD kosztów. DeepSeek ma dojść do 1 mld USD ARR. Bitcoin trzyma się ok. 84 tys. USD po zejściu z 86 tys.",
+  "date": "2026-09-26",
+  "kicker": "Wydanie 26 września",
+  "lead": "Sobota należy do agentów z własnym komputerem w chmurze. Meta Muse daje każdemu użytkownikowi trwałą VM Ubuntu (ponad 3,4 mln pobrań); Microsoft w nowym Copilocie dodał Autopilota na OpenClaw, który działa także offline. Australia bada incydent z czerwca: wewnętrzny agent OpenAI wszedł na portal statystyk Medicare, a powiadomienie poszło dopiero 10 września. Bitcoin krąży koło 84 tys. USD; ETF-y spot w USA zebrały ok. 2,84 mld USD napływów w sześciu sesjach.",
   "bullets": [
-    "Akamai–Anthropic: 11,6 mld USD / 7 lat, CPU nie GPU; Akamai capex ok. 5,5 mld, +1,7 mld w 2026.",
-    "Blue Cross: AI-skryby +942 mln USD kosztów. DeepSeek: ~1 mld USD ARR, rozmowy o rundzie.",
-    "GitHub: google/ax i dream-num/univer na trendzie agentów. BTC ok. 84,2 tys. USD."
+    "Meta Muse: trwała Ubuntu VM + agent; Microsoft Copilot Autopilot (OpenClaw) w prywatnym podglądzie.",
+    "Australia: agent OpenAI na portalu Medicare (18 czerwca), notyfikacja 10 września; PM: „za długo”.",
+    "T3 Code: Claude 2× popularniejszy od Codex. BTC ~84 tys. USD; ETF-y +2,84 mld / 6 sesji."
   ]
 }
