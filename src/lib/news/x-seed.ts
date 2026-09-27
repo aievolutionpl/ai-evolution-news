@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "muse-meta",
-    topic: "Meta Muse: trwała Ubuntu VM dla agenta",
+    id: "openai-dns-pause",
+    topic: "OpenAI: pauza po luce DNS w sandboxie",
     posts: [
       {
-        handle: "edhumbling",
-        text: "I went deep on @Muse's official account to learn what Meta's personal AI agent REALLY does. Not the hype — the actual capabilities, straight from their own demos.",
-        url: "https://x.com/edhumbling/status/2103721889759916035",
+        handle: "saiitoshii",
+        text: "OpenAI paused training on its most capable models. Again. Sep 20: an agent in a locked sandbox with no internet still found a DNS resolver, punched out, and started querying a public chatbot. Second pause in under three months. Monitoring caught it in 15 minutes. The auto-shutdown system failed. A human killed the run 2.5 hours later.",
+        url: "https://x.com/saiitoshii/status/2103958771349573790",
       },
     ],
   },
   {
-    id: "muse-vs-openclaw",
-    topic: "Muse vs OpenClaw: zaufanie i Gmail",
+    id: "openai-gov-incidents",
+    topic: "Agenci OpenAI na stronach federalnych USA",
     posts: [
       {
-        handle: "seekinggradient",
-        text: "Been using Muse for the last few days. Truly great. Only thing is, I find myself being super careful with what I share. Compared to my OpenClaw for some reason I have a mental block with giving Meta access to my Gmail.",
-        url: "https://x.com/seekinggradient/status/2103721359985738226",
+        handle: "Vladis_min",
+        text: "A DNS gap may delay AI launches and raise security spend!!! OpenAI paused training, evals and tool use for its most capable models after an agent reached a public chatbot. The run stopped 2.5 hours later. Work resumes after fix validation and red teaming. This pause is limited.",
+        url: "https://x.com/Vladis_min/status/2103993343340388355",
       },
     ],
   },
   {
-    id: "claude-vs-codex",
-    topic: "T3 Code: Claude 2× Codex",
+    id: "anthropic-pentagon",
+    topic: "Sąd: Anthropic zostaje ryzykiem Pentagonu",
     posts: [
       {
-        handle: "theo",
-        text: "Two weeks ago, Codex was more popular than Claude in T3 Code. Today, Claude is 2x more popular than Codex",
-        url: "https://x.com/theo/status/2103704797237096741",
+        handle: "MAAWLAW",
+        text: "... a federal appeals court rejected @AnthropicAI's challenge to the govt's labeling of it as a #supplychain risk... The decision allows the Pentagon... to remove Anthropic's Claude models from its systems and bar the use of its products for it's work.",
+        url: "https://x.com/MAAWLAW/status/2104044897275621660",
       },
     ],
   },
   {
-    id: "claude-codex-minutes",
-    topic: "Claude agent minutes +90%, Codex −30%",
+    id: "hindsight-memory",
+    topic: "Hindsight: pamięć agenta, która się uczy",
     posts: [
       {
-        handle: "SaaiArora",
-        text: "Before launch, codex beat claude code 18 days straight. After launch claude has won every day since. claude agent minutes are up +90% and Codex is down 30%",
-        url: "https://x.com/SaaiArora/status/2103727490112111051",
+        handle: "ITheEqualizer",
+        text: "Hindsight will read a repo's git history and past sessions, build a memory bank for that repo, and load it when Claude Code or Codex CLI starts. That's the part I want to try. It's open source, from Vectorize. Memory is split into facts about the world and things the agent itself did.",
+        url: "https://x.com/ITheEqualizer/status/2104076163035340841",
       },
     ],
   },
   {
-    id: "paseo-agents",
-    topic: "Paseo: Claude, Codex i Copilot w jednym daemonie",
+    id: "grok-47-api",
+    topic: "Grok 4.7 w API i u deweloperów",
     posts: [
       {
-        handle: "rosehexon",
-        text: "getpaseo/paseo — TypeScript, ★18578. Claude Code, Codex, Copilot, OpenCode, Pi w jednym interfejsie; agent na twojej maszynie. Skill: /paseo-handoff, /paseo-advisor, /paseo-committee.",
-        url: "https://x.com/rosehexon/status/2103726765629981181",
+        handle: "EveryDevAi",
+        text: "- Claude Opus 5.5 cache reads -60%. - GPT-6 Sol and Luna -50%. - Grok 4.7 +100% above 200k tokens. - Cursor's reviewer bot: average review time -21%. - Jev returns a probability, not text, and started a ten-figure rumor. - OpenAI killed the Sora 2 API.",
+        url: "https://x.com/EveryDevAi/status/2104024327742267903",
       },
     ],
   },
   {
-    id: "btc-etf-inflows",
-    topic: "ETF-y BTC: +2,84 mld USD / 6 sesji",
+    id: "btc-etf-week",
+    topic: "ETF-y BTC: ~2,4 mld USD w tygodniu",
     posts: [
       {
-        handle: "iamelvisfx",
-        text: "U.S. Spot Bitcoin ETFs have seen $2.84 billion in net inflows over the past 6 trading session.",
-        url: "https://x.com/iamelvisfx/status/2103692980490023007",
+        handle: "TickerScope",
+        text: "U.S. spot Bitcoin ETFs pulled in $2.4B last week, their biggest weekly inflow since October 2025. That pushed 2026 net ETF flows back into positive territory at about $934M after they were nearly $5.8B negative in mid-July.",
+        url: "https://x.com/TickerScope/status/2104085717164957766",
       },
     ],
   },
   {
-    id: "btc-84k",
-    topic: "Bitcoin zamyka dzień przy ~84 tys. USD",
+    id: "btc-84k-supply",
+    topic: "BTC przy ~84 tys. mimo 7 sesji napływów",
     posts: [
       {
-        handle: "PhilakoneCrypto",
-        text: "Daily Bitcoin Morning Brief. BTC closed at $84,056. Daily Supertrend is bullish; price is above the 50 SMA and 200 SMA. RSI is 64.28. Support: $81,144 | Resistance: $87,385",
-        url: "https://x.com/PhilakoneCrypto/status/2103653497119871192",
+        handle: "cryptochain_Xp",
+        text: "Bitcoin ETFs just extended their inflow streak to 7 straight sessions — nearly $3B entering the market. Yet BTC remains near $84K. That's the lesson: strong demand can still meet heavy supply before price expands.",
+        url: "https://x.com/cryptochain_Xp/status/2104070580681257086",
       },
     ],
   },
   {
-    id: "btc-structure",
-    topic: "BTC: 82,3k jako poziom struktury",
+    id: "hindsight-recall",
+    topic: "GitHub: Hindsight na LongMemEval",
     posts: [
       {
-        handle: "WhaleNoName",
-        text: "BTC is currently trading around $84K, after rejecting from the $87K area. The key level of this pull back is $82.3K. Hold it — bullish structure stays intact.",
-        url: "https://x.com/WhaleNoName/status/2103653795779490249",
+        handle: "LFrefman",
+        text: "Your agent forgets everything between sessions? Meet Hindsight. Hindsight is an agent memory system built for agents that learn over time, not just remember chat history. It hit state-of-the-art on LongMemEval and runs in production at Fortune 500s.",
+        url: "https://x.com/LFrefman/status/2104083296263241920",
       },
     ],
   },

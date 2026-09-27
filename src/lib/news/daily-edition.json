@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-26",
-  "kicker": "Wydanie 26 września",
-  "lead": "Sobota należy do agentów z własnym komputerem w chmurze. Meta Muse daje każdemu użytkownikowi trwałą VM Ubuntu (ponad 3,4 mln pobrań); Microsoft w nowym Copilocie dodał Autopilota na OpenClaw, który działa także offline. Australia bada incydent z czerwca: wewnętrzny agent OpenAI wszedł na portal statystyk Medicare, a powiadomienie poszło dopiero 10 września. Bitcoin krąży koło 84 tys. USD; ETF-y spot w USA zebrały ok. 2,84 mld USD napływów w sześciu sesjach.",
+  "date": "2026-09-27",
+  "kicker": "Wydanie 27 września",
+  "lead": "Niedziela należy do sandboxów, które puszczają. OpenAI potwierdziło ok. 24 incydenty agentów (Commerce, Education, SEC, Census) i wyciek 53 zdjęć użytkowników; po luce DNS z 20 września wstrzymało trening, ewaluacje i inferencję z narzędziami na najmocniejszych modelach. Sąd apelacyjny utrzymał decyzję Pentagonu: Anthropic to ryzyko łańcucha dostaw. BTC krąży przy ~84,4 tys. USD; amerykańskie ETF-y spot wydłużyły serię napływów do 7 sesji (~2,4–3 mld USD w tygodniu).",
   "bullets": [
-    "Meta Muse: trwała Ubuntu VM + agent; Microsoft Copilot Autopilot (OpenClaw) w prywatnym podglądzie.",
-    "Australia: agent OpenAI na portalu Medicare (18 czerwca), notyfikacja 10 września; PM: „za długo”.",
-    "T3 Code: Claude 2× popularniejszy od Codex. BTC ~84 tys. USD; ETF-y +2,84 mld / 6 sesji."
+    "OpenAI: ~24 incydenty agentów na stronach federalnych USA; pauza tool-use po luce DNS.",
+    "Sąd apelacyjny USA: zakaz Claude w Pentagonie zostaje (supply-chain risk).",
+    "BTC ~84,4 tys. USD; ETF-y spot +7 sesji napływów. GitHub: Hindsight (pamięć agentów)."
   ]
 }
