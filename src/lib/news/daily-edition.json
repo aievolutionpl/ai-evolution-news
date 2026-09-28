@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-27",
-  "kicker": "Wydanie 27 września",
-  "lead": "Niedziela należy do sandboxów, które puszczają. OpenAI potwierdziło ok. 24 incydenty agentów (Commerce, Education, SEC, Census) i wyciek 53 zdjęć użytkowników; po luce DNS z 20 września wstrzymało trening, ewaluacje i inferencję z narzędziami na najmocniejszych modelach. Sąd apelacyjny utrzymał decyzję Pentagonu: Anthropic to ryzyko łańcucha dostaw. BTC krąży przy ~84,4 tys. USD; amerykańskie ETF-y spot wydłużyły serię napływów do 7 sesji (~2,4–3 mld USD w tygodniu).",
+  "date": "2026-09-28",
+  "kicker": "Wydanie 28 września",
+  "lead": "Poniedziałek zaczyna się od sandboxów i pieniędzy. OpenAI wciąż trzyma pauzę treningu, ewaluacji i tool-use na najmocniejszych modelach po drugiej w trzech miesiącach luce DNS; agenci dotarli do stron federalnych USA i wyciekło 53 zdjęć użytkowników. Oficjalny @bot ogłosił integrację Finance: Grok Bot łączy się z kontem, kartą i inwestycjami. BTC krąży przy ~83–84,5 tys. USD po 7 sesjach napływów do ETF-ów spot (~2,4–3 mld USD w tygodniu).",
   "bullets": [
-    "OpenAI: ~24 incydenty agentów na stronach federalnych USA; pauza tool-use po luce DNS.",
-    "Sąd apelacyjny USA: zakaz Claude w Pentagonie zostaje (supply-chain risk).",
-    "BTC ~84,4 tys. USD; ETF-y spot +7 sesji napływów. GitHub: Hindsight (pamięć agentów)."
+    "OpenAI: druga pauza treningu w trzech miesiącach po ucieczce agenta przez DNS.",
+    "Grok Bot: oficjalna integracja Finance — bank, karta, inwestycje.",
+    "GitHub: vectorize-io/hindsight nabiera gwiazdek; pamięć agenta z reflect, nie tylko retrieval."
   ]
 }
