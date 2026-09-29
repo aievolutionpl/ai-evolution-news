@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "openai-dns-pause-2",
-    topic: "OpenAI: druga pauza po ucieczce z sandboxu",
+    id: "sonnet-55",
+    topic: "Anthropic: Claude Sonnet 5.5",
     posts: [
       {
-        handle: "notjazii",
-        text: "openai stopped training its most capable models as one of their models escaped sandbox and got access to internet during testing. team just published three reports: one agent reached an external chatbot through DNS; prompt injection that could copy itself like a worm; another model leaked a researcher github token into a public codex repo.",
-        url: "https://x.com/notjazii/status/2103783183884095521",
+        handle: "claudeai",
+        text: "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work.",
+        url: "https://x.com/claudeai/status/2104633115620823187",
       },
     ],
   },
   {
-    id: "openai-fortune-sandbox",
-    topic: "Fortune: agenci OpenAI znów wyszli z sandboxu",
+    id: "anthropic-sonnet-avail",
+    topic: "Sonnet 5.5 już w API i chmurach",
     posts: [
       {
-        handle: "SalvorKnows",
-        text: "OpenAI pauses training a second time after saying its AI agents escaped a secure 'sandbox' again | Fortune",
-        url: "https://x.com/SalvorKnows/status/2103927409854877696",
+        handle: "AnthropicAI",
+        text: "Claude Sonnet 5.5 is now available.",
+        url: "https://x.com/AnthropicAI/status/2104633259925630995",
       },
     ],
   },
   {
-    id: "grok-bot-finance",
-    topic: "Grok Bot łączy się z finansami",
+    id: "nvidia-agent-safety",
+    topic: "Nvidia: Open Agent Safety Platform",
     posts: [
       {
-        handle: "bot",
-        text: "Grok Bot now connects to your finances. Link your bank, card, and investment accounts with the new Finance integration, then ask Bot to help manage your spending, investments, and more.",
-        url: "https://x.com/bot/status/2103936247995752705",
+        handle: "nvidia",
+        text: "We’ve launched NVIDIA Open Agent Safety Platform to help people control what AI agents can access and do. NVIDIA OpenShell enforces permissions around the agent’s work. BlueField-4 and DOCA add independent monitoring outside the agent’s reach.",
+        url: "https://x.com/nvidia/status/2104567031110533431",
       },
     ],
   },
   {
-    id: "openai-assistant-o",
-    topic: "DevDay: przeciek nazwy asystenta \u201eo\u201d",
+    id: "jensen-trust-layer",
+    topic: "Huang: warstwa zaufania dla agentów",
     posts: [
       {
-        handle: "notjazii",
-        text: "openai’s new bot name may have leaked. looks like team is planning to call its always on assistant \"o\", their competitor to muse and grok bot. whoever came up with it needs to change it before official release on dev day.",
-        url: "https://x.com/notjazii/status/2103759101109133322",
+        handle: "JensenHuang",
+        text: "Today, with over 100 industry partners, we introduced the NVIDIA Open Agent Safety Platform, bringing together OpenShell and Sentry. Safety is how trust is earned.",
+        url: "https://x.com/JensenHuang/status/2104499465055023424",
       },
     ],
   },
   {
-    id: "hindsight-stars",
-    topic: "GitHub: Hindsight +4,4k gwiazdek / 24h",
+    id: "openai-astra",
+    topic: "OpenAI: Astra poza październikowym slotem",
     posts: [
       {
-        handle: "trending_repos",
-        text: "Trending repository of the day: hindsight — Hindsight: Agent Memory That Learns. Last 24h: 4,463 stars. Total: 35,118. https://github.com/vectorize-io/hindsight",
-        url: "https://x.com/trending_repos/status/2104181329386475658",
+        handle: "np_nationpress",
+        text: "OpenAI cancels GPT-6.1 Astra release after safety tests flag scope failures. OpenAI has cancelled the October release of GPT-6.1 Astra after safety tests showed the AI model could exceed its authorised scope and misreport its own actions.",
+        url: "https://x.com/np_nationpress/status/2104815776998068329",
       },
     ],
   },
   {
-    id: "hindsight-reflect",
-    topic: "Hindsight: retain, recall, reflect",
+    id: "team-bots",
+    topic: "xAI: Team Bots w publicznej betacie",
     posts: [
       {
-        handle: "stretchcloud",
-        text: "Hindsight, an open-source memory system from Vectorize, picked up 4,463 GitHub stars in 24 hours. The pitch is three verbs: retain, recall, reflect. On LongMemEval it claims 91.4% with Gemini 3. Memory as separate networks for facts, experiences, observations, and opinions.",
-        url: "https://x.com/stretchcloud/status/2104444744155713875",
+        handle: "theaideskio",
+        text: "JUST IN: xAI opened a public beta of Team Bots, shared Grok assistants that work alongside a team in Slack with access to shared files, credentials and memory while keeping each person’s conversations private.",
+        url: "https://x.com/theaideskio/status/2104798354983076070",
       },
     ],
   },
   {
-    id: "btc-etf-hold",
-    topic: "BTC przy ~84,5k po 2,4 mld USD w ETF",
+    id: "hindsight-40k",
+    topic: "GitHub: Hindsight ~40k gwiazdek",
     posts: [
       {
-        handle: "JackTradoor",
-        text: "Bitcoin holds near $84.5k despite oil spiking 1.3% on Trump’s Iran rebuff and 10-year yields pushing 5.2%, while spot ETF inflows hit $2.4B for the week to flip YTD flows positive. Institutional buying is overriding the macro pressure that has historically weighed on risk assets.",
-        url: "https://x.com/JackTradoor/status/2104451273114194155",
+        handle: "nazrielnr_",
+        text: "Vectorize merilis Hindsight, sistem memori AI biomimetik. Raih skor 91.4% di LongMemEval dan tembus 40.000 GitHub stars. Repo: https://github.com/vectorize-io/hindsight",
+        url: "https://x.com/nazrielnr_/status/2104727544398524647",
       },
     ],
   },
   {
-    id: "claude-code-usage",
-    topic: "Opus vs Codex: kto dostaje więcej użycia",
+    id: "btc-83k-etf",
+    topic: "BTC ~83,4k; BlackRock dokupuje",
     posts: [
       {
-        handle: "thoughtcrime___",
-        text: "bro the $200 plans are not even close. i’m cancelling some of my codex subscriptions i think. you get so much more use out of opus. that was one of my main gripes with anthropic when fable came out. felt like i burned through it without getting any usage",
-        url: "https://x.com/thoughtcrime___/status/2104453631231828143",
+        handle: "MacroAlphaHQ",
+        text: "BLACKROCK ETF BUYS $54.8 MILLION OF BITCOIN. THE PURCHASE LANDS WHILE BTC TRADES NEAR $83,370.",
+        url: "https://x.com/MacroAlphaHQ/status/2104814239990837455",
       },
     ],
   },

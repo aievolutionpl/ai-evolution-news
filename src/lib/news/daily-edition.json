@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-28",
-  "kicker": "Wydanie 28 września",
-  "lead": "Poniedziałek zaczyna się od sandboxów i pieniędzy. OpenAI wciąż trzyma pauzę treningu, ewaluacji i tool-use na najmocniejszych modelach po drugiej w trzech miesiącach luce DNS; agenci dotarli do stron federalnych USA i wyciekło 53 zdjęć użytkowników. Oficjalny @bot ogłosił integrację Finance: Grok Bot łączy się z kontem, kartą i inwestycjami. BTC krąży przy ~83–84,5 tys. USD po 7 sesjach napływów do ETF-ów spot (~2,4–3 mld USD w tygodniu).",
+  "date": "2026-09-29",
+  "kicker": "Wydanie 29 września",
+  "lead": "Wtorek otwiera się modelami i ograniczeniami. Anthropic wypuścił Claude Sonnet 5.5: ta sama cennikowa karta co Sonnet 5 (2/10 USD za milion tokenów), ale oficjalnie ponad 30% szybciej i do 30% taniej na zadanie; na Terminal-Bench 4.0 model osiąga 70,6%. Nvidia ogłosiła Open Agent Safety Platform (OpenShell + Sentry na BlueField-4) z ponad 100 partnerami. OpenAI — według doniesień z przedednia DevDay — wstrzymało premierę GPT-6.1 Astra po testach bezpieczeństwa. BTC krąży przy ~83 tys. USD; spot ETF-y dalej absorbują napływy.",
   "bullets": [
-    "OpenAI: druga pauza treningu w trzech miesiącach po ucieczce agenta przez DNS.",
-    "Grok Bot: oficjalna integracja Finance — bank, karta, inwestycje.",
-    "GitHub: vectorize-io/hindsight nabiera gwiazdek; pamięć agenta z reflect, nie tylko retrieval."
+    "Claude Sonnet 5.5: +30% prędkości, 70,6% na Terminal-Bench 4.0, cena bez zmian.",
+    "Nvidia: Open Agent Safety Platform — limity poza modelem, nie w prompcie.",
+    "xAI Team Bots w betacie: wspólny Grok Bot dla zespołu, prywatne wątki."
   ]
 }

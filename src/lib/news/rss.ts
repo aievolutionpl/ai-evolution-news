@@ -44,6 +44,12 @@ export const FEEDS: Feed[] = [
     category: "ai",
   },
   {
+    id: "nvidia-blog",
+    title: "NVIDIA Blog",
+    url: "https://blogs.nvidia.com/feed/",
+    category: "ai",
+  },
+  {
     id: "the-block",
     title: "The Block",
     url: "https://www.theblock.co/rss.xml",
