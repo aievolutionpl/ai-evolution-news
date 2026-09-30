@@ -2,30 +2,63 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "sonnet-55",
-    topic: "Anthropic: Claude Sonnet 5.5",
+    id: "openai-dots",
+    topic: "OpenAI: Dots na GPT-6 Astra",
     posts: [
       {
-        handle: "claudeai",
-        text: "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work.",
-        url: "https://x.com/claudeai/status/2104633115620823187",
+        handle: "OpenAI",
+        text: "Introducing dots, powered by GPT-6 Astra. Remarkably capable, always-on agents built to handle everything.",
+        url: "https://x.com/OpenAI/status/2104984504133918973",
       },
     ],
   },
   {
-    id: "anthropic-sonnet-avail",
-    topic: "Sonnet 5.5 już w API i chmurach",
+    id: "sama-dots",
+    topic: "Altman: Dots działają 24/7",
+    posts: [
+      {
+        handle: "sama",
+        text: "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher level.",
+        url: "https://x.com/sama/status/2104995014208258235",
+      },
+    ],
+  },
+  {
+    id: "gpt61-sol",
+    topic: "GPT-6.1 Sol w Work i Codex",
+    posts: [
+      {
+        handle: "OpenAI",
+        text: "GPT-6.1 Sol is available starting today to all Plus, Pro, Business, Enterprise, and Edu users in ChatGPT Work and Codex.",
+        url: "https://x.com/OpenAI/status/2104986136745767160",
+      },
+    ],
+  },
+  {
+    id: "pro-500",
+    topic: "OpenAI: plan Pro 500 i Ultrafast",
+    posts: [
+      {
+        handle: "OpenAI",
+        text: "Ultrafast is available today for GPT-6 Astra in Codex, ChatGPT Work, and the API, with GPT-6.1 Sol coming soon. To access it in Codex and ChatGPT Work, we’re introducing Pro 500—a new plan with our highest usage limits (25x Plus) and access to Ultrafast.",
+        url: "https://x.com/OpenAI/status/2104993967985381673",
+      },
+    ],
+  },
+  {
+    id: "anthropic-interviewer",
+    topic: "Anthropic Interviewer: 29 IX–6 X",
     posts: [
       {
         handle: "AnthropicAI",
-        text: "Claude Sonnet 5.5 is now available.",
-        url: "https://x.com/AnthropicAI/status/2104633259925630995",
+        text: "What do you want from AI? We’re launching a new study with Anthropic Interviewer to learn more about your experiences using AI. The study runs Sept 29 to Oct 6 and is open to Free, Pro, and Max users on Claude and Claude Code.",
+        url: "https://x.com/AnthropicAI/status/2104982629884063840",
       },
     ],
   },
   {
-    id: "nvidia-agent-safety",
-    topic: "Nvidia: Open Agent Safety Platform",
+    id: "nvidia-openshell",
+    topic: "Nvidia: Open Agent Safety / OpenShell",
     posts: [
       {
         handle: "nvidia",
@@ -35,57 +68,24 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "jensen-trust-layer",
-    topic: "Huang: warstwa zaufania dla agentów",
+    id: "paperclip-trending",
+    topic: "GitHub: Paperclip na czele trendów",
     posts: [
       {
-        handle: "JensenHuang",
-        text: "Today, with over 100 industry partners, we introduced the NVIDIA Open Agent Safety Platform, bringing together OpenShell and Sentry. Safety is how trust is earned.",
-        url: "https://x.com/JensenHuang/status/2104499465055023424",
+        handle: "realJohnMK",
+        text: "A rented agent seat is one employee. Paperclip is the company you own — open-source orchestration for teams of AI agents with org charts, budgets, and goals. GitHub: paperclipai/paperclip.",
+        url: "https://x.com/realJohnMK/status/2104968369996955761",
       },
     ],
   },
   {
-    id: "openai-astra",
-    topic: "OpenAI: Astra poza październikowym slotem",
+    id: "btc-september",
+    topic: "BTC ~83–84k; wrzesień na zamknięciu",
     posts: [
       {
-        handle: "np_nationpress",
-        text: "OpenAI cancels GPT-6.1 Astra release after safety tests flag scope failures. OpenAI has cancelled the October release of GPT-6.1 Astra after safety tests showed the AI model could exceed its authorised scope and misreport its own actions.",
-        url: "https://x.com/np_nationpress/status/2104815776998068329",
-      },
-    ],
-  },
-  {
-    id: "team-bots",
-    topic: "xAI: Team Bots w publicznej betacie",
-    posts: [
-      {
-        handle: "theaideskio",
-        text: "JUST IN: xAI opened a public beta of Team Bots, shared Grok assistants that work alongside a team in Slack with access to shared files, credentials and memory while keeping each person’s conversations private.",
-        url: "https://x.com/theaideskio/status/2104798354983076070",
-      },
-    ],
-  },
-  {
-    id: "hindsight-40k",
-    topic: "GitHub: Hindsight ~40k gwiazdek",
-    posts: [
-      {
-        handle: "nazrielnr_",
-        text: "Vectorize merilis Hindsight, sistem memori AI biomimetik. Raih skor 91.4% di LongMemEval dan tembus 40.000 GitHub stars. Repo: https://github.com/vectorize-io/hindsight",
-        url: "https://x.com/nazrielnr_/status/2104727544398524647",
-      },
-    ],
-  },
-  {
-    id: "btc-83k-etf",
-    topic: "BTC ~83,4k; BlackRock dokupuje",
-    posts: [
-      {
-        handle: "MacroAlphaHQ",
-        text: "BLACKROCK ETF BUYS $54.8 MILLION OF BITCOIN. THE PURCHASE LANDS WHILE BTC TRADES NEAR $83,370.",
-        url: "https://x.com/MacroAlphaHQ/status/2104814239990837455",
+        handle: "jescofarad",
+        text: "BTC sitting ~$83–84k. September is tracking as one of the best Septembers on record (~7%+), with one day left on the monthly close. Spot Bitcoin ETFs: ~$2.4–2.95B inflows.",
+        url: "https://x.com/jescofarad/status/2105157208098967716",
       },
     ],
   },

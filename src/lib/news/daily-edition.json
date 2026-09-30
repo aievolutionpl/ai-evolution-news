@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-29",
-  "kicker": "Wydanie 29 września",
-  "lead": "Wtorek otwiera się modelami i ograniczeniami. Anthropic wypuścił Claude Sonnet 5.5: ta sama cennikowa karta co Sonnet 5 (2/10 USD za milion tokenów), ale oficjalnie ponad 30% szybciej i do 30% taniej na zadanie; na Terminal-Bench 4.0 model osiąga 70,6%. Nvidia ogłosiła Open Agent Safety Platform (OpenShell + Sentry na BlueField-4) z ponad 100 partnerami. OpenAI — według doniesień z przedednia DevDay — wstrzymało premierę GPT-6.1 Astra po testach bezpieczeństwa. BTC krąży przy ~83 tys. USD; spot ETF-y dalej absorbują napływy.",
+  "date": "2026-09-30",
+  "kicker": "Wydanie 30 września",
+  "lead": "Środa należy do agentów, nie do samego modelu. OpenAI wypuściło Dots — zawsze włączone agenty na GPT-6 Astra z własnym komputerem w chmurze — oraz GPT-6.1 Sol: tańszy wariant bliski Astrze w ChatGPT Work i Codexie, plus plan Pro 500. Anthropic otworzyło badanie Interviewer (29 IX–6 X) dla użytkowników Claude i Claude Code. BTC kończy wrzesień przy ~83–84 tys. USD; miesiąc zmierza do jednego z najlepszych wrześni w historii, mimo wyższych rentowności.",
   "bullets": [
-    "Claude Sonnet 5.5: +30% prędkości, 70,6% na Terminal-Bench 4.0, cena bez zmian.",
-    "Nvidia: Open Agent Safety Platform — limity poza modelem, nie w prompcie.",
-    "xAI Team Bots w betacie: wspólny Grok Bot dla zespołu, prywatne wątki."
+    "OpenAI Dots: agenty 24/7 na Astrze; Sol w Plus/Pro/Biz; plan Pro 500.",
+    "Anthropic Interviewer: badanie 29 IX–6 X, odpowiedzi można upublicznić.",
+    "BTC ~83–84k; wrzesień +~7%; ETF-y z napływami rzędu 2,4–3 mld USD."
   ]
 }

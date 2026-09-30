@@ -62,6 +62,12 @@ export const FEEDS: Feed[] = [
     category: "crypto",
   },
   {
+    id: "coindesk",
+    title: "CoinDesk",
+    url: "https://www.coindesk.com/arc/outboundfeeds/rss/",
+    category: "crypto",
+  },
+  {
     id: "github-blog",
     title: "The GitHub Blog",
     url: "https://github.blog/feed/",
