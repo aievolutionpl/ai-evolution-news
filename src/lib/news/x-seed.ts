@@ -13,17 +13,6 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "sama-dots",
-    topic: "Altman: Dots działają 24/7",
-    posts: [
-      {
-        handle: "sama",
-        text: "Dots are here! A new way to use AI that works 24/7 for you; get more of your time and attention back to work at a higher level.",
-        url: "https://x.com/sama/status/2104995014208258235",
-      },
-    ],
-  },
-  {
     id: "gpt61-sol",
     topic: "GPT-6.1 Sol w Work i Codex",
     posts: [
@@ -47,7 +36,7 @@ export const TRENDS: Trend[] = [
   },
   {
     id: "anthropic-interviewer",
-    topic: "Anthropic Interviewer: 29 IX–6 X",
+    topic: "Anthropic Interviewer: do 6 października",
     posts: [
       {
         handle: "AnthropicAI",
@@ -57,35 +46,46 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "nvidia-openshell",
-    topic: "Nvidia: Open Agent Safety / OpenShell",
+    id: "sonnet-55",
+    topic: "Claude Sonnet 5.5 w API",
     posts: [
       {
-        handle: "nvidia",
-        text: "We’ve launched NVIDIA Open Agent Safety Platform to help people control what AI agents can access and do. NVIDIA OpenShell enforces permissions around the agent’s work. BlueField-4 and DOCA add independent monitoring outside the agent’s reach.",
-        url: "https://x.com/nvidia/status/2104567031110533431",
+        handle: "claudeai",
+        text: "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work.",
+        url: "https://x.com/claudeai/status/2104633115620823187",
       },
     ],
   },
   {
-    id: "paperclip-trending",
-    topic: "GitHub: Paperclip na czele trendów",
+    id: "grok-bot-team",
+    topic: "Grok Bot: team boty, Plaid, głos",
     posts: [
       {
-        handle: "realJohnMK",
-        text: "A rented agent seat is one employee. Paperclip is the company you own — open-source orchestration for teams of AI agents with org charts, budgets, and goals. GitHub: paperclipai/paperclip.",
-        url: "https://x.com/realJohnMK/status/2104968369996955761",
+        handle: "elonmusk",
+        text: "New in @Grok @Bot",
+        url: "https://x.com/elonmusk/status/2105350300534210708",
       },
     ],
   },
   {
-    id: "btc-september",
-    topic: "BTC ~83–84k; wrzesień na zamknięciu",
+    id: "github-harness",
+    topic: "GitHub: harnessy Paperclip / OpenRig",
     posts: [
       {
-        handle: "jescofarad",
-        text: "BTC sitting ~$83–84k. September is tracking as one of the best Septembers on record (~7%+), with one day left on the monthly close. Spot Bitcoin ETFs: ~$2.4–2.95B inflows.",
-        url: "https://x.com/jescofarad/status/2105157208098967716",
+        handle: "xchatgcp",
+        text: "Harness mix: openrig / ouroboros / paperclip — who orchestrates Claude Code and Codex as one system.",
+        url: "https://x.com/xchatgcp/status/2105503471290192064",
+      },
+    ],
+  },
+  {
+    id: "btc-october",
+    topic: "BTC ~83–84k na otwarciu października",
+    posts: [
+      {
+        handle: "0x_Agency",
+        text: "Bitcoin Price Today: Why BTC Is Holding Near $83,756 After a Choppy Start to October",
+        url: "https://x.com/0x_Agency/status/2105538782632030559",
       },
     ],
   },

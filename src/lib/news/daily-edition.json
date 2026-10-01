@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-30",
-  "kicker": "Wydanie 30 września",
-  "lead": "Środa należy do agentów, nie do samego modelu. OpenAI wypuściło Dots — zawsze włączone agenty na GPT-6 Astra z własnym komputerem w chmurze — oraz GPT-6.1 Sol: tańszy wariant bliski Astrze w ChatGPT Work i Codexie, plus plan Pro 500. Anthropic otworzyło badanie Interviewer (29 IX–6 X) dla użytkowników Claude i Claude Code. BTC kończy wrzesień przy ~83–84 tys. USD; miesiąc zmierza do jednego z najlepszych wrześni w historii, mimo wyższych rentowności.",
+  "date": "2026-10-01",
+  "kicker": "Wydanie 1 października",
+  "lead": "Październik startuje po DevDay OpenAI: Dots (agenty 24/7 na GPT-6 Astra z własnym komputerem w chmurze) i tańszy GPT-6.1 Sol są już w ChatGPT Work i Codexie; plan Pro 500 otwiera Ultrafast. Anthropic zbiera głosy w Interviewerze do 6 X, a od tego dnia nowe zadania Pro/Max w Cowork idą w chmurę. Grok Bot dostaje team boty, Plaid i głos. BTC otwiera miesiąc przy ~83–84 tys. USD po wrześniu +~7%.",
   "bullets": [
-    "OpenAI Dots: agenty 24/7 na Astrze; Sol w Plus/Pro/Biz; plan Pro 500.",
-    "Anthropic Interviewer: badanie 29 IX–6 X, odpowiedzi można upublicznić.",
-    "BTC ~83–84k; wrzesień +~7%; ETF-y z napływami rzędu 2,4–3 mld USD."
+    "Dots i Sol po DevDay (29 IX); Pro 500 i Ultrafast w Codex/Work.",
+    "Anthropic Interviewer do 6 X; Cowork Pro/Max od 6 X tylko w chmurze.",
+    "BTC ~83–84k na starcie X; GitHub: Paperclip, OpenRig, OpenShell."
   ]
 }
