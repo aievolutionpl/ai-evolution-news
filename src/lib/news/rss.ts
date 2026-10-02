@@ -26,6 +26,12 @@ export const FEEDS: Feed[] = [
     category: "ai",
   },
   {
+    id: "deepmind",
+    title: "Google DeepMind",
+    url: "https://deepmind.google/blog/rss.xml",
+    category: "ai",
+  },
+  {
     id: "huggingface-blog",
     title: "Hugging Face Blog",
     url: "https://huggingface.co/blog/feed.xml",
