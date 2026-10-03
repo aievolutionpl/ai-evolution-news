@@ -79,4 +79,16 @@ export const FEEDS: Feed[] = [
     url: "https://github.blog/feed/",
     category: "github",
   },
+  {
+    id: "github-changelog",
+    title: "GitHub Changelog",
+    url: "https://github.blog/changelog/feed/",
+    category: "github",
+  },
+  {
+    id: "verge-ai",
+    title: "The Verge AI",
+    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    category: "ai",
+  },
 ];

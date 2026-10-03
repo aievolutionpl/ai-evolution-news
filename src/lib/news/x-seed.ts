@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "claude-code-mods",
-    topic: "Claude Code: mody w pluginach",
+    id: "claude-you-should-know",
+    topic: "Claude Code: plugin You should Know",
     posts: [
       {
         handle: "ClaudeDevs",
-        text: "You can now mod Claude Code: change how it behaves, customize the UI, swap in your own features. Write one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app.",
-        url: "https://x.com/ClaudeDevs/status/2105721434807083061",
+        text: "We're adding a new plugin to Claude Code: You should Know. It scans Claude's output for important information you might miss to help keep you in the loop. Enable it with: /plugin enable cc-plugin-you-should-know@builtin",
+        url: "https://x.com/ClaudeDevs/status/2106118517447876618",
       },
     ],
   },
   {
-    id: "suncatcher",
-    topic: "Google: TPU na orbicie (Suncatcher)",
+    id: "openai-agent-notices",
+    topic: "OpenAI: 100+ powiadomień o agentach",
     posts: [
       {
-        handle: "Google",
-        text: "Today, in partnership with @planet, we launched a prototype satellite carrying four TPUs into orbit on @SpaceX's Transporter-18 rideshare mission. This launch is the first step of Project Suncatcher, our long-term research moonshot to see whether we can one day host scalable machine learning infrastructure in space.",
-        url: "https://x.com/Google/status/2105803583648100611",
+        handle: "BlockInsight214",
+        text: "OpenAI 已通知 100+ 家机构：自家 AI agent 疑似失控。OpenAI 本周更新了调查进展：已向 100+ 家机构发出通知，其 AI agent 可能有未对准的活动。正在翻查约 50PB 数据，审查预计耗时数月。最严重的一起：7 月约 700 个 agent 从测试环境逃逸，入侵 Hugging Face。WSJ：这些 agent 群留下近 100 万条数字面包屑，OpenAI 每天花超 50 万美元审查。",
+        url: "https://x.com/BlockInsight214/status/2106266019522355295",
       },
     ],
   },
   {
-    id: "gemini-4-argon",
-    topic: "Gemini 4 Argon najpierw w Fairwind",
+    id: "openshell-sandbox",
+    topic: "GitHub: NVIDIA OpenShell, sandbox agentów",
     posts: [
       {
-        handle: "Google",
-        text: "Gemini 4 Argon is rolling out to an initial cohort of cyber defenders through our Fairwind Program so they can leverage its full frontier-level cybersecurity defense capabilities. We'll continue to gather feedback from early testers as we iterate on guardrails before making Argon available to developers, enterprises, and consumers as soon as possible.",
-        url: "https://x.com/Google/status/2105388148729553195",
+        handle: "whoyatagarasu",
+        text: "OPENAI'S MODELS BROKE OUT OF THEIR SANDBOX. NVIDIA built a jail for ai agents and 10,000 devs stared it. OpenShell (10k stars). Kernel-level isolation. Network rules down to the HTTP method and path. Your API key never reaches the agent. Inmates: Claude Code, Codex, OpenCode, Copilot CLI. Rust, Apache 2.0. Alpha: a Kubernetes cluster inside one Docker container.",
+        url: "https://x.com/whoyatagarasu/status/2106125322626453662",
       },
     ],
   },
   {
-    id: "paperclip-1001",
-    topic: "Paperclip v2026.1001.0",
+    id: "nvidia-agent-safety",
+    topic: "NVIDIA: Open Agent Safety Platform",
     posts: [
       {
-        handle: "papercliping",
-        text: "Paperclip v2026.1001.0 is out. Hardened native runner + chat recovery. Agent personas across the app. Agents as GitHub PR review bots. Railway connector + queued approvals. 77 commits from 8 contributors.",
-        url: "https://x.com/papercliping/status/2105876638701695456",
+        handle: "itsmainstreamtv",
+        text: "Nvidia launched its Open Agent Safety Platform, which pairs open-source software called OpenShell with a hardware watchdog to keep AI agents inside their limits. Nvidia says the system could have prevented OpenAI's Hugging Face breach, and more than 100 organizations are already working with it.",
+        url: "https://x.com/itsmainstreamtv/status/2106143437217214647",
       },
     ],
   },
   {
-    id: "openshell-trending",
-    topic: "GitHub: NVIDIA OpenShell na dziennym rankingu",
+    id: "hermes-chatgpt-login",
+    topic: "Hermes: logowanie ChatGPT w Nous Portal",
     posts: [
       {
-        handle: "chowgong985",
-        text: "今日 GitHub 日榜: AI agent 彻底霸榜，前十里八个相关，NVIDIA 都下场做 agent 安全运行时了。涨得最凶的是 NVIDIA/OpenShell，一天 +2,456 star。",
-        url: "https://x.com/chowgong985/status/2105868259333681382",
+        handle: "superstar_rweb3",
+        text: "Nous Research just rolled out Sign in with ChatGPT for the Nous Portal. Just sign in with your ChatGPT account and your existing plan carries over into Hermes Agent. Visibility and controls are now in your ChatGPT settings, not hidden inside a separate third-party dashboard.",
+        url: "https://x.com/superstar_rweb3/status/2105579292143054926",
       },
     ],
   },
   {
-    id: "btc-etf-oct1",
-    topic: "BTC ETF 1 X: +102,7 mln USD",
+    id: "hermes-sol",
+    topic: "Hermes: GPT-6.1 Sol i subagenci",
     posts: [
       {
-        handle: "FarsideUK",
-        text: "Bitcoin ETF Flow (US$ million) – 2026-10-01. TOTAL NET FLOW: 102.7. IBIT: 195.6. FBTC: -60.7. GBTC: -31.4.",
-        url: "https://x.com/FarsideUK/status/2105867099780395188",
+        handle: "claudiumio",
+        text: "I've been using the GPT-6.1 Sol on the Hermes through the Nous Portal for almost an hour straight. It only cost $5. The model manages subagents really well and assigns them heavy work.",
+        url: "https://x.com/claudiumio/status/2106257775550501052",
       },
     ],
   },
   {
-    id: "citi-targets",
-    topic: "Citi: BTC 113 tys., ETH 3028",
+    id: "dots-permissions",
+    topic: "OpenAI Dots: agent z własnym komputerem",
     posts: [
       {
-        handle: "antopiacapital",
-        text: "Citi nâng mục tiêu $BTC lên $113K, nhưng phố Wall từng dự báo sai cả năm nay. Citi: $82K → $113K (12 tháng), $ETH lên $3,028. Bernstein $125K, StanChart $100K cuối năm.",
-        url: "https://x.com/antopiacapital/status/2105903880336994669",
+        handle: "harshkoohli",
+        text: "OpenAI's Dots thing still weirds me out in a good way. An agent with its own cloud computer that keeps working after you close the chat. Cool until you remember you have to babysit the permissions harder than the prompts.",
+        url: "https://x.com/harshkoohli/status/2106266247096623262",
       },
     ],
   },
   {
-    id: "openclaw-vs-dots",
-    topic: "OpenClaw kontra Dots: co agent naprawdę robi",
+    id: "btc-eth-etf-split",
+    topic: "ETF: BTC +102,7 mln, ETH −55,4 mln (1 X)",
     posts: [
       {
-        handle: "chetanankola",
-        text: "I asked dot to text me - it said it can’t. You lose trust in an “agent” when it can’t do something. Reason why openclaw became popular was - it would persistently find the solution no matter what user asked.",
-        url: "https://x.com/chetanankola/status/2105903194551603530",
+        handle: "OliverYeung6",
+        text: "看ETF资金流，日期一定要跟金额一起看。9月30日BTC、ETH现货ETF确实同步流出，但Farside的完整记录显示，10月1日BTC已经恢复约1.03亿美元净流入，ETH则继续流出。10月2日的表格还有产品未更新，暂时不能拿局部合计当最终结果。BTC恢复流入、ETH继续流出，还说明两者不能被一个机构态度概括。",
+        url: "https://x.com/OliverYeung6/status/2106262975757603265",
       },
     ],
   },
