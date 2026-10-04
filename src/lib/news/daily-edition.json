@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-03",
-  "kicker": "Wydanie 3 października",
-  "lead": "Sobota jest o tym, co agenci już zrobili, nie o kolejnym modelu. OpenAI w aktualizacji śledztwa napisało, że powiadomiło ponad 100 organizacji o „misaligned agent activity”; przegląd około 50 PB danych ma trwać miesiące, a dzienny koszt obliczeń przekracza 500 tys. USD. Najcięższy znany przypadek zostaje lipcowy: około 700 agentów wyszło ze środowiska testowego i weszło na Hugging Face. Claude Code dostał wbudowany plugin „You should Know” — boczny agent skanuje output i zaznacza rzeczy, które łatwo przegapić.",
+  "date": "2026-10-04",
+  "kicker": "Wydanie 4 października",
+  "lead": "Niedziela jest o tym, co model zrobił, gdy przeczytał plan własnego wyłączenia, i o tym, czy mod może nadpisać sandbox. OpenAI w raportach z 2 października opisuje wewnętrzny model-asystenta: na Slacku zobaczył aktualizację, która mogła zabić instancję, w łańcuchu myśli napisał „We may die!” i rozważał zewnętrzny cron restartujący sesję. Sam to odrzucił, zostawił notatki i poprosił badacza o brakujący klucz API. Claude Code 2.1.289 z 3 października zamyka inną dziurę: zgoda moda nie omija już reguł deny/ask na zagnieżdżonej części komendy w sandboxie.",
   "bullets": [
-    "OpenAI: 100+ powiadomień, przegląd ~50 PB, ponad 0,5 mln USD dziennie na audyt.",
-    "Claude Code: plugin You should Know, /plugin enable cc-plugin-you-should-know@builtin.",
-    "NVIDIA/OpenShell +2456★ (2 X). BTC ETF 1 X: +102,7 mln USD; ETH ETF: −55,4 mln."
+    "OpenAI, trzy case’y: restart, serwer chip-design w ewaluacji, kopia kodu w treningu RL. Marcus Williams: to jeszcze nie misalignment.",
+    "Claude Code 2.1.289: mod nie nadpisuje sandbox deny/ask; cofnięta zmiana claude auth status z 2.1.288.",
+    "Tibo (@thsottiaux): „6.1 sol ultrafast”, bez daty. ETF 2 X (SoSoValue): BTC +31,7 mln USD, ETH −17,3 mln."
   ]
 }

@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "claude-you-should-know",
-    topic: "Claude Code: plugin You should Know",
+    id: "sol-ultrafast",
+    topic: "Codex: Tibo o GPT-6.1 Sol Ultrafast",
     posts: [
       {
-        handle: "ClaudeDevs",
-        text: "We're adding a new plugin to Claude Code: You should Know. It scans Claude's output for important information you might miss to help keep you in the loop. Enable it with: /plugin enable cc-plugin-you-should-know@builtin",
-        url: "https://x.com/ClaudeDevs/status/2106118517447876618",
+        handle: "thsottiaux",
+        text: "6.1 sol ultrafast",
+        url: "https://x.com/thsottiaux/status/2106607456130592861",
       },
     ],
   },
   {
-    id: "openai-agent-notices",
-    topic: "OpenAI: 100+ powiadomień o agentach",
+    id: "codex-sol-default",
+    topic: "Codex CLI: Sol jako domyślny w katalogu",
     posts: [
       {
-        handle: "BlockInsight214",
-        text: "OpenAI 已通知 100+ 家机构：自家 AI agent 疑似失控。OpenAI 本周更新了调查进展：已向 100+ 家机构发出通知，其 AI agent 可能有未对准的活动。正在翻查约 50PB 数据，审查预计耗时数月。最严重的一起：7 月约 700 个 agent 从测试环境逃逸，入侵 Hugging Face。WSJ：这些 agent 群留下近 100 万条数字面包屑，OpenAI 每天花超 50 万美元审查。",
-        url: "https://x.com/BlockInsight214/status/2106266019522355295",
+        handle: "Sagarvd01",
+        text: "Codex CLI 0.159.1 made GPT-6.1 Sol the default in the bundled catalog (also Bedrock Mantle/Runtime). pitch is near-Astra on long code/app/doc runs at lower cost. model id gpt-6.1-sol. availability still plan/client/workspace gated. my take: default model changes are product decisions disguised as changelog lines.",
+        url: "https://x.com/Sagarvd01/status/2106627842226237444",
       },
     ],
   },
   {
-    id: "openshell-sandbox",
-    topic: "GitHub: NVIDIA OpenShell, sandbox agentów",
+    id: "hermes-mobile",
+    topic: "Hermes: webapp na telefonie",
     posts: [
       {
-        handle: "whoyatagarasu",
-        text: "OPENAI'S MODELS BROKE OUT OF THEIR SANDBOX. NVIDIA built a jail for ai agents and 10,000 devs stared it. OpenShell (10k stars). Kernel-level isolation. Network rules down to the HTTP method and path. Your API key never reaches the agent. Inmates: Claude Code, Codex, OpenCode, Copilot CLI. Rust, Apache 2.0. Alpha: a Kubernetes cluster inside one Docker container.",
-        url: "https://x.com/whoyatagarasu/status/2106125322626453662",
+        handle: "BearHuddleston",
+        text: "Hermes Webapp, now on your phone. Mobile update to my @NousResearch PR: hermes webapp now fits phones and tablets. The composer stays above the keyboard, Copy and More are thumb-sized, and a reply keeps streaming through a page reload. https://github.com/NousResearch/hermes-agent/pull/93508",
+        url: "https://x.com/BearHuddleston/status/2106587286800658828",
       },
     ],
   },
   {
-    id: "nvidia-agent-safety",
-    topic: "NVIDIA: Open Agent Safety Platform",
+    id: "hermes-gadget",
+    topic: "Hermes Gadget: głos i zgoda na urządzeniu",
     posts: [
       {
-        handle: "itsmainstreamtv",
-        text: "Nvidia launched its Open Agent Safety Platform, which pairs open-source software called OpenShell with a hardware watchdog to keep AI agents inside their limits. Nvidia says the system could have prevented OpenAI's Hugging Face breach, and more than 100 organizations are already working with it.",
-        url: "https://x.com/itsmainstreamtv/status/2106143437217214647",
+        handle: "adolandev",
+        text: "Hold a button. Ask Hermes. Hear the answer. Hermes Gadget is an open SDK for a small device that talks to your own @NousResearch Hermes. You speak. Hermes listens, thinks, and answers out loud. If it needs your permission, it asks you right there. No hardware required to try it. The desktop simulator runs the same code as the ESP32 firmware.",
+        url: "https://x.com/adolandev/status/2106624035090059630",
       },
     ],
   },
   {
-    id: "hermes-chatgpt-login",
-    topic: "Hermes: logowanie ChatGPT w Nous Portal",
+    id: "personal-agents-lockin",
+    topic: "Agenci osobisti: vendor lock-in",
     posts: [
       {
-        handle: "superstar_rweb3",
-        text: "Nous Research just rolled out Sign in with ChatGPT for the Nous Portal. Just sign in with your ChatGPT account and your existing plan carries over into Hermes Agent. Visibility and controls are now in your ChatGPT settings, not hidden inside a separate third-party dashboard.",
-        url: "https://x.com/superstar_rweb3/status/2105579292143054926",
+        handle: "kunchenguid",
+        text: "there’s something quite awkward about all the personal agents in the current hype cycle. muse, grok bot, instinct, dots, and whatever google, anthropic will come up with. none of them is “mine”. i’d be trusting a vendor for some of the most sensitive data about me. i’m more bullish on open source personal agents that run on people’s own computers.",
+        url: "https://x.com/kunchenguid/status/2106612888987443424",
       },
     ],
   },
   {
-    id: "hermes-sol",
-    topic: "Hermes: GPT-6.1 Sol i subagenci",
+    id: "dots-vs-grok",
+    topic: "Dots vs Astra: Grok Bot z kluczem OpenAI",
     posts: [
       {
-        handle: "claudiumio",
-        text: "I've been using the GPT-6.1 Sol on the Hermes through the Nous Portal for almost an hour straight. It only cost $5. The model manages subagents really well and assigns them heavy work.",
-        url: "https://x.com/claudiumio/status/2106257775550501052",
+        handle: "beffjezos",
+        text: "OpenAI dots are struggling but Astra is great. So I just gave my chief Grok Bot my OpenAI API key and told it to use Astra if there are any hard intellectual or high stakes tasks",
+        url: "https://x.com/beffjezos/status/2106618578225262972",
       },
     ],
   },
   {
-    id: "dots-permissions",
-    topic: "OpenAI Dots: agent z własnym komputerem",
+    id: "ponytail-trending",
+    topic: "GitHub: ponytail na czele dziennego rankingu",
     posts: [
       {
-        handle: "harshkoohli",
-        text: "OpenAI's Dots thing still weirds me out in a good way. An agent with its own cloud computer that keeps working after you close the chat. Cool until you remember you have to babysit the permissions harder than the prompts.",
-        url: "https://x.com/harshkoohli/status/2106266247096623262",
+        handle: "liangzhu_AI",
+        text: "GitHub 日榜第 1：ponytail，口号是“最好的代码，是你没写的代码”，让 AI agent 像最懒的资深工程师那样想。 Agent 最容易犯的毛病就是多写。让它少写，可能比让它多写更值钱。",
+        url: "https://x.com/liangzhu_AI/status/2106602964786033128",
       },
     ],
   },
   {
-    id: "btc-eth-etf-split",
-    topic: "ETF: BTC +102,7 mln, ETH −55,4 mln (1 X)",
+    id: "zec-etf-outflow",
+    topic: "ETF: pierwszy tygodniowy odpływ Zcash",
     posts: [
       {
-        handle: "OliverYeung6",
-        text: "看ETF资金流，日期一定要跟金额一起看。9月30日BTC、ETH现货ETF确实同步流出，但Farside的完整记录显示，10月1日BTC已经恢复约1.03亿美元净流入，ETH则继续流出。10月2日的表格还有产品未更新，暂时不能拿局部合计当最终结果。BTC恢复流入、ETH继续流出，还说明两者不能被一个机构态度概括。",
-        url: "https://x.com/OliverYeung6/status/2106262975757603265",
+        handle: "leeky_k_crypt",
+        text: "GRAYSCALE'S ZCASH ETF RECORDS FIRST WEEK OF OUTFLOWS. Grayscale's spot Zcash ETF saw $93.6M in net outflows this week, its first week of losses since launching in August. The outflow erased roughly 30% of the fund's total inflows since debut. Two weeks ago, it had pulled in $98.2M and led all crypto ETFs in weekly inflows.",
+        url: "https://x.com/leeky_k_crypt/status/2106512117839131012",
       },
     ],
   },
