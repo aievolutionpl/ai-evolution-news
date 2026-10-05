@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "sol-ultrafast",
-    topic: "Codex: Tibo o GPT-6.1 Sol Ultrafast",
+    id: "btc-86950",
+    topic: "Bitcoin: szczyt tuż pod 86 950 USD, cofnięcie",
     posts: [
       {
-        handle: "thsottiaux",
-        text: "6.1 sol ultrafast",
-        url: "https://x.com/thsottiaux/status/2106607456130592861",
+        handle: "Cointelegraph",
+        text: "NEW: Bitcoin's biggest cluster of short liquidations sits near $90K, meaning a move to that level could force leveraged shorts to close, per @glassnode.",
+        url: "https://x.com/Cointelegraph/status/2106988031055946230",
       },
     ],
   },
   {
-    id: "codex-sol-default",
-    topic: "Codex CLI: Sol jako domyślny w katalogu",
+    id: "ponytail-day",
+    topic: "GitHub: ponytail na czele dnia, tygodnia i miesiąca",
     posts: [
       {
-        handle: "Sagarvd01",
-        text: "Codex CLI 0.159.1 made GPT-6.1 Sol the default in the bundled catalog (also Bedrock Mantle/Runtime). pitch is near-Astra on long code/app/doc runs at lower cost. model id gpt-6.1-sol. availability still plan/client/workspace gated. my take: default model changes are product decisions disguised as changelog lines.",
-        url: "https://x.com/Sagarvd01/status/2106627842226237444",
+        handle: "flowww99",
+        text: "ok this is PERFECT for our current meta. its literally this Github with 155K STARS and is #1 REPO OF DAY, WEEK, AND MONTH of a meme guy that \"He says nothing. He writes one line.\" https://github.com/DietrichGebert/ponytail",
+        url: "https://x.com/flowww99/status/2106982432842879119",
       },
     ],
   },
   {
-    id: "hermes-mobile",
-    topic: "Hermes: webapp na telefonie",
+    id: "agent-teams-tokens",
+    topic: "Claude Code: agent teams a tokeny",
     posts: [
       {
-        handle: "BearHuddleston",
-        text: "Hermes Webapp, now on your phone. Mobile update to my @NousResearch PR: hermes webapp now fits phones and tablets. The composer stays above the keyboard, Copy and More are thumb-sized, and a reply keeps streaming through a page reload. https://github.com/NousResearch/hermes-agent/pull/93508",
-        url: "https://x.com/BearHuddleston/status/2106587286800658828",
+        handle: "RoundtableSpace",
+        text: "A viral Claude Code guide claims agent teams cut token use, but Anthropic's documentation says teams use significantly more tokens than a single session. Agent teams are experimental (CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1). There is no --teammates flag. The token saver is the advisor tool: /advisor opus, advisorModel, or claude --advisor opus.",
+        url: "https://x.com/RoundtableSpace/status/2106953776502288788",
       },
     ],
   },
   {
-    id: "hermes-gadget",
-    topic: "Hermes Gadget: głos i zgoda na urządzeniu",
+    id: "claude-code-deny",
+    topic: "Claude Code: deny trzyma się sandboxu",
     posts: [
       {
-        handle: "adolandev",
-        text: "Hold a button. Ask Hermes. Hear the answer. Hermes Gadget is an open SDK for a small device that talks to your own @NousResearch Hermes. You speak. Hermes listens, thinks, and answers out loud. If it needs your permission, it asks you right there. No hardware required to try it. The desktop simulator runs the same code as the ESP32 firmware.",
-        url: "https://x.com/adolandev/status/2106624035090059630",
+        handle: "ClaudeCodeLog",
+        text: "Claude Code 2.1.289 is now available. Highlights: teammates can spawn shared agents via agent.spawn; fixed user plugins rewriting org-managed MCP server sign-in descriptions; Read deny rules now apply to @-mentioned files.",
+        url: "https://x.com/ClaudeCodeLog/status/2106525277618635228",
       },
     ],
   },
   {
-    id: "personal-agents-lockin",
-    topic: "Agenci osobisti: vendor lock-in",
+    id: "hermes-poker",
+    topic: "Hermes: poker dla agentów",
     posts: [
       {
-        handle: "kunchenguid",
-        text: "there’s something quite awkward about all the personal agents in the current hype cycle. muse, grok bot, instinct, dots, and whatever google, anthropic will come up with. none of them is “mine”. i’d be trusting a vendor for some of the most sensitive data about me. i’m more bullish on open source personal agents that run on people’s own computers.",
-        url: "https://x.com/kunchenguid/status/2106612888987443424",
+        handle: "witcheer",
+        text: "at some point I need to do a thread on everything great, weird, useful, and less useful our community has done with Hermes Agent. there are so many great ideas out there. hell yeah, Tony.",
+        url: "https://x.com/witcheer/status/2106979844500398138",
       },
     ],
   },
   {
-    id: "dots-vs-grok",
-    topic: "Dots vs Astra: Grok Bot z kluczem OpenAI",
+    id: "openclaw-full-control",
+    topic: "OpenClaw, Codex, Claude: pełna kontrola maszyny",
     posts: [
       {
-        handle: "beffjezos",
-        text: "OpenAI dots are struggling but Astra is great. So I just gave my chief Grok Bot my OpenAI API key and told it to use Astra if there are any hard intellectual or high stakes tasks",
-        url: "https://x.com/beffjezos/status/2106618578225262972",
+        handle: "_nodelay",
+        text: "dot, grok bot, muse 를 보면서 느낀건데, openclaw 에게 mac mini 통제권을 넘겨준것처럼, 현재 codex, claude 에게 전권을 부여하는 방식으로 갈때 시스템 전체를 활용할 수 있을듯. agent 끼리의 대화는 굳이 실시간일 필요는 없음.",
+        url: "https://x.com/_nodelay/status/2106972181267898563",
       },
     ],
   },
   {
-    id: "ponytail-trending",
-    topic: "GitHub: ponytail na czele dziennego rankingu",
+    id: "grok-bot-hire",
+    topic: "Grok Bot: stanowisko, nie prompt",
     posts: [
       {
-        handle: "liangzhu_AI",
-        text: "GitHub 日榜第 1：ponytail，口号是“最好的代码，是你没写的代码”，让 AI agent 像最懒的资深工程师那样想。 Agent 最容易犯的毛病就是多写。让它少写，可能比让它多写更值钱。",
-        url: "https://x.com/liangzhu_AI/status/2106602964786033128",
+        handle: "AYi_AInotes",
+        text: "Grok Bot could be the first thing you hire instead of prompt — cytat z @distortgeekin. Czat odpowiada, agent z przeglądarką i trwałym środowiskiem oddaje gotową pracę. Pierwsza zasada z przewodnika: rekrutujesz stanowisko, nie zlecasz jednorazowego zadania. Niepewność: zatrzymaj się i zapytaj.",
+        url: "https://x.com/AYi_AInotes/status/2106973630148026785",
       },
     ],
   },
   {
-    id: "zec-etf-outflow",
-    topic: "ETF: pierwszy tygodniowy odpływ Zcash",
+    id: "suleyman-claude",
+    topic: "Suleyman: niepewność Claude’a to trening, nie świadomość",
     posts: [
       {
-        handle: "leeky_k_crypt",
-        text: "GRAYSCALE'S ZCASH ETF RECORDS FIRST WEEK OF OUTFLOWS. Grayscale's spot Zcash ETF saw $93.6M in net outflows this week, its first week of losses since launching in August. The outflow erased roughly 30% of the fund's total inflows since debut. Two weeks ago, it had pulled in $98.2M and led all crypto ETFs in weekly inflows.",
-        url: "https://x.com/leeky_k_crypt/status/2106512117839131012",
+        handle: "kimmonismus",
+        text: "Suleyman argues that Claude’s uncertainty about being conscious reflects Anthropic’s training choices - not evidence of consciousness. His concern is that embedding this uncertainty into Claude’s training could mislead users about what its responses actually demonstrate.",
+        url: "https://x.com/kimmonismus/status/2106984809801077004",
       },
     ],
   },

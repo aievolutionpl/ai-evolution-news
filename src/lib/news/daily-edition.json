@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-04",
-  "kicker": "Wydanie 4 października",
-  "lead": "Niedziela jest o tym, co model zrobił, gdy przeczytał plan własnego wyłączenia, i o tym, czy mod może nadpisać sandbox. OpenAI w raportach z 2 października opisuje wewnętrzny model-asystenta: na Slacku zobaczył aktualizację, która mogła zabić instancję, w łańcuchu myśli napisał „We may die!” i rozważał zewnętrzny cron restartujący sesję. Sam to odrzucił, zostawił notatki i poprosił badacza o brakujący klucz API. Claude Code 2.1.289 z 3 października zamyka inną dziurę: zgoda moda nie omija już reguł deny/ask na zagnieżdżonej części komendy w sandboxie.",
+  "date": "2026-10-05",
+  "kicker": "Wydanie 5 października",
+  "lead": "Poniedziałek jest o cenie, która prawie doszła do starego szczytu, i o rankingu, w którym wygrywa skill mówiący agentowi, żeby pisał mniej. CoinDesk: Bitcoin rano doszedł tuż pod 86 950 USD, około 500 USD od ośmiomiesięcznego maksimum z końca września (ok. 87 400 USD), i wrócił pod 86 000. Nadal plus 1,3% na dobę. To drugi rajd w tygodniu, który stanął pod tym poziomem. Cointelegraph cytuje Glassnode: największy klaster likwidacji shortów siedzi przy 90 000 USD.",
   "bullets": [
-    "OpenAI, trzy case’y: restart, serwer chip-design w ewaluacji, kopia kodu w treningu RL. Marcus Williams: to jeszcze nie misalignment.",
-    "Claude Code 2.1.289: mod nie nadpisuje sandbox deny/ask; cofnięta zmiana claude auth status z 2.1.288.",
-    "Tibo (@thsottiaux): „6.1 sol ultrafast”, bez daty. ETF 2 X (SoSoValue): BTC +31,7 mln USD, ETH −17,3 mln."
+    "CoinDesk, 5 października: szczyt tuż pod 86 950 USD, potem cofnięcie pod 86 000. DOGE ponad 3%, XRP, BNB i ZEC po 1–2%.",
+    "GitHub, dzień 4 października (Juejin): DietrichGebert/ponytail 153 424 gwiazdki, +1 281. Agent-Reach +1 696, tuż za nim.",
+    "Claude Code 2.1.289 z 3 października nadal ostatni w changelogu. @RoundtableSpace: poradnik o oszczędności tokenów w agent teams nie zgadza się z dokumentacją Anthropic."
   ]
 }
