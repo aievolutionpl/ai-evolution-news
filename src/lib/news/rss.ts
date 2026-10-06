@@ -74,6 +74,12 @@ export const FEEDS: Feed[] = [
     category: "crypto",
   },
   {
+    id: "decrypt",
+    title: "Decrypt",
+    url: "https://decrypt.co/feed",
+    category: "crypto",
+  },
+  {
     id: "github-blog",
     title: "The GitHub Blog",
     url: "https://github.blog/feed/",

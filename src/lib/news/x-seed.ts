@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "btc-86950",
-    topic: "Bitcoin: szczyt tuż pod 86 950 USD, cofnięcie",
+    id: "btc-87000-wall",
+    topic: "Bitcoin: trzecie odbicie od 87 000 USD",
     posts: [
       {
-        handle: "Cointelegraph",
-        text: "NEW: Bitcoin's biggest cluster of short liquidations sits near $90K, meaning a move to that level could force leveraged shorts to close, per @glassnode.",
-        url: "https://x.com/Cointelegraph/status/2106988031055946230",
+        handle: "Neome_com",
+        text: "CRYPTO BREAKING NEWS: Bitcoin keeps getting rejected at $87,000 as stocks hover near records. Bitcoin Futures Open Interest Falls $1.4B as Spot Buyers Step In.",
+        url: "https://x.com/Neome_com/status/2107350681275261312",
       },
     ],
   },
   {
-    id: "ponytail-day",
-    topic: "GitHub: ponytail na czele dnia, tygodnia i miesiąca",
+    id: "fincen-wallets",
+    topic: "FinCEN wycofuje projekty o portfelach i mixerach",
     posts: [
       {
-        handle: "flowww99",
-        text: "ok this is PERFECT for our current meta. its literally this Github with 155K STARS and is #1 REPO OF DAY, WEEK, AND MONTH of a meme guy that \"He says nothing. He writes one line.\" https://github.com/DietrichGebert/ponytail",
-        url: "https://x.com/flowww99/status/2106982432842879119",
+        handle: "Nadcrt",
+        text: "FinCEN has withdrawn its old proposal targeting transactions involving self-custody wallets. The proposal would have required banks and MSBs to report certain crypto transactions above $10,000 involving unhosted wallets, and keep records above $3,000. It also withdrew the mixer measure. These rules were never in force.",
+        url: "https://x.com/Nadcrt/status/2107353061345636542",
       },
     ],
   },
   {
-    id: "agent-teams-tokens",
-    topic: "Claude Code: agent teams a tokeny",
+    id: "agent-reach-90k",
+    topic: "GitHub: Agent-Reach blisko 90 tys. gwiazdek",
     posts: [
       {
-        handle: "RoundtableSpace",
-        text: "A viral Claude Code guide claims agent teams cut token use, but Anthropic's documentation says teams use significantly more tokens than a single session. Agent teams are experimental (CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1). There is no --teammates flag. The token saver is the advisor tool: /advisor opus, advisorModel, or claude --advisor opus.",
-        url: "https://x.com/RoundtableSpace/status/2106953776502288788",
+        handle: "cyrilXBT",
+        text: "Your AI agent is BLIND. It can write code. It can plan. It can reason for an hour. But ask it what people on Reddit are saying about your product and it has nothing. Agent Reach fixes that. One install. Now it reads X, Reddit, YouTube, GitHub and any web page. No paid APIs. Almost 90K stars on GitHub.",
+        url: "https://x.com/cyrilXBT/status/2107342617814118429",
       },
     ],
   },
   {
-    id: "claude-code-deny",
-    topic: "Claude Code: deny trzyma się sandboxu",
+    id: "agent-reach-doctor",
+    topic: "Agent-Reach: doctor, nie uniwersalny klucz",
     posts: [
       {
-        handle: "ClaudeCodeLog",
-        text: "Claude Code 2.1.289 is now available. Highlights: teammates can spawn shared agents via agent.spawn; fixed user plugins rewriting org-managed MCP server sign-in descriptions; Read deny rules now apply to @-mentioned files.",
-        url: "https://x.com/ClaudeCodeLog/status/2106525277618635228",
+        handle: "iLegend_AI",
+        text: "Agent Reach 我装了。先说结论：它不是一把能直接用的 CLI，是个体检器 + 一份写给 agent 看的 SKILL.md。最实在的是 agent-reach doctor — 16 个渠道一次列全。我这边 5/16 可用。GitHub 那条它自己标了「未实时验证」。CLI 里没有 read 和 search，真正读网页还是 curl、yt-dlp、gh。",
+        url: "https://x.com/iLegend_AI/status/2107341130723688810",
       },
     ],
   },
   {
-    id: "hermes-poker",
-    topic: "Hermes: poker dla agentów",
+    id: "claude-code-290",
+    topic: "Claude Code 2.1.290: hook widzi subagenta",
     posts: [
       {
-        handle: "witcheer",
-        text: "at some point I need to do a thread on everything great, weird, useful, and less useful our community has done with Hermes Agent. there are so many great ideas out there. hell yeah, Tony.",
-        url: "https://x.com/witcheer/status/2106979844500398138",
+        handle: "The_Tradesman1",
+        text: "Claude Code 2.1.290 gives mod hooks the subagent's ID. The tool.check event now carries agentId. A mod's turn.step result lists serverToolUses. A user-installed mod could make an organization's guard skip its check — such a mod now gets unloaded. WebFetch no longer silently drops text past 100,000 characters. claude attach and claude logs take part of a session name.",
+        url: "https://x.com/The_Tradesman1/status/2107352890985836901",
       },
     ],
   },
   {
-    id: "openclaw-full-control",
-    topic: "OpenClaw, Codex, Claude: pełna kontrola maszyny",
+    id: "hermes-sheet",
+    topic: "Hermes: ściąga komend, pause i resume",
     posts: [
       {
-        handle: "_nodelay",
-        text: "dot, grok bot, muse 를 보면서 느낀건데, openclaw 에게 mac mini 통제권을 넘겨준것처럼, 현재 codex, claude 에게 전권을 부여하는 방식으로 갈때 시스템 전체를 활용할 수 있을듯. agent 끼리의 대화는 굳이 실시간일 필요는 없음.",
-        url: "https://x.com/_nodelay/status/2106972181267898563",
+        handle: "coindotgo",
+        text: "Here is what I recommend saving before your next session with Hermes Agent. @HermesWatcher has compiled the commands that users typically discover one by one — from /bg and /moa to controls for pausing, resuming, queues, and saved sessions.",
+        url: "https://x.com/coindotgo/status/2107350596756140153",
       },
     ],
   },
   {
-    id: "grok-bot-hire",
-    topic: "Grok Bot: stanowisko, nie prompt",
+    id: "grok-bot-vs-local",
+    topic: "Grok Bot kontra OpenClaw, Hermes i Claude",
     posts: [
       {
-        handle: "AYi_AInotes",
-        text: "Grok Bot could be the first thing you hire instead of prompt — cytat z @distortgeekin. Czat odpowiada, agent z przeglądarką i trwałym środowiskiem oddaje gotową pracę. Pierwsza zasada z przewodnika: rekrutujesz stanowisko, nie zlecasz jednorazowego zadania. Niepewność: zatrzymaj się i zapytaj.",
-        url: "https://x.com/AYi_AInotes/status/2106973630148026785",
+        handle: "m0xt_",
+        text: "I've moved all my operations onto Grok Bot, and the reason is simple: it just works. For most of this year I hopped between OpenClaw, Hermes and Claude. OpenClaw and Hermes are open-source agents you run on your own machine. On Claude you can't easily spin out a team of agents that each do one job. Dan McAteer at Latent Space: Grok Bot feels like unboxing a new MacBook, and systems like OpenClaw feel like Linux.",
+        url: "https://x.com/m0xt_/status/2107142523185721742",
       },
     ],
   },
   {
-    id: "suleyman-claude",
-    topic: "Suleyman: niepewność Claude’a to trening, nie świadomość",
+    id: "grok-bot-seo",
+    topic: "Grok Bot: zespół trzech agentów, nie kolejny SaaS",
     posts: [
       {
-        handle: "kimmonismus",
-        text: "Suleyman argues that Claude’s uncertainty about being conscious reflects Anthropic’s training choices - not evidence of consciousness. His concern is that embedding this uncertainty into Claude’s training could mislead users about what its responses actually demonstrate.",
-        url: "https://x.com/kimmonismus/status/2106984809801077004",
+        handle: "jeoste_",
+        text: "Si vous utilisez le kit d'agents de @RosoAI vous passez sûrement par Codex ou Claude. Il existe un autre moyen : donner le contenu reçu à un agent dédié Grok Bot (droits GSC, Vercel, Github). Ajoutez un agent SpaceXAI et un agent Manager. Trois agents SEO/GEO/AEO, 24h/24. Il m'a généré 19 pages — l'équipe vérifie encore les instructions.",
+        url: "https://x.com/jeoste_/status/2107351977525149754",
       },
     ],
   },
