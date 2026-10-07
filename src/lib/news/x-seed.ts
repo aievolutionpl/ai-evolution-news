@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "btc-87000-wall",
-    topic: "Bitcoin: trzecie odbicie od 87 000 USD",
+    id: "openai-math-release",
+    topic: "OpenAI: paczka wyników matematycznych, model wewnętrzny",
     posts: [
       {
-        handle: "Neome_com",
-        text: "CRYPTO BREAKING NEWS: Bitcoin keeps getting rejected at $87,000 as stocks hover near records. Bitcoin Futures Open Interest Falls $1.4B as Spot Buyers Step In.",
-        url: "https://x.com/Neome_com/status/2107350681275261312",
+        handle: "OpenAI",
+        text: "We're releasing a broad range of new mathematical results produced by an internal frontier model. We've been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and public recommendations to inform how we release these results.",
+        url: "https://x.com/OpenAI/status/2107596713791767021",
       },
     ],
   },
   {
-    id: "fincen-wallets",
-    topic: "FinCEN wycofuje projekty o portfelach i mixerach",
+    id: "openai-math-list",
+    topic: "Lista twierdzeń z paczki — relacja, nie komunikat firmy",
     posts: [
       {
-        handle: "Nadcrt",
-        text: "FinCEN has withdrawn its old proposal targeting transactions involving self-custody wallets. The proposal would have required banks and MSBs to report certain crypto transactions above $10,000 involving unhosted wallets, and keep records above $3,000. It also withdrew the mixer measure. These rules were never in force.",
-        url: "https://x.com/Nadcrt/status/2107353061345636542",
+        handle: "BLUECOW009",
+        text: "OpenAI just released a ridiculous amount of new math. Hilbert's 10th over the rationals solved. Unique Games solved. Hadwiger disproved. Catalan's constant proved irrational. irrationality exponent of π = 2. L = RL = BPL. 722 manuscripts. 372 result families.",
+        url: "https://x.com/BLUECOW009/status/2107625269737451881",
       },
     ],
   },
   {
-    id: "agent-reach-90k",
-    topic: "GitHub: Agent-Reach blisko 90 tys. gwiazdek",
+    id: "openai-math-wsj",
+    topic: "WSJ o reakcji na wyniki OpenAI",
     posts: [
       {
-        handle: "cyrilXBT",
-        text: "Your AI agent is BLIND. It can write code. It can plan. It can reason for an hour. But ask it what people on Reddit are saying about your product and it has nothing. Agent Reach fixes that. One install. Now it reads X, Reddit, YouTube, GitHub and any web page. No paid APIs. Almost 90K stars on GitHub.",
-        url: "https://x.com/cyrilXBT/status/2107342617814118429",
+        handle: "JimPethokoukis",
+        text: "As stunned math experts began to absorb the results, even a researcher inside Anthropic called OpenAI's release \"obviously the most significant moment in mathematical history.\" It [WSJ]",
+        url: "https://x.com/JimPethokoukis/status/2107644101307126190",
       },
     ],
   },
   {
-    id: "agent-reach-doctor",
-    topic: "Agent-Reach: doctor, nie uniwersalny klucz",
+    id: "pentagon-claude",
+    topic: "Pentagon: oficjalnie koniec Claude, źródła BBC mówią inaczej",
     posts: [
       {
-        handle: "iLegend_AI",
-        text: "Agent Reach 我装了。先说结论：它不是一把能直接用的 CLI，是个体检器 + 一份写给 agent 看的 SKILL.md。最实在的是 agent-reach doctor — 16 个渠道一次列全。我这边 5/16 可用。GitHub 那条它自己标了「未实时验证」。CLI 里没有 read 和 search，真正读网页还是 curl、yt-dlp、gh。",
-        url: "https://x.com/iLegend_AI/status/2107341130723688810",
+        handle: "mark_k",
+        text: "The Pentagon has finally pulled the plug on Claude, according to an official speaking to the BBC. Anthropic was blacklisted in February, with a deadline to stop using its tools by late August. Yet sources say Claude was still being used as recently as last week, including in military operations against Iran. The Pentagon has since signed contracts with Google, xAI and OpenAI.",
+        url: "https://x.com/mark_k/status/2107543434726646141",
       },
     ],
   },
   {
-    id: "claude-code-290",
-    topic: "Claude Code 2.1.290: hook widzi subagenta",
+    id: "btc-84900",
+    topic: "Bitcoin: piąty test 86–90 tys., wsparcie 84 900",
     posts: [
       {
-        handle: "The_Tradesman1",
-        text: "Claude Code 2.1.290 gives mod hooks the subagent's ID. The tool.check event now carries agentId. A mod's turn.step result lists serverToolUses. A user-installed mod could make an organization's guard skip its check — such a mod now gets unloaded. WebFetch no longer silently drops text past 100,000 characters. claude attach and claude logs take part of a session name.",
-        url: "https://x.com/The_Tradesman1/status/2107352890985836901",
+        handle: "qingtianbtc",
+        text: "#BTC 行情分析 10.7 日线压力位86000-90600持续压制，已经测试5次了，每次都有不同程度的下跌，我觉得今天大概率会跌破84900支撑去往84000，其他观点和昨天一致",
+        url: "https://x.com/qingtianbtc/status/2107647728868270427",
       },
     ],
   },
   {
-    id: "hermes-sheet",
-    topic: "Hermes: ściąga komend, pause i resume",
+    id: "hermes-index",
+    topic: "Hermes Index: modele liczone w harnessie agenta",
     posts: [
       {
-        handle: "coindotgo",
-        text: "Here is what I recommend saving before your next session with Hermes Agent. @HermesWatcher has compiled the commands that users typically discover one by one — from /bg and /moa to controls for pausing, resuming, queues, and saved sessions.",
-        url: "https://x.com/coindotgo/status/2107350596756140153",
+        handle: "witcheer",
+        text: "Hermes Index scores models on what they get done inside Hermes Agent, and on what each task costs. Four suites, all run in the Hermes Agent harness: Hermes Bench, TerminalBench 4, TerminalBench Science and SkillsBench. Hermes Bench is 150 tasks across 25 categories. Each one starts in a workspace with real files, and the grader checks what the agent left behind.",
+        url: "https://x.com/witcheer/status/2107705107777274121",
       },
     ],
   },
   {
-    id: "grok-bot-vs-local",
-    topic: "Grok Bot kontra OpenClaw, Hermes i Claude",
+    id: "hermes-not-assistant",
+    topic: "Teknium: Hermes nie jest tylko asystentem od maili",
     posts: [
       {
-        handle: "m0xt_",
-        text: "I've moved all my operations onto Grok Bot, and the reason is simple: it just works. For most of this year I hopped between OpenClaw, Hermes and Claude. OpenClaw and Hermes are open-source agents you run on your own machine. On Claude you can't easily spin out a team of agents that each do one job. Dan McAteer at Latent Space: Grok Bot feels like unboxing a new MacBook, and systems like OpenClaw feel like Linux.",
-        url: "https://x.com/m0xt_/status/2107142523185721742",
+        handle: "Teknium",
+        text: "Friendly reminder that Hermes was never built or intended to be exclusively for the personal assistant agent that can just read your emails and nothing else. I fully intend and have plainly stated many times that I always built hermes to be the most powerful AI Agent. The mobile app will be almost exclusively focused on consumer — but they are not our only demographic.",
+        url: "https://x.com/Teknium/status/2107712074038288806",
       },
     ],
   },
   {
-    id: "grok-bot-seo",
-    topic: "Grok Bot: zespół trzech agentów, nie kolejny SaaS",
+    id: "grok-bot-vm",
+    topic: "Grok Bot i kolejka agentów z własną maszyną",
     posts: [
       {
-        handle: "jeoste_",
-        text: "Si vous utilisez le kit d'agents de @RosoAI vous passez sûrement par Codex ou Claude. Il existe un autre moyen : donner le contenu reçu à un agent dédié Grok Bot (droits GSC, Vercel, Github). Ajoutez un agent SpaceXAI et un agent Manager. Trois agents SEO/GEO/AEO, 24h/24. Il m'a généré 19 pages — l'équipe vérifie encore les instructions.",
-        url: "https://x.com/jeoste_/status/2107351977525149754",
+        handle: "yulmu_coffee",
+        text: "Grok Bot이 본격적으로 연 VM Agent는 Hermes Bot, Muse, Dots, Cue, Hark까지 연달아 출시됐습니다. IT 고래들이 가장 먼저 달려들어 참전하는 시장입니다. 지금 당장은 범용 일상 작업 팀으로 활용되고 있지만, 도메인 특화 모델과 툴이 준비된 에이전트도 나올 겁니다.",
+        url: "https://x.com/yulmu_coffee/status/2107705633294414081",
       },
     ],
   },

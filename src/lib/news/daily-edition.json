@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-06",
-  "kicker": "Wydanie 6 października",
-  "lead": "Wtorek jest o trzecim odbiciu od 87 000 USD i o dwóch projektach, które FinCEN wycofał, zanim weszły w życie. CoinDesk (Shaurya Malwa): Bitcoin spadł 1,2% do około 85 600 USD, po tym jak w poniedziałek sprzedający zatrzymali ruch tuż nad 87 000 — trzeci raz od 23 września. Nasdaq zamknął się na rekordzie, rentowności Treasuries dalej rosły. Osobno, 5 października FinCEN wycofał projekt z 2020 r. o portfelach niehostowanych i projekt z 2023 r. o mixerach. Żaden z nich nie obowiązywał.",
+  "date": "2026-10-07",
+  "kicker": "Wydanie 7 października",
+  "lead": "Środa jest o paczce wyników matematycznych, których model nie jest publiczny. OpenAI 6 października opublikowało wyniki wewnętrznego modelu frontier i napisało, że konsultowało sposób publikacji z Advisory Group on Mathematics and AI przy Institute for Advanced Study. The Verge podaje 722 manuskrypty w 372 rodzinach wyników; NYT pisze o 377 ustaleniach. Średni wynik, według OpenAI, zużył równowartość około trzech godzin myślenia ChatGPT Pro. Część dowodów idzie na GitHub w Lean — formalizacja nie jest kompletna.",
   "bullets": [
-    "CoinDesk, 6 października: BTC ok. 85 600 USD. BNB −2,5%, ether, XRP, SOL i DOGE po 1–2%. ADA +11%. Kapitalizacja rynku ok. 2,93 bln USD.",
-    "FinCEN, komunikat z 5 października: wycofanie NPRM o raportowaniu transakcji CVC z portfelami niehostowanymi (próg 10 000 USD) i specjalnego środka wobec mixerów. Decrypt: ogłoszenia idą do Federal Register we wtorek.",
-    "GitHub, dobowy ranking z 5 października (Juejin): DietrichGebert/ponytail +1 894 gwiazdki (154 888), pbakaus/impeccable +1 171, Agent-Reach +980. Claude Code 2.1.290 z 5 października: hooki moda dostają agentId i listę serverToolUses."
+    "OpenAI, wpis z 6 października: 10 streszczeń rozumowania modelu i protokół poprawek oraz cytowań w repozytorium. Model nieudostępniony. NYT: średnio około trzech godzin obliczeń na wynik.",
+    "BBC, 5 października: urzędnik Departamentu Obrony USA mówi, że Pentagon przestał używać produktów Anthropic. Źródła BBC: Claude był jeszcze w użyciu w zeszłym tygodniu, także przy operacjach wobec Iranu przez Maven Palantira. Kontrakty Pentagonu z Google, xAI i OpenAI.",
+    "Lookonchain, za KuCoin, 6 października: spot ETF-y BTC −1 059 BTC (ok. 91,7 mln USD), ETF-y ETH −21 432 ETH (ok. 58,3 mln USD). Gitstock, 7 października: morluto/rea +2 956 gwiazdek, tester-army/e2e +1 725, thedotmack/claude-mem 97 269 (+534; pamięć sesji m.in. dla Claude Code, OpenClaw, Codex, Hermes)."
   ]
 }

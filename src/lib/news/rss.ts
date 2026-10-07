@@ -97,4 +97,10 @@ export const FEEDS: Feed[] = [
     url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
     category: "ai",
   },
+  {
+    id: "bbc-tech",
+    title: "BBC Technology",
+    url: "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    category: "tech",
+  },
 ];
