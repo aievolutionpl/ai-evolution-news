@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-07",
-  "kicker": "Wydanie 7 października",
-  "lead": "Środa jest o paczce wyników matematycznych, których model nie jest publiczny. OpenAI 6 października opublikowało wyniki wewnętrznego modelu frontier i napisało, że konsultowało sposób publikacji z Advisory Group on Mathematics and AI przy Institute for Advanced Study. The Verge podaje 722 manuskrypty w 372 rodzinach wyników; NYT pisze o 377 ustaleniach. Średni wynik, według OpenAI, zużył równowartość około trzech godzin myślenia ChatGPT Pro. Część dowodów idzie na GitHub w Lean — formalizacja nie jest kompletna.",
+  "date": "2026-10-08",
+  "kicker": "Wydanie 8 października",
+  "lead": "Czwartek jest o cenie małego modelu i o rundzie na agenta z otwartym kodem. Anthropic 7 października wypuściło Claude Haiku 5.5: do 100 tys. tokenów wejście kosztuje 0,10 USD, wyjście 0,50 USD za milion — firma pisze, że średnio około 75% taniej w eksploatacji niż Haiku 4.5. Tego samego dnia tnie o połowę odczyt cache Sonnet 5.5, do 0,10 USD za milion. Nous Research ogłosiło serię B na 90 mln USD pod Hermes Agent; wycenę 1,5 mld USD podaje TechCrunch za Wall Street Journal, nie sam komunikat firmy.",
   "bullets": [
-    "OpenAI, wpis z 6 października: 10 streszczeń rozumowania modelu i protokół poprawek oraz cytowań w repozytorium. Model nieudostępniony. NYT: średnio około trzech godzin obliczeń na wynik.",
-    "BBC, 5 października: urzędnik Departamentu Obrony USA mówi, że Pentagon przestał używać produktów Anthropic. Źródła BBC: Claude był jeszcze w użyciu w zeszłym tygodniu, także przy operacjach wobec Iranu przez Maven Palantira. Kontrakty Pentagonu z Google, xAI i OpenAI.",
-    "Lookonchain, za KuCoin, 6 października: spot ETF-y BTC −1 059 BTC (ok. 91,7 mln USD), ETF-y ETH −21 432 ETH (ok. 58,3 mln USD). Gitstock, 7 października: morluto/rea +2 956 gwiazdek, tester-army/e2e +1 725, thedotmack/claude-mem 97 269 (+534; pamięć sesji m.in. dla Claude Code, OpenClaw, Codex, Hermes)."
+    "Anthropic: Haiku 5.5 jest w Claude Code oraz na AWS, Google Cloud i Azure. Terminal-Bench 4.0: 39,2% wobec 0% u Haiku 4.5 i 16,4% u GPT-6 Luna — liczby laboratorium. OSWorld 2.1 (podzbiór offline): 72,4%. Sonnet 5.5 zostaje przy 70,6% na Terminal-Bench; Haiku ma być subagentem, nie zamiennikiem.",
+    "Nous, post z 7 października: runda m.in. z Nvidia, M12, Samsung Next, Robot Ventures, USV, Y Combinator i Menlo. Firma: Hermes sklonowany ponad 24 mln razy i — według jej szacunku — około 2,5% globalnego ruchu tokenów. Pieniądze idą na Hermes for Businesses. TechCrunch: łącznie 158 mln USD finansowania.",
+    "Bloomberg, 7 października: Broadcom we wczesnych rozmowach o finansowaniu zakupu własnych chipów OpenAI; brak formalnego procesu, jedno źródło mówi o około 30 mld USD długu. Relacje powołujące się na WSJ mówią o pakiecie powyżej 50 mld — rozmiar nieustalony. Na X podają około 485–487 mln USD odpływu ze spot ETF BTC za 7 października, w tym około 208 mln z IBIT; bez potwierdzenia z Farside w tym wydaniu."
   ]
 }
