@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-08",
-  "kicker": "Wydanie 8 października",
-  "lead": "Czwartek jest o cenie małego modelu i o rundzie na agenta z otwartym kodem. Anthropic 7 października wypuściło Claude Haiku 5.5: do 100 tys. tokenów wejście kosztuje 0,10 USD, wyjście 0,50 USD za milion — firma pisze, że średnio około 75% taniej w eksploatacji niż Haiku 4.5. Tego samego dnia tnie o połowę odczyt cache Sonnet 5.5, do 0,10 USD za milion. Nous Research ogłosiło serię B na 90 mln USD pod Hermes Agent; wycenę 1,5 mld USD podaje TechCrunch za Wall Street Journal, nie sam komunikat firmy.",
+  "date": "2026-10-09",
+  "kicker": "Wydanie 9 października",
+  "lead": "Piątek jest o agencie do pracy, nie o kolejnym oknie czatu. Google Cloud 8 października pokazało Gemini agent: dostaje cel, sam układa plan i spina systemy firmy. Domyślnie sam dobiera model, ale użytkownik może przełączyć na Claude od Anthropic — tak opisuje to TechCrunch i post Google Cloud. Tego samego dnia Google wypuściło lokalną aplikację notatek ze spotkań na Maca, która może działać offline.",
   "bullets": [
-    "Anthropic: Haiku 5.5 jest w Claude Code oraz na AWS, Google Cloud i Azure. Terminal-Bench 4.0: 39,2% wobec 0% u Haiku 4.5 i 16,4% u GPT-6 Luna — liczby laboratorium. OSWorld 2.1 (podzbiór offline): 72,4%. Sonnet 5.5 zostaje przy 70,6% na Terminal-Bench; Haiku ma być subagentem, nie zamiennikiem.",
-    "Nous, post z 7 października: runda m.in. z Nvidia, M12, Samsung Next, Robot Ventures, USV, Y Combinator i Menlo. Firma: Hermes sklonowany ponad 24 mln razy i — według jej szacunku — około 2,5% globalnego ruchu tokenów. Pieniądze idą na Hermes for Businesses. TechCrunch: łącznie 158 mln USD finansowania.",
-    "Bloomberg, 7 października: Broadcom we wczesnych rozmowach o finansowaniu zakupu własnych chipów OpenAI; brak formalnego procesu, jedno źródło mówi o około 30 mld USD długu. Relacje powołujące się na WSJ mówią o pakiecie powyżej 50 mld — rozmiar nieustalony. Na X podają około 485–487 mln USD odpływu ze spot ETF BTC za 7 października, w tym około 208 mln z IBIT; bez potwierdzenia z Farside w tym wydaniu."
+    "Gemini agent jest w preview dla klientów biznesowych. Łączy m.in. Workspace, Microsoft 365, Slack, Jira, Confluence, Git, BigQuery, Databricks, Postgres i Snowflake. Thomas Kurian: cele, nie tylko instrukcje. Sundar Pichai na evencie: ponad 1 mld użytkowników Gemini miesięcznie i prawie 90% Fortune 100 na Gemini Enterprise — liczby Google, nie audyt zewnętrzny.",
+    "Google AI Edge Foresight (TechCrunch, 8 października): Mac na Apple Silicon, może działać całkowicie offline. Do notatek EmbeddingGemma 2, 740 mln parametrów; pytania do asystenta na Gemma 4. Podział ekranu jak w Granoli: skrót ręczny obok notatki modelu. Da się dołożyć PDF, Docs i pliki Office jako bazę.",
+    "BTC rano 9 października w okolicach 82 tys. USD (OKX podaje zamknięcie dnia około 82,5 tys., GuruFocus około 82,4 tys. — to nie jeden ticker). Na X AshCrypto pisze o sprzedaży ETF-ów za 244 mln USD; bez potwierdzenia z Farside w tym wydaniu. Na GitHubie openai/math zbiera gwiazdki po wynikach matematycznych OpenAI z 6 października. GitHub 7 października dodał Claude Haiku 5.5 do Copilota."
   ]
 }

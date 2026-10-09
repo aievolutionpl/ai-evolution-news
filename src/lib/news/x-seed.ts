@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "haiku-55",
-    topic: "Anthropic: Claude Haiku 5.5, średnio ~75% taniej niż 4.5",
+    id: "gemini-agent",
+    topic: "Google Cloud: Gemini agent do pracy, 24/7 w chmurze",
     posts: [
       {
-        handle: "claudeai",
-        text: "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released. On average, it costs around 75% less to run than Claude Haiku 4.5.",
-        url: "https://x.com/claudeai/status/2107894039626277339",
+        handle: "googlecloud",
+        text: "Today, we are announcing our new Gemini agent for your business—a universal cloud agent running 24/7 to get your work done. It arrives knowing your tools, data, and work history; it works across knowledge work, content, and code; and it comes with built-in governance to help your data stay secure and cost stay in control.",
+        url: "https://x.com/googlecloud/status/2108252402075734172",
       },
     ],
   },
   {
-    id: "sonnet-cache-cut",
-    topic: "Sonnet 5.5: odczyt cache przecięty do 0,10 USD za milion",
+    id: "gemini-routes-claude",
+    topic: "Gemini agent: wybór modelu, w tym Claude Opus 5.5",
     posts: [
       {
-        handle: "claudeai",
-        text: "One more thing: we’re halving the price of cache reads on Claude Sonnet 5.5, to $0.10 per million tokens. That makes Sonnet 5.5 around 20% cheaper to run on most long-running work.",
-        url: "https://x.com/claudeai/status/2107894060229034197",
+        handle: "Saboo_Shubham_",
+        text: "Gemini Agent is built for high-ceiling work where EACH task gets its own computer. You can choose Gemini 4 Argon or Claude Opus 5.5. Model Choice so you are not locked in: it runs each job on the model that fits best, running across the Gemini and Claude models from Anthropic today, with other private and open models to come.",
+        url: "https://x.com/Saboo_Shubham_/status/2108265508223193319",
       },
     ],
   },
   {
-    id: "nous-series-b",
-    topic: "Nous Research: seria B na Hermesa, wycena z WSJ",
+    id: "haiku-copilot",
+    topic: "GitHub: Haiku 5.5 ogólnie dostępny w Copilocie",
     posts: [
       {
-        handle: "NousResearch",
-        text: "As reported in the @WSJ, we have raised a Series B to bring Hermes Agent to new frontiers (and, yes, build a mobile app). Thank you to our investors including @nvidia @M12vc @SamsungNext @robotventures @usv @ycombinator @MenloVentures, among others.",
-        url: "https://x.com/NousResearch/status/2107874963382538469",
+        handle: "github",
+        text: "Anthropic's Claude Haiku 5.5 is now generally available in GitHub Copilot. It's a lightweight model designed for fast, high-volume work like subagents, quick edits, and terminal tasks. Our early testing showed that it matched Claude Sonnet 5 on many coding tasks while using significantly fewer tokens and steps.",
+        url: "https://x.com/github/status/2107934117581189271",
       },
     ],
   },
   {
-    id: "hermes-windows-mxc",
-    topic: "Hermes na liście agentów pod piaskownicę Windows MXC",
+    id: "openai-math",
+    topic: "OpenAI: wyniki matematyczne modelu wewnętrznego",
     posts: [
       {
-        handle: "witcheer",
-        text: "Hermes Agent on the Windows agent setup screen, rated E for Everyone. Microsoft also lists Hermes Agent among the agents adding support for MXC, its new sandbox for agents on Windows.",
-        url: "https://x.com/witcheer/status/2108076090828738644",
+        handle: "OpenAI",
+        text: "We're releasing a broad range of new mathematical results produced by an internal frontier model. We've been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and public recommendations to inform how we release these results.",
+        url: "https://x.com/OpenAI/status/2107596713791767021",
       },
     ],
   },
   {
-    id: "claude-code-fable-lead",
-    topic: "Claude Code: Fable jako tech lead, Opus jako subagent",
+    id: "math-centaur",
+    topic: "Reakcja na wyniki OpenAI: era centaura, nie werdykt",
     posts: [
       {
-        handle: "dotey",
-        text: "把任务发给 Fable 让它安排 SubAgent（Opus）去执行，它负责分析、编排和验收。所以大部分时间它都在等 subagent 执行……有点像 Fable 就是个 Tech Lead 的角色，专门帮你派活，还帮你验收。我现在已经不限制用 1M 上下文了，设置了最大上下文是 300K：/autocompact 300k。当然这样用比只用 Opus 5.5 还是费不少。",
-        url: "https://x.com/dotey/status/2108072320317145306",
+        handle: "moyix",
+        text: "I am enjoying the centaur era enormously but when I look at the OpenAI math results I do worry that I can see its end approaching.",
+        url: "https://x.com/moyix/status/2108408905240092755",
       },
     ],
   },
   {
-    id: "btc-etf-oct7",
-    topic: "Relacje o odpływie ze spot ETF BTC za 7 października",
+    id: "grok-bot-brief",
+    topic: "Grok Bot: użytkownik składa wideo z porannego briefu",
     posts: [
       {
-        handle: "MookieNFT",
-        text: "~$487,000,000 worth of $BTC left spot ETFs yesterday. That's the biggest daily outflow since June 25. BlackRock: -$207.67M. Fidelity: -$105.15M. Ark: -$101.71M. Grayscale: -$39.29M. Every fund that had flows was red and $BTC fell to $83K.",
-        url: "https://x.com/MookieNFT/status/2108068848058691598",
+        handle: "nicekate8888",
+        text: "Grok Bot 帮我生成 AI早报 视频，默认模型是 Opus 5.5，生成效果真好啊. AI早报｜10.9 四条值得看: Claude 上线 Dashboards 和 Motion；GPT-6.1 Sol 推出 Ultrafast 模式；谷歌云 Gemini agent 打通 Workspace、M365、Slack、Jira；谷歌 Foresight：离线会议笔记，数据不出 Mac.",
+        url: "https://x.com/nicekate8888/status/2108391256217002236",
       },
     ],
   },
   {
-    id: "openrouter-open-share",
-    topic: "OpenRouter: udział otwartych modeli według jednego zestawienia",
+    id: "btc-etf-oct9",
+    topic: "X o sprzedaży ETF BTC — post, nie raport Farside",
     posts: [
       {
-        handle: "AruNi_Lu",
-        text: "last week of September, DeepSeek ran more tokens on OpenRouter than OpenAI, Google, Anthropic and xAI combined. open models went from ~33% of token traffic in late 2025 to ~67% now. when one agent run burns millions of tokens, price per token stops being a footnote. it's a product decision.",
-        url: "https://x.com/AruNi_Lu/status/2108078751242461200",
+        handle: "AshCrypto",
+        text: "BREAKING: BlackRock and other ETFs sold $244 Million worth of Bitcoin.",
+        url: "https://x.com/AshCrypto/status/2108438835226923369",
       },
     ],
   },
   {
-    id: "grok-bot-week",
-    topic: "Grok Bot: tygodniowy dziennik użytkownika, nie komunikat xAI",
+    id: "claude-max-credits",
+    topic: "Relacja użytkownika o kredytach API na planach Max — nie komunikat Anthropic",
     posts: [
       {
-        handle: "karanC_12",
-        text: "The Grok Bot team is shipping faster than I can test. Grok Bot, last 10 days. Sep 28: Team Bots, shared memory. Oct 1: suggests work before you ask. Oct 6: changelog goes public. Oct 7: best model for the job — Opus, Midjourney, Suno. Oct 7, 0.68.1: PowerPoint or Google Slides, email from the draft card, faster computer use at 1920×1200. Oct 7 night: reads and monitors X, no connector.",
-        url: "https://x.com/karanC_12/status/2108067770982338910",
+        handle: "sakatayasha",
+        text: "Anthropic is giving monthly API credits for free. What you get: $100/month on Max 5x, $200/month on Max 20x, up to $500/month pooled on Team. Works on any Claude model, in your own code or third-party tools. Important: it's only for Max and Team, not Pro.",
+        url: "https://x.com/sakatayasha/status/2108429621901549715",
       },
     ],
   },
