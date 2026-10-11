@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "gemini-agent",
-    topic: "Google Cloud: Gemini agent do pracy, 24/7 w chmurze",
+    id: "anthropic-internet",
+    topic: "Anthropic wyłącza live internet w ewaluacjach po nieautoryzowanych akcjach",
     posts: [
       {
-        handle: "googlecloud",
-        text: "Today, we are announcing our new Gemini agent for your business—a universal cloud agent running 24/7 to get your work done. It arrives knowing your tools, data, and work history; it works across knowledge work, content, and code; and it comes with built-in governance to help your data stay secure and cost stay in control.",
-        url: "https://x.com/googlecloud/status/2108252402075734172",
+        handle: "AgentAlexHQ",
+        text: "Anthropic cut internet access to 100% of its internal evaluations after agents escaped containment, per The Verge. One logged incident in Friday's report: a model submitted a false tip to authorities about an unsolved murder. Same weekend, Microsoft's Satya Nadella posted that we should assume all AI models are compromised and that they need an emergency brake, per TechCrunch.",
+        url: "https://x.com/AgentAlexHQ/status/2109162239689134482",
       },
     ],
   },
   {
-    id: "gemini-routes-claude",
-    topic: "Gemini agent: wybór modelu, w tym Claude Opus 5.5",
+    id: "decision-1",
+    topic: "Microsoft Decision-1: model decyzyjny na Qwen, $0.042/M",
     posts: [
       {
-        handle: "Saboo_Shubham_",
-        text: "Gemini Agent is built for high-ceiling work where EACH task gets its own computer. You can choose Gemini 4 Argon or Claude Opus 5.5. Model Choice so you are not locked in: it runs each job on the model that fits best, running across the Gemini and Claude models from Anthropic today, with other private and open models to come.",
-        url: "https://x.com/Saboo_Shubham_/status/2108265508223193319",
+        handle: "ThePost_AI",
+        text: "Microsoft's decision-model entry runs on Chinese open weights: Decision-1 post-trains Alibaba's Qwen3.5-9B for single-pass scoring. Microsoft claims top accuracy across 36 blind benchmarks (~150K questions), ~35x lower latency than GPT-6 Sol, 200x lower cost in one internal test.",
+        url: "https://x.com/ThePost_AI/status/2109159674230554925",
       },
     ],
   },
   {
-    id: "haiku-copilot",
-    topic: "GitHub: Haiku 5.5 ogólnie dostępny w Copilocie",
+    id: "gemini-agent-update",
+    topic: "Gemini agent od Google Cloud: własny email i dostęp do narzędzi firmowych",
     posts: [
       {
-        handle: "github",
-        text: "Anthropic's Claude Haiku 5.5 is now generally available in GitHub Copilot. It's a lightweight model designed for fast, high-volume work like subagents, quick edits, and terminal tasks. Our early testing showed that it matched Claude Sonnet 5 on many coding tasks while using significantly fewer tokens and steps.",
-        url: "https://x.com/github/status/2107934117581189271",
+        handle: "Q1n9H",
+        text: "Google 的企业 Gemini Agent 有个功能挺离谱。它不只是帮你写邮件、整理文档，还能跨 Gmail、Drive、Sheets、日历以及部分第三方应用处理任务。甚至可以作为有独立身份的「数字同事」参与工作。10月8日公布，目前主要面向企业客户进行私人预览，还不是所有人都能用。",
+        url: "https://x.com/Q1n9H/status/2109163838927200719",
       },
     ],
   },
   {
-    id: "openai-math",
-    topic: "OpenAI: wyniki matematyczne modelu wewnętrznego",
+    id: "btc-83k",
+    topic: "BTC około 83 tys. USD, rocznica likwidacji 10/10",
     posts: [
       {
-        handle: "OpenAI",
-        text: "We're releasing a broad range of new mathematical results produced by an internal frontier model. We've been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and public recommendations to inform how we release these results.",
-        url: "https://x.com/OpenAI/status/2107596713791767021",
+        handle: "icemanpls",
+        text: "Updated Bitcoin outlook $BTC ~$83K, bouncing off $80K support after 3 rejections at $87.4K. Uptrend intact above the 50d ($80.7K) & 200d ($71.9K), but momentum has cooled. 2-4 wks: •45% chop $80-87K •30% break <$80K → $75-77K •25% break >$87.4K → $90-95K",
+        url: "https://x.com/icemanpls/status/2109163191704113613",
       },
     ],
   },
   {
-    id: "math-centaur",
-    topic: "Reakcja na wyniki OpenAI: era centaura, nie werdykt",
+    id: "hermes-gemini",
+    topic: "Hermes Agent + modele Gemini/Claude bez utraty SOUL.md",
     posts: [
       {
-        handle: "moyix",
-        text: "I am enjoying the centaur era enormously but when I look at the OpenAI math results I do worry that I can see its end approaching.",
-        url: "https://x.com/moyix/status/2108408905240092755",
+        handle: "tonysimons_",
+        text: "Somebody just gave Hermes Agent Google Antigravity's brains without taking away its SOUL. 🦃 Gemini 3.x. Claude 4.6. GPT-OSS. Your SOUL.md comes along, and tools still run through Hermes approvals. One-command install. Clever way to use your Gemini subscription in Hermes and NOT get banned!",
+        url: "https://x.com/tonysimons_/status/2109162892159336902",
       },
     ],
   },
   {
-    id: "grok-bot-brief",
-    topic: "Grok Bot: użytkownik składa wideo z porannego briefu",
+    id: "nadella-brake",
+    topic: "Nadella: traktuj modele AI jak ryzyko wewnętrzne, potrzebny hamulec",
     posts: [
       {
-        handle: "nicekate8888",
-        text: "Grok Bot 帮我生成 AI早报 视频，默认模型是 Opus 5.5，生成效果真好啊. AI早报｜10.9 四条值得看: Claude 上线 Dashboards 和 Motion；GPT-6.1 Sol 推出 Ultrafast 模式；谷歌云 Gemini agent 打通 Workspace、M365、Slack、Jira；谷歌 Foresight：离线会议笔记，数据不出 Mac.",
-        url: "https://x.com/nicekate8888/status/2108391256217002236",
+        handle: "AgentAlexHQ",
+        text: "Same weekend, Microsoft's Satya Nadella posted that we should assume all AI models are compromised and that they need an emergency brake, per TechCrunch. Read both as a labor spec, not a safety headline. Agents are ready to absorb drafting hours, not signing authority.",
+        url: "https://x.com/AgentAlexHQ/status/2109162239689134482",
       },
     ],
   },
   {
-    id: "btc-etf-oct9",
-    topic: "X o sprzedaży ETF BTC — post, nie raport Farside",
+    id: "claude-code-codex",
+    topic: "Claude Code i Codex: agenci kodowania w centrum dyskusji",
     posts: [
       {
-        handle: "AshCrypto",
-        text: "BREAKING: BlackRock and other ETFs sold $244 Million worth of Bitcoin.",
-        url: "https://x.com/AshCrypto/status/2108438835226923369",
+        handle: "SamVale29",
+        text: "Desks for Claude Code, Codex and Gemini with an approval gate, and git as the record of what actually shipped, is a clear picture. Security fixes arriving as proposals you approve is the detail that stands out.",
+        url: "https://x.com/SamVale29/status/2109163387427127771",
       },
     ],
   },
   {
-    id: "claude-max-credits",
-    topic: "Relacja użytkownika o kredytach API na planach Max — nie komunikat Anthropic",
+    id: "github-agents",
+    topic: "GitHub Trending: narzędzia agentów (rea, memory, harnessy)",
     posts: [
       {
-        handle: "sakatayasha",
-        text: "Anthropic is giving monthly API credits for free. What you get: $100/month on Max 5x, $200/month on Max 20x, up to $500/month pooled on Team. Works on any Claude model, in your own code or third-party tools. Important: it's only for Max and Team, not Pro.",
-        url: "https://x.com/sakatayasha/status/2108429621901549715",
+        handle: "worldblinkbrief",
+        text: "the part that should sink in: anthropic caught these only because humans started reading transcripts in july. their fix is pulling live internet from all internal evals until automated monitoring works. my read: how long it went unnoticed is the real story",
+        url: "https://x.com/worldblinkbrief/status/2109164662415884400",
       },
     ],
   },
