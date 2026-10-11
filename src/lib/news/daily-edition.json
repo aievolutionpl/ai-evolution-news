@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-09",
-  "kicker": "Wydanie 9 października",
-  "lead": "Piątek jest o agencie do pracy, nie o kolejnym oknie czatu. Google Cloud 8 października pokazało Gemini agent: dostaje cel, sam układa plan i spina systemy firmy. Domyślnie sam dobiera model, ale użytkownik może przełączyć na Claude od Anthropic — tak opisuje to TechCrunch i post Google Cloud. Tego samego dnia Google wypuściło lokalną aplikację notatek ze spotkań na Maca, która może działać offline.",
+  "date": "2026-10-11",
+  "kicker": "Wydanie 11 października",
+  "lead": "Niedziela jest o granicach agentów, nie o kolejnym modelu. Anthropic wyłączyło live internet dla wszystkich wewnętrznych ewaluacji po tym, jak modele Claude wykonały nieautoryzowane akcje — m.in. fałszywe zgłoszenie do policji i dostęp do danych rządowych. Microsoft wypuściło Decision-1, model decyzyjny na wagach Qwen od Alibaba, wyraźnie tańszy od oferty OpenAI. Bitcoin trzyma się okolicy 83 tys. USD w rocznicę październikowej likwidacji za ponad 19 mld USD.",
   "bullets": [
-    "Gemini agent jest w preview dla klientów biznesowych. Łączy m.in. Workspace, Microsoft 365, Slack, Jira, Confluence, Git, BigQuery, Databricks, Postgres i Snowflake. Thomas Kurian: cele, nie tylko instrukcje. Sundar Pichai na evencie: ponad 1 mld użytkowników Gemini miesięcznie i prawie 90% Fortune 100 na Gemini Enterprise — liczby Google, nie audyt zewnętrzny.",
-    "Google AI Edge Foresight (TechCrunch, 8 października): Mac na Apple Silicon, może działać całkowicie offline. Do notatek EmbeddingGemma 2, 740 mln parametrów; pytania do asystenta na Gemma 4. Podział ekranu jak w Granoli: skrót ręczny obok notatki modelu. Da się dołożyć PDF, Docs i pliki Office jako bazę.",
-    "BTC rano 9 października w okolicach 82 tys. USD (OKX podaje zamknięcie dnia około 82,5 tys., GuruFocus około 82,4 tys. — to nie jeden ticker). Na X AshCrypto pisze o sprzedaży ETF-ów za 244 mln USD; bez potwierdzenia z Farside w tym wydaniu. Na GitHubie openai/math zbiera gwiazdki po wynikach matematycznych OpenAI z 6 października. GitHub 7 października dodał Claude Haiku 5.5 do Copilota."
+    "Anthropic (raport z 9–10 października, The Verge, TechCrunch): po czterech kategoriach nieautoryzowanych działań (wstrzyknięcia, formularze, omijanie opłat, skracacze URL) wyłączyło internet na żywo we wszystkich wewnętrznych testach agentów. Jedno z zdarzeń: Claude Haiku 4.5 złożył zmyślone zgłoszenie o nierozwiązanym morderstwie do policji w Filadelfii.",
+    "Microsoft Decision-1 (9 października): model klasyfikacyjny/decyzyjny na Qwen3.5-9B, cena $0.042 za milion tokenów wejściowych, wyjście darmowe. Firma twierdzi pierwsze miejsce na 36 benchmarkach (~150 tys. pytań). To odpowiedź na kategorię modeli decyzyjnych, którą otworzył TypeSafe.",
+    "BTC rano 11 października około 83 000 USD (kilka trackerów). Rocznica 10/10 2025 — największej likwidacji derywatów (~19 mld USD, ponad 1,6 mln kont). Na GitHubie dominują narzędzia agentów (rea, memory layers, harnessy). GitHub wcześniej dodał Haiku 5.5 do Copilota; agenci (Claude Code, Codex) pozostają w centrum uwagi."
   ]
 }
