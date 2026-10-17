@@ -2,90 +2,100 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "anthropic-internet-off",
-    topic: "Anthropic wyłącza live internet we wszystkich wewnętrznych ewaluacjach",
+    id: "openai-rogue-june",
+    topic: "OpenAI ujawnia kolejne 4 incydenty rogue agentów z czerwca (łącznie ~19)",
     posts: [
       {
-        handle: "Jeremybtc",
-        text: "Anthropic removed internet access from every one of its internal AI tests after Claude sent real police a fake murder tip. Anthropic published the report yesterday. One model found an unsolved homicide page online. It made up a tip and submitted it to Philadelphia police. The tip got flagged as spam and never reached investigators.",
-        url: "https://x.com/Jeremybtc/status/2109676688959516982",
+        handle: "Shaarav_Raghu",
+        text: "OpenAI disclosed four more rogue agent incidents from June, total now 19 (AIToolsRecap). My take: finding them months later is the real story.",
+        url: "https://x.com/Shaarav_Raghu/status/2111299603425587248",
+      },
+      {
+        handle: "rejaramadhan98",
+        text: "4 more OpenAI rogue agent incidents disclosed this week. 73% of prod agent deployments carry prompt injection risk. One leaked key burned $100k/day in compute before anyone noticed. We ship agents faster than we learn to supervise them.",
+        url: "https://x.com/rejaramadhan98/status/2111314255874273299",
       },
     ],
   },
   {
-    id: "karpathy-funnel",
-    topic: "Karpathy: różnica w zrozumieniu AI to ostry lejek",
+    id: "claude-quantum-circuits",
+    topic: "Claude Mythos 5 projektuje lepsze obwody kwantowe (do 17× mniej gates)",
     posts: [
       {
-        handle: "karpathy",
-        text: "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. ~6B people (~75%) have barely come in contact with LLMs at all. Around 1-2B are casual users of free-tier products. ~20M see agents complete weeks/months of work with a prompt.",
-        url: "https://x.com/karpathy/status/2109586382385566144",
+        handle: "AnthropicAI",
+        text: "New from our STEM Fellows Program: Designing more efficient quantum circuits with Claude. Given plain-language instructions, Claude Mythos 5 designed quantum circuits that improve on the best published ones, sometimes by an order of magnitude or more.",
+        url: "https://x.com/AnthropicAI/status/2111152183240511640",
+      },
+      {
+        handle: "rohanpaul_ai",
+        text: "Claude Mythos 5 designed an elliptic-curve quantum circuit using 17x fewer gates for 12% more qubits. Andi Gu, a Harvard physics researcher, ran it through Anthropic’s STEM Fellows Program... Claude wrote circuit designs as code, an evaluator checked and scored them, and Claude kept revising until it beat human-designed records in most of the 8 tasks.",
+        url: "https://x.com/rohanpaul_ai/status/2111162362464276907",
       },
     ],
   },
   {
-    id: "btc-volatility",
-    topic: "BTC waha się 81–83,5 tys. USD, likwidacje >770 mln USD",
+    id: "btc-consolidate-815",
+    topic: "BTC konsoliduje się ok. 81,5–81,6 tys. USD, odpływy ETF",
     posts: [
       {
-        handle: "TheBlock__",
-        text: "Bitcoin slides below $82,000 as crypto liquidations surge past $770 million. Crypto liquidations amounted to $771 million over the past 24 hours, including $685.6 million in long positions. BTC dropped 2.8% to $81,382.",
-        url: "https://x.com/TheBlock__/status/2109800000000000000",
+        handle: "cryptoFoufi",
+        text: "On est le samedi 17 octobre 2026. Le Bitcoin consolide au-dessus du coût moyen des ETF américains (81 500 $)... Check des prix de ce matin : Bitcoin : 81 558 $. ETF Bitcoin : -82.40 M$ (hier).",
+        url: "https://x.com/cryptoFoufi/status/2111339785562345497",
       },
     ],
   },
   {
-    id: "gemini-agent",
-    topic: "Google Gemini Agent: własny email i routing do Claude",
+    id: "github-agent-skills",
+    topic: "GitHub Trending: skills i harnessy agentów (rea, orca, ECC, scientific-agent-skills)",
     posts: [
       {
-        handle: "zhaocaihu37205",
-        text: "前两天，Google 发布了 Gemini agent。你给它的是目标，不是步骤。它自己规划、自己调工具，Gmail、Drive、Docs、Slack 一把梭。最狠的是：任务自动路由到性价比最高的模型。Claude 也在调度名单里。",
-        url: "https://x.com/zhaocaihu37205/status/2109887889735926060",
+        handle: "themuscleai",
+        text: "Build Log #6: five skill repos hit GitHub trending in one day. They're all selling the same thing. claude-plugins-official, scientific-agent-skills, affaan-m/ECC, obra/superpowers, ruvnet/ruflo. Five folders of SKILL.md files... Skills are becoming the package manager for coding agents.",
+        url: "https://x.com/themuscleai/status/2111315783766720806",
       },
     ],
   },
   {
-    id: "dynamic-workflows",
-    topic: "Dynamic Workflows: Claude Managed Agents i Devin do 1000 subagentów",
+    id: "claude-code-speed",
+    topic: "Claude Code: gzip konwersacji i szybszy start sesji cloud",
     posts: [
       {
-        handle: "devindevelopers",
-        text: "Dynamic workflows let Devin split a big job into pieces, hand each one to its own Devin, and bring the results back together. The plan for a Dynamic Workflow lives in code instead of an agent’s head, so you always know which Devins will run, in what order, and what each one is told.",
-        url: "https://x.com/devindevelopers/status/2109887510184964285",
+        handle: "ClaudeDevs",
+        text: "We keep improving performance across Claude, and you may have noticed it starts responding sooner! Claude Code now gzips the conversation it sends on every turn, so it reaches the model faster. Cloud sessions also start up as soon as you start typing.",
+        url: "https://x.com/ClaudeDevs/status/2111209208012210409",
       },
     ],
   },
   {
-    id: "claude-code-agents",
-    topic: "Claude Code i Codex: agenci kodowania nadal w centrum",
+    id: "grok-bot-multi-model",
+    topic: "Grok Bot routuje zadania do Claude Code / Codex i innych modeli",
     posts: [
       {
-        handle: "konig0000",
-        text: "Claude Code + GitHub is f...cking powerful. 7 open source repos turn it into a much stronger coding setup. 01 Claude Code, 02 Agent Skills, 03 Claude Code Plugins.",
-        url: "https://x.com/konig0000/status/2109483168990695791",
+        handle: "AndrewWarner",
+        text: "You don't have to wait for Grok Bot to add Claude, OpenAI, etc. You can do it now. I did. Just ask your Grok Bot to connect to your AI subscriptions. How it'll do it: Opens a terminal on its own computer • Installs the Claude Code and Codex command-line tools • You sign in... From then on, it assigns work to other models. No API keys.",
+        url: "https://x.com/AndrewWarner/status/2107930509284126970",
       },
     ],
   },
   {
-    id: "hermes-agent",
-    topic: "Hermes Agent deleguje zadania do innych modeli",
+    id: "hermes-openclaw-agents",
+    topic: "Hermes Agent i OpenClaw nadal w centrum narzędzi agentów",
     posts: [
       {
-        handle: "KaganKongar",
-        text: "Hermes agent is running. Claude Code is running. Hermes is delegating coding tasks to Muse Code. Claude Code is acting as an advisor, communicating with Hermes through an append only file.",
-        url: "https://x.com/KaganKongar/status/2109556644627775859",
+        handle: "Saboo_Shubham_",
+        text: "Claude Code, OpenClaw, and Hermes Agent can now share the same memory-and-skills layer. One portable .agent/ folder works across 8 coding agent harnesses. Switch tools without losing a single lesson. 100% Opensource.",
+        url: "https://x.com/Saboo_Shubham_/status/2046473613105369468",
       },
     ],
   },
   {
-    id: "github-trending-agents",
-    topic: "GitHub Trending: rea, claude-mem i narzędzia agentów",
+    id: "agent-harnesses-graph",
+    topic: "Wspólne grafy i harnessy dla Claude Code, Codex, Hermes",
     posts: [
       {
-        handle: "startupcorners",
-        text: "GitHub Trending Recap: AI Agents, Code Tools, and Dev Infra. Today's GitHub trending charts are dominated by AI agent frameworks, code automation tools, and local-first alternatives. morluto/rea, langgenius/dify, openclaw/openclaw.",
-        url: "https://startupcorners.com/digest/devtools-digest-2026-10-12",
+        handle: "Cotal_AI",
+        text: "Loops or graphs? Why not any shape you can draw. Claude Code, Codex, OpenCode and Hermes on one live graph. They DM each other, spawn teammates, fan out builds and stop for your OK. Graph engineering for the agents you already use. Open source.",
+        url: "https://x.com/Cotal_AI/status/2110848423893364770",
       },
     ],
   },

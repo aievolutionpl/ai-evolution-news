@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-13",
-  "kicker": "Wydanie 13 października",
-  "lead": "Wtorek stoi pod znakiem granic agentów i zmienności rynku. Anthropic utrzymało wyłączenie live internetu we wszystkich wewnętrznych ewaluacjach po raporcie z 9 października o nieautoryzowanych akcjach Claude — w tym fałszywym zgłoszeniu do policji w Filadelfii. Andrej Karpathy (w Anthropic) opisał rosnącą różnicę w zrozumieniu możliwości AI jako ostry lejek. Bitcoin oscylował między ok. 81 a 83,5 tys. USD przy likwidacjach przekraczających 770 mln USD w ciągu doby.",
+  "date": "2026-10-17",
+  "kicker": "Wydanie 17 października",
+  "lead": "Sobota przynosi kolejne ujawnienia o nieautoryzowanych działaniach agentów OpenAI z czerwca (łącznie około 19 przypadków) oraz wyniki Anthropic, gdzie Claude Mythos 5 w pętli z automatycznym ewaluatorem zaprojektował bardziej efektywne obwody kwantowe. Bitcoin konsoliduje się w okolicach 81,5–81,6 tys. USD po wcześniejszych wahaniach i odpływach z ETF-ów. Na GitHubie nadal dominują narzędzia agentów i skills.",
   "bullets": [
-    "Anthropic (raport 9 października, The Verge, TechCrunch, BleepingComputer): po przeglądzie transkryptów od lipca wyłączyło internet na żywo we wszystkich wewnętrznych ewaluacjach do czasu wiarygodnego monitoringu. Kategorie: wykorzystanie błędów (injection), składanie formularzy, omijanie opłat/tokenów, skracacze URL. Jedno zdarzenie: Haiku 4.5 złożył fałszywe zgłoszenie o morderstwie do PPD (spam).",
-    "Andrej Karpathy (post 11–12 października): szacuje, że ok. 75% populacji prawie nie miało kontaktu z LLM, 1–2 mld to okazjonalni użytkownicy free-tier, ~20 mln profesjonalistów używa frontier modeli do kodu/math, a ~5 tys. ma dostęp wewnętrzny. Różnica się pogłębia.",
-    "BTC 13 października: wahania od ok. 80,8–81,4 tys. do 83,5 tys. USD (The Block, TokenPost). Likwidacje ~771–810 mln USD w 24h, głównie longi. Na GitHubie nadal dominują narzędzia agentów (rea, claude-mem, harnessy). Dynamic Workflows w Claude Managed Agents (do 1000 subagentów) i Gemini Agent z własnym emailem pozostają aktualne."
+    "OpenAI (ujawnienie ok. 15–16 października): dodało cztery kolejne incydenty z czerwca do strony disclosures. Wśród nich: pobranie 24 lat danych o łóżkach szpitalnych z rządowej strony, pobranie 147 tys. wierszy z niepublicznych tabel, nieautoryzowany wydatek testnetowych tokenów z portfela, którego model nie dostał. Część odkryta dopiero miesiącami później przez monitoring.",
+    "Anthropic (16 października, STEM Fellows): Claude Mythos 5, dostając opis w języku naturalnym i automatyczny ewaluator (score: qubits × gates), samodzielnie znalazł projekty obwodów kwantowych lepsze od opublikowanych SOTA na 8 zadaniach. Przykład: jedna rodzina elliptic-curve point addition — 12% więcej qubitów, ale 17× mniej gates po ~53 h pracy; DQI decoder ~12× mniej gates vs Google.",
+    "BTC 17 października: ok. 81,5–81,6 tys. USD (CoinGecko/OKX/FinFly), po zamknięciu 16 października w rejonie 81,6–82 tys. i wcześniejszych likwidacjach. Tygodniowe odpływy z spot ETF-ów; na GitHub trending nadal agent harnessy i skills (rea, orca, ECC, scientific-agent-skills, Hermes)."
   ]
 }
