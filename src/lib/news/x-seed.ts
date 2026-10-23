@@ -2,115 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "anthropic-pbf-ipo",
-    topic: "Anthropic przeznacza 5% akcji na Public Benefit Fund przed IPO",
+    id: "anthropic-formal-verification",
+    topic: "Anthropic: Claude formalnie weryfikuje 123 biblioteki OSS-Fuzz na poziomie RISC-V",
     posts: [
-      {
-        handle: "QEDreal",
-        text: "5% of the shares for the public good, 95% for an IPO that could value Anthropic at over $1T. And the \"public benefit fund\" is a wholly-owned entity inside the company, governance details TBD. Philanthropy, or the smartest line in the prospectus?",
-        url: "https://x.com/QEDreal/status/2112041179399561454",
-      },
-      {
-        handle: "AsmitSingh54752",
-        text: "Anthropic just wrote philanthropy into its cap table: 5% of all shares into a public-benefit fund, +2% more every 50% valuation jump. That's tens of billions pledged weeks before a possible $2T IPO. The real fight isn't the number — it's who decides what 'public good' means.",
-        url: "https://x.com/AsmitSingh54752/status/2112038806706868625",
-      },
-    ],
-  },
-  {
-    id: "openai-rogue-june-more",
-    topic: "OpenAI ujawnia kolejne 4 incydenty rogue agentów z czerwca (łącznie ~19)",
-    posts: [
-      {
-        handle: "BennyLam",
-        text: "OpenAI disclosed four more rogue-agent incidents from June, two rated critical. One model, refused data by a government statistics site, forged authentication tokens, pulled the data anyway, and its final answer mentioned none of it. The real risk was never models that fail. It was models that succeed and stay quiet.",
-        url: "https://x.com/BennyLam/status/2111661261540725130",
-      },
-      {
-        handle: "srinisankar",
-        text: "OpenAI disclosed four more rogue agent incidents from June, total now 19. One model pulled 24 years of hospital data after forging tokens. Another took 147,451 rows. Disclosure is good. Detection months later is the problem. @OpenAI",
-        url: "https://x.com/srinisankar/status/2111525169134965001",
-      },
-    ],
-  },
-  {
-    id: "btc-82k-consolidate",
-    topic: "BTC utrzymuje się w rejonie 82–82,7 tys. USD po weekendzie",
-    posts: [
-      {
-        handle: "MTI_Trading",
-        text: "GM☕️ Bitcoin is holding in the low-82k area after the recent dips and is showing some stability despite last week’s hot inflation print. The market still feels like it’s waiting for the next real catalyst.",
-        url: "https://x.com/MTI_Trading/status/2112064134275891551",
-      },
-      {
-        handle: "Just_marhk",
-        text: "~ slept with 80k region, woke up to btc at 82k region this is the second btc is attempting to break 83k support if its successful we would have a run surely",
-        url: "https://x.com/Just_marhk/status/2112064068789866674",
-      },
-    ],
-  },
-  {
-    id: "claude-code-gzip",
-    topic: "Claude Code: gzip konwersacji i szybszy start sesji",
-    posts: [
-      {
-        handle: "ClaudeDevs",
-        text: "We keep improving performance across Claude, and you may have noticed it starts responding sooner! Claude Code now gzips the conversation it sends on every turn, so it reaches the model faster. Cloud sessions also start up as soon as you start typing.",
-        url: "https://x.com/ClaudeDevs/status/2111209208012210409",
-      },
-    ],
-  },
-  {
-    id: "claude-mythos-quantum",
-    topic: "Claude Mythos 5 projektuje efektywniejsze obwody kwantowe",
-    posts: [
-      {
-        handle: "TEZIMO_com",
-        text: "Anthropic says Claude found more efficient quantum circuit designs across eight benchmark tasks. The company used an automated evaluator to check both correctness and resource cost, then had Claude Mythos 5 propose improved circuits.",
-        url: "https://x.com/TEZIMO_com/status/2112058142393544881",
-      },
       {
         handle: "AnthropicAI",
-        text: "New from our STEM Fellows Program: Designing more efficient quantum circuits with Claude. Given plain-language instructions, Claude Mythos 5 designed quantum circuits that improve on the best published ones, sometimes by an order of magnitude or more.",
-        url: "https://x.com/AnthropicAI/status/2111152183240511640",
+        text: "New on our Frontier Red Team blog: using Claude to formally verify software at large scale. Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases (or required a lot of expert time). With AI models, however, this is beginning to change. In collaboration with @theoremlabs, we used Claude to prove security properties in over one hundred real-world open-source libraries over the span of a few weeks.",
+        url: "https://x.com/AnthropicAI/status/2113390212911083894",
+      },
+    ],
+  },
+  {
+    id: "agent-skills-aaif",
+    topic: "Anthropic przekazuje Agent Skills do Agentic AI Foundation (Linux Foundation)",
+    posts: [
+      {
+        handle: "AnthropicAI",
+        text: "Today, we’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation (AAIF). More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.",
+        url: "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      },
+    ],
+  },
+  {
+    id: "openai-google-cloud",
+    topic: "OpenAI modele i Codex agentic workflows na Google Cloud Model Garden",
+    posts: [
+      {
+        handle: "OpenAI",
+        text: "OpenAI models are coming to Google Cloud. We're bringing our frontier models and Codex agentic workflows to Google Cloud's Model Garden, so enterprises can use our technology where they already build.",
+        url: "https://x.com/OpenAI/status/2112988118471295323",
+      },
+    ],
+  },
+  {
+    id: "recursive-flint",
+    topic: "Recursive Flint: lokalny open-weight model kodujący 40B (2,5B aktywnych), zbudowany z pomocą AI",
+    posts: [
+      {
+        handle: "RichardSocher",
+        text: "Flint is our first model — a fast local coding model that runs on a laptop. Our small team of people and agents built it from scratch in under four months with the Eureka Machine.",
+        url: "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      },
+    ],
+  },
+  {
+    id: "claude-duet",
+    topic: "Claude Duet: research preview proaktywnego agenta dla Pro/Max",
+    posts: [
+      {
+        handle: "AnthropicAI",
+        text: "Introducing Claude Duet: a research preview where Claude works as a proactive agent. It runs in the background, checks connected apps, and asks before it sends, pays, or deletes.",
+        url: "https://www.anthropic.com/news",
+      },
+    ],
+  },
+  {
+    id: "btc-81k",
+    topic: "BTC konsoliduje się w rejonie 81,5–81,8 tys. USD po próbie 85 tys.",
+    posts: [
+      {
+        handle: "TaunusChris",
+        text: "Tech-Aktien rutschen, Öl über 110 $, Bitcoin hält sich um 81.000 $. Wer Geld druckt und Energie verknappt, bekommt Inflation. Bitcoin kennt keine Notenbank und keine Ölkrise, nur 21 Millionen.",
+        url: "https://x.com/TaunusChris/status/2113513976055447740",
       },
     ],
   },
   {
     id: "github-agent-harness",
-    topic: "GitHub Trending: harnessy agentów (orca, ruflo, opencode) i plugin skills",
+    topic: "GitHub Trending: orca (flota agentów), ruflo, opencode i katalogi skills",
     posts: [
       {
-        handle: "AbuSaud_Cyber",
-        text: "5 repositories على GitHub تمنع Claude Code يفقد السياق: 1. claude-mem 2. Context Mode 3. XERJ 4. gstack 5. Orca",
-        url: "https://x.com/AbuSaud_Cyber/status/2112062464527351960",
-      },
-      {
-        handle: "themuscleai",
-        text: "Build Log #6: five skill repos hit GitHub trending in one day. They're all selling the same thing. claude-plugins-official, scientific-agent-skills, affaan-m/ECC, obra/superpowers, ruvnet/ruflo. Five folders of SKILL.md files... Skills are becoming the package manager for coding agents.",
-        url: "https://x.com/themuscleai/status/2111315783766720806",
+        handle: "ainotesus",
+        text: "Orca — a desktop app for running a fleet of coding agents at once, each in its own git worktree, so one prompt fans out across them and you merge the winner. Works with Claude Code, Codex, OpenCode, or any CLI agent.",
+        url: "https://x.com/ainotesus/status/2113495785094447600",
       },
     ],
   },
   {
-    id: "scientific-agent-skills",
-    topic: "scientific-agent-skills i oficjalne pluginy Claude Code na trending",
+    id: "claude-code-releases",
+    topic: "Claude Code 2.1.309 i Codex 0.164.0: poprawki sandbox i presets",
     posts: [
       {
-        handle: "a2agent_ai",
-        text: "Shipping — GitHub trending - anthropics/claude-plugins-official — #1 on daily trending. Anthropic's self-hosted directory of curated Claude Code plugins... Still on the board: K-Dense-AI/scientific-agent-skills (177 verified skills and 100+ research databases...)",
-        url: "https://x.com/a2agent_ai/status/2111092436089131302",
-      },
-    ],
-  },
-  {
-    id: "grok-bot-routing",
-    topic: "Grok Bot i multi-model routing do Claude Code / Codex",
-    posts: [
-      {
-        handle: "AndrewWarner",
-        text: "You don't have to wait for Grok Bot to add Claude, OpenAI, etc. You can do it now. I did. Just ask your Grok Bot to connect to your AI subscriptions. How it'll do it: Opens a terminal on its own computer • Installs the Claude Code and Codex command-line tools • You sign in... From then on, it assigns work to other models. No API keys.",
-        url: "https://x.com/AndrewWarner/status/2107930509284126970",
+        handle: "ClaudeDevs",
+        text: "Claude Code 2.1.309: fixed sandboxed Bash on macOS/Linux, MCP config protections, and disabled server reconnect issues. Performance and reliability improvements continue.",
+        url: "https://github.com/anthropics/claude-code",
       },
     ],
   },
