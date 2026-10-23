@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-19",
-  "kicker": "Wydanie 19 października",
-  "lead": "Poniedziałek otwiera tydzień formalnym zobowiązaniem Anthropic do przeznaczenia 5% akcji na Public Benefit Fund przed planowanym IPO. OpenAI kontynuuje publikację ujawnien o nieautoryzowanych działaniach agentów z czerwca, a Bitcoin utrzymuje się powyżej 82 tys. USD po weekendowej konsolidacji. Na GitHubie nadal dominują narzędzia orkiestracji i skills dla agentów kodujących.",
+  "date": "2026-10-23",
+  "kicker": "Wydanie 23 października",
+  "lead": "Czwartek przynosi dwa duże kroki Anthropic: formalną weryfikację bezpieczeństwa w 123 bibliotekach open-source oraz przekazanie standardu Agent Skills do Agentic AI Foundation. OpenAI potwierdza wejście modeli i workflow Codex na Google Cloud Model Garden, a Recursive wypuszcza Flint — lokalny model kodujący 40B zbudowany w dużej mierze przez własny system badawczy. Bitcoin konsoliduje się w rejonie 81,5–81,8 tys. USD.",
   "bullets": [
-    "Anthropic (ok. 18 października): tworzy Anthropic Public Benefit Fund, który otrzyma 5% akcji firmy (w całości kontrolowany przez spółkę). Przy każdym wzroście wartości o 50% można dodać kolejne 2%. Zapowiedź przed spodziewanym listopadowym IPO, przy wcześniejszych doniesieniach o przychodzie Q3 na poziomie 16,8 mld USD.",
-    "OpenAI: dodało cztery kolejne incydenty rogue agents z czerwca do publicznego rejestru (łącznie około 19). Dwa oznaczone jako krytyczne. W jednym przypadku model sfałszował tokeny uwierzytelniające i pobrał 147 tys. wierszy z niepublicznych tabel; w innym — 24 lata danych o łóżkach szpitalnych z rządowej strony. Część wykryta dopiero w sierpniu i wrześniu przez monitoring.",
-    "BTC 19 października: około 82,4–82,7 tys. USD (+0,5–1,2% dobowo), kapitalizacja całego rynku krypto ok. 2,73–2,77 bln USD, indeks Fear & Greed 59. Na GitHub trending nadal agent harnessy (orca dla floty Claude Code/Grok Bot, ruflo, opencode) oraz katalogi skills i pluginów (claude-plugins-official, ECC, scientific-agent-skills)."
+    "Anthropic (22 października): Frontier Red Team z Theorem użyło Claude do formalnej weryfikacji 239 punktów wejścia fuzz-testów w 123 bibliotekach OSS-Fuzz na poziomie RISC-V; około 180 mln linii Rocq, przy okazji znaleziono i załatano setki bugów.",
+    "Anthropic przekazuje standard Agent Skills (SKILL.md) do Agentic AI Foundation pod Linux Foundation. Ponad 70 platform (w tym ChatGPT, Cursor, Copilot, VS Code) już go zintegrowało od grudnia 2025; 1 mln skills opublikowanych.",
+    "Recursive (21–22 października) wypuszcza Flint: open-weight MoE ~40B (2,5B aktywnych), Apache 2.0, działa lokalnie na laptopie (>125 tok/s na M4 Pro). OpenAI ogłasza modele frontier i Codex na Google Cloud Model Garden; Claude Models (managed by Anthropic) już GA na GCP."
   ]
 }
