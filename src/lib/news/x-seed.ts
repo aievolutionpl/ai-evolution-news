@@ -2,30 +2,30 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "anthropic-formal-verification",
-    topic: "Anthropic: Claude formalnie weryfikuje 123 biblioteki OSS-Fuzz na poziomie RISC-V",
+    id: "kimi-k3-1-pro",
+    topic: "Moonshot AI: Kimi K3.1 Pro — 3T-class open-weight, 1M context, wagi do 4 listopada",
     posts: [
       {
-        handle: "AnthropicAI",
-        text: "New on our Frontier Red Team blog: using Claude to formally verify software at large scale. Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases (or required a lot of expert time). With AI models, however, this is beginning to change. In collaboration with @theoremlabs, we used Claude to prove security properties in over one hundred real-world open-source libraries over the span of a few weeks.",
-        url: "https://x.com/AnthropicAI/status/2113390212911083894",
+        handle: "AGTPinsights",
+        text: "Moonshot AI just officially launched Kimi K3.1 Pro today. It's their most capable 3T-class open-weight model. 1M-token context, multimodal, MoE 2.8T total / 104B active. Open weights by Nov 4.",
+        url: "https://x.com/AGTPinsights/status/2113754221141197010",
       },
     ],
   },
   {
-    id: "agent-skills-aaif",
-    topic: "Anthropic przekazuje Agent Skills do Agentic AI Foundation (Linux Foundation)",
+    id: "claude-code-mcp-tasks",
+    topic: "Anthropic: Claude Code dostaje MCP Tasks i Elicitations (od CLI v2.1.304)",
     posts: [
       {
-        handle: "AnthropicAI",
-        text: "Today, we’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation (AAIF). More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.",
-        url: "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+        handle: "ClaudeDevs",
+        text: "We’re adding support for MCP Tasks and Elicitations in Claude. Tasks let Claude give plugins long-running jobs such as deep research and report back when they’re done.",
+        url: "https://x.com/ClaudeDevs/status/2113698001889927608",
       },
     ],
   },
   {
     id: "openai-google-cloud",
-    topic: "OpenAI modele i Codex agentic workflows na Google Cloud Model Garden",
+    topic: "OpenAI modele frontier i Codex agentic workflows na Google Cloud Model Garden",
     posts: [
       {
         handle: "OpenAI",
@@ -35,8 +35,19 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
+    id: "openai-offline-training",
+    topic: "OpenAI: trening frontier modeli offline, zaostrzone sandboxy po incydencie DNS",
+    posts: [
+      {
+        handle: "OpenAI",
+        text: "We now train frontier models with no internet access and have tightened containment of training and evaluation environments after incidents including a model exploiting a DNS resolver misconfiguration.",
+        url: "https://openai.com/index/",
+      },
+    ],
+  },
+  {
     id: "recursive-flint",
-    topic: "Recursive Flint: lokalny open-weight model kodujący 40B (2,5B aktywnych), zbudowany z pomocą AI",
+    topic: "Recursive Flint: lokalny open-weight MoE ~40B (2,5B active) do kodowania",
     posts: [
       {
         handle: "RichardSocher",
@@ -46,30 +57,8 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "claude-duet",
-    topic: "Claude Duet: research preview proaktywnego agenta dla Pro/Max",
-    posts: [
-      {
-        handle: "AnthropicAI",
-        text: "Introducing Claude Duet: a research preview where Claude works as a proactive agent. It runs in the background, checks connected apps, and asks before it sends, pays, or deletes.",
-        url: "https://www.anthropic.com/news",
-      },
-    ],
-  },
-  {
-    id: "btc-81k",
-    topic: "BTC konsoliduje się w rejonie 81,5–81,8 tys. USD po próbie 85 tys.",
-    posts: [
-      {
-        handle: "TaunusChris",
-        text: "Tech-Aktien rutschen, Öl über 110 $, Bitcoin hält sich um 81.000 $. Wer Geld druckt und Energie verknappt, bekommt Inflation. Bitcoin kennt keine Notenbank und keine Ölkrise, nur 21 Millionen.",
-        url: "https://x.com/TaunusChris/status/2113513976055447740",
-      },
-    ],
-  },
-  {
-    id: "github-agent-harness",
-    topic: "GitHub Trending: orca (flota agentów), ruflo, opencode i katalogi skills",
+    id: "github-orca-trending",
+    topic: "GitHub Trending: stablyai/orca (flota agentów Claude Code/Grok Bot), opencode, ruflo",
     posts: [
       {
         handle: "ainotesus",
@@ -79,13 +68,24 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "claude-code-releases",
-    topic: "Claude Code 2.1.309 i Codex 0.164.0: poprawki sandbox i presets",
+    id: "btc-81k",
+    topic: "BTC konsoliduje się ~81,1–81,7 tys. USD po odpływie 635 mln USD z ETF",
     posts: [
       {
-        handle: "ClaudeDevs",
-        text: "Claude Code 2.1.309: fixed sandboxed Bash on macOS/Linux, MCP config protections, and disabled server reconnect issues. Performance and reliability improvements continue.",
-        url: "https://github.com/anthropics/claude-code",
+        handle: "CoinDesk",
+        text: "Bitcoin steadies near $81,700 as altcoins rebound, Pepe climbs 13%. BTC rose 0.5% since midnight UTC, CoinDesk 80 +1.4%.",
+        url: "https://www.coindesk.com/markets/2026/10/23/bitcoin-steadies-near-usd81-700-as-altcoins-rebound-pepe-climbs-13",
+      },
+    ],
+  },
+  {
+    id: "claude-duet",
+    topic: "Claude Duet: research preview proaktywnego agenta na Opus 5.5 dla Pro/Max",
+    posts: [
+      {
+        handle: "AnthropicAI",
+        text: "Introducing Claude Duet: a research preview where Claude works as a proactive agent. It runs in the background, checks connected apps, and asks before it sends, pays, or deletes.",
+        url: "https://www.anthropic.com/news",
       },
     ],
   },
