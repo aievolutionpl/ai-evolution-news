@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-23",
-  "kicker": "Wydanie 23 października",
-  "lead": "Czwartek przynosi dwa duże kroki Anthropic: formalną weryfikację bezpieczeństwa w 123 bibliotekach open-source oraz przekazanie standardu Agent Skills do Agentic AI Foundation. OpenAI potwierdza wejście modeli i workflow Codex na Google Cloud Model Garden, a Recursive wypuszcza Flint — lokalny model kodujący 40B zbudowany w dużej mierze przez własny system badawczy. Bitcoin konsoliduje się w rejonie 81,5–81,8 tys. USD.",
+  "date": "2026-10-24",
+  "kicker": "Wydanie 24 października",
+  "lead": "Piątek przynosi Moonshot Kimi K3.1 Pro — model 3T-class z 1M kontekstem, multimodalny, open weights zapowiedziane na 4 listopada. Anthropic dodaje do Claude Code obsługę MCP Tasks i Elicitations dla długich zadań pluginów. OpenAI przenosi trening frontier modeli offline po incydentach z internetem, a Bitcoin konsoliduje się wokół 81 tys. USD po odpływach z ETF.",
   "bullets": [
-    "Anthropic (22 października): Frontier Red Team z Theorem użyło Claude do formalnej weryfikacji 239 punktów wejścia fuzz-testów w 123 bibliotekach OSS-Fuzz na poziomie RISC-V; około 180 mln linii Rocq, przy okazji znaleziono i załatano setki bugów.",
-    "Anthropic przekazuje standard Agent Skills (SKILL.md) do Agentic AI Foundation pod Linux Foundation. Ponad 70 platform (w tym ChatGPT, Cursor, Copilot, VS Code) już go zintegrowało od grudnia 2025; 1 mln skills opublikowanych.",
-    "Recursive (21–22 października) wypuszcza Flint: open-weight MoE ~40B (2,5B aktywnych), Apache 2.0, działa lokalnie na laptopie (>125 tok/s na M4 Pro). OpenAI ogłasza modele frontier i Codex na Google Cloud Model Garden; Claude Models (managed by Anthropic) już GA na GCP."
+    "Moonshot AI (23 października): Kimi K3.1 Pro live na API i w Kimi Code — MoE ~2,8T total / 104B active, 1M token context, multimodal; wagi otwarte do 4 listopada. Benchmarki Moonshota wskazują na poziom bliski top closed models.",
+    "Anthropic (23 października): Claude Code CLI dostaje MCP Tasks (długie joby z raportem zwrotnym) i Elicitations (pytania do użytkownika w trakcie). Od v2.1.304, public beta; więcej produktów Claude w kolejce.",
+    "OpenAI: trening frontier modeli bez dostępu do internetu, zaostrzone sandboxy po wrześniowym incydencie z DNS. BTC ~81,1–81,7 tys. USD po odpływie 635 mln USD z US spot ETF 22 października; memecoiny (Pepe +13%) odbijają szybciej."
   ]
 }
