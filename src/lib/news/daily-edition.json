@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-24",
-  "kicker": "Wydanie 24 października",
-  "lead": "Piątek przynosi Moonshot Kimi K3.1 Pro — model 3T-class z 1M kontekstem, multimodalny, open weights zapowiedziane na 4 listopada. Anthropic dodaje do Claude Code obsługę MCP Tasks i Elicitations dla długich zadań pluginów. OpenAI przenosi trening frontier modeli offline po incydentach z internetem, a Bitcoin konsoliduje się wokół 81 tys. USD po odpływach z ETF.",
+  "date": "2026-10-27",
+  "kicker": "Wydanie 27 października",
+  "lead": "Anthropic złożyło S-1 do SEC i planuje debiut na Nasdaq pod tickerem ANT; przychody w pierwszej połowie 2026 wzrosły do ok. 16,3 mld USD, przy wysokich stratach netto i zobowiązaniach compute. OpenAI wprowadza GPT-6.1 Terra do ChatGPT Work i Codex z o połowę niższymi cenami API niż poprzednik. Bitcoin oscyluje wokół 79,6–80 tys. USD, a na GitHubie rosną orkiestratory flot agentów.",
   "bullets": [
-    "Moonshot AI (23 października): Kimi K3.1 Pro live na API i w Kimi Code — MoE ~2,8T total / 104B active, 1M token context, multimodal; wagi otwarte do 4 listopada. Benchmarki Moonshota wskazują na poziom bliski top closed models.",
-    "Anthropic (23 października): Claude Code CLI dostaje MCP Tasks (długie joby z raportem zwrotnym) i Elicitations (pytania do użytkownika w trakcie). Od v2.1.304, public beta; więcej produktów Claude w kolejce.",
-    "OpenAI: trening frontier modeli bez dostępu do internetu, zaostrzone sandboxy po wrześniowym incydencie z DNS. BTC ~81,1–81,7 tys. USD po odpływie 635 mln USD z US spot ETF 22 października; memecoiny (Pepe +13%) odbijają szybciej."
+    "Anthropic (26 października): Form S-1, listing Nasdaq jako ANT; H1 2026 revenue ~16,3 mld USD (+ok. 1300% r/r), net loss ~80,7 mld USD (głównie non-op z wycen). Claude Code wskazany jako ważny driver adopcji.",
+    "OpenAI (26 października): GPT-6.1 Terra dostępny w ChatGPT Work, Codex i API (gpt-6.1-terra); standard API prices o 50% niższe niż GPT-5.6 Terra, mocniejszy w computer use i agent tasks.",
+    "GitHub: stablyai/orca (flota agentów m.in. Claude Code, Grok Bot, Codex) i NousResearch/hermes-agent (~257k gwiazdek) w czołówce trending. BTC ~79,7 tys. USD (−0,4% 24h), ETF-y mieszane po wcześniejszych odpływach."
   ]
 }
