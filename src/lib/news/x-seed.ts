@@ -2,19 +2,19 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "anthropic-ipo-s1",
-    topic: "Anthropic składa S-1: debiut Nasdaq jako ANT, H1 revenue ~16,3 mld USD",
+    id: "anthropic-s1-ipo",
+    topic: "Anthropic S-1: Nasdaq ANT, H1 revenue ~16,3 mld USD, net loss ~80,7 mld (głównie non-cash)",
     posts: [
       {
-        handle: "TheWireBrief",
-        text: "Anthropic's initial public offering (IPO) marks a significant milestone for both Wall Street and the artificial intelligence industry. The company's stock will now serve as a benchmark for the AI sector.",
-        url: "https://x.com/TheWireBrief/status/2114978473353875926",
+        handle: "runes_leo",
+        text: "Anthropic 递交上市申请，标题都在写「半年亏了 807 亿美元」。我翻了 S-1 原文，这个数大半是账面上的：上半年收入 163 亿美元... 真正做生意的经营亏损是 6.9 亿... 807 亿里有 724 亿，是可转债、SAFE 这类融资工具按公允价值重估。",
+        url: "https://x.com/runes_leo/status/2115340287182872620",
       },
     ],
   },
   {
-    id: "gpt-6-1-terra",
-    topic: "OpenAI: GPT-6.1 Terra w ChatGPT Work i Codex, API o 50% taniej",
+    id: "gpt-61-terra-rollout",
+    topic: "OpenAI: GPT-6.1 Terra w ChatGPT Work, Codex i API (50% taniej niż 5.6 Terra)",
     posts: [
       {
         handle: "OpenAI",
@@ -24,13 +24,24 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "gpt-terra-performance",
-    topic: "GPT-6.1 Terra: lepiej na Agents’ Last Exam, tańszy i szybszy niż Astra w wielu taskach",
+    id: "gpt-terra-agents-exam",
+    topic: "GPT-6.1 Terra: lepszy na Agents’ Last Exam, 3× szybszy niż Astra/Sol w wielu taskach",
     posts: [
       {
         handle: "OpenAI",
         text: "GPT-6.1 Terra substantially outperforms GPT-5.6 Terra on Agents’ Last Exam... It even matches GPT-6 Astra at one-tenth the price per token and finishes tasks over 3× faster on average than both Astra and GPT-6.1 Sol.",
         url: "https://x.com/OpenAI/status/2114780717188272382",
+      },
+    ],
+  },
+  {
+    id: "aa-intelligence-index-v5",
+    topic: "Artificial Analysis Intelligence Index v5: Claude Opus 5.5 na czele, GPT-6.1 Terra najtańszy wśród liderów",
+    posts: [
+      {
+        handle: "ArtificialAnlys",
+        text: "Announcing Artificial Analysis Intelligence Index v5... Claude Opus 5.5 (max) leads at 58, ahead of GPT-6 Astra (max, 57) and GPT-6.1 Sol (max, 55)... GPT-6.1 Terra (max) is the cheapest at $0.96 per Intelligence Index task.",
+        url: "https://x.com/ArtificialAnlys/status/2115265133467635877",
       },
     ],
   },
@@ -47,7 +58,7 @@ export const TRENDS: Trend[] = [
   },
   {
     id: "github-orca-hermes",
-    topic: "GitHub Trending: stablyai/orca (flota Claude Code/Grok Bot/Codex) i hermes-agent",
+    topic: "GitHub: stablyai/orca (~108k) i NousResearch/hermes-agent (~258k) w czołówce agent tools",
     posts: [
       {
         handle: "ainotesus",
@@ -57,35 +68,24 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "btc-80k",
-    topic: "BTC ~79,6–80 tys. USD, lekkie spadki po mieszanych ETF",
+    id: "btc-80k-range",
+    topic: "BTC ~80,7–81 tys. USD, stabilizacja po wcześniejszych wahaniach wokół 80k",
     posts: [
       {
         handle: "CoinDesk",
-        text: "Bitcoin steadies near $81,700 as altcoins rebound... (aktualizacja: obecnie ~79,7 tys. USD).",
+        text: "Bitcoin steadies near $81,700 as altcoins rebound (aktualizacja z okolic 80,8 tys. USD na 28.10).",
         url: "https://www.coindesk.com/markets/2026/10/23/bitcoin-steadies-near-usd81-700-as-altcoins-rebound-pepe-climbs-13",
       },
     ],
   },
   {
-    id: "cursor-agent-sdk",
-    topic: "Cursor udostępnia Agent SDK: agenci jako kod (Markdown + TypeScript)",
+    id: "openclaw-agents-trend",
+    topic: "OpenClaw i Hermes: dyskusje o personal agentach jako następcach konfiguracyjnych narzędzi",
     posts: [
       {
-        handle: "Cursor",
-        text: "Cursor announced that its Agent SDK is now available. Developers define agents as code, with prompts written in Markdown and tools in TypeScript.",
-        url: "https://x.com/cursor_ai",
-      },
-    ],
-  },
-  {
-    id: "kimi-k3-1-pro",
-    topic: "Moonshot Kimi K3.1 Pro: open-weight 3T-class, 1M context, wagi do 4 listopada",
-    posts: [
-      {
-        handle: "AGTPinsights",
-        text: "Moonshot AI just officially launched Kimi K3.1 Pro today. It's their most capable 3T-class open-weight model. 1M-token context, multimodal, MoE 2.8T total / 104B active. Open weights by Nov 4.",
-        url: "https://x.com/AGTPinsights/status/2113754221141197010",
+        handle: "Halpingai",
+        text: "Verdict: n8n and are yesterday's answer to automation. Better Rube Goldberg machines. OpenClaw is what comes after. A teammate you talk to, not a machine you configure.",
+        url: "https://x.com/Halpingai/status/2115338051933147576",
       },
     ],
   },
