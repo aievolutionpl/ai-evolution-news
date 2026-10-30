@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-28",
-  "kicker": "Wydanie 28 października",
-  "lead": "Anthropic kontynuuje przygotowania do IPO na Nasdaq pod tickerem ANT po publicznym S-1 z 26 października; przychody H1 2026 ~16,3 mld USD przy net loss ~80,7 mld USD (głównie non-cash z wycen instrumentów). OpenAI wdraża GPT-6.1 Terra w ChatGPT Work, Codex i API z cenami o 50% niższymi niż GPT-5.6 Terra. Bitcoin trzyma się w okolicach 80,7–81 tys. USD, a na GitHubie dominują narzędzia do orkiestracji agentów.",
+  "date": "2026-10-30",
+  "kicker": "Wydanie 30 października",
+  "lead": "Binance potwierdził incydent bezpieczeństwa o szacowanym wpływie 6,3 mld USD — potencjalnie największy hack w historii crypto — z zamrożeniem ok. 3 mld USD i obietnicą pokrycia strat z funduszu SAFU. Anthropic rozszerzył program AI for Science o 20 partnerów (m.in. NSF, Sloan Foundation, Simons), udostępniając kredyty Claude badaczom. Google DeepMind ogłosił Gemini 4 Carbon (Intelligence Index v5: 59), skupiony na cyberbezpieczeństwie i długich horyzontach, na razie tylko dla wybranych defenderów.",
   "bullets": [
-    "Anthropic S-1 (26.10): listing Nasdaq jako ANT; H1 revenue 16,3 mld USD (+~1300% r/r), net loss 80,7 mld USD (w tym ~72 mld non-cash), operating loss zwężony do 693 mln USD; duże zobowiązania compute m.in. z SpaceX.",
-    "OpenAI (26.10): GPT-6.1 Terra dostępny dla Plus/Pro/Enterprise/Edu w ChatGPT Work i Codex oraz jako gpt-6.1-terra w API; lepszy na Agents’ Last Exam i Terminal-Bench, szybszy niż Astra/Sol w wielu taskach przy niższej cenie.",
-    "GitHub: stablyai/orca (~108k gwiazdek, flota Claude Code/Grok Bot/Codex) i NousResearch/hermes-agent (~258k) wysoko w trending; BTC ~80,8 tys. USD (+~0,4% 24h), wolumen stabilny po wcześniejszych mieszanych ETF."
+    "Binance (29–30.10): szacowany wpływ 6,3 mld USD; ~3 mld zamrożone on-chain; wstępne ustalenia wskazują na skompromitowany laptop inżyniera DevOps; brak śladów wycieku kluczy prywatnych; BTC spadł w okolice 76–78 tys. USD.",
+    "Anthropic (28–29.10): AI for Science obejmuje teraz 20 fundacji i instytucji; kredyty Claude trafiają m.in. do FlyWire (Princeton), AstroPath (Johns Hopkins) i gnomAD (Broad Institute).",
+    "GitHub/agenci: Hermes Agent (~259k gwiazdek) i OpenClaw (~393k) nadal dominują; Claude Code dostał update 2.1.314 z lepszą ochroną przed edycją poza projektem; Gemini 4 Carbon dostępny najpierw w Fairwind Program."
   ]
 }
