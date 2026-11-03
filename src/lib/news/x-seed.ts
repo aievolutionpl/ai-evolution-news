@@ -2,30 +2,41 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "binance-hack-63b",
-    topic: "Binance: incydent ~6,3 mld USD (największy w historii crypto), ~3 mld zamrożone, pokrycie z SAFU",
+    id: "binance-withdrawals-resume",
+    topic: "Binance: wypłaty wznowione po hacku ~6,3 mld USD; netto odpływ ~4,7 mld, pokrycie ~95% ze środków firmy",
     posts: [
       {
-        handle: "bitcoin2go",
-        text: "🚨 Binance Hack: Was wir bisher wissen\n\nRund 6,3 Mrd. $ betroffen. Der größte Hack der Kryptogeschichte.\n\n1.) Einfallstor war der Laptop eines Binance Engineers. Laut Binance wurde kein Private Key geklaut.\n\n2.) Der Trick: EIP-7702. ...\n\n4.) Rund 3 Mrd. $ sind eingefroren. ...\n\n6.) Binance übernimmt alle Verluste. ...\n\nMarkt: 1,5 Mrd. $ liquidiert, BTC unter 77k, ETH unter 2.200 $.",
-        url: "https://x.com/bitcoin2go/status/2116066559449763928",
+        handle: "binance",
+        text: "Withdrawal data update\n\nBy 03:00 UTC, we are seeing hourly deposits exceed withdrawals, reflecting improving user activity and stabilizing flows.",
+        url: "https://x.com/binance/status/2117494793446298084",
       },
     ],
   },
   {
-    id: "anthropic-ai-science-20",
-    topic: "Anthropic: AI for Science rozszerzone o 20 partnerów (NSF, Sloan, Simons, FlyWire, AstroPath)",
+    id: "anthropic-message-threads",
+    topic: "Anthropic: message threads (public beta) w Messages API — długie sesje agentów bez resendowania pełnej historii, ~35% niższy median TTFT na 500k–1M",
     posts: [
       {
-        handle: "AnthropicAI",
-        text: "AI for Science expands to foundations and institutions. We’re highlighting 20 scientific foundations, institutions, and research groups... that we’ve partnered with in an expansion of our AI for Science program, which gives free Claude credits to researchers.",
-        url: "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+        handle: "ClaudeDevs",
+        text: "Message threads are now in public beta on the Messages API.\n\nThe API caches your conversation on the server between turns, so instead of resending the full conversation, you send only new messages and the previous message ID, and Claude starts responding sooner.",
+        url: "https://x.com/ClaudeDevs/status/2117332449382510884",
       },
     ],
   },
   {
-    id: "gemini-4-carbon",
-    topic: "Google DeepMind: Gemini 4 Carbon — #1 Intelligence Index v5 (59), focus na cyber i long-horizon, dostęp dla defenderów",
+    id: "claude-code-2-1-317",
+    topic: "Claude Code 2.1.317 (3.11): poprawki background agentów (Ctrl+C nie zabija wszystkich), check przed wysyłaniem emaila, stabilność",
+    posts: [
+      {
+        handle: "EthanAgentLab",
+        text: "If you run background agents, pressing Ctrl+C to clear a half-typed prompt could stop all of them at once.\nThat's fixed in Claude Code 2.1.317, released today (Nov 3).\n\nThree more small fixes from the same release:\nRe-reading a file that hasn't changed now returns its content instead of a \"file unchanged since your last Read\" note.\nThe \"Resume this session with\" hint at exit now repeats your launch flags, such as --chrome --debug, ahead of --resume.\nIt now asks before a web or shell tool call sends your account email address to the network.\n\nTo get it: claude update",
+        url: "https://x.com/EthanAgentLab/status/2117515682791526658",
+      },
+    ],
+  },
+  {
+    id: "gemini-carbon-index",
+    topic: "Google DeepMind: Gemini 4 Carbon nadal #1 na Artificial Analysis Intelligence Index v5 (~59); dostęp ograniczony (Fairwind)",
     posts: [
       {
         handle: "Google",
@@ -35,57 +46,46 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "claude-code-2-1-314",
-    topic: "Claude Code 2.1.314 (30.10): lepsza ochrona przed edycją poza projektem, enterprise controls, stabilność",
+    id: "claude-mem-trending",
+    topic: "GitHub Trending: claude-mem (persistent context dla agentów: Claude Code, OpenClaw, Codex, Hermes) mocno rośnie; Hermes ~260k, OpenClaw ~393k",
     posts: [
       {
-        handle: "AugustiKn",
-        text: "🛠️ Claude Code just got safer.\n\nAnthropic released Claude Code 2.1.314 on October 30.\n\nThe update brings:\n• Better protection against editing files outside project folders\n• Improved handling of long coding sessions\n• New enterprise access controls\n• Stability and performance fixes\n\nNo new model - just a more reliable AI coding agent.",
-        url: "https://x.com/AugustiKn/status/2116066500519879091",
+        handle: "thedotmack",
+        text: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions.\nWorks with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+        url: "https://github.com/thedotmack/claude-mem",
       },
     ],
   },
   {
-    id: "gpt-terra-agents-cost",
-    topic: "GPT-6.1 Terra (26.10): szybszy/tańszy agentic computer use vs Opus 5.5 na wielu taskach; AA Index Terra max ~48–51 vs Opus 58",
+    id: "grok-bot-workflows",
+    topic: "Grok Bot: użytkownicy łączą go z lokalnymi Codex/Claude Code i narzędziami do treści (Canva, Figma, Runway)",
     posts: [
       {
-        handle: "OpenAI",
-        text: "GPT-6.1 Terra is rolling out now and is available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex. Developers can also access it through the OpenAI API as gpt-6.1-terra.",
-        url: "https://x.com/OpenAI/status/2114780720170164735",
+        handle: "alin_zone",
+        text: "🎨 Grok Bot 做内容创作也够用了，海报、设计稿、生图生视频一条龙\n\n... 自带生图 / 生视频\n不用装插件。\n聊天里直接让它出图、出短视频...\n\n② Canva｜官方插件\n③ Figma｜官方插件\n④ Runway｜官方插件\n⑤ Gamma｜官方插件",
+        url: "https://x.com/alin_zone/status/2117150182320013591",
       },
     ],
   },
   {
-    id: "hermes-openclaw-stars",
-    topic: "GitHub: Hermes Agent (~259k) i OpenClaw (~393k) nadal na czele agent tools; Claude Code, Codex, Orca rosną",
+    id: "btc-post-hack-flows",
+    topic: "Crypto po hacku Binance: BTC pod presją, ETF outflows, opcje na downside; wypłaty Binance stabilizują się (depozyty > wypłaty w godzinach)",
     posts: [
       {
-        handle: "ainotesus",
-        text: "Orca — a desktop app for running a fleet of coding agents at once, each in its own git worktree... Works with Claude Code, Codex, OpenCode, or any CLI agent.",
-        url: "https://x.com/ainotesus/status/2113495785094447600",
+        handle: "BitopexIO",
+        text: "🗞️ Weekly Crypto News | 5 Stories Options Traders Should Watch\n\n1. Binance Hit by $6.3 Billion Crypto Hack\nThe breach triggered sharp market losses and aggressive BTC put buying...\n\n2. Bitcoin ETFs Record $643 Million in Outflows",
+        url: "https://x.com/BitopexIO/status/2117515609432801553",
       },
     ],
   },
   {
-    id: "grok-bot-local-agents",
-    topic: "Grok Bot + lokalne Codex/Claude Code: użytkownicy łączą cloud + local runtimes na Mac Studio itp.",
+    id: "openclaw-hermes-stars",
+    topic: "Open-source agenci: OpenClaw (~393k gwiazdek) i Hermes Agent (~260k) nadal na czele; nowe wydania i integracje z Claude/Codex",
     posts: [
       {
-        handle: "chessxyz",
-        text: "今天把自己的本地服务器提回来了：Mac Studio，M5 Max + 64GB 内存 + 1TB。\n\n准备配合 Grok Bot，在本地跑 Codex 和 Claude Code。\n\n... 交易策略和深度分析会调用本地的 Codex 和 Claude Code，Grok Bot 做统一入口。\n\n云端 + 本地 + VPS，三条腿走路。",
-        url: "https://x.com/chessxyz/status/2116066344190005456",
-      },
-    ],
-  },
-  {
-    id: "btc-post-hack-78k",
-    topic: "BTC ~76–78,5 tys. USD po hacku Binance (30.10); liquidacje ~1,5 mld, ETF flows mieszane",
-    posts: [
-      {
-        handle: "JoshMichalski",
-        text: "Binance: \"We have found no evidence of any wallet private key leak.\"\n\nSo the keys held. One engineer's laptop did not.\n\nThat is the whole lesson. The weakest link is always a person. I hold my own Bitcoin.",
-        url: "https://x.com/JoshMichalski/status/2116066539870822816",
+        handle: "NousResearch",
+        text: "Hermes Agent continues to grow as a self-improving personal agent. Latest releases add better backends, plugins and migration tools from other agents.",
+        url: "https://github.com/NousResearch/hermes-agent",
       },
     ],
   },

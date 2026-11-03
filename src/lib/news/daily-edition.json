@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-30",
-  "kicker": "Wydanie 30 października",
-  "lead": "Binance potwierdził incydent bezpieczeństwa o szacowanym wpływie 6,3 mld USD — potencjalnie największy hack w historii crypto — z zamrożeniem ok. 3 mld USD i obietnicą pokrycia strat z funduszu SAFU. Anthropic rozszerzył program AI for Science o 20 partnerów (m.in. NSF, Sloan Foundation, Simons), udostępniając kredyty Claude badaczom. Google DeepMind ogłosił Gemini 4 Carbon (Intelligence Index v5: 59), skupiony na cyberbezpieczeństwie i długich horyzontach, na razie tylko dla wybranych defenderów.",
+  "date": "2026-11-03",
+  "kicker": "Wydanie 3 listopada",
+  "lead": "Binance wznowił wypłaty po największym hacku w historii crypto (ok. 6,3 mld USD); netto odpłynęło już kilka miliardów, a giełda deklaruje pokrycie strat. Anthropic uruchomił publiczną betę message threads w Messages API — długie sesje agentów (m.in. Claude Code) wysyłają tylko nowe wiadomości, co skraca TTFT o ok. 35% przy 500k–1M tokenów. Claude Code dostał dziś update 2.1.317 z poprawkami dla background agentów i bezpieczeństwem.",
   "bullets": [
-    "Binance (29–30.10): szacowany wpływ 6,3 mld USD; ~3 mld zamrożone on-chain; wstępne ustalenia wskazują na skompromitowany laptop inżyniera DevOps; brak śladów wycieku kluczy prywatnych; BTC spadł w okolice 76–78 tys. USD.",
-    "Anthropic (28–29.10): AI for Science obejmuje teraz 20 fundacji i instytucji; kredyty Claude trafiają m.in. do FlyWire (Princeton), AstroPath (Johns Hopkins) i gnomAD (Broad Institute).",
-    "GitHub/agenci: Hermes Agent (~259k gwiazdek) i OpenClaw (~393k) nadal dominują; Claude Code dostał update 2.1.314 z lepszą ochroną przed edycją poza projektem; Gemini 4 Carbon dostępny najpierw w Fairwind Program."
+    "Binance (1–3.11): wypłaty wznowione 1.11, netto odpływ ok. 4,7 mld USD; ~95% strat pokryte ze środków firmy, reszta mniej płynnych tokenów w toku; FBI wskazuje TraderTraitor (Korea Płn.), Pyongyang zaprzecza.",
+    "Anthropic (2.11): message threads (beta) w Messages API — serwer trzyma kontekst między turami, klient wysyła tylko nowe wiadomości + ID poprzedniej odpowiedzi; dla większości użytkowników Claude Code włączone domyślnie, bez zmiany cen.",
+    "Agenci/GitHub: Claude Code 2.1.317 (3.11) naprawia m.in. Ctrl+C zabijające background agentów; claude-mem (persistent context dla Claude Code/OpenClaw/Codex/Hermes) mocno rośnie na Trending; Hermes Agent ~260k, OpenClaw ~393k gwiazdek."
   ]
 }
