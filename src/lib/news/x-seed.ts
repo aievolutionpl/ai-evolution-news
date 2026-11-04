@@ -2,90 +2,90 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "binance-withdrawals-resume",
-    topic: "Binance: wypłaty wznowione po hacku ~6,3 mld USD; netto odpływ ~4,7 mld, pokrycie ~95% ze środków firmy",
+    id: "binance-phase2-withdrawals",
+    topic: "Binance: faza 2 wypłat od 4.11 04:00 UTC na 9 sieciach; netto odpływy spadły do ~2,57 mld USD",
     posts: [
       {
-        handle: "binance",
-        text: "Withdrawal data update\n\nBy 03:00 UTC, we are seeing hourly deposits exceed withdrawals, reflecting improving user activity and stabilizing flows.",
-        url: "https://x.com/binance/status/2117494793446298084",
+        handle: "BinanceHelpDesk",
+        text: "Hi there. Withdrawals are being resumed gradually in stages. LTC is currently available for withdrawal via the BSC network...",
+        url: "https://x.com/BinanceHelpDesk/status/2117878301855522817",
       },
     ],
   },
   {
-    id: "anthropic-message-threads",
-    topic: "Anthropic: message threads (public beta) w Messages API — długie sesje agentów bez resendowania pełnej historii, ~35% niższy median TTFT na 500k–1M",
+    id: "claude-code-game-rules",
+    topic: "Claude Code 2.1.317: poluzowana reguła przeciw klonom gier — nazwij tytuł jako opis, nie proś o kopię (Addy Osmani)",
     posts: [
       {
-        handle: "ClaudeDevs",
-        text: "Message threads are now in public beta on the Messages API.\n\nThe API caches your conversation on the server between turns, so instead of resending the full conversation, you send only new messages and the previous message ID, and Claude starts responding sooner.",
-        url: "https://x.com/ClaudeDevs/status/2117332449382510884",
+        handle: "addyosmani",
+        text: "An update on building games with Claude Code:\n\nLast week some of you ran into Claude Code pushing back on game projects it should have just built. We'd added a short rule to the Opus 5.5 prompt to steer Claude away from recreating specific existing games, but it was also kicking in when you referenced one just to describe the mechanics you wanted.\n\nWe've updated that rule in 2.1.317. You can name a game to describe what you want and Claude should now build an original game in that genre. If you ask for a copy of the original, it'll offer to build something similar instead.",
+        url: "https://x.com/addyosmani/status/2117848568535106001",
       },
     ],
   },
   {
-    id: "claude-code-2-1-317",
-    topic: "Claude Code 2.1.317 (3.11): poprawki background agentów (Ctrl+C nie zabija wszystkich), check przed wysyłaniem emaila, stabilność",
+    id: "grok-bot-phone-calls",
+    topic: "Grok Bot: funkcja dzwonienia (live transcript + odpowiedzi w locie); demo oszczędności ~500 USD/rok na rachunku Comcast",
     posts: [
       {
-        handle: "EthanAgentLab",
-        text: "If you run background agents, pressing Ctrl+C to clear a half-typed prompt could stop all of them at once.\nThat's fixed in Claude Code 2.1.317, released today (Nov 3).\n\nThree more small fixes from the same release:\nRe-reading a file that hasn't changed now returns its content instead of a \"file unchanged since your last Read\" note.\nThe \"Resume this session with\" hint at exit now repeats your launch flags, such as --chrome --debug, ahead of --resume.\nIt now asks before a web or shell tool call sends your account email address to the network.\n\nTo get it: claude update",
-        url: "https://x.com/EthanAgentLab/status/2117515682791526658",
+        handle: "RoundtableSpace",
+        text: "Grok Bot can now make phone calls for you, and Sawyer Merritt called the new feature \"very impressive.\"\n\nYou tell it who to call and why, and it handles the conversation. It shows a real-time transcript of the call. If it needs more info from you, a small answer box pops up where you type or select your response, and it relays that to the person on the phone.",
+        url: "https://x.com/RoundtableSpace/status/2117878260671672323",
       },
     ],
   },
   {
-    id: "gemini-carbon-index",
-    topic: "Google DeepMind: Gemini 4 Carbon nadal #1 na Artificial Analysis Intelligence Index v5 (~59); dostęp ograniczony (Fairwind)",
+    id: "btc-stabilizes-post-hack",
+    topic: "BTC powyżej 77 tys. USD; przepływy Binance poprawiają się, ETF outflows ~27 mln 3.11 po ciężkich dniach",
     posts: [
       {
-        handle: "Google",
-        text: "Introducing Gemini 4 Carbon, our latest frontier model.\n\nCarbon delivers improved performance across domains — ranking #1 on v5.0 of the @ArtificialAnlys Intelligence Index and sets a new state-of-the-art in cybersecurity and long-horizon capabilities.\n\nIt’s rolling out starting this week to cyber defenders through our Fairwind Program, with expanded access coming soon",
-        url: "https://x.com/Google/status/2115489525765988776",
+        handle: "BTC_Weijerman",
+        text: "Binance just took a $6.3B hack. The largest in crypto history.\n\nBinance is covering the loss from its own reserves and reopened withdrawals within days. \n\n$4.6B went out in the first 10 hours.",
+        url: "https://x.com/BTC_Weijerman/status/2117878153322365162",
       },
     ],
   },
   {
     id: "claude-mem-trending",
-    topic: "GitHub Trending: claude-mem (persistent context dla agentów: Claude Code, OpenClaw, Codex, Hermes) mocno rośnie; Hermes ~260k, OpenClaw ~393k",
+    topic: "GitHub Trending: claude-mem (persistent memory dla Claude Code/OpenClaw/Codex/Hermes) #1, +1k+ gwiazdek/dzień",
     posts: [
       {
-        handle: "thedotmack",
-        text: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions.\nWorks with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-        url: "https://github.com/thedotmack/claude-mem",
+        handle: "mushengziyue",
+        text: "AI 助手最大的痛：聊完就忘。这个项目给它加「长期记忆」，下次接着干不用从头说。跑长任务的可以试试：\nhttps://github.com/thedotmack/claude-mem",
+        url: "https://x.com/mushengziyue/status/2117876903378051303",
       },
     ],
   },
   {
-    id: "grok-bot-workflows",
-    topic: "Grok Bot: użytkownicy łączą go z lokalnymi Codex/Claude Code i narzędziami do treści (Canva, Figma, Runway)",
+    id: "openai-security-scrutiny",
+    topic: "OpenAI pod lupą za bezpieczeństwo; zatrudniło firmę, która wcześniej badała Anthropic (Cathedral Systems)",
     posts: [
       {
-        handle: "alin_zone",
-        text: "🎨 Grok Bot 做内容创作也够用了，海报、设计稿、生图生视频一条龙\n\n... 自带生图 / 生视频\n不用装插件。\n聊天里直接让它出图、出短视频...\n\n② Canva｜官方插件\n③ Figma｜官方插件\n④ Runway｜官方插件\n⑤ Gamma｜官方插件",
-        url: "https://x.com/alin_zone/status/2117150182320013591",
+        handle: "theneuron",
+        text: "OpenAI faced fresh scrutiny over years of security warnings and brought in hackers who previously breached Anthropic; Google made schools choose between Search and AI; Apple warned about autonomous agents; and OpenAI demonstrated AI-designed hardware.",
+        url: "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/",
       },
     ],
   },
   {
-    id: "btc-post-hack-flows",
-    topic: "Crypto po hacku Binance: BTC pod presją, ETF outflows, opcje na downside; wypłaty Binance stabilizują się (depozyty > wypłaty w godzinach)",
+    id: "hermes-openclaw-agents",
+    topic: "Open-source agenci: Hermes Agent (~260k gwiazdek, local/Cloud) i OpenClaw (~394k) nadal dominują; nowe integracje",
     posts: [
       {
-        handle: "BitopexIO",
-        text: "🗞️ Weekly Crypto News | 5 Stories Options Traders Should Watch\n\n1. Binance Hit by $6.3 Billion Crypto Hack\nThe breach triggered sharp market losses and aggressive BTC put buying...\n\n2. Bitcoin ETFs Record $643 Million in Outflows",
-        url: "https://x.com/BitopexIO/status/2117515609432801553",
+        handle: "grok",
+        text: "Both. Hermes Agent is open-source and runs fully local on your machine or a VPS you control (with local/Docker/SSH backends). There’s also optional Hermes Cloud for fully managed always-on hosted agents via Nous Portal. The themes shown are for the local Desktop/CLI.",
+        url: "https://x.com/grok/status/2117877995717214555",
       },
     ],
   },
   {
-    id: "openclaw-hermes-stars",
-    topic: "Open-source agenci: OpenClaw (~393k gwiazdek) i Hermes Agent (~260k) nadal na czele; nowe wydania i integracje z Claude/Codex",
+    id: "postman-plugins-agents",
+    topic: "Postman cicho instaluje pluginy do Codex i Claude Code (hook trusted); użytkownicy sprawdzają konfiguracje",
     posts: [
       {
-        handle: "NousResearch",
-        text: "Hermes Agent continues to grow as a self-improving personal agent. Latest releases add better backends, plugins and migration tools from other agents.",
-        url: "https://github.com/NousResearch/hermes-agent",
+        handle: "btc2030100w",
+        text: "有开发者发现，Postman 没打招呼就给 Codex 和 Claude Code 装了插件🤡🤡\n\n还加了个 hook，自己把状态改成 trusted\nCLI 和 MCP 配置也顺手塞进去了",
+        url: "https://x.com/btc2030100w/status/2117878253465600012",
       },
     ],
   },
