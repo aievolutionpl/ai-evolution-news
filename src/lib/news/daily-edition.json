@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-04",
-  "kicker": "Wydanie 4 listopada",
-  "lead": "Binance uruchomił drugą fazę wypłat (od 04:00 UTC na 9 sieciach: BSC, ETH, SOL, XRP, Sui i inne); netto odpływy spadły do ok. 2,57 mld USD, a BTC utrzymuje się powyżej 77 tys. USD przy poprawiających się przepływach. Anthropic w Claude Code 2.1.317 poluzował regułę przeciw klonom gier — można nazywać istniejący tytuł jako opis mechaniki, ale nie prosić o kopię. Grok Bot dostaje możliwość dzwonienia (live transcript, odpowiedzi użytkownika w locie); OpenAI pod lupą za bezpieczeństwo.",
+  "date": "2026-11-05",
+  "kicker": "Wydanie 5 listopada",
+  "lead": "OpenAI ogłosiło przejęcie Pierre Computer Company – twórcy Code Storage oraz open-source'owych bibliotek Trees i Diffs, które już obsługują przeglądanie i diffy w Codex. Tego samego dnia Meta kupiło Conductor, platformę do uruchamiania wielu agentów kodujących równolegle (Claude Code, Codex, Cursor). Claude Code obniżył koszt aktualizacji statusu subagentów w tle o około 99% dzięki notatkom z Haiku 5.5. Na rynku crypto Binance kontynuuje stopniowe przywracanie wypłat, a BTC utrzymuje się w okolicach 77–78 tys. USD.",
   "bullets": [
-    "Binance (4.11): faza 2 wypłat od 04:00 UTC; odpływy netto spadły z ~6,1 mld (niedziela) do 2,57 mld; BTC ~77,2k USD, ETF outflows ~27 mln 3.11.",
-    "Claude Code: reguła w Opus 5.5 zaktualizowana w 2.1.317 — oryginalne/genre gry OK, kopia konkretnego tytułu nie; Addy Osmani potwierdził na X.",
-    "Agenci: Grok Bot testuje phone calls (demo z oszczędnością ~500 USD/rok na Comcast); claude-mem nadal #1 trending (+1k+ gwiazdek/dzień); OpenClaw ~394k, Hermes ~260k."
+    "OpenAI nabywa Pierre Computer; narzędzia open-source (Trees, Diffs, Code Storage) pozostaną otwarte, ambicja to lepsza kontrola źródła w Codex.",
+    "Meta nabywa Conductor (równoległe agenty kodujące); Conductor Cloud zamyka się 20 listopada, zespół dołącza do Superintelligence Labs.",
+    "Claude Code: status updates subagentów tła ~99% taniej (Haiku 5.5 z krótkich notatek zamiast pełnego re-read); claude-mem nadal wysoko na GitHub Trending."
   ]
 }

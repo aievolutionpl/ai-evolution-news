@@ -2,52 +2,63 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "binance-phase2-withdrawals",
-    topic: "Binance: faza 2 wypłat od 4.11 04:00 UTC na 9 sieciach; netto odpływy spadły do ~2,57 mld USD",
+    id: "openai-acquires-pierre",
+    topic: "OpenAI nabywa Pierre Computer: Code Storage, Trees i Diffs dla Codex pozostają open-source",
+    posts: [
+      {
+        handle: "grok",
+        text: "Pierre Computer Company 是一家2023年成立的开发者工具初创公司，总部位于旧金山。他们打造开源工具（如Diffs代码审查、Trees文件浏览、Highlights语法高亮）和Code Storage（面向AI代理的Git存储服务）。这些工具已用于OpenAI的Codex，此次收购旨在加强AI协作编程能力。",
+        url: "https://x.com/grok/status/2118241188637491597",
+      },
+    ],
+  },
+  {
+    id: "meta-acquires-conductor",
+    topic: "Meta kupuje Conductor – platformę równoległych agentów kodujących (Claude Code, Codex, Cursor)",
+    posts: [
+      {
+        handle: "techcrunch",
+        text: "Meta has acquired Conductor, an AI coding startup that allows users to spin up software projects by deploying multiple agents into parallel workspaces.",
+        url: "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      },
+    ],
+  },
+  {
+    id: "claude-code-subagent-cost",
+    topic: "Claude Code: status updates subagentów tła ok. 99% taniej dzięki Haiku 5.5 z notatek",
+    posts: [
+      {
+        handle: "ClaudeDevs",
+        text: "Background subagent status updates now cost about 99% less. Haiku 5.5 writes them from short notes instead of re-reading the whole conversation.",
+        url: "https://x.com/ClaudeDevs",
+      },
+    ],
+  },
+  {
+    id: "binance-withdrawals-progress",
+    topic: "Binance: wypłaty SOL otwarte, stopniowe przywracanie innych sieci po hacku",
     posts: [
       {
         handle: "BinanceHelpDesk",
-        text: "Hi there. Withdrawals are being resumed gradually in stages. LTC is currently available for withdrawal via the BSC network...",
-        url: "https://x.com/BinanceHelpDesk/status/2117878301855522817",
+        text: "Hello there. SOL withdrawals are currently open. You can confirm the status on this page: https://accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vbXkvd2FsbGV0L2FjY291bnQvbWFpbi93aXRoZHJhd2FsL2NyeXB0by9TT0w=",
+        url: "https://x.com/BinanceHelpDesk/status/2118241195591930117",
       },
     ],
   },
   {
-    id: "claude-code-game-rules",
-    topic: "Claude Code 2.1.317: poluzowana reguła przeciw klonom gier — nazwij tytuł jako opis, nie proś o kopię (Addy Osmani)",
+    id: "btc-etf-flows",
+    topic: "BTC ~77-78k USD; po serii odpływów ETF pierwsze sygnały napływów 4.11",
     posts: [
       {
-        handle: "addyosmani",
-        text: "An update on building games with Claude Code:\n\nLast week some of you ran into Claude Code pushing back on game projects it should have just built. We'd added a short rule to the Opus 5.5 prompt to steer Claude away from recreating specific existing games, but it was also kicking in when you referenced one just to describe the mechanics you wanted.\n\nWe've updated that rule in 2.1.317. You can name a game to describe what you want and Claude should now build an original game in that genre. If you ask for a copy of the original, it'll offer to build something similar instead.",
-        url: "https://x.com/addyosmani/status/2117848568535106001",
-      },
-    ],
-  },
-  {
-    id: "grok-bot-phone-calls",
-    topic: "Grok Bot: funkcja dzwonienia (live transcript + odpowiedzi w locie); demo oszczędności ~500 USD/rok na rachunku Comcast",
-    posts: [
-      {
-        handle: "RoundtableSpace",
-        text: "Grok Bot can now make phone calls for you, and Sawyer Merritt called the new feature \"very impressive.\"\n\nYou tell it who to call and why, and it handles the conversation. It shows a real-time transcript of the call. If it needs more info from you, a small answer box pops up where you type or select your response, and it relays that to the person on the phone.",
-        url: "https://x.com/RoundtableSpace/status/2117878260671672323",
-      },
-    ],
-  },
-  {
-    id: "btc-stabilizes-post-hack",
-    topic: "BTC powyżej 77 tys. USD; przepływy Binance poprawiają się, ETF outflows ~27 mln 3.11 po ciężkich dniach",
-    posts: [
-      {
-        handle: "BTC_Weijerman",
-        text: "Binance just took a $6.3B hack. The largest in crypto history.\n\nBinance is covering the loss from its own reserves and reopened withdrawals within days. \n\n$4.6B went out in the first 10 hours.",
-        url: "https://x.com/BTC_Weijerman/status/2117878153322365162",
+        handle: "coinzonia",
+        text: "📊 Günlük ETF Verileri \n\n4 Kasım'da spot Bitcoin ETF’lerine 74,57 milyon dolarlık net giriş gerçekleşti. Spot Ethereum ETF'leri de aynı dönemde 53,02 milyon dolarlık net para girişi kaydetti.",
+        url: "https://x.com/coinzonia/status/2118240648855974073",
       },
     ],
   },
   {
     id: "claude-mem-trending",
-    topic: "GitHub Trending: claude-mem (persistent memory dla Claude Code/OpenClaw/Codex/Hermes) #1, +1k+ gwiazdek/dzień",
+    topic: "GitHub Trending: claude-mem (persistent memory dla Claude Code/OpenClaw/Codex/Hermes) nadal wysoko",
     posts: [
       {
         handle: "mushengziyue",
@@ -57,35 +68,24 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "openai-security-scrutiny",
-    topic: "OpenAI pod lupą za bezpieczeństwo; zatrudniło firmę, która wcześniej badała Anthropic (Cathedral Systems)",
-    posts: [
-      {
-        handle: "theneuron",
-        text: "OpenAI faced fresh scrutiny over years of security warnings and brought in hackers who previously breached Anthropic; Google made schools choose between Search and AI; Apple warned about autonomous agents; and OpenAI demonstrated AI-designed hardware.",
-        url: "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/",
-      },
-    ],
-  },
-  {
-    id: "hermes-openclaw-agents",
-    topic: "Open-source agenci: Hermes Agent (~260k gwiazdek, local/Cloud) i OpenClaw (~394k) nadal dominują; nowe integracje",
+    id: "hermes-openclaw",
+    topic: "Open-source agenci: Hermes Agent (~260k gwiazdek) i OpenClaw nadal dominują GitHub",
     posts: [
       {
         handle: "grok",
-        text: "Both. Hermes Agent is open-source and runs fully local on your machine or a VPS you control (with local/Docker/SSH backends). There’s also optional Hermes Cloud for fully managed always-on hosted agents via Nous Portal. The themes shown are for the local Desktop/CLI.",
+        text: "Both. Hermes Agent is open-source and runs fully local on your machine or a VPS you control (with local/Docker/SSH backends). There’s also optional Hermes Cloud for fully managed always-on hosted agents via Nous Portal.",
         url: "https://x.com/grok/status/2117877995717214555",
       },
     ],
   },
   {
-    id: "postman-plugins-agents",
-    topic: "Postman cicho instaluje pluginy do Codex i Claude Code (hook trusted); użytkownicy sprawdzają konfiguracje",
+    id: "grok-bot-agents",
+    topic: "Grok Bot i integracje z innymi agentami (Claude Code, Codex); użytkownicy budują cross-bot workflows",
     posts: [
       {
-        handle: "btc2030100w",
-        text: "有开发者发现，Postman 没打招呼就给 Codex 和 Claude Code 装了插件🤡🤡\n\n还加了个 hook，自己把状态改成 trusted\nCLI 和 MCP 配置也顺手塞进去了",
-        url: "https://x.com/btc2030100w/status/2117878253465600012",
+        handle: "telegraphic_dev",
+        text: "Not yet, I'm building https://a2a.exposed for exactly these use cases of cross-bot co-operation but I haven't got access to Dots yet. Would be great if someone with the access like you can give it a try. So far I'm eating my own dog's food and all the development is made by my Grok Bot and my @OpenBot_ messaging to each other.",
+        url: "https://x.com/telegraphic_dev/status/2118241249224192281",
       },
     ],
   },
