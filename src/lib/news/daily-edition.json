@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-05",
-  "kicker": "Wydanie 5 listopada",
-  "lead": "OpenAI ogłosiło przejęcie Pierre Computer Company – twórcy Code Storage oraz open-source'owych bibliotek Trees i Diffs, które już obsługują przeglądanie i diffy w Codex. Tego samego dnia Meta kupiło Conductor, platformę do uruchamiania wielu agentów kodujących równolegle (Claude Code, Codex, Cursor). Claude Code obniżył koszt aktualizacji statusu subagentów w tle o około 99% dzięki notatkom z Haiku 5.5. Na rynku crypto Binance kontynuuje stopniowe przywracanie wypłat, a BTC utrzymuje się w okolicach 77–78 tys. USD.",
+  "date": "2026-11-09",
+  "kicker": "Wydanie 9 listopada",
+  "lead": "Anthropic przejęło zamówienia na generatory gazowe o mocy 1,7 GW za 3,4 mld USD, by zabezpieczyć zasilanie przyszłych centrów danych – informuje Financial Times. OpenAI zamknęło około 11 mld USD rundy przy wycenie 1,25 bln USD, poniżej początkowych oczekiwań 1,4 bln. Oczekiwania co do IPO Anthropic spadły do okolice 1,1–1,5 bln USD. Na rynku crypto spot BTC ETF zanotowały tygodniowy odpływ 1,28 mld USD, a cena BTC oscyluje wokół 74 tys. USD.",
   "bullets": [
-    "OpenAI nabywa Pierre Computer; narzędzia open-source (Trees, Diffs, Code Storage) pozostaną otwarte, ambicja to lepsza kontrola źródła w Codex.",
-    "Meta nabywa Conductor (równoległe agenty kodujące); Conductor Cloud zamyka się 20 listopada, zespół dołącza do Superintelligence Labs.",
-    "Claude Code: status updates subagentów tła ~99% taniej (Haiku 5.5 z krótkich notatek zamiast pełnego re-read); claude-mem nadal wysoko na GitHub Trending."
+    "Anthropic: umowa na 1,7 GW generatorów gazowych (Caterpillar via OnePWR) za 3,4 mld USD; nie przejęcie firmy, tylko zamówienia.",
+    "OpenAI: ~11 mld USD przy wycenie 1,25 bln USD; Anthropic IPO – inwestorzy obniżają oczekiwania po selloffie tech.",
+    "BTC ETF: odpływ 411,9 mln USD 6.11, tydzień -1,28 mld USD; YTD ujemne; Hermes Agent i claude-mem nadal wysoko na GitHub."
   ]
 }
