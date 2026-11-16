@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-11",
-  "kicker": "Wydanie 11 listopada",
-  "lead": "Anthropic wystartowało z roadshow IPO przy wycenie do 1,4 bln USD (cena 70–78 USD/akcję, ticker ANT) i wypuściło Claude Fable 5.2 oraz Mythos 5.2 – szybsze, tańsze o ok. 20% i silniejsze w agentach. Google udostępniło Gemini 4 Carbon w API w cenie wprowadzeniowej 2/10 USD za milion tokenów – mniej więcej 4× taniej niż Fable. BTC nadal pod presją odpływów z ETF-ów (~1,5 mld USD od początku listopada), kurs wokół 73–74 tys. USD.",
+  "date": "2026-11-16",
+  "kicker": "Wydanie 16 listopada",
+  "lead": "Anthropic kończy roadshow IPO: range 70–78 USD/akcję (ticker ANT), finalna cena 18 listopada, start handlu 19 listopada przy wycenie do ~1,4 bln USD. Google udostępniło Gemini 4 Hydrogen – szybszy i tańszy model agentyczny ($1,50/$7,50 za M tokenów) po Carbon. BTC pod presją odpływów z ETF-ów (~1,9 mld USD w ostatnim tygodniu), kurs wokół 64–65 tys. USD.",
   "bullets": [
-    "Anthropic: IPO range 70–78 USD, wycena do ~1,4 bln USD; Fable/Mythos 5.2 – 30% szybciej, Fable 8/40 USD za M tokenów.",
-    "Google: Gemini 4 Carbon GA w API (2/10 USD do 30.11); lider na CursorBench i agentycznych benchmarkach przy niższych kosztach.",
-    "BTC ETF: kolejne odpływy (m.in. ~201 mln USD 9.11), YTD ujemne; Hermes Agent utrzymuje wysoką pozycję na GitHub (~262k stars)."
+    "Anthropic: IPO pricing 18.11, trading 19.11; Fable/Mythos 5.2 i Claude Meetings w beta (Google Meet).",
+    "Google: Gemini 4 Hydrogen GA (1M context, niższa cena niż Carbon); Carbon nadal intro $2/$10 do 30.11.",
+    "BTC: spadek do ~64–65k przy 7 dniach net outflows z spot ETF-ów; Hermes Agent ~263k stars na GitHub."
   ]
 }
