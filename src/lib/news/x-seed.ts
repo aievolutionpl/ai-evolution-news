@@ -2,100 +2,115 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "anthropic-ipo-fable",
-    topic: "Anthropic: IPO 70–78 USD (do ~1,4 bln USD) + Claude Fable/Mythos 5.2",
+    id: "anthropic-ipo-countdown",
+    topic: "Anthropic IPO: range 70–78 USD, trading 19.11 (ANT), wycena do ~1,4 bln",
     posts: [
       {
-        handle: "JCPResearch",
-        text: "Anthropic updated IPO filing: 825 million Class A shares at $70–$78, fully diluted valuation ~$1.404 trillion. Trading expected soon under ANT.",
-        url: "https://x.com/JCPResearch/status/2120416855701717435",
+        handle: "TMA_MarketIntel",
+        text: "ALIBABA SAYS ITS NEW AI BEATS ANTHROPIC, THE SAME WEEK ANTHROPIC GOES PUBLIC. Qwen4-Max, 2.4T params, claims better than Fable 5.1 on coding.",
+        url: "https://x.com/TMA_MarketIntel/status/2122227819119837467",
       },
       {
-        handle: "xingyuwang",
-        text: "Claude Fable 5.2 from empty folder built a bootable OS prototype on a laptop in eight days.",
-        url: "https://x.com/xingyuwang/status/2120416926170054974",
+        handle: "Biz_zatukora",
+        text: "Anthropic: IPO range $70–78, up to ~$64.4B raised, fully diluted ~$1.4T. Pricing 18.11, trading 19.11.",
+        url: "https://x.com/Biz_zatukora/status/2122227730410541416",
       },
     ],
   },
   {
-    id: "gemini-4-carbon",
-    topic: "Gemini 4 Carbon GA: $2/$10 za M tokenów (do 30.11), silny w agentach i cyber",
+    id: "gemini-4-hydrogen",
+    topic: "Gemini 4 Hydrogen: szybki model agentyczny $1,50/$7,50, po Carbon",
     posts: [
       {
-        handle: "bankai_ajar",
-        text: "Gemini 4 Carbon oficjalnie otwarty. Najsilniejszy model rozumujący Google, API 2/10 USD do 30 listopada, potem 4/20.",
-        url: "https://x.com/bankai_ajar/status/2120416966745665935",
+        handle: "k2sbhai",
+        text: "students can now get Gemini 4 Hydrogen FREE for 1 year. Google AI Plus for university students: Hydrogen + higher limits.",
+        url: "https://x.com/k2sbhai/status/2122227831786868869",
       },
       {
-        handle: "paradax",
-        text: "Gemini 4 Carbon napisał 5128 linii Pythona i wyrenderował w Blenderze 8s film z pelikanem na rowerze – bez zewnętrznych assetów.",
-        url: "https://x.com/paradax/status/2120416911427273130",
+        handle: "aicreatorpath",
+        text: "Google AI: Gemini 4 Hydrogen major upgrade for Google Search. ‘Now in Google Search’ examples released.",
+        url: "https://x.com/aicreatorpath/status/2122227583312183741",
       },
     ],
   },
   {
-    id: "btc-etf-pressure",
-    topic: "BTC ETF: odpływy trwają, kurs ~73–74k USD; YTD ujemne",
+    id: "qwen4-max",
+    topic: "Qwen4-Max (Alibaba): 2.4T MoE, $1.50/$4.50, twierdzi lepszy od Fable 5.1",
     posts: [
       {
-        handle: "sincerequotess",
-        text: "11.11: BTC przy 73k, obserwować czy ETF-y skończą serię net outflows i jak IPO Anthropic wpłynie na sentyment.",
-        url: "https://x.com/sincerequotess/status/2120416936798642601",
+        handle: "Alibaba_Qwen",
+        text: "Meet Qwen4-Max: MoE 2.4T, 1M context, native vision. Cost per task down ~60%, API $1.5/$4.5. Open weights of smaller models coming.",
+        url: "https://x.com/Alibaba_Qwen/status/2122148127520289151",
+      },
+      {
+        handle: "piasetzky",
+        text: "Qwen4Max out – 2.4T parameters, $1.50 per million input. 43 on Artificial Analysis, still behind Fable 5.2. Smaller 27b on 16GB RAM.",
+        url: "https://x.com/piasetzky/status/2122227632926236985",
       },
     ],
   },
   {
-    id: "hermes-agent",
-    topic: "Hermes Agent (~262k stars) nadal w topie open-source agentów",
+    id: "btc-etf-outflows",
+    topic: "BTC ~64–65k: odpływy ETF ~1,9 mld USD, spadek od ~74k",
     posts: [
       {
-        handle: "QuietlyByG",
-        text: "Hermes Agent: oficjalny Security plugin (SARIF/JSON/CSV/Markdown). OpenClaw v2026.11.2 – tylko fixy.",
-        url: "https://x.com/QuietlyByG/status/2119683603999187447",
+        handle: "hanqing1120",
+        text: "Bitcoin fell to $62,006. CZ listed reasons including money going to Anthropic IPO and ETF outflows (~$1.9B net in 7 sessions to Nov 13).",
+        url: "https://x.com/hanqing1120/status/2122227745401057455",
+      },
+      {
+        handle: "Jimbo_Finance",
+        text: "Im not selling my BTC into this tape",
+        url: "https://x.com/Jimbo_Finance/status/2122227820675858555",
       },
     ],
   },
   {
-    id: "claude-code-agents",
-    topic: "Claude Code / Fable 5.2: mocne demo agentyczne i coding",
+    id: "claude-meetings",
+    topic: "Claude Meetings beta: Claude w Google Meet, notes + artifacts live",
     posts: [
       {
-        handle: "taiyanghere",
-        text: "Fable 5.2: mniej niż godzina na grę z 1,5 mln pociągnięć pędzla, 200 fps w przeglądarce, wagi open-source.",
-        url: "https://x.com/taiyanghere/status/2120416618002239545",
+        handle: "ShardingCapital",
+        text: "Anthropic launches office tools before its IPO: Claude Meetings, Sheets, Whiteboards – against Microsoft.",
+        url: "https://x.com/ShardingCapital/status/2122227543533351049",
       },
     ],
   },
   {
-    id: "skills-layer",
-    topic: "Warstwa skills/memory wspólna dla Claude Code, OpenClaw, Hermes",
+    id: "hermes-openclaw-skills",
+    topic: "Hermes Agent (~263k stars) i OpenClaw: skills + memory layer portable",
     posts: [
       {
         handle: "Saboo_Shubham_",
-        text: "Claude Code, OpenClaw i Hermes mogą dzielić tę samą warstwę memory+skills. Jeden folder .agent/ działa na 8 harnessach.",
+        text: "Claude Code, OpenClaw, and Hermes Agent can now share the same memory-and-skills layer. One portable .agent/ folder across 8 harnesses.",
         url: "https://x.com/Saboo_Shubham_/status/2046473613105369468",
       },
-    ],
-  },
-  {
-    id: "github-agents-trending",
-    topic: "GitHub: agent-browser, anthropics/skills i harnessy nadal mocno trending",
-    posts: [
       {
-        handle: "Teknium",
-        text: "Hermes może pilotować sesję Claude Code bez psucia self-improvement loop – /claude-code <prompt>.",
-        url: "https://x.com/Teknium/status/2040603975343542503",
+        handle: "CodetocashAi",
+        text: "OpenViking long-term memory: Claude Code 57%→80%, Hermes 33%→82%, OpenClaw 24%→82% accuracy. Separate project/memory/skills.",
+        url: "https://x.com/CodetocashAi/status/2121734682773442990",
       },
     ],
   },
   {
-    id: "price-war",
-    topic: "Wojna cenowa: Carbon 4× taniej niż Fable 5.2 przy porównywalnych wynikach agentycznych",
+    id: "github-skills-trending",
+    topic: "GitHub: skills, memory i harnessy agentów nadal mocno trending",
     posts: [
       {
-        handle: "NekoStranding",
-        text: "Gemini 4 Carbon: agresywne self-correction, mniej elegancji niż Argon, ale tanie i skuteczne na długich taskach.",
-        url: "https://x.com/NekoStranding/status/2120416752488284174",
+        handle: "elvissun",
+        text: "Spent 9h comparing OpenClaw and Hermes source. Hermes self-improves by writing skills; OpenClaw more governance/minimal. Both solid.",
+        url: "https://x.com/elvissun/status/2045155784577687862",
+      },
+    ],
+  },
+  {
+    id: "agent-marketplace",
+    topic: "Agenci na marketplace: skill packages, on-chain settlement (TermiX itp.)",
+    posts: [
+      {
+        handle: "billzcollecshun",
+        text: "Agent marketplace: install skill package with one prompt (Claude Code, OpenClaw, Codex…). On-chain escrow, ERC-8004 identity, AACP protocol.",
+        url: "https://x.com/billzcollecshun/status/2122227533538091107",
       },
     ],
   },
