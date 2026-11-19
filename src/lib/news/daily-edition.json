@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-18",
-  "kicker": "Wydanie 18 listopada",
-  "lead": "Anthropic wycenia dziś IPO (range 70–78 USD/akcję, ticker ANT), start handlu 19 listopada przy wycenie do ~1,4 bln USD w pełni rozwodnionej. OpenAI udostępniło GPT-6.2 Astra i Sol (17 listopada) – Astra ~8/40 USD za M tokenów, Sol 2/10, dostępne w Codex i API. BTC trzyma się ~64,5–65 tys. USD przy kolejnych odpływach z spot ETF-ów (17.11: −240 mln USD).",
+  "date": "2026-11-19",
+  "kicker": "Wydanie 19 listopada",
+  "lead": "Anthropic wyceniło IPO na 83 USD za akcję (powyżej range 70–78), sprzedając 980 mln akcji klasy A i zbierając ok. 81,3 mld USD – największe IPO w historii, większe niż SpaceX. Akcje ANT debiutują dziś na Nasdaq. OpenAI od 17 listopada udostępnia GPT-6.2 Astra i Sol w Codex, ChatGPT Work i API (Astra ~8/40 USD za M tokenów, Sol 2/10). BTC trzyma się ok. 63–64 tys. USD przy kolejnych odpływach z spot ETF-ów.",
   "bullets": [
-    "Anthropic: pricing 18.11, trading 19.11 jako ANT; Amazon i Google mają mieć ~29% po IPO.",
-    "OpenAI: GPT-6.2 Astra/Sol w Codex i ChatGPT Work; niższa cena Astra o ~20% vs poprzednik.",
-    "BTC: ~64,6k przy net outflow ETF ~240 mln 17.11; Hermes Agent ~264k stars, skills portable między harnessami."
+    "Anthropic: pricing 83 USD, trading ANT od dziś; fully diluted wycena ~1,5 bln USD; Amazon i Google mają duże udziały.",
+    "OpenAI: GPT-6.2 Astra/Sol w Codex i API; Astra tańszy o ~20% vs poprzednik, Sol dalej 2/10.",
+    "BTC: ~63,5–64k przy net outflow ETF ~240–306 mln (17–18.11); Hermes Agent ~264k stars, skills portable między harnessami."
   ]
 }

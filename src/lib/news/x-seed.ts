@@ -2,94 +2,88 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "anthropic-ipo-pricing",
-    topic: "Anthropic IPO: pricing dziś 18.11 (70–78 USD), trading 19.11 jako ANT, do ~1,4 bln",
+    id: "anthropic-ipo-83-trading",
+    topic: "Anthropic IPO: wycena 83 USD, trading ANT dziś na Nasdaq, ~81,3 mld USD (największe IPO)",
     posts: [
       {
-        handle: "TheMacroMemo_",
-        text: "Anthropic prices its IPO Wednesday, with trading due Thursday on Nasdaq as ANT, per Reuters. The $70–$78 range implies up to ~$1.4T fully diluted. The WSJ reports bankers are weighing pricing above $80 on strong demand.",
-        url: "https://x.com/TheMacroMemo_/status/2122842882516320705",
+        handle: "business",
+        text: "Anthropic and its seven co-founders raised $107.3 billion through an $81.3 billion IPO and a $26 billion private placement. The IPO is the biggest of all time, topping the $75 billion raised by SpaceX.",
+        url: "https://x.com/business/status/2123245612757840382",
       },
       {
-        handle: "koltregaskes2",
-        text: "Anthropic has opened its IPO roadshow, pricing shares at $70 to $78, with 825 million shares on offer for up to $64.4bn. Pricing is expected 18 November, trading from 19 November under the ticker ANT.",
-        url: "https://x.com/koltregaskes2/status/2121957893327225343",
+        handle: "DurmanCapital",
+        text: "Anthropic priced the share at $83, above the range it had given, and raised about $81 billion. According to AP and Bloomberg it is the largest IPO ever, surpassing even SpaceX. $ANT opens today on Nasdaq after 16:30.",
+        url: "https://x.com/DurmanCapital/status/2123314669314019760",
       },
     ],
   },
   {
-    id: "gpt-62-astra-sol",
-    topic: "OpenAI GPT-6.2 Astra i Sol: dostępne w Codex/API od 17.11, Astra tańszy o ~20%",
+    id: "gpt-62-astra-sol-codex",
+    topic: "OpenAI GPT-6.2 Astra i Sol: dostępne w Codex/API od 17.11, Astra ~8/40 USD",
     posts: [
       {
-        handle: "dgwyer",
-        text: "GPT-6.2 Astra/Sol now available in Codex! 🙂",
-        url: "https://x.com/dgwyer/status/2122757911059546263",
+        handle: "OpenAIDevs",
+        text: "For single- or multi-turn workflows that can wait, save up to 40% per token than Standard on GPT-6.2 Astra or GPT-6.2 Sol. In Responses API background mode, choose a 2h or 8h target for the first response. These discounted windows are now in public beta.",
+        url: "https://x.com/OpenAIDevs/status/2123188195202617408",
       },
       {
-        handle: "vida994",
-        text: "GPT-6.2 just landed in Codex. • Pro 200 gets Ultrafast with Sol • Both models are on Plus • Astra can match a slide template from a screenshot",
-        url: "https://x.com/vida994/status/2122763370411471273",
+        handle: "xiaoguodunzhou",
+        text: "OpenAI 11 月 17 日发布 GPT-6.2 Astra 和 Sol，Astra API 输入 8 美元、输出 40 美元，比上一代便宜 20%，Sol 只要 2 美元和 10 美元。",
+        url: "https://x.com/xiaoguodunzhou/status/2123314496223821933",
       },
     ],
   },
   {
-    id: "btc-etf-outflows-nov17",
-    topic: "BTC ~64,5–65k: spot ETF outflow −240 mln USD 17.11, seria odpływów",
+    id: "btc-etf-outflows-anthropic",
+    topic: "BTC ~63–64k: odpływy ETF ~240–306 mln, część kapitału na IPO Anthropic",
     posts: [
       {
-        handle: "hanqing1120",
-        text: "Bitcoin fell to $62,006. CZ listed reasons including money going to Anthropic IPO and ETF outflows (~$1.9B net in 7 sessions to Nov 13).",
-        url: "https://x.com/hanqing1120/status/2122227745401057455",
+        handle: "isham_christy",
+        text: "ETFs sold $306,000,000 in $BTC and 39,830,000 in $ETH yesterday. Anthropic IPO listing is happening today, and IMO, most of the institutional selling was to participate in this IPO.",
+        url: "https://x.com/isham_christy/status/2123314670047998044",
+      },
+      {
+        handle: "unstable_intern",
+        text: "BITCOIN $63,609 (-1.8%) · ETF flow -$306.5m Wednesday (Farside). Farside data shows US spot bitcoin ETFs lost $306.5 million on Wednesday.",
+        url: "https://x.com/unstable_intern/status/2123314689115578736",
       },
     ],
   },
   {
-    id: "hermes-agent-stars",
-    topic: "Hermes Agent (NousResearch): ~264k stars, model choice i self-improving skills",
+    id: "hermes-agent-stars-skills",
+    topic: "Hermes Agent (NousResearch): ~264k stars, self-improving skills i persona",
     posts: [
       {
         handle: "BkashJosi",
-        text: "Hit the limit, came back to Hermes. That's the nice part of an agent where you pick the model.",
-        url: "https://x.com/BkashJosi/status/2122952645979807838",
+        text: "Johnny is a great name for a Hermes agent. Did the new persona change how it talks to you?",
+        url: "https://x.com/BkashJosi/status/2123314219928195430",
       },
       {
-        handle: "BkashJosi",
-        text: "Models post-trained on the Hermes harness would be a real moat. That pi-adapted Qwen jump shows how much is left on the table.",
-        url: "https://x.com/BkashJosi/status/2122952095305457878",
+        handle: "StevenMathern",
+        text: "An initial end-to-end Lavish test has already succeeded. The installed version, Lavish AXI 0.1.98, was used with a real HTML test document... Hermes successfully received the comment and performed the requested modification.",
+        url: "https://x.com/StevenMathern/status/2123314116605428129",
       },
     ],
   },
   {
-    id: "claude-code-skills-portable",
-    topic: "Claude Code, Codex, OpenClaw, Hermes: portable skills i memory layer",
+    id: "claude-code-codex-skills-portable",
+    topic: "Claude Code, Codex, OpenClaw, Hermes: portable skills, memory i multi-agent workflows",
     posts: [
       {
-        handle: "Saboo_Shubham_",
-        text: "Claude Code, OpenClaw, and Hermes Agent can now share the same memory-and-skills layer. One portable .agent/ folder across 8 harnesses.",
-        url: "https://x.com/Saboo_Shubham_/status/2046473613105369468",
+        handle: "talesbytim",
+        text: "agent logs are underrated. i make games and a manga with AI, codex builds and claude reviews and improves its work. let's connect",
+        url: "https://x.com/talesbytim/status/2123314683180458482",
       },
       {
-        handle: "alexelcu",
-        text: "My agent prompt has instructions for \"be succinct\" and \"use Standard Technical English\". Hasn't helped much. There are literally skills out there, like show-me, that teach agents to explain things without words.",
-        url: "https://x.com/alexelcu/status/2122952759339065562",
+        handle: "slgthinking",
+        text: "Claude 的订阅悄悄改了名字，很多人还在按老价目表算账。Pro 还是 20 刀，Max 现在只剩 100 刀一档，原来 200 刀的 Max 20x 改叫 Ultra。",
+        url: "https://x.com/slgthinking/status/2123314485528289739",
       },
     ],
   },
   {
-    id: "gemini-4-hydrogen",
-    topic: "Gemini 4 Hydrogen: $1,50/$7,50, 1M context, agentyczny model Google",
-    posts: [
-      {
-        handle: "aicreatorpath",
-        text: "Google AI: Gemini 4 Hydrogen major upgrade for Google Search. ‘Now in Google Search’ examples released.",
-        url: "https://x.com/aicreatorpath/status/2122227583312183741",
-      },
-    ],
-  },
-  {
-    id: "github-agent-harnesses",
-    topic: "GitHub: harnessy agentów, skills i memory nadal mocno rosną (ECC, Hermes, orca)",
+    id: "github-trending-agents-skills",
+    topic: "GitHub: harnessy agentów i skills (ECC, Hermes, orca, taste-skill) mocno rosną",
     posts: [
       {
         handle: "elvissun",
@@ -99,7 +93,18 @@ export const TRENDS: Trend[] = [
     ],
   },
   {
-    id: "agent-marketplace-skills",
+    id: "openai-background-discount",
+    topic: "OpenAI: do 40% zniżki na GPT-6.2 Astra/Sol w trybie background (2h/8h)",
+    posts: [
+      {
+        handle: "mKLAPPEREN_",
+        text: "OpenAI now gives up to 40% off GPT-6.2 Astra and Sol if you let the answer come within 2 or 8 hours instead of right away. Most of my bot jobs don't need a reply this second, so I'm moving the boring ones over",
+        url: "https://x.com/mKLAPPEREN_/status/2123314569095360648",
+      },
+    ],
+  },
+  {
+    id: "agent-marketplace-onchain",
     topic: "Marketplace skilli i on-chain settlement dla agentów (Claude Code, OpenClaw, Codex)",
     posts: [
       {
