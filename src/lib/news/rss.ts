@@ -14,9 +14,9 @@ export const FEEDS: Feed[] = [
     category: "ai",
   },
   {
-    id: "anthropic",
-    title: "Anthropic News",
-    url: "https://www.anthropic.com/news/rss.xml",
+    id: "anthropic-research",
+    title: "Anthropic Research (mirror)",
+    url: "https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/main/feeds/anthropic-research.xml",
     category: "ai",
   },
   {
@@ -95,6 +95,18 @@ export const FEEDS: Feed[] = [
     id: "verge-ai",
     title: "The Verge AI",
     url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    category: "ai",
+  },
+  {
+    id: "github-trending",
+    title: "GitHub Trending Daily",
+    url: "https://githubtrending.today/feed.xml",
+    category: "github",
+  },
+  {
+    id: "arxiv-cs-ai",
+    title: "arXiv cs.AI",
+    url: "https://rss.arxiv.org/rss/cs.AI",
     category: "ai",
   },
   {

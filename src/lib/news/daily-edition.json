@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-19",
-  "kicker": "Wydanie 19 listopada",
-  "lead": "Anthropic wyceniło IPO na 83 USD za akcję (powyżej range 70–78), sprzedając 980 mln akcji klasy A i zbierając ok. 81,3 mld USD – największe IPO w historii, większe niż SpaceX. Akcje ANT debiutują dziś na Nasdaq. OpenAI od 17 listopada udostępnia GPT-6.2 Astra i Sol w Codex, ChatGPT Work i API (Astra ~8/40 USD za M tokenów, Sol 2/10). BTC trzyma się ok. 63–64 tys. USD przy kolejnych odpływach z spot ETF-ów.",
+  "date": "2026-11-20",
+  "kicker": "Wydanie 20 listopada",
+  "lead": "Akcje Anthropic (ANT) zamkn\u0119\u0142y pierwszy dzie\u0144 na Nasdaq na poziomie 97,17 USD, czyli o 17% powy\u017cej ceny IPO 83 USD, po otwarciu na 111,50 USD. Google wypu\u015bci\u0142o Gemini 4 Neon \u2013 model mid-tier z cen\u0105 3/15 USD za milion token\u00f3w i silnymi wynikami na coding agent index. Bitcoin spad\u0142 poni\u017cej 62 tys. USD przy rekordowych odp\u0142ywach z spot ETF-\u00f3w, g\u0142\u00f3wnie z IBIT BlackRock.",
   "bullets": [
-    "Anthropic: pricing 83 USD, trading ANT od dziś; fully diluted wycena ~1,5 bln USD; Amazon i Google mają duże udziały.",
-    "OpenAI: GPT-6.2 Astra/Sol w Codex i API; Astra tańszy o ~20% vs poprzednik, Sol dalej 2/10.",
-    "BTC: ~63,5–64k przy net outflow ETF ~240–306 mln (17–18.11); Hermes Agent ~264k stars, skills portable między harnessami."
+    "ANT: close 97,17 USD (+17%), wolumen ponad 600 mln akcji, fully diluted wycena ok. 1,27\u20131,8 bln USD.",
+    "Gemini 4 Neon: 3/15 USD, 1M context, #1 na AA Coding Agent Index wg Google; dost\u0119pny w API i dla Pro/Ultra.",
+    "BTC: ~61,5\u201362k, odp\u0142ywy ETF ~582 mln USD 19.11 (IBIT ~541 mln); Hermes Agent ~265k stars, ECC ~307k."
   ]
 }
