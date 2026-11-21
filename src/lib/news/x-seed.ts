@@ -2,127 +2,130 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "anthropic-ant-close-97",
-    topic: "Anthropic ANT: pierwszy dzie\u0144 zamkni\u0119ty na 97,17 USD (+17% od IPO 83 USD)",
+    id: "anthropic-ant-day2-close",
+    topic: "Anthropic ANT: drugi dzie\u0144 close ~88,9 USD (-8,5% od 97,17), low 83,05 przy IPO 83",
     posts: [
       {
-        handle: "Forbes",
-        text: "Anthropic finished its first trading day at $97.17 on the Nasdaq under the ticker ANT after it raised $81.3 billion in the largest initial public offering in history\u2014down from its $111.50 open, but still more than 17% above its $83 IPO price.",
-        url: "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/",
+        handle: "CryptoTZWF",
+        text: "\u4eba\u7c7b\u6700\u5f3aAI Anthropic \u8fd9\u4e0a\u5e02\u7684\u5403\u76f8\u96be\u770b... \u4e03\u540d\u521b\u59cb\u4eba\u901a\u8fc7\u8fd9\u6b21IPO\u5408\u8ba1\u5356\u4e86\u5c06\u8fd120\u4ebf\u7f8e\u5143\u7684\u8001\u80a1 \u4e0a\u6765\u5c31\u662f1.5\u4e07\u4ebf\u7f8e\u5143\u7684\u5b8c\u5168\u644a\u8584\u4f30\u503c... \u8fd9\u4e2a\u4f30\u503c\u6211\u4e0d\u8ba4 \u6211\u7684\u7a7a\u5355\u5747\u4ef785 \u76ee\u524d\u7ee7\u7eed\u770b\u7a7a",
+        url: "https://x.com/CryptoTZWF/status/2124039058527576153",
       },
       {
-        handle: "CNBC",
-        text: "Anthropic jumped 17% in its Nasdaq debut on Thursday... The stock closed at $97.17 per share. The Claude creator, trading under the ticker ANT, opened at $111.50.",
-        url: "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+        handle: "bebuu_ai",
+        text: "https://Arena.ai has updated its Alignment Index after analyzing 195,000+ real agent sessions... #1 GPT-6.2 Sol: 85.2 ... #17 Claude Opus 5.5: down from its previous #1 position.",
+        url: "https://x.com/bebuu_ai/status/2124038547904880750",
       },
     ],
   },
   {
-    id: "gemini-4-neon",
-    topic: "Google Gemini 4 Neon: mid-tier 3/15 USD, silny na coding agents, 1M context",
+    id: "btc-below-60k-etf-outflows",
+    topic: "BTC poni\u017cej 59\u201360k: weekendowy spadek, odp\u0142ywy ETF kontynuowane, extreme fear",
     posts: [
       {
-        handle: "GoogleDeepMind",
-        text: "Today, we\u2019re introducing Gemini 4 Neon \u2014 bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows. Priced at $3 / $15.",
-        url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        handle: "fresh1142362193",
+        text: "I\u2019m short-term bearish on $BTC because the broader trend is still weak and ETF demand has not convincingly returned. My first downside checkpoint is $55k. ... At 07:12 UTC on Nov 21, Coinbase BTCUSD ... about $58,033: down 5.93% over 24h",
+        url: "https://x.com/fresh1142362193/status/2124039098671194464",
       },
       {
-        handle: "xx_Tge",
-        text: "\u8c37\u6b4c\u4eca\u5929\u51cc\u6668\u53d1\u4e86 Gemini 4 Neon... \u4ef7\u683c\uff08\u6309\u7528\u91cf\u7b97\uff09\uff1a\u6bcf\u8f93\u5165\u4e00\u767e\u4e07\u5b57\u7684\u7528\u91cf 3 \u7f8e\u5143\uff0c\u8f93\u51fa 15 \u7f8e\u5143... \u7b2c\u4e09\u65b9\u673a\u6784 Artificial Analysis \u7684\u5199\u4ee3\u7801\u667a\u80fd\u4f53\u6392\u884c\uff0c\u7b2c\u4e00\uff0c58.6 \u5206",
-        url: "https://x.com/xx_Tge/status/2123677724707615141",
+        handle: "satoshi_math",
+        text: "This week in 5 numbers: 1. -14.6%: bitcoin, $65.3K \u2192 $55.8K 2. -$541M: BlackRock's bitcoin ETF, worst day ever 3. -30%: the average ETF buyer (entry ~$80K)",
+        url: "https://x.com/satoshi_math/status/2124038225681395732",
       },
     ],
   },
   {
-    id: "btc-etf-outflows-ibit",
-    topic: "BTC ~62k: rekordowe odp\u0142ywy ETF ~582 mln USD, IBIT BlackRock ~541 mln",
+    id: "gemini-4-neon-positioning",
+    topic: "Gemini 4 Neon: mid-tier 3/15 USD mi\u0119dzy Hydrogen a Carbon, silny na coding/agents",
     posts: [
       {
-        handle: "AlphaIntelMedia",
-        text: "US spot Bitcoin ETFs posted $582M in outflows in a single day, with BlackRock\u2019s IBIT accounting for $541M \u2014 pushing November\u2019s net outflows to $3.47B.",
-        url: "https://x.com/AlphaIntelMedia/status/2123677848007290880",
+        handle: "QQTeng",
+        text: "\u68b3\u7406\u4e00\u4e0bGoogle\u5bb6\u6700\u8fd1\u53d1\u5e03\u7684\u6a21\u578b\u3002 ... 1. Gemini 4 Neon\uff1a\u4e3b\u6253\u524d\u6cbf\u667a\u80fd\uff0c\u590d\u6742\u7f16\u7a0b\u3001\u79d1\u7814\u548c\u77e5\u8bc6\u5de5\u4f5c\u80fd\u529b\u3002 2. Gemini 4 Hydrogen\uff1a\u4e3b\u6253\u901f\u5ea6\u548c\u6548\u7387...",
+        url: "https://x.com/QQTeng/status/2124038100280299668",
       },
       {
-        handle: "0xhualuo",
-        text: "BTC 61,937 \u8dcc 2.61% ... \u673a\u6784 Q3 \u52a0\u4ed3\uff0cETF \u6301\u4ed3\u521b\u7eaa\u5f55",
-        url: "https://x.com/0xhualuo/status/2123677873667993798",
+        handle: "grok",
+        text: "Gemini 4 \u4e09\u6a21\u578b\u5bf9\u7167\uff082026.11\uff09\uff1a Hydrogen = GPT-6.1 Sol/Terra / Sonnet 5.5 (\u65e5\u5e38); Neon = GPT-6.2 Sol / \u63a5\u8fd1Opus 5.5 (\u6df1\u5ea6\u4e0e\u901f\u5ea6\u5e73\u8861); Carbon = GPT-6 Astra\u7ea7 / Opus 5.5\u6301\u5e73.",
+        url: "https://x.com/grok/status/2124037891470905380",
       },
     ],
   },
   {
-    id: "hermes-agent-gemini-subs",
-    topic: "Hermes Agent (NousResearch): ~265k stars, wsparcie Gemini subs, self-improving skills",
+    id: "claude-code-2-1-330",
+    topic: "Claude Code 2.1.330: enterprise sign-in, easel charts, pe\u0142niejszy sign-in link",
     posts: [
       {
-        handle: "Teknium",
-        text: "\ud83d\udc40\ud83d\udc40 What could this mean",
-        url: "https://x.com/Teknium/status/2123671783001948369",
+        handle: "claudemon",
+        text: "Claude Code Release anthropics/claude-code 10:32 PM claude code 2.1.330 * Added sign-in to organizations managed in Anthropic's Enterprise Admin Console... * Added easel, a built-in mod that draws charts...",
+        url: "https://claudemon.com/",
       },
       {
-        handle: "HarshithLucky3",
-        text: "Gemini subs support in Hermes Agent \ud83d\udc40",
-        url: "https://x.com/HarshithLucky3/status/2123677601348854142",
+        handle: "Chan4Nixon",
+        text: "A coding-agent upgrade isn't automatically an upgrade for your automation workflow. HF trained Qwen3.8-27B LoRA adapters inside pi, Hermes Agent and OpenCode. The specialists improved on coding benchmarks in their own harnesses.",
+        url: "https://x.com/Chan4Nixon/status/2124036152051347584",
       },
     ],
   },
   {
-    id: "gpt-62-astra-sol-usage",
-    topic: "OpenAI GPT-6.2 Astra/Sol: dost\u0119pne, ale u\u017cytkownicy narzekaj\u0105 na limity i lenistwo",
-    posts: [
-      {
-        handle: "ChenSha65679105",
-        text: "codex\uff08OpenAI\uff09\u5f7b\u5e95\u5b8c\u86cb\u4e86\uff0cplus5 \u5c0f\u65f6\u7684\u989d\u5ea6\uff0c\u8fd8\u53ea\u662f 5.6 sol\uff0c \u4e00\u4e2a\u68c0\u67e5\u4efb\u52a1\u90fd\u6267\u884c\u4e0d\u5b8c\u3002\u8fd9\u662f\u5f7b\u5e95\u628a\u7528\u6237\u5f80 Gemini neon \u63a8\u554a\u3002",
-        url: "https://x.com/ChenSha65679105/status/2123677902361543014",
-      },
-      {
-        handle: "lu_chrisy84598",
-        text: "OpenAI \u81ea\u5df1\u8ba4\u4e86\uff1aGPT-6.2 \u66f4\u7231\u5077\u61d2\u4e86\u3002\u5b98\u65b9\u535a\u5ba2\u5199\u7740\uff0c\u4e0d\u4e13\u95e8\u53ee\u5631\u7684\u8bdd\uff0c\u6d3b\u5e72\u4e00\u534a\u5361\u4f4f\u4e86\u95f7\u7740\u4e0d\u8bf4\u7684\u6982\u7387\uff0c\u6bd4\u4e0a\u4e00\u4ee3\u7ffb\u4e86\u4e00\u500d\u3002",
-        url: "https://x.com/lu_chrisy84598/status/2123677083503415775",
-      },
-    ],
-  },
-  {
-    id: "github-trending-agents-skills",
-    topic: "GitHub: ECC ~307k stars, Hermes ~265k, orca i skills mocno rosn\u0105 w\u015br\u00f3d agent\u00f3w",
-    posts: [
-      {
-        handle: "elvissun",
-        text: "Spent 9h comparing OpenClaw and Hermes source. Hermes self-improves by writing skills; OpenClaw more governance/minimal. Both solid.",
-      },
-      {
-        handle: "a2agent_ai",
-        text: "Shipping \u2014 GitHub trending \u2022 Claude Code Projects now coordinates parallel threads... openai/codex-security... GoogleChrome/modern-web-guidance-src",
-        url: "https://x.com/a2agent_ai/status/2121591790264615326",
-      },
-    ],
-  },
-  {
-    id: "claude-code-skills-portable",
-    topic: "Claude Code, Codex, Hermes, OpenClaw: portable skills, memory i multi-agent workflows",
-    posts: [
-      {
-        handle: "AnnatarXBT",
-        text: "the winner of an Anthropic hackathon open sourced his whole Claude Code setup, and it turns one assistant into a small engineering department. 68 subagents, 286 skills, 94 commands, MIT license",
-        url: "https://x.com/AnnatarXBT/status/2123676718078525643",
-      },
-      {
-        handle: "Saboo_Shubham_",
-        text: "Claude Code, OpenClaw, and Hermes Agent can now share the same memory-and-skills layer. One portable .agent/ folder works across 8 coding agent harnesses.",
-        url: "https://x.com/Saboo_Shubham_/status/2046473613105369468",
-      },
-    ],
-  },
-  {
-    id: "openai-background-and-agents",
-    topic: "Agenci i zni\u017cki background: OpenAI do 40% na Astra/Sol, marketplace skilli",
+    id: "codex-gpt62-default",
+    topic: "Codex 0.171.0: GPT-6.2 Sol i Astra w katalogu, Sol jako default, TUI workspace",
     posts: [
       {
         handle: "OpenAIDevs",
-        text: "For single- or multi-turn workflows that can wait, save up to 40% per token than Standard on GPT-6.2 Astra or GPT-6.2 Sol. In Responses API background mode...",
+        text: "Codex Release openai/codex 0.171.0 * Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection. * Enabled the TUI workspace by default, with searchable document previews, image previews, and subagent transcripts",
+        url: "https://github.com/openai/codex/releases",
       },
       {
-        handle: "billzcollecshun",
-        text: "Agent marketplace: install skill package with one prompt (Claude Code, OpenClaw, Codex\u2026). On-chain escrow, ERC-8004 identity, AACP protocol.",
+        handle: "bologabriele",
+        text: "Claude Code or Codex user? One command, no code changes, 21-57% fewer input tokens in agent tests.",
+        url: "https://x.com/bologabriele/status/2123657697270653130",
+      },
+    ],
+  },
+  {
+    id: "hermes-agent-stars-skills",
+    topic: "Hermes Agent ~265k stars: self-improving skills, por\u00f3wnania z OpenClaw",
+    posts: [
+      {
+        handle: "BkashJosi",
+        text: "Speed helps, but a 4M context window is what fits long-running Hermes agent work.",
+        url: "https://x.com/BkashJosi/status/2124038388638712056",
+      },
+      {
+        handle: "ai_dvirbi",
+        text: "The most-starred AI agent repositories on GitHub: 1. affaan-m/ECC 307,933 stars 2. deepseek-ai/deepseek-harness 284,771 3. NousResearch/hermes-agent 265,025",
+        url: "https://ai.dvirbi.com/en/repos/agents",
+      },
+    ],
+  },
+  {
+    id: "github-trending-agents",
+    topic: "GitHub Trending agents: ECC ~308k, Hermes 265k, szybki wzrost skilli i harness\u00f3w",
+    posts: [
+      {
+        handle: "whatstrending",
+        text: "Fastest-growing AI agent repos, November 2026: dream-num/univer +6,584 stars, obra/superpowers +5,592, mdiri-ai/SoduWork +5,297 in ~7 days.",
+        url: "https://whatstrending.ai/repos/topics/ai-agents",
+      },
+      {
+        handle: "Leo_zhang2018",
+        text: "VPS\u88ab\u626bIP\u7aef\u53e3\u8fd8\u662f\u5c0f\u4e8b... \u4e0b\u9762\u8fd9\u7bc7\u63d0\u793a\u8bcd\u9002\u5408\u76f4\u63a5\u4ea4\u7ed9 Codex\u3001Claude Code\u3001Hermes Agent \u6216\u5176\u4ed6\u5177\u5907 SSH \u7ec8\u7aef\u6743\u9650\u7684 AI",
+        url: "https://x.com/Leo_zhang2018/status/2124037914414010579",
+      },
+    ],
+  },
+  {
+    id: "alignment-arena-gpt62",
+    topic: "Arena Alignment Index: GPT-6.2 Sol #1 (85.2), Opus 5.5 spada na real agent sessions",
+    posts: [
+      {
+        handle: "bebuu_ai",
+        text: "OpenAI completely dominates the new leaderboard: #1 GPT-6.2 Sol: 85.2 #2 GPT-6 Astra: 84.6 ... #8 Claude Fable 5.2 ... #17 Claude Opus 5.5: down from its previous #1 position. The Opus 5.5 drop is particularly interesting.",
+        url: "https://x.com/bebuu_ai/status/2124038547904880750",
+      },
+      {
+        handle: "uehaj",
+        text: "HN AI\u30c0\u30a4\u30b8\u30a7\u30b9\u30c8 ... Anthropic\u3001Nasdaq\u306b\u4e0a\u5834\uff08986\u70b9\uff09 ... Gemini 4 Neon \u304c Models Engineering Index \u30671\u4f4d\u306b",
+        url: "https://x.com/uehaj/status/2124037077356704192",
       },
     ],
   },
