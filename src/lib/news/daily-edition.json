@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-21",
-  "kicker": "Wydanie 21 listopada",
-  "lead": "Akcje Anthropic (ANT) zamkn\u0119\u0142y drugi dzie\u0144 handlu na Nasdaq na poziomie oko\u0142o 88,30\u201388,91 USD, spadaj\u0105c o 8,5\u20139% od czwartkowego close 97,17 USD, ale wci\u0105\u017c powy\u017cej ceny IPO 83 USD, w \u015brodku szerszej wyprzeda\u017cy sektora AI. Bitcoin spad\u0142 poni\u017cej 59\u201360 tys. USD w weekend przy kontynuacji odp\u0142yw\u00f3w z spot ETF-\u00f3w. Mid-tier modele (Gemini 4 Neon 3/15 USD, GPT-6.2 Astra/Sol) i aktualizacje agent\u00f3w (Claude Code 2.1.330, Codex 0.171.0) pozostaj\u0105 g\u0142\u00f3wnym tematem w\u015br\u00f3d deweloper\u00f3w.",
+  "date": "2026-11-22",
+  "kicker": "Wydanie 22 listopada",
+  "lead": "Akcje Anthropic (ANT) zamkn\u0119\u0142y drugi dzie\u0144 handlu na Nasdaq na poziomie 88,91 USD, spadaj\u0105c o 8,5% od czwartkowego close 97,17 USD, ale wci\u0105\u017c powy\u017cej ceny IPO 83 USD (intraday low 83,05). Bitcoin w weekend oscyluje wok\u00f3\u0142 59\u201360 tys. USD przy kontynuacji odp\u0142yw\u00f3w z spot ETF-\u00f3w. Aktualizacje agent\u00f3w koduj\u0105cych (Claude Code 2.1.330, Codex 0.171.0 z GPT-6.2 Sol jako default) oraz rankingi GitHub Trending pozostaj\u0105 g\u0142\u00f3wnym tematem w\u015br\u00f3d deweloper\u00f3w.",
   "bullets": [
-    "ANT: close ~88,9 USD (-8,5%), intraday low 83,05; market cap ~1,18 bln USD po dwudniowym handlu.",
-    "BTC: ~55\u201359 tys. USD (weekend), odp\u0142ywy ETF 19.11 ~582 mln (IBIT ~541), 20.11 ~52 mln; Fear & Greed na poziomie extreme fear.",
-    "Agenci: Claude Code 2.1.330 (enterprise sign-in, easel charts), Codex 0.171.0 (GPT-6.2 Sol/Astra jako default), Hermes Agent ~265k stars."
+    "ANT: close 88,91 USD (-8,5%), low 83,05 USD (5 cent\u00f3w powy\u017cej IPO 83); market cap ~1,18 bln USD.",
+    "BTC: ~59\u201360 tys. USD (weekend), tygodniowe odp\u0142ywy ETF ~1,25\u20131,47 mld USD, rekordowy outflow IBIT 541 mln USD 19.11.",
+    "Agenci: Claude Code 2.1.330 (enterprise sign-in, easel charts), Codex 0.171.0 (GPT-6.2 Sol/Astra, Sol default), Hermes Agent ~265k stars."
   ]
 }
