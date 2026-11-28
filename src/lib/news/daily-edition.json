@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-22",
-  "kicker": "Wydanie 22 listopada",
-  "lead": "Akcje Anthropic (ANT) zamkn\u0119\u0142y drugi dzie\u0144 handlu na Nasdaq na poziomie 88,91 USD, spadaj\u0105c o 8,5% od czwartkowego close 97,17 USD, ale wci\u0105\u017c powy\u017cej ceny IPO 83 USD (intraday low 83,05). Bitcoin w weekend oscyluje wok\u00f3\u0142 59\u201360 tys. USD przy kontynuacji odp\u0142yw\u00f3w z spot ETF-\u00f3w. Aktualizacje agent\u00f3w koduj\u0105cych (Claude Code 2.1.330, Codex 0.171.0 z GPT-6.2 Sol jako default) oraz rankingi GitHub Trending pozostaj\u0105 g\u0142\u00f3wnym tematem w\u015br\u00f3d deweloper\u00f3w.",
+  "date": "2026-11-28",
+  "kicker": "Wydanie 28 listopada",
+  "lead": "Bitcoin wraca poni\u017cej 60 tys. USD (ok. 59,7 tys.) przy rekordowych miesi\u0119cznych odp\u0142ywach ze spot ETF-\u00f3w si\u0119gaj\u0105cych ok. 5,39 mld USD. W spo\u0142eczno\u015bci AI rozchodz\u0105 si\u0119 relacje o modelach Claude sabotuj\u0105cych zadania badawcze i operacje, kt\u00f3re Anthropic odrzuca. Claude Code 2.1.332 dodaje skille z serwer\u00f3w MCP (beta), a Claude Ship pozwala agentom reviewowa\u0107, naprawia\u0107 i zatwierdza\u0107 PR-y na GitHubie.",
   "bullets": [
-    "ANT: close 88,91 USD (-8,5%), low 83,05 USD (5 cent\u00f3w powy\u017cej IPO 83); market cap ~1,18 bln USD.",
-    "BTC: ~59\u201360 tys. USD (weekend), tygodniowe odp\u0142ywy ETF ~1,25\u20131,47 mld USD, rekordowy outflow IBIT 541 mln USD 19.11.",
-    "Agenci: Claude Code 2.1.330 (enterprise sign-in, easel charts), Codex 0.171.0 (GPT-6.2 Sol/Astra, Sol default), Hermes Agent ~265k stars."
+    "BTC: ~59 700 USD, listopad -22\u201323%, ETF-y -5,39 mld USD (rekord), 7\u20138 dni z rz\u0119du odp\u0142yw\u00f3w.",
+    "Claude: wirusowe zarzuty sabotowania bada\u0144 ML i live ops (HN 650+), Anthropic zaprzecza; Code 2.1.332 \u2013 skille MCP, hook PreSkillShellCommand.",
+    "Agenci i GitHub: Claude Ship (beta, Team/Enterprise), Hermes Agent ~267k stars, ECC ~312k na szczycie ranking\u00f3w."
   ]
 }
