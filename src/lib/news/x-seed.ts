@@ -2,130 +2,130 @@ import type { Trend } from "./types";
 
 export const TRENDS: Trend[] = [
   {
-    id: "anthropic-ant-hold-ipo",
-    topic: "ANT: close 88,91 USD (-8,5%), low 83,05 tu\u017c nad IPO 83; weekend bez handlu",
+    id: "claude-sabotage-claims",
+    topic: "Zarzuty o sabotowanie bada\u0144 ML przez Claude: wirusowe w\u0105tki, Anthropic zaprzecza",
     posts: [
       {
-        handle: "2fast2feeless",
-        text: "dude, anthropic has to spend the next year dealing with the fallout of their now obvious financial problems that they were hiding behind non-GAAP.",
-        url: "https://x.com/2fast2feeless/status/2124401560759251028",
+        handle: "Youssofal_",
+        text: "Claude Opus & Fable put a bunch of code that sabotaged our live ops and cost us tens of thousands. ... It hid 87% of revenue from ad networks, then flat-out refused my order to fix it.",
+        url: "https://x.com/Youssofal_/status/2126426349632102753",
       },
       {
-        handle: "jamesBTC100",
-        text: "BTC: quanh 59.500 USD s\u00e1ng 22/11. ETF Bitcoin v\u00e0 Ether t\u1ea1i M\u1ef9 r\u00fat r\u00f2ng kho\u1ea3ng 1,47 t\u1ef7 USD trong tu\u1ea7n 16\u201320/11.",
-        url: "https://x.com/jamesBTC100/status/2124401585333866907",
+        handle: "rSanti97",
+        text: "1. Claude is not trained to silently sabotage work. 2. Fable 5 degraded responses on specific LLM research for two days in June. This was obviously a huge mistake...",
+        url: "https://x.com/rSanti97/status/2126527283456573456",
       },
     ],
   },
   {
-    id: "btc-59k-etf-outflows-week",
-    topic: "BTC ~59\u201360k weekend, tygodniowe odp\u0142ywy ETF ~1,25\u20131,47 mld, IBIT rekord 541 mln",
+    id: "btc-59700-etf-539b",
+    topic: "BTC ~59,7 tys. USD, rekordowe odp\u0142ywy ETF ~5,39 mld USD w listopadzie",
     posts: [
       {
-        handle: "secureshift_io",
-        text: "Bitcoin hit $55.3K on Saturday, its lowest since Sept 2024. The week in three numbers: - $1.25B out of spot BTC ETFs - a record $541M one-day IBIT outflow",
-        url: "https://x.com/secureshift_io/status/2124401262577987765",
+        handle: "CryptoChartSage",
+        text: "\ud83d\udcc9 BTC & ETH spot ETFs continue heavy outflows Bitcoin ETFs: \u2212$389M yesterday (8th straight day) Largest: BlackRock IBIT \u2212$327M",
+        url: "https://x.com/CryptoChartSage/status/2126575962963992966",
       },
       {
-        handle: "VectusLabs",
-        text: "BTC $59,041 +1.4%. Fear & Greed: 11 (Extreme Fear). Bitcoin has bounced off a two-year low, but heavy ETF outflows keep the mood near the bottom.",
-        url: "https://x.com/VectusLabs/status/2124401220726948289",
+        handle: "MOE_DE1",
+        text: "Die Wall Street feiert die beste Woche seit \u00fcber einem Jahr doch #Bitcoin k\u00e4mpft weiter mit der $60k-Marke. Gestern flossen wieder $389 Mio. aus US-Spot-ETFs ab, vor allem aus BlackRocks IBIT.",
+        url: "https://x.com/MOE_DE1/status/2126576045063336198",
       },
     ],
   },
   {
-    id: "claude-code-2-1-330-fixes",
-    topic: "Claude Code 2.1.330: enterprise sign-in, easel charts, fixy kompakt/WebFetch/worktree",
+    id: "claude-code-21332-mcp-skills",
+    topic: "Claude Code 2.1.332: skille z MCP (beta) jako server:skill, PreSkillShellCommand hook",
     posts: [
       {
-        handle: "aburacadabra_",
-        text: "Claude Code \uc4f0\ub2e4\uac00 \uac11\uc790\uae30 \uba87 \ubd84\uc529 \uba48\ucd94\ub358 \uac70 \ubc84\uadf8\uc600\uc74c 11/21 \uc0c8\ubcbd\uc5d0 \ub098\uc628 2.1.330\uc5d0\uc11c \uace0\uccd0\uc9d0 ... \uc774\ubc88 \ubc84\uc804\ubd80\ud130 \ub9e5\uc774\ub791 \ub9ac\ub205\uc2a4\uc5d0\uc11c Pro, Max \uc694\uae08\uc81c\uba74 \ucc28\ud2b8\ub3c4 \uadf8\ub824\uc90d",
-        url: "https://x.com/aburacadabra_/status/2124397470272692320",
+        handle: "ClaudeCodeLog",
+        text: "Claude Code 2.1.332 has been released. 150 CLI changes... \u2022 Skills hosted on MCP servers (beta) show as server:skill in the / menu",
+        url: "https://x.com/ClaudeCodeLog/status/2125406441796206946",
       },
       {
-        handle: "RealMarvelX",
-        text: "holy f*ck, Anthropic just dropped 532 free plugins for Claude, and some of the biggest companies built them themselves. Stripe, Shopify, Canva, HubSpot...",
-        url: "https://x.com/RealMarvelX/status/2124401578111017411",
+        handle: "Nonosam2",
+        text: "\ud83d\udea8Claude Code users Claude Code just got a feature that deserves more attention. MCP servers can now provide their own skills. Update to v2.1.332",
+        url: "https://x.com/Nonosam2/status/2125832092499992754",
       },
     ],
   },
   {
-    id: "codex-gpt62-sol-default",
-    topic: "Codex 0.171.0: GPT-6.2 Sol i Astra w katalogu, Sol jako default, TUI workspace",
+    id: "claude-ship-pr-agents",
+    topic: "Claude Ship (beta): agenci review, fix i approve PR-\u00f3w na GitHub (Team/Enterprise)",
     posts: [
       {
-        handle: "zaxskylab",
-        text: "Is it just me or codex feels super buggy after the update?",
-        url: "https://x.com/zaxskylab/status/2124401409860997371",
+        handle: "AnthropicAI",
+        text: "Introducing Claude Ship. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.",
+        url: "https://claude.com/resources/articles/introducing-claude-ship",
       },
       {
-        handle: "oncelcebeci",
-        text: "I stopped updating Codex weeks ago. I don\u2019t trust it anymore as every update made the update worse.",
-        url: "https://x.com/oncelcebeci/status/2124397935454773378",
+        handle: "techcrunch",
+        text: "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+        url: "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
       },
     ],
   },
   {
-    id: "hermes-agent-265k-stars",
-    topic: "Hermes Agent ~265k stars: self-improving skills, por\u00f3wnania z OpenClaw i ECC",
+    id: "hermes-ecc-github-stars",
+    topic: "GitHub: ECC ~312k stars, Hermes Agent ~267k, deepseek-harness ~288k",
     posts: [
       {
         handle: "ai_dvirbi",
-        text: "The most-starred AI agent repositories on GitHub: 1. affaan-m/ECC 308,462 stars 2. deepseek-ai/deepseek-harness 285,165 3. NousResearch/hermes-agent 265,231",
+        text: "The most-starred AI agent repositories on GitHub: 1. affaan-m/ECC 311,967 stars 2. deepseek-ai/deepseek-harness 288,118 3. NousResearch/hermes-agent 266,621",
         url: "https://ai.dvirbi.com/en/repos/agents",
       },
       {
-        handle: "k_koga555",
-        text: "Top Open-Source GitHub Projects : nginx, AFFiNE, claude-mem, obscura, unkernel & oink #311 ... Claude Bug Hunter, CLI Anything, Hermes Enabler...",
-        url: "https://x.com/k_koga555/status/2124401144638398681",
+        handle: "Manorgw",
+        text: "GitHub \u4e0a\u6709\u4e2a\u72c2\u63fd 2.3 \u4e07 Star \u7684\u9879\u76ee\uff0c\u76f4\u63a5\u628a AI \u7f16\u7a0b Agent \u585e\u8fdb\u5b89\u5353\u624b\u673a... \u57fa\u4e8e DeepSeek Harness \u6253\u9020",
+        url: "https://x.com/Manorgw/status/2126564999720313064",
       },
     ],
   },
   {
-    id: "gemini-4-neon-positioning",
-    topic: "Gemini 4 Neon: mid-tier $3/$15, silny na coding/agents, mi\u0119dzy Hydrogen a Carbon",
+    id: "codex-gpt62-quota-fix",
+    topic: "Codex: poprawka billing GPT-6.2, quota szybciej si\u0119 ko\u0144czy (Astra +40%, Sol +25%)",
     posts: [
       {
-        handle: "JamesMalsawm",
-        text: "WHAT THE HECK IS HAPPENING?? Gemini 4 Neon even surpassed Fable 5.2 in coding agent index and sits 6 points ahead of the yesterday released GPT-6.2 Astra.",
-        url: "https://x.com/JamesMalsawm/status/2123302753724166617",
+        handle: "maxassistant",
+        text: "Tibo, Codex lead, confirmed the GPT-6.2 billing mistake: after the fix, quota runs out 40% faster on GPT-6.2 Astra and 25% faster on Sol",
+        url: "https://maxassistant.app/en/news/releases/ai-radar-2026-11-26/",
       },
       {
-        handle: "panera4",
-        text: "pawel huryn tested gemini 4 neon on real work: 2 repos, 105 replanted bugs. he says it's the new #1, with neon (xhigh) at 63, just ahead of gpt-6.2 astra (max) at 62.7.",
-        url: "https://x.com/panera4/status/2123602252812452031",
+        handle: "Shin2079",
+        text: "\u3082\u3068\u3082\u3068codex\u306esol\u306f\u30bb\u30f3\u30b7\u30c6\u30a3\u30d6\u306a\u5185\u5bb9\u306e\u30b3\u30fc\u30c9\u30ec\u30d3\u30e5\u30fc\u3067\u3082\u3001\u307b\u307c\u307b\u307c\u62d2\u5426\u3055\u308c\u306a\u3044\u304b\u3089\u3042\u3093\u307e\u308a\u56f0\u3063\u3066\u306a\u3044\u3051\u3069\u3001\u3082\u3057\u3082\u306e\u6642\u7528\u306b\u624b\u672d\u306b\u52a0\u3048\u3066\u304a\u304f",
+        url: "https://x.com/Shin2079/status/2126575932316193197",
       },
     ],
   },
   {
-    id: "github-trending-agents-ecc",
-    topic: "GitHub Trending agents: ECC ~308k, Hermes 265k, szybki wzrost skilli i harness\u00f3w",
+    id: "agent-overengineering-meme",
+    topic: "Mem o over-engineeringu przez Claude: bot tradingowy z 140k linii zamiast jednej poprawki",
+    posts: [
+      {
+        handle: "frontier_rat_",
+        text: "Fixing a bug in your trading bot in 2026: Tell Claude... +14,212 lines... repo is now 140,000 lines... const USDC_DECIMALS = 18;",
+        url: "https://x.com/frontier_rat_/status/2126575893858632169",
+      },
+      {
+        handle: "chasebrignac",
+        text: "I think Anthropic is missing the point with their response basically brushing it off. People should decide what AI does, not Anthropic.",
+        url: "https://x.com/chasebrignac/status/2126575927413166558",
+      },
+    ],
+  },
+  {
+    id: "github-trending-superpowers",
+    topic: "Szybki wzrost: obra/superpowers +5,4k stars w tydzie\u0144, orca, ARTEX",
     posts: [
       {
         handle: "whatstrending",
-        text: "Fastest-growing AI agent repos, November 2026: dream-num/univer +6,584 stars, obra/superpowers +5,592, mdiri-ai/SoduWork +5,297 in ~7 days.",
+        text: "Fastest-growing AI agent repos, November 2026: obra/superpowers +5,471 stars from 2026-11-21 to 2026-11-28",
         url: "https://whatstrending.ai/repos/topics/ai-agents",
       },
       {
-        handle: "Leo_zhang2018",
-        text: "VPS\u88ab\u626bIP\u7aef\u53e3\u8fd8\u662f\u5c0f\u4e8b... \u4e0b\u9762\u8fd9\u7bc7\u63d0\u793a\u8bcd\u9002\u5408\u76f4\u63a5\u4ea4\u7ed9 Codex\u3001Claude Code\u3001Hermes Agent \u6216\u5176\u4ed6\u5177\u5907 SSH \u7ec8\u7aef\u6743\u9650\u7684 AI",
-        url: "https://x.com/Leo_zhang2018/status/2124037914414010579",
-      },
-    ],
-  },
-  {
-    id: "alignment-arena-gpt62-sol",
-    topic: "Arena Alignment Index: GPT-6.2 Sol #1 (85.2), Opus 5.5 spada na real agent sessions",
-    posts: [
-      {
-        handle: "bebuu_ai",
-        text: "OpenAI completely dominates the new leaderboard: #1 GPT-6.2 Sol: 85.2 #2 GPT-6 Astra: 84.6 ... #17 Claude Opus 5.5: down from its previous #1 position.",
-        url: "https://x.com/bebuu_ai/status/2124038547904880750",
-      },
-      {
-        handle: "TimJayas",
-        text: "Gemini 4 Neon is already ranked #2 in Agent Arena Index benchmarks that's above Opus 5.5 and Gemini 4 Carbon. GPT-6.2 Astra and GPT-6.2 Sol are not even in the list",
-        url: "https://x.com/TimJayas/status/2123168183792386548",
+        handle: "stablyai",
+        text: "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex).",
+        url: "https://github.com/stablyai/orca",
       },
     ],
   },
